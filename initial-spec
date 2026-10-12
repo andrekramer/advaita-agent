@@ -1,0 +1,76 @@
+Framing clarification: advaita-agent is guided by non-dualism. Its aim is to explore differences that matter by changing, creating, and collapsing distinctions. Distinctions are revisable representations; creating new opposites or dualities is not the objective. The dipoles, complementary pairs, and fixed structures discussed below are candidate mathematical representations and initial experimental restrictions, not a requirement that every distinction be dual or a claim about the fundamental separation of things. The evolving roadmap is in roadmap.md.
+
+Research aspiration: can learn; can be interpreted; can be steered. The approach combines autonomous learning with construction and revision by AI agents and humans. The immediate mathematical focus is the space of opposites and the fast/slow learning rule, including the coupling of current activity, traces, and retained relations. This focus sits within the non-dual framing above; it does not make the creation of additional dualities an objective. These capabilities remain aims to evaluate in small, bounded experiments.
+
+The central ask is a compact mathematical description of an agent whose activity changes its retained relations, and whose retained relations shape subsequent inference and action.
+Your list contains requirements, candidate representations and possible applications. I would consolidate it into the following, keeping those distinctions explicit.
+1. Describe an agent interacting with an environment.
+   Include perceptual inputs, internal activity and action outputs. Some dimensions are constrained by environmental differences; others express possibilities the agent can influence. Actions change subsequent inputs, closing the loop.
+2. Explore differences that matter through revisable distinctions and relations.
+   Complementary opposites are one candidate representation. Where dipoles are used, represent tendencies through their tensions, compatibilities and relations to other dipoles. Allow both tendencies to participate, either to participate alone, or neither to participate. The first version can use a fixed hypercube-like structure with changing states and couplings. Later changes may create, revise, or collapse distinctions without requiring them to form new opposites or dualities.
+3. Represent uncertainty and coordination explicitly.
+   Distinguish the probability of a configuration from its activity, phase and significance. A candidate local representation is a \(2\times2\) complex matrix for
+   \[
+   XY,\quad X\bar Y,\quad \bar X Y,\quad \bar X\bar Y.
+   \]Squared amplitudes can supply probabilities; relative phases must have a defined effect on interactions. The state representation and the operator changing it must remain distinguishable.
+4. Couple inference and coordination.
+   Inference revises plausibilities in response to evidence and discrepancies. Coordination changes how processes participate, reinforce, inhibit or constrain one another. Each must influence the other through an explicit mathematical coupling. Bayesian inference supplies a standard for coherent evidence updating; coordination must accommodate persistent tension as well as agreement.
+5. Support parallel complementary concerns.
+   Reuse the dynamics across concerns such as local/global, object/value, fast/slow and bottom-up/top-down. These are interacting dimensions, not necessarily separate modules. Inference and coordination can each operate in either direction across levels.
+6. Make history part of the evolving state.
+   Include fast activity, lingering traces and more persistent changes to relations. These provide working memory, delayed influence and longer-term retention. Learning gates should allow selected relations to change while others persist. Fast and slow rates should be parameters or consequences of the dynamics, with no requirement for exactly two timescales.
+7. Realize Inertial Variation, Selection and Retention.
+   Existing states and directions bias subsequent change; alternatives become available; interactions differentially sustain them; consequences leave persistent modifications. Probability estimates can describe alternatives, but the dynamics must also generate or encounter variation. Inference, coordination and memory may each contribute to several IVSR functions.
+8. Learn from consequences across time.
+   Preserve your original intuition that processes participating together can inherit their consequences. Retained traces should connect earlier participation to later outcomes, including shared downstream effects. The rule should distinguish useful predictive relationships from mere simultaneous activity and remain revisable when consequences change.
+9. Allow significance, valuation and drives.
+   Represent how a difference matters to the agent in its present condition. Significance may depend on needs, constraints, retained experience and available actions. Some concerns can be given initially; others may develop. Likelihood and desirability must remain distinguishable, and multiple concerns need not collapse into one scalar reward.
+10. Support attention, resonance and revision.
+    Attention should regulate participation and learning. Reciprocal interaction between current evidence, expectations and coordination should be able to sustain a pattern. Mismatch or changed consequences must also be able to disrupt it. ART-like matching is a guide here; its mathematical relationship to phase resonance needs to be specified.
+11. Connect geometry to directed activity.
+    Geometry should determine possible changes and their relationships: directions, rotations, constraints and coupling strengths. Retained experience should alter subsequent movement through that space. Specify whether “inertia” means persistent direction, explicit momentum or another form of history dependence, rather than using these interchangeably.
+12. Permit composition, recurrence and later recursion.
+    Collections of dipoles should be able to represent objects, procedures or larger patterns. Feedback provides recurrence through time. A later extension can let stable collections become reusable components, and allow distinctions to be created, subdivided, folded or removed. What/where/when can be distinguished dimensions without requiring separate underlying laws.
+13. Have a mathematically consistent, economical formulation.
+    Define the state, retained variables, update operators, environmental coupling and timescales. Preserve the constraints required by the chosen representation—for example, valid probabilities. Specify how phase, noise, damping and learning interact. Seek one coherent equation family whose terms each perform an identifiable role.
+14. Recover useful simpler cases and demonstrate learning.
+    Ask whether controlled restrictions or approximations recover Bayesian updating, R-rule-like rotation, oscillator coordination or Weber–Hebb/Grossberg-like adaptation. Then use tiny examples to establish that retained consequences improve later prediction, coordination or action. Stable dynamics, synchrony and persistence alone are insufficient evidence of learning.
+The mathematical candidates remain geometric algebra and rotors; log probabilities or log odds; complex amplitudes and trigonometric phase coupling; Markov transition kernels; and stochastic differential or Kramers–Fokker–Planck descriptions. Friston’s variational formulation is a possible organizing principle. Each needs a defined role and a translation into the shared state description; their inclusion should earn its place through a derivation or useful result.
+The scope constraints are also clear: remain neutral about the metaphysical status of consciousness; treat brain mappings as hypotheses requiring evidence; and regard applications to motion, RL, development, physics or society as tests of generality. A common mathematical form does not by itself establish that those domains implement the same learning process.
+For the first specification, I would fix the dipoles and their allowed connections, define the agent–environment interface, and derive the coupled evolution of current state, memory traces and retained relations. That is enough to address the central question before adding structural growth or new abstractions.
+
+
+
+On the design side:
+1. What exactly does a probability describe?
+   Is it uncertainty about the environment, expected participation of an internal process, or a distribution over possible actions? These can coexist, but we need explicit mappings between them. Otherwise “inference” risks becoming a name for any normalized activity.
+2. What exactly does phase describe?
+   Phase could encode timing, readiness to interact, or a geometric relationship. The phase of a joint-state amplitude such as \(z_{XY}\) is not automatically the timing difference between \(X\) and \(Y\). We need to define what changes when a relative phase changes, and which phase changes leave behavior unchanged.
+3. How are dipoles composed?
+   Local \(2\times2\) states do not, by themselves, specify dependencies between dipoles. An unrestricted joint representation has \(4^n\) configurations for \(n\) dipoles. The first specification should say which dependencies it retains, how it represents them, and what any compact approximation loses.
+4. What distinguishes inference, settling and learning?
+   A recurring signal must not inadvertently count as fresh independent evidence on every processing cycle. We need to distinguish an external observation, internal reconsideration of that observation, and a lasting change to the model. This is particularly important for the proposed resonance between inference and coordination.
+5. How do consequences influence the relations that helped produce them?
+   Your original “inherit their consequences” idea needs a precise mechanism. What remains eligible for modification, for how long, and how do favorable, unfavorable or absent consequences affect it? Traces provide a means of carrying history; the rule must still specify how that history changes learning.
+6. What determines significance initially?
+   For a first agent, specify the starting concerns, environmental constraints and available actions. Then identify what can subsequently be learned. This makes it possible to assess whether useful behavior developed through the dynamics or was already supplied through the encoding, gates or targets.
+7. What must remain stable, and what may change?
+   Specify normalization, allowed coupling signs, boundedness where needed, and behavior when signals disappear. Also distinguish retained state from explicit momentum. The dynamics should permit both persistence and revision, including escape from a coordination that has become unproductive.
+For a Codex investigation, I would add a small research contract before implementation.
+Item	What to specify
+Primary question	Can one compact dynamics connect current activity, retained traces and adaptive relations while producing useful learning?
+Initial boundary	Fixed dipoles, fixed allowed connections, explicit environmental inputs and action outputs. Structural growth comes later.
+First deliverable	A mathematical specification defining every state variable, operator, coupling and assumption, with a record of unresolved choices.
+Correspondence claims	Label each connection to Bayes, R-rule, HKB, Grossberg or other sources as an exact reduction, an approximation, or an analogy.
+Experiment budget	Tiny examples and analytic checks first; a few stated variants with reasons for trying them.
+Decision criteria	State in advance what would support, weaken or require revising each proposed mechanism.
+
+
+The first sanity checks should answer concrete questions:
+- Single dipole: does evidence change probabilities correctly, and does internal recurrence avoid inventing additional evidence?
+- Two coupled dipoles: does phase affect coordination in the specified way, while preserving the required probability constraints?
+- Delayed consequence: does a retained trace allow an earlier event to influence learning after a gap?
+- Changed environment: can retained relations support faster later performance while still being revised when the relationship reverses?
+For those checks, comparisons should isolate the proposed contributions: remove the trace, freeze the learned relations, or disable phase coupling. That tells us what each mechanism actually does. We should also compare against a small conventional learner appropriate to the task; otherwise success might only show that the task is easy.
+One further investigation question deserves to be explicit: which parts of the geometry are fixed, and which are learned? Changes to activity, coupling strengths, distances, preferred directions and the available dimensions are different claims. Choosing among them will do more to clarify the first equation set than adding another theoretical influence.
+The opening Codex assignment should therefore be to produce and audit the mathematical specification, then derive a few limiting cases. Implementation follows once the state meanings and update rules are sufficiently definite to make a tiny result interpretable.
