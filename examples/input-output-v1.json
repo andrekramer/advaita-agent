@@ -1,0 +1,26 @@
+{
+  "description": "Four deterministic teaching pairs for the explicit v1 input/target interface. Not the noisy reversal experiment and not a generalization benchmark.",
+  "input_opposition": {
+    "name": "cue",
+    "poles": ["X", "Y"]
+  },
+  "output_opposition": {
+    "name": "outcome",
+    "poles": ["success", "failure"]
+  },
+  "protocol": {
+    "source": "offline constructed examples",
+    "prediction_fields": ["input", "action"],
+    "feedback_field": "target",
+    "target_visible_only_after_prediction": true,
+    "reset_traces_between_examples": true,
+    "blank_ticks_before_action": 2,
+    "feedback_delay_ticks": 2
+  },
+  "examples": [
+    {"id": "x-left", "input": [1, 0], "action": "left", "target": [1, 0]},
+    {"id": "x-right", "input": [1, 0], "action": "right", "target": [0, 1]},
+    {"id": "y-left", "input": [0, 1], "action": "left", "target": [0, 1]},
+    {"id": "y-right", "input": [0, 1], "action": "right", "target": [1, 0]}
+  ]
+}

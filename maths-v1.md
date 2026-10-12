@@ -34,6 +34,95 @@ objective. The overarching philosophy remains non-dualism. Learning,
 interpretability, steerability, and any safety benefit remain separate empirical
 questions.
 
+## 1a. External input, predicted output, and supplied target
+
+The external learning data must be explicit. In ordinary supervised learning,
+the learner receives pairs (u_r,z_r): input u_r and target output z_r. In the
+action-conditioned experiment, the record is (u_r,a_r,z_r), with a_r either
+supplied in the dataset or chosen by the agent before the target arrives.
+An external signal here is supplied by an offline dataset or isolated simulator;
+it does not require connection to a real-world operational system.
+
+The model's prediction and the externally supplied target are different:
+
+\[
+u_r\ \longrightarrow\ \operatorname{encode}(u_r)
+\ \longrightarrow\ e_r
+\ \longrightarrow\ p_W(z\mid e_r,a_r),
+\qquad z_r\ \longrightarrow\ \text{loss and update}.
+\]
+
+For the first experiment, the input already identifies an observed local
+configuration. A constructed encoder maps the visible cue to that configuration:
+
+\[
+\xi_i(u_r)\in\{00,10,01,11\},\qquad
+q^{\mathrm{in}}_{i,r}(k)=\mathbf1[\xi_i(u_r)=k].
+\]
+
+This externally driven input belief loads the source trace through (6). The
+symbol q in that equation is q_in at an input event. Noisy inputs can instead
+use the known input sensor likelihood and a cue prior to calculate q_in. The
+encoder is initially supplied by humans or AI construction; it does not learn
+the desired input/output relationship for the agent.
+
+In (9), p_r(s|a) is shorthand for p_W(s|e_r,a,phi_r), where e_r comes from the
+external input history. If only the output subset O of the configuration is
+supervised, its predictive distribution is
+
+\[
+p_W^{\mathrm{out}}(z\mid u_r,a_r)
+=\sum_{s:s_O=z}p_W(s\mid e(u_r),a_r,\phi_r).
+\]
+
+Here e(u_r) includes the specified cue-to-action delay; in a stream it depends
+on the available input history. Sum over unobserved variables rather than
+silently supplying their labels. The supervised loss is
+
+\[
+\ell_r=-\log p_W^{\mathrm{out}}(z_r\mid u_r,a_r).
+\]
+
+The target z_r enters (10) through L(z_r|s)=1[s_O=z_r]. For a directly observed
+output opposition i, its posterior marginal is therefore
+q_i^*(k)=1[z_{i,r}=k]. The corresponding input-to-output relation learns by
+
+\[
+\boxed{
+g_{j k'\to i k,r}
+=e_{jk',r}c_{ji}(\phi_r)
+\left[\mathbf1[z_{i,r}=k]-p_{i,r}(k\mid e_r,a_r)\right]
+}
+\]
+
+for the selected action. The supplied target is withheld from the encoder,
+source traces, and forecast until the prediction has been recorded. It must not
+be replaced by the model's own predicted output. Ordinary supervised pairs use
+a single dummy action; action selection is unnecessary for that first check.
+
+Four concrete action-conditioned pairs are provided in
+[examples/input-output-v1.json](examples/input-output-v1.json):
+
+| External input u | Action a | External target z |
+| --- | --- | --- |
+| Cue X alone: 10 | left | Success: 10 |
+| Cue X alone: 10 | right | Failure: 01 |
+| Cue Y alone: 01 | left | Failure: 01 |
+| Cue Y alone: 01 | right | Success: 10 |
+
+Cue X/Y and outcome success/failure are different named oppositions, even though
+both use two-bit configurations. These rows define a separate deterministic
+teaching example for inspecting the learning interface; they are not samples
+from, or a change to, the noisy reversal experiment in section 13. Their mapping
+is supplied through training examples, not preloaded into W^0. They do not
+demonstrate generalization. The learning pipeline first records a prediction
+from the input/action fields, then reveals the target field for the update.
+
+Thus the full supervised chain is: external input -> source participation and
+trace -> predicted output -> comparison with external target -> fast/slow
+relation update. In an interactive trial, the chosen action changes which
+target the simulator subsequently supplies.
+
 ## 2. Space of opposites
 
 Opposition i has named tendencies X_i and Y_i. A local configuration is
@@ -157,6 +246,7 @@ W_r=W^0+F_r+S_r.
 \tag{7}
 \]
 
+The source trace e_r is loaded from the external input as defined in section 1a.
 For an allowed action a, build a fixed, labelled feature dictionary
 Psi(s;e,a,phi). Its possible entries are:
 
@@ -470,11 +560,15 @@ It does not establish that every internal predictive relation is causal.
 
 ## 11. One complete trial and a worked update
 
-1. Reset episode traces; present a cue and condition its constructed cue prior.
+1. Receive external input u_r from a dataset or simulator. Reset episode traces;
+   encode the input into q_in directly, or condition a specified cue prior.
 2. Load attended cue marginals using (6); let traces decay during blank ticks.
 3. Enumerate p(s|a) for each allowed action using the current F, S, and phi.
-4. Choose an action with (21), save its packet, and issue it to the simulator.
-5. Wait for its outcome or deadline; do not update parameters while it is pending.
+4. For a supplied training pair, use its action (or a dummy action). For an
+   interactive trial, choose an action with (21) and issue it to the simulator.
+   Save the prediction packet before revealing the target.
+5. Receive the external target z_r or reach the deadline; do not update
+   parameters while the target is pending.
 6. Resolve the packet using (10), then compute g and h from its saved quantities.
 7. Update F, S, and phi once using those old-state scores, log the result, and
    mark the packet consumed. Subsequent packets use the new parameters.

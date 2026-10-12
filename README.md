@@ -24,4 +24,5 @@ successful experiments alone do not justify that step.
 
 - [Initial research brief](initial-spec)
 - [Mathematics v1: oppositions, traces, and fast/slow learning](maths-v1.md)
+- [Example input/action/target pairs](examples/input-output-v1.json)
 - [Future roadmap: evolving distinctions and relations](roadmap.md)
