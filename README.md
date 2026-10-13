@@ -4,6 +4,22 @@ The aspiration: **can learn; can be interpreted; can be steered.** The approach
 combines autonomous learning with construction and revision by AI agents and
 humans. These are research aims to evaluate, not established properties.
 
+**Inertial Variation, Selection, and Retention (IVSR)** is the organizing
+learning pattern. Existing structure constrains variation; differences between
+fast adaptation and slower retained responses identify candidates for change;
+selection determines what should persist. The
+[fast/slow consolidation proposal](maths-v1-consolidation.md) defines this
+response differential and how selected fast learning can enter slow memory.
+
+V1 learns from external input/output discrepancies using predictive-error
+updates. The proposed extension adds a distinct driver for consolidation: the
+measured difference between fast and slow predictions across contexts and time.
+That internal difference determines when to consider retention; external
+consequences determine whether the proposed retained change is useful. Targets
+may be later observations from an isolated simulator, rather than human labels.
+Disagreement alone is not evidence of improvement, and agreement alone is not
+evidence of correctness.
+
 A research system for exploring differences that matter by changing, creating,
 and collapsing distinctions. Non-dualism is the overarching philosophy behind
 the name advaita-agent. Distinctions are revisable ways of representing experience;
