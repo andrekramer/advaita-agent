@@ -42,4 +42,26 @@ successful experiments alone do not justify that step.
 - [Mathematics v1: oppositions, traces, and fast/slow learning](maths-v1.md)
 - [Proposed extension: fast/slow IVSR with consolidation](maths-v1-consolidation.md)
 - [Example input/action/target pairs](examples/input-output-v1.json)
+- [First learning experiment: protocol](experiments/tiny_mapping_protocol.md)
+- [First learning experiment: results and plots](results/tiny-mapping-v1/report.md)
+- [Small four-state reversal experiment: protocol](experiments/small_reversal_protocol.md)
+- [Small four-state reversal experiment: results and plots](results/small-reversal-v1/report.md)
 - [Future roadmap: evolving distinctions and relations](roadmap.md)
+
+The first restricted mapping experiment passed in all five seeds: 100% accuracy
+on balanced evaluation with learning frozen, and mean log loss 0.296 versus
+the frozen control's 0.693. This establishes learning the two supplied cue/output
+associations in this setup. It does not establish generalization to new inputs
+or an advantage from multiple timescales or consolidation.
+
+The small four-state reversal experiment also passed for fast/slow learning in
+all five seeds, with 100% frozen-evaluation accuracy before and after the mapping
+change. However, the slow-only control performed better: final mean log loss
+0.126 versus 0.699, and median recovery 114 versus 227 post-change pairs. Fast-only
+recovered fastest (50 pairs) but had higher final loss (0.968), missing the fixed
+loss criterion despite 100% final accuracy. Recovery means first reaching 90%
+accuracy over the preceding 40 post-change predictions. This bounded comparison
+supports learning and relearning categorical associations, not an advantage for
+two timescales. Both timescales still learn directly from external targets;
+fast-to-slow consolidation remains untested. No parameters were tuned after
+seeing results, and all 20,000 presentations remained within the fixed protocol.

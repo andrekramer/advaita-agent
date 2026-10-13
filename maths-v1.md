@@ -1,8 +1,14 @@
 # Mathematics v1: oppositions, traces, and fast/slow learning
 
 Status: proposed mathematical design, 2026-10-12. Mathematical identities and
-small numerical checks are distinguished below from learning experiments that
-have not yet been run. This specification implements a bounded first part of
+small numerical checks are distinguished below from the larger learning
+experiments specified here, which have not yet been run. A subsequent
+[restricted mapping experiment](results/tiny-mapping-v1/report.md) tests the
+basic update alone and passed in all five seeds. A subsequent
+[four-state reversal experiment](results/small-reversal-v1/report.md) also passed
+for fast/slow learning, but the slow-only control achieved lower loss and earlier
+recovery. Neither experiment enables consolidation or phase learning.
+This specification implements a bounded first part of
 [initial-spec](initial-spec) and [roadmap.md](roadmap.md).
 
 ## 1. Question and decisions
