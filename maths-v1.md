@@ -412,6 +412,9 @@ transfer of F into S and no claim that two rates are always better than one.
 Fast belief settling, an activity trace, and fast retained learning are three
 different mechanisms.
 
+A subsequent [consolidation proposal](maths-v1-consolidation.md) adds selected
+fast-to-slow transfer. The equations here remain the parallel-learning baseline.
+
 The rule has a direct optimization derivation. With the source trace and phase
 held fixed, define
 
