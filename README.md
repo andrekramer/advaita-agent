@@ -46,6 +46,8 @@ successful experiments alone do not justify that step.
 - [First learning experiment: results and plots](results/tiny-mapping-v1/report.md)
 - [Small four-state reversal experiment: protocol](experiments/small_reversal_protocol.md)
 - [Small four-state reversal experiment: results and plots](results/small-reversal-v1/report.md)
+- [Round 2: retention, transient errors, and consolidation protocol](experiments/round2_protocol.md)
+- [Round 2: findings, limitations, and full results](results/round2-v1/findings.md)
 - [Future roadmap: evolving distinctions and relations](roadmap.md)
 
 The first restricted mapping experiment passed in all five seeds: 100% accuracy
@@ -62,6 +64,16 @@ recovered fastest (50 pairs) but had higher final loss (0.968), missing the fixe
 loss criterion despite 100% final accuracy. Recovery means first reaching 90%
 accuracy over the preceding 40 post-change predictions. This bounded comparison
 supports learning and relearning categorical associations, not an advantage for
-two timescales. Both timescales still learn directly from external targets;
-fast-to-slow consolidation remains untested. No parameters were tuned after
+two timescales. Both timescales in that experiment learn directly from external
+targets; consolidation is disabled there. No parameters were tuned after
 seeing results, and all 20,000 presentations remained within the fixed protocol.
+
+Round 2 tested retention, a transient error burst versus lasting change, and
+fast-to-slow consolidation. Selected transfer improved post-gap loss over the
+parallel fast/slow model (0.656 versus 1.111) in all five seeds, and useful slow
+weights emerged with direct slow learning disabled. However, slow-only still
+performed better (0.213 post-gap loss), and the noise/change comparison failed.
+External selection rejected no hybrid candidates; removing it gave identical
+trajectories. These results support useful transfer in this small task, not the
+necessity of selection or general superiority of IVSR. The fixed round used
+86,880 allocated labelled presentations without tuning or further expansion.

@@ -4,6 +4,14 @@ Status: mathematical proposal, 2026-10-13. This extends
 [maths-v1.md](maths-v1.md); it does not silently replace its parallel-learning
 baseline or its experiment plan.
 
+Experimental update, 2026-10-14: the bounded
+[Round 2 experiments](results/round2-v1/findings.md) implement this extension.
+Transfer improved retention relative to parallel fast/slow learning, including
+when direct slow learning was disabled. Slow-only remained stronger on the main
+loss measures. External selection rejected no hybrid candidates in this task,
+so its benefit remains unestablished. The equations below remain the specified
+mechanism; these limited results do not validate all of its motivating claims.
+
 ## 1. What needs to change
 
 V1 has W=W^0+F+S. Fast and slow retained components learn from the same external
@@ -314,8 +322,9 @@ alone are not evidence of better learning.
 
 This same proposal-selection-retention organization can later be applied to
 more timescales or structural changes. It does not require identical state
-variables or identical evidence windows at every level. No such extension or
-additional learning experiment has been run here.
+variables or identical evidence windows at every level. No extension to more
+timescales or structural changes has been run. The subsequent Round 2 tests
+cover only the two-timescale transfer mechanism, with the limitations above.
 
 ## 7. Mathematical audit
 
