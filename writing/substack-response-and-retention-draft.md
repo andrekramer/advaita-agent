@@ -1,13 +1,14 @@
-# Advaita-agent: a more minimal enquiry into learning
+# Advaita-agent: a (non-)dual enquiry into learning
 
-*Distinctions, retained history, and the first small experiments in how a response becomes something that lasts.*
+*Distinctions, retained history, and the first small experiments in how 
+a response becomes something that lasts.*
 
 My work on attention expanded quickly. What began as a way to investigate
 learning became an architectural programme larger than I could reasonably pursue
 alone, even with AI assistance. There were more mechanisms to build, more
 interactions to understand, and more experiments needed to tell whether the
-complexity was justified. I've experienced that in my career in software and I 
-suspect AI researchers in the commercial labs can get caught up too.
+complexity was justified. I've experienced that previously in my career in software 
+and I suspect AI researchers in the commercial labs can get caught up like this too.
 
 Advaita-agent is a consolidation of that enquiry at a smaller scale. I want to
 keep the philosophical questions close to the mathematics, and keep the
@@ -442,15 +443,9 @@ For now, the next question is specific: under what conditions can selection
 preserve a useful fast change while rejecting a misleading one, and does that
 ability justify its cost compared with a simpler learner?
 
+Andre with ChatGPT-6-Astra, October 2026
+
+The advaita-agent code and results are here: https://github.com/andrekramer/advaita-agent
+
 ---
 
-*Draft preparation note: the article is self-contained. The following local
-research records support checking and reproduction; replace their locations
-with public repository links before publication.*
-
-- [Mathematical specification](../maths-v1.md)
-- [Consolidation specification](../maths-v1-consolidation.md)
-- [First mapping experiment](../results/tiny-mapping-v1/report.md)
-- [Four-state reversal experiment](../results/small-reversal-v1/report.md)
-- [Round 2 protocol](../experiments/round2_protocol.md)
-- [Round 2 findings and limitations](../results/round2-v1/findings.md)
