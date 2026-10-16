@@ -1,0 +1,1585 @@
+{
+  "runs": [
+    {
+      "seed": 0,
+      "variant": "merge_enabled",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "actual_collapse": true,
+          "B_stability": true,
+          "actual_reopening": true,
+          "recovery_stability": true
+        },
+        "own_pass": true,
+        "merges": [
+          192
+        ],
+        "splits": [
+          48,
+          240
+        ],
+        "first_merge": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "successful_collapse": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "first_return_split": {
+          "review": 240,
+          "main_since_change": 12,
+          "selection_since_change": 12
+        },
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.3767035034040451,
+          "B": 0.23816248519882874,
+          "A2": 0.3089032977673357
+        },
+        "transition_48_main_loss": {
+          "108": 0.5081951039694219,
+          "228": 0.5999833134581022
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.03922071315328127,
+            "forms": 1,
+            "leaves": 1,
+            "partition_matches_relevant_bit": false,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.9230769230769231
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 38,
+        "candidate_fit_rows": 1824,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 0,
+      "variant": "merge_disabled",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "no_merge": true,
+          "B_retains_two": true
+        },
+        "own_pass": true,
+        "merges": [],
+        "splits": [
+          48
+        ],
+        "first_merge": null,
+        "successful_collapse": null,
+        "first_return_split": null,
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.3767035034040451,
+          "B": 0.2493117083197336,
+          "A2": 0.2713435477124068
+        },
+        "transition_48_main_loss": {
+          "108": 0.5081951039694219,
+          "228": 0.5154738758345122
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 34,
+        "candidate_fit_rows": 1632,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 1,
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "actual_collapse": true,
+          "B_stability": true,
+          "actual_reopening": true,
+          "recovery_stability": true
+        },
+        "own_pass": true,
+        "merges": [
+          192
+        ],
+        "splits": [
+          48,
+          240
+        ],
+        "first_merge": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "successful_collapse": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "first_return_split": {
+          "review": 240,
+          "main_since_change": 12,
+          "selection_since_change": 12
+        },
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.37657424642169207,
+          "B": 0.23885897465669553,
+          "A2": 0.30693657455823775
+        },
+        "transition_48_main_loss": {
+          "108": 0.509990765263934,
+          "228": 0.5949229088948793
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.03922071315328127,
+            "forms": 1,
+            "leaves": 1,
+            "partition_matches_relevant_bit": false,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.9230769230769231
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 38,
+        "candidate_fit_rows": 1824,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 1,
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "no_merge": true,
+          "B_retains_two": true
+        },
+        "own_pass": true,
+        "merges": [],
+        "splits": [
+          48
+        ],
+        "first_merge": null,
+        "successful_collapse": null,
+        "first_return_split": null,
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.37657424642169207,
+          "B": 0.2500676579223504,
+          "A2": 0.27073229684433875
+        },
+        "transition_48_main_loss": {
+          "108": 0.509990765263934,
+          "228": 0.5134632840386065
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 34,
+        "candidate_fit_rows": 1632,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 2,
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "actual_collapse": true,
+          "B_stability": true,
+          "actual_reopening": true,
+          "recovery_stability": true
+        },
+        "own_pass": true,
+        "merges": [
+          192
+        ],
+        "splits": [
+          48,
+          240
+        ],
+        "first_merge": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "successful_collapse": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "first_return_split": {
+          "review": 240,
+          "main_since_change": 12,
+          "selection_since_change": 12
+        },
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.376418453021963,
+          "B": 0.24266032897083106,
+          "A2": 0.3052160618565297
+        },
+        "transition_48_main_loss": {
+          "108": 0.5202092329175749,
+          "228": 0.5907323540437597
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.03922071315328127,
+            "forms": 1,
+            "leaves": 1,
+            "partition_matches_relevant_bit": false,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.9230769230769231
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 38,
+        "candidate_fit_rows": 1824,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 2,
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "no_merge": true,
+          "B_retains_two": true
+        },
+        "own_pass": true,
+        "merges": [],
+        "splits": [
+          48
+        ],
+        "first_merge": null,
+        "successful_collapse": null,
+        "first_return_split": null,
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.376418453021963,
+          "B": 0.2535396683270046,
+          "A2": 0.26951225715259297
+        },
+        "transition_48_main_loss": {
+          "108": 0.5202092329175749,
+          "228": 0.5103987934599019
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 34,
+        "candidate_fit_rows": 1632,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 3,
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "actual_collapse": true,
+          "B_stability": true,
+          "actual_reopening": true,
+          "recovery_stability": true
+        },
+        "own_pass": true,
+        "merges": [
+          192
+        ],
+        "splits": [
+          48,
+          240
+        ],
+        "first_merge": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "successful_collapse": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "first_return_split": {
+          "review": 240,
+          "main_since_change": 12,
+          "selection_since_change": 12
+        },
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.37641372618265223,
+          "B": 0.24017197927380382,
+          "A2": 0.30484168667866096
+        },
+        "transition_48_main_loss": {
+          "108": 0.5134710586944167,
+          "228": 0.590887769083429
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.03922071315328127,
+            "forms": 1,
+            "leaves": 1,
+            "partition_matches_relevant_bit": false,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.9230769230769231
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 38,
+        "candidate_fit_rows": 1824,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 3,
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "no_merge": true,
+          "B_retains_two": true
+        },
+        "own_pass": true,
+        "merges": [],
+        "splits": [
+          48
+        ],
+        "first_merge": null,
+        "successful_collapse": null,
+        "first_return_split": null,
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.37641372618265223,
+          "B": 0.2512219461406157,
+          "A2": 0.2691414356476186
+        },
+        "transition_48_main_loss": {
+          "108": 0.5134710586944167,
+          "228": 0.5105622042635836
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 34,
+        "candidate_fit_rows": 1632,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 4,
+      "variant": "merge_enabled",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "actual_collapse": true,
+          "B_stability": true,
+          "actual_reopening": true,
+          "recovery_stability": true
+        },
+        "own_pass": true,
+        "merges": [
+          192
+        ],
+        "splits": [
+          48,
+          240
+        ],
+        "first_merge": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "successful_collapse": {
+          "review": 192,
+          "main_since_change": 84,
+          "selection_since_change": 24
+        },
+        "first_return_split": {
+          "review": 240,
+          "main_since_change": 12,
+          "selection_since_change": 12
+        },
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.3765111928589102,
+          "B": 0.23565977877559782,
+          "A2": 0.30811707671815736
+        },
+        "transition_48_main_loss": {
+          "108": 0.5019251318701182,
+          "228": 0.5974587085258617
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.03922071315328127,
+            "forms": 1,
+            "leaves": 1,
+            "partition_matches_relevant_bit": false,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.9230769230769231
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 38,
+        "candidate_fit_rows": 1824,
+        "selection_outcomes": 84
+      }
+    },
+    {
+      "seed": 4,
+      "variant": "merge_disabled",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "metrics": {
+        "checks": {
+          "acquisition": true,
+          "no_initial_merge": true,
+          "B_prediction_and_invariance": true,
+          "final_acquisition": true,
+          "no_merge": true,
+          "B_retains_two": true
+        },
+        "own_pass": true,
+        "merges": [],
+        "splits": [
+          48
+        ],
+        "first_merge": null,
+        "successful_collapse": null,
+        "first_return_split": null,
+        "successful_recovery": {
+          "review": 288,
+          "main_since_change": 60,
+          "selection_since_change": 24
+        },
+        "phase_main_loss": {
+          "A1": 0.3765111928589102,
+          "B": 0.24666104414017784,
+          "A2": 0.2704017275315029
+        },
+        "transition_48_main_loss": {
+          "108": 0.5019251318701182,
+          "228": 0.5125991728558892
+        },
+        "review_metrics": [
+          {
+            "index": 48,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 96,
+            "phase": "A1",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 144,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.20529010438746736,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 192,
+            "phase": "B",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.0,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.0,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 240,
+            "phase": "A2",
+            "accuracy": 0.5,
+            "loss": 0.663435470324545,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.2142857142857143,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.21428571428571427,
+            "action_effect": 0.4285714285714286
+          },
+          {
+            "index": 288,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          },
+          {
+            "index": 336,
+            "phase": "A2",
+            "accuracy": 1.0,
+            "loss": 0.07410797215372185,
+            "forms": 2,
+            "leaves": 2,
+            "partition_matches_relevant_bit": true,
+            "context_effect": 0.8571428571428572,
+            "nuisance_effect": 0.0,
+            "relevant_effect": 0.8571428571428572,
+            "action_effect": 0.8571428571428572
+          }
+        ]
+      },
+      "costs": {
+        "count_refits": 336,
+        "count_refit_rows": 15000,
+        "candidate_fits": 34,
+        "candidate_fit_rows": 1632,
+        "selection_outcomes": 84
+      }
+    }
+  ],
+  "comparison": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "loss_preservation": {
+          "192": {
+            "enabled_loss": 0.03922071315328127,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          },
+          "336": {
+            "enabled_loss": 0.07410797215372185,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          }
+        },
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 1,
+        "loss_preservation": {
+          "192": {
+            "enabled_loss": 0.03922071315328127,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          },
+          "336": {
+            "enabled_loss": 0.07410797215372185,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          }
+        },
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 2,
+        "loss_preservation": {
+          "192": {
+            "enabled_loss": 0.03922071315328127,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          },
+          "336": {
+            "enabled_loss": 0.07410797215372185,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          }
+        },
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 3,
+        "loss_preservation": {
+          "192": {
+            "enabled_loss": 0.03922071315328127,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          },
+          "336": {
+            "enabled_loss": 0.07410797215372185,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          }
+        },
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 4,
+        "loss_preservation": {
+          "192": {
+            "enabled_loss": 0.03922071315328127,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          },
+          "336": {
+            "enabled_loss": 0.07410797215372185,
+            "disabled_loss": 0.07410797215372185,
+            "passed": true
+          }
+        },
+        "all_conditions_pass": true
+      }
+    ],
+    "passed_seeds": 5,
+    "overall_pass": true
+  }
+}

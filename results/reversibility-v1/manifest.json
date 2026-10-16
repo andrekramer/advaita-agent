@@ -1,0 +1,9 @@
+{
+  "experiments/reversibility_protocol.md": "d6dce22e02cdbc4c7b46b49718e3fbd4b1c1634590869dce4eee1ab9c11f884d",
+  "experiments/reversibility.py": "f03fdcfa24fb1761e01f3bfe199e5c4b6206708051393983502400628654f2ee",
+  "experiments/collapse.py": "d74e942ff258bb1eb4c4e000a07eb7d20fc2aae9a70b83841d64babd36664bcc",
+  "experiments/forms.py": "d5845c5de70c4a018dc5dd383a8e45f13385ffa1c16d623b790cda152d1e6a02",
+  "checks/test_reversibility.py": "dba3fb429f946e6f9666b56d3bfa38343ed404c57141f8606c0384e3d7544f0d",
+  "checks/audit_reversibility.py": "6e43e9dd84b5a74a53c3bdcd71df327100a64e5cf4cd5a4fd8ee6a8947375c41",
+  "checks/audit_collapse.py": "1b25a6692cda3e1ba0e42c38b7a705e4f8ff082f34f90dceb7649ce79d69d327"
+}

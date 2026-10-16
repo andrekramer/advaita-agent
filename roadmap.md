@@ -89,14 +89,23 @@ logic should participate in inference, constraints, and permitted changes, with
 its effects visible in the system's behavior. It need not assume that opposing
 tendencies are Boolean negations or that only one can participate at a time.
 
-"Name and form," drawn by the project from Vedanta, provides a design inspiration.
-For this engineering proposal, a name identifies and describes a distinction;
-its form is the implemented state, relations, constraints, and operations that
-give it a role. This is a proposed design correspondence, not a claim to
-formalize Vedanta. Labels should be linked to operational definitions and
-testable behavior; a readable label alone does not establish understanding or
-interpretability. New distinctions may carry provisional labels while their
-roles are investigated.
+"Name, form, and action," drawn by the project from Vedanta, provides a design
+inspiration. For this engineering proposal, a name identifies a distinction;
+a form is a reusable organisation recognised across variations in experience;
+and action exposes consequences that can support or challenge that organisation.
+Its implementation needs explicit states, relations, constraints, and recognition
+rules. This is a proposed design correspondence, not a claim to formalize
+Vedanta. Labels should be linked to operational definitions and testable behavior;
+a readable label alone does not establish understanding or interpretability.
+New distinctions may carry provisional labels while their roles are investigated.
+
+Following the fixed-structure experiments, the
+[next proposed enquiry](experiments/forms_research_plan.md) tests learning such
+forms from action consequences. Slower retention should be evaluated for what it
+makes recognisable and reusable, rather than equated with form extraction by
+definition. The initial task separates form discovery from later retention,
+revision, collapse, and exploration tests, and compares two timescales with a
+single structural learner using the same representational possibilities.
 
 Record which properties are fixed for an experiment, which are provisional
 assumptions, and which are open to learning, design, or evolution. Structural

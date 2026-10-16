@@ -1,0 +1,77 @@
+# A Whole That Learns
+
+*Bohm, Advaita and a speculative experiment in dual-role AI*
+
+I had not fully grasped what David Bohm meant by active information. The phrase had sounded like another way of describing information that does something. Reading his paper on mind and matter, the emphasis shifted. What caught my attention was form becoming action, and the possibility that this relationship might repeat at different levels within one process.
+
+In his causal interpretation of quantum mechanics, the wave guides the particle. Bohm illustrates this with a radar-guided ship: its engines supply the power, while the signal shapes its movement. He calls information active when its form organises activity. The quantum potential depends on the wave's form rather than its overall intensity. This is his proposed analogy with mental activity, not a claim that an electron is conscious.[1]
+
+There is a cybernetic flavour here. We can distinguish the energy that enables an activity from the organisation that directs it. A small change in guidance can produce a large change in what happens. The information matters through the response it makes possible.
+
+The analogy has a boundary. Standard Bohmian mechanics does not give the universal wavefunction feedback from the actual particle configuration.[2] An adaptive learner with reciprocal influence would therefore develop the analogy in its own direction. It would not be a software reconstruction of Bohmian physics.
+
+That is the direction I want to explore.
+
+The Upanishadic triad of name, form and action offers another way into the question.[3] I would read naming here as an activity of distinction: an observer recognises something, a subject identifies it, or an experiment makes a particular distinction operational. Form concerns its organisation; action is how that organisation enters what happens. This is a proposed connection, rather than a claim that the Upanishads anticipated quantum theory.
+
+A name can itself become active. Calling a movement threatening changes what we notice and how we respond. Naming something a mistake can interrupt an established action. The person making the distinction is also changed by its consequences. The description enters the process it describes.
+
+Could such relationships nest? What guides one activity might itself become available for examination and revision within another. A habit directs my movements until a difficulty makes the habit noticeable. I can then change it. Later I may notice that my way of correcting habits has become rigid too.
+
+Bohm proposes increasingly subtle levels in which information organises other information. His eventual analogy is with magnetic poles: mental and physical aspects are abstractions from a deeper whole, without independent existence. His proposed extension beyond established quantum theory remains speculative.[1]
+
+This matters because it changes the starting question. Asking how mind acts on matter already risks making them into separate things that must somehow reconnect. We could instead ask how one activity admits both descriptions, and how our distinction between them arises within it.
+
+Advaita gives that possibility a more definite interpretation. Atman and Brahman are not ultimately different: the Self is not separate from reality as a whole. The Isha Upanishad approaches this from both directions, placing all beings in the Self and the Self in all beings, then speaking of oneness.[4]
+
+The two directions matter to me. If I think only of a world in awareness, I can imagine a vast container holding its contents. If I think only of awareness in beings, I can imagine separate containers, each carrying a portion. The nondual reading challenges the separation on which both pictures depend.
+
+I find this compelling partly because awareness is not encountered in the same way as a theory about awareness. Any examination, doubt or change of viewpoint is already occurring within experience. But the further recognition of one awareness across all beings is not a result I can derive from that observation alone. It is a metaphysical reading of what experience discloses, and I should acknowledge it as such.
+
+On this reading, awareness would not be the mental pole opposed to a physical pole. Both would be distinctions within it. This could round out Bohm's proposal for someone persuaded by Advaita, although Bohm's account does not require that identification.
+
+The question then becomes more difficult and, for me, more interesting. If there is no absolute separation, how does a relatively distinct centre of experience arise? What sustains the difference between my experience and yours?
+
+I suspect that the relevant unity would have to be continually enacted. A collection can be connected on a diagram while its activities remain largely independent. Conversely, an organisation can survive considerable changes in its components. What matters may be the ongoing process through which its activities constrain, guide and renew one another.
+
+Temperature initially suggested itself as one possible condition. Perhaps that is natural for a warm-blooded being. But I do not mean that equal temperatures establish a shared experience, or that spatial proximity is the answer. Temperature, coupling and interaction with the environment can affect collective quantum behaviour; none supplies an established criterion for consciousness.[5] What I am reaching for is a kind of closeness in participation: belonging to an activity that sustains itself as a whole.
+
+This is also why a static picture of integration leaves me dissatisfied. A measure of integration might be useful, but I want to understand how the organisation is maintained, disrupted and recovered. Its history and the timing of its activity may matter as much as the connections we can draw at a particular instant.
+
+There is a possible consequence for AI. A machine might reproduce a process's abstract relationships without reproducing every physical condition relevant to its experience. Simulation would then leave something out. But this cannot be decided by calling a computer a Turing machine. That describes a computational abstraction, not the full physical activity of its implementation. The hypothesis needs to identify what is missing. It cannot simply assume that biology possesses it and machines do not.
+
+Even with this unresolved, there is an experiment worth considering.
+
+Imagine a learner with two roles. In its formative role, its current organisation shapes what it attends to, predicts and does. In its active role, its encounters and actions generate consequences that can revise that organisation. These would be coupled roles of one learner. Calling one role mind and the other matter would settle nothing.
+
+Now nest the relationship. At the first level, a small controller learns to move through an environment. At a second, another process adjusts how that controller learns: which errors deserve attention, which expectations should be retained, and when an established response should change. At a third, the system can revise its own manner of adaptation. Perhaps it has been changing too readily in response to noise, or preserving a strategy after the circumstances that justified it have disappeared.
+
+The same activity can then occupy different roles. A learning rule guides the controller below it while becoming something adjustable from above. This is the useful sense of subtlety here: organisation that can operate on another organisation. Different timescales may help, with rapid action supported by slower revision, but slower should not automatically mean wiser or more authoritative.
+
+Consequences must travel back through the nesting. An adjustment that looks sensible at a higher level may damage performance below. The higher process has to remain answerable to what its guidance brings about. Otherwise it becomes an insulated authority imposing a description on the activity it is supposed to help organise.
+
+A first test could be deliberately small. Let an agent navigate towards a target while its action consequences occasionally change. Steering may reverse, a sensor may become unreliable, or a familiar route may become blocked. The task would require it to distinguish a local disturbance from a change in the conditions under which it has learned to act.
+
+Compare the nested learner with a flat learner and a fixed hierarchy, giving them comparable resources and experience. Does it adapt more quickly? Does it preserve useful abilities while revising a failing response? Can it recover after a disruption without rebuilding everything?
+
+Then intervene in the communication between levels. Delay or interrupt particular signals, with controls for the simple loss of information or additional latency. Ask whether any advantage depends on timely reciprocal adjustment. If a comparable flat learner performs just as well, or the nesting merely adds instability, that would count against this particular design. Wholeness should not become an explanation protected from disappointing results.
+
+We could also compare systems with similar connection structures but different update schedules and histories. That would begin to separate a diagram of integration from the activity that maintains it. It would not settle the physical-realisation question, but it could help us articulate that question more precisely.
+
+Nothing in this experiment would demonstrate awareness. Good performance would support an architectural proposal about learning and coordination. The Advaitic interpretation and the hypothesis about physical unity would remain further commitments. Keeping those questions distinct allows each to do useful work.
+
+The philosophical possibility is that a whole can sustain relatively autonomous activities without becoming a collection of absolutely separate things. The engineering question is whether a learner can organise itself in something like that way: preserving local competence while remaining open to change across levels.
+
+Perhaps a complete account is unavailable to beings who investigate the whole from within it. That possibility does not prevent particular discoveries. We can still ask which distinctions help, which become rigid, and what happens when an organising process gains the capacity to revise its own organisation.
+
+For now, I would like to see whether a small learner can do that. The experiment begins with guidance that can itself be guided, and action that can change the conditions of its next action. Whether anything is experienced there remains open. There is already something worth learning about how a whole holds together while it changes.
+
+---
+
+**Sources and notes**
+
+1. David Bohm, [“A New Theory of the Relationship of Mind and Matter”](https://dl.icdst.org/pdfs/files/05aaa28b931575ca2e0baeadc5ab0d2c.pdf), *Philosophical Psychology* 3(2), 1990, pp. 271–286. Active information and the guidance analogy appear on pp. 276–279; nested levels and the proposed extension on pp. 282–284; the magnetic-pole analogy on pp. 284–285. DOI: [10.1080/09515089008573004](https://doi.org/10.1080/09515089008573004).
+2. Detlef Dürr, Sheldon Goldstein and Nino Zanghì, [“Bohmian Mechanics and the Meaning of the Wave Function”](https://arxiv.org/abs/quant-ph/9512031), 1995. Discusses the absence of back-action by particle configurations on the universal wavefunction. Their interpretation of the wavefunction is not identical to Bohm's active-information account.
+3. *Brihadaranyaka Upanishad* 1.6.1–3. See [the translation with Shankara's commentary](https://www.wisdomlib.org/hinduism/book/the-brihadaranyaka-upanishad/d/doc117943.html). The application of naming to experimental distinctions is my interpretation.
+4. *Isha Upanishad* 6–7, [translation by Swami Nikhilananda](https://www.shankaracharya.org/isa_upanishad.html). For the classical Advaita account of consciousness and Brahman, see [“Advaita Vedanta,” Internet Encyclopedia of Philosophy](https://iep.utm.edu/advaita-vedanta/).
+5. Maximilian Schlosshauer, [“Quantum Decoherence”](https://arxiv.org/abs/1911.06282), *Physics Reports* 831, 2019, pp. 1–57. This supports the discussion of physical coherence and environmental interactions, not the proposed connection to experience.

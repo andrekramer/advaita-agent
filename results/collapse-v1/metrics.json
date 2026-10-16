@@ -1,0 +1,1440 @@
+{
+  "runs": [
+    {
+      "seed": 0,
+      "branch": "changed",
+      "variant": "merge_enabled",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.03922071315328127,
+          "forms": 1,
+          "leaves": 1,
+          "partition_matches_relevant_bit": false,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.9230769230769231
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "actual_collapse": true,
+          "useful_invariance": true
+        },
+        "own_pass": true,
+        "first_merge": 144,
+        "merge_delay": 48,
+        "merges": [
+          144
+        ],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            1
+          ],
+          [
+            192,
+            1
+          ]
+        ],
+        "training_loss": 0.34491881669731683
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 20,
+        "candidate_fit_rows": 960,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 0,
+      "branch": "changed",
+      "variant": "merge_disabled",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "retains_structure": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.3541775900233718
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 0,
+      "branch": "unchanged",
+      "variant": "merge_enabled",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24528076078221192
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 22,
+        "candidate_fit_rows": 1056,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 0,
+      "branch": "unchanged",
+      "variant": "merge_disabled",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24528076078221192
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 1,
+      "branch": "changed",
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.03922071315328127,
+          "forms": 1,
+          "leaves": 1,
+          "partition_matches_relevant_bit": false,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.9230769230769231
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "actual_collapse": true,
+          "useful_invariance": true
+        },
+        "own_pass": true,
+        "first_merge": 144,
+        "merge_delay": 48,
+        "merges": [
+          144
+        ],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            1
+          ],
+          [
+            192,
+            1
+          ]
+        ],
+        "training_loss": 0.3457733089938058
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 20,
+        "candidate_fit_rows": 960,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 1,
+      "branch": "changed",
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "retains_structure": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.35518248361867105
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 1,
+      "branch": "unchanged",
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24545187617257852
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 22,
+        "candidate_fit_rows": 1056,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 1,
+      "branch": "unchanged",
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24545187617257852
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 2,
+      "branch": "changed",
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.03922071315328127,
+          "forms": 1,
+          "leaves": 1,
+          "partition_matches_relevant_bit": false,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.9230769230769231
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "actual_collapse": true,
+          "useful_invariance": true
+        },
+        "own_pass": true,
+        "first_merge": 144,
+        "merge_delay": 48,
+        "merges": [
+          144
+        ],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            1
+          ],
+          [
+            192,
+            1
+          ]
+        ],
+        "training_loss": 0.34329610805138944
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 20,
+        "candidate_fit_rows": 960,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 2,
+      "branch": "changed",
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "retains_structure": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.3524424062202667
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 2,
+      "branch": "unchanged",
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24525481361351573
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 22,
+        "candidate_fit_rows": 1056,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 2,
+      "branch": "unchanged",
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24525481361351573
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 3,
+      "branch": "changed",
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.03922071315328127,
+          "forms": 1,
+          "leaves": 1,
+          "partition_matches_relevant_bit": false,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.9230769230769231
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "actual_collapse": true,
+          "useful_invariance": true
+        },
+        "own_pass": true,
+        "first_merge": 144,
+        "merge_delay": 48,
+        "merges": [
+          144
+        ],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            1
+          ],
+          [
+            192,
+            1
+          ]
+        ],
+        "training_loss": 0.3485757582555452
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 20,
+        "candidate_fit_rows": 960,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 3,
+      "branch": "changed",
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "retains_structure": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.3578138024691489
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 3,
+      "branch": "unchanged",
+      "variant": "merge_enabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.245231060398983
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 22,
+        "candidate_fit_rows": 1056,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 3,
+      "branch": "unchanged",
+      "variant": "merge_disabled",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.245231060398983
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 4,
+      "branch": "changed",
+      "variant": "merge_enabled",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.03922071315328127,
+          "forms": 1,
+          "leaves": 1,
+          "partition_matches_relevant_bit": false,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.9230769230769231
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "actual_collapse": true,
+          "useful_invariance": true
+        },
+        "own_pass": true,
+        "first_merge": 144,
+        "merge_delay": 48,
+        "merges": [
+          144
+        ],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            1
+          ],
+          [
+            192,
+            1
+          ]
+        ],
+        "training_loss": 0.34780949548681445
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 20,
+        "candidate_fit_rows": 960,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 4,
+      "branch": "changed",
+      "variant": "merge_disabled",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.0,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.0,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "retains_structure": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.35712712918537226
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 4,
+      "branch": "unchanged",
+      "variant": "merge_enabled",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24536851131675716
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 22,
+        "candidate_fit_rows": 1056,
+        "selection_outcomes": 48
+      }
+    },
+    {
+      "seed": 4,
+      "branch": "unchanged",
+      "variant": "merge_disabled",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "metrics": {
+        "acquisition": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "final": {
+          "accuracy": 1.0,
+          "loss": 0.07410797215372185,
+          "forms": 2,
+          "leaves": 2,
+          "partition_matches_relevant_bit": true,
+          "context_effect": 0.8571428571428572,
+          "nuisance_effect": 0.0,
+          "relevant_effect": 0.8571428571428572,
+          "action_effect": 0.8571428571428572
+        },
+        "checks": {
+          "acquisition": true,
+          "prediction": true,
+          "preservation": true
+        },
+        "own_pass": true,
+        "first_merge": null,
+        "merge_delay": null,
+        "merges": [],
+        "review_forms": [
+          [
+            48,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            144,
+            2
+          ],
+          [
+            192,
+            2
+          ]
+        ],
+        "training_loss": 0.24536851131675716
+      },
+      "costs": {
+        "count_refits": 192,
+        "count_refit_rows": 8088,
+        "candidate_fits": 19,
+        "candidate_fit_rows": 912,
+        "selection_outcomes": 48
+      }
+    }
+  ],
+  "comparison": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "enabled_changed_loss": 0.03922071315328127,
+        "disabled_changed_loss": 0.07410797215372185,
+        "prediction_preserved": true,
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 1,
+        "enabled_changed_loss": 0.03922071315328127,
+        "disabled_changed_loss": 0.07410797215372185,
+        "prediction_preserved": true,
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 2,
+        "enabled_changed_loss": 0.03922071315328127,
+        "disabled_changed_loss": 0.07410797215372185,
+        "prediction_preserved": true,
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 3,
+        "enabled_changed_loss": 0.03922071315328127,
+        "disabled_changed_loss": 0.07410797215372185,
+        "prediction_preserved": true,
+        "all_conditions_pass": true
+      },
+      {
+        "seed": 4,
+        "enabled_changed_loss": 0.03922071315328127,
+        "disabled_changed_loss": 0.07410797215372185,
+        "prediction_preserved": true,
+        "all_conditions_pass": true
+      }
+    ],
+    "passed_seeds": 5,
+    "overall_pass": true
+  }
+}

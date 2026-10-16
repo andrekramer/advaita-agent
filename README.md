@@ -48,7 +48,70 @@ successful experiments alone do not justify that step.
 - [Small four-state reversal experiment: results and plots](results/small-reversal-v1/report.md)
 - [Round 2: retention, transient errors, and consolidation protocol](experiments/round2_protocol.md)
 - [Round 2: findings, limitations, and full results](results/round2-v1/findings.md)
+- [Next enquiry: discovering, retaining, and revising forms](experiments/forms_research_plan.md)
+- [Form acquisition: fixed protocol](experiments/forms_protocol.md)
+- [Form acquisition: findings, learned rules, and results](results/forms-v1/findings.md)
+- [Follow-on design: complementary situated and retained learning](experiments/complementary_roles_design.md)
+- [Complementary roles: fixed protocol](experiments/complementary_roles_protocol.md)
+- [Complementary roles: findings, curves, and verification](results/complementary-roles-v1/findings.md)
+- [Collapsing distinctions: fixed protocol](experiments/collapse_protocol.md)
+- [Collapsing distinctions: findings and all-seed results](results/collapse-v1/findings.md)
+- [Reversible distinctions: fixed protocol](experiments/reversibility_protocol.md)
+- [Reversible distinctions: findings and transition costs](results/reversibility-v1/findings.md)
+- [Research consolidation: evidence, limits, and no meta-learning claim](results/research-synthesis.md)
 - [Future roadmap: evolving distinctions and relations](roadmap.md)
+
+The form-learning enquiry moves from supplied associations to reusable groups
+of contexts that share action consequences. In the first small simulator, both
+the single structural learner and provisional/retained learner discovered the
+relevant feature and passed all acquisition criteria in all five seeds: 100%
+accuracy on withheld combinations, log loss 0.0202, and exact learned grouping.
+Their final results were identical, so this does not establish a need for two
+timescales. A fixed-feature predictor also achieved 100% accuracy. Fast/slow
+disagreement was zero before the first useful split, which was discovered by
+scheduled search. Retention, revision, collapse, and deliberate exploration
+were separated from acquisition. The acquisition run used exactly 4,880
+outcome-bearing presentations, without tuning or follow-on experiments.
+
+The subsequent complementary-roles experiment learned a smooth action-response
+relationship in a continuous world, but **failed its declared complementarity
+criterion**. Learned feedback reduced pooled motion error by about 16% compared
+with cutting that feedback path, while noisy-position tracking improved only
+1.84% (required 10%). State teaching improved the retained curve inconsistently:
+only one of five seeds met its criterion. Cutting state teaching left deployed
+motion prediction almost unchanged. The fixed run used 23,040 transitions; nine
+correctness tests and an independent full-trace audit passed, without tuning
+or expansion of that run.
+
+The subsequent collapse point test passed in all five seeds. Both learners
+first acquired two forms; when their action consequences became equivalent,
+the merge-enabled learner reduced them to one at the first post-change review
+(48 new main observations plus 12 selection observations), preserving 100%
+withheld accuracy. It kept both forms when the world was unchanged. The no-merge
+control also predicted correctly but retained two redundant forms. All conditions
+used the same rolling 48-observation window, with no change-point reset. Six
+correctness tests and an independent audit passed; the fixed run used 4,960
+outcome-bearing presentations. This supports selective simplification within
+the supplied rule language, not a general rule for when distinctions are safe
+to discard.
+
+The acquire–collapse–reacquire follow-up also passed in all five seeds, using
+the unchanged learner with no reset and world changes between scheduled reviews.
+It split back into two forms before its predictions fully recovered: 50%
+withheld accuracy at review 240, then 100% at reviews 288 and 336. The no-merge
+control recovered by the same review. During the first 48 main observations
+after the distinction returned, the merged learner had approximately 16% higher
+mean log loss (0.594797 versus 0.512499). Reversible simplification therefore
+carried a transition cost. Six tests and an independent trace audit passed;
+the fixed run used 4,480 outcome-bearing presentations without tuning.
+
+These results support learning and revising distinctions within a supplied
+language. **No meta-learning or learned category hierarchy has been demonstrated.**
+Learning rules, structural operators, review schedules, and hyperparameters
+remain constructed and fixed. Fast and retained roles are supplied functional
+roles, and their reciprocal complementarity remains unestablished. The studies
+use different implementations; they are not one integrated demonstration of
+every capability. This bounded stage is now complete and pauses for writing.
 
 The first restricted mapping experiment passed in all five seeds: 100% accuracy
 on balanced evaluation with learning frozen, and mean log loss 0.296 versus
