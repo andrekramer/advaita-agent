@@ -1,0 +1,3683 @@
+{
+  "summary": {
+    "groups": [
+      {
+        "branch": "persistent",
+        "variant": "reopen",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 10,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 0.3486762798416241,
+        "main_loss": 0.35543175386641795,
+        "mean_raw_reads": 0.0875
+      },
+      {
+        "branch": "persistent",
+        "variant": "closed",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 9,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 0.3802406708505077,
+        "main_loss": 0.3571627356840016,
+        "mean_raw_reads": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "frozen",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 10,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 0.3420679541826648,
+        "main_loss": 0.3536085847245124,
+        "mean_raw_reads": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "flat",
+        "runs": 10,
+        "transfer_passes": 0,
+        "final_passes": 8,
+        "transfer_loss": 0.6931471805599453,
+        "final_loss": 0.381037463839624,
+        "main_loss": 0.41952117917624554,
+        "mean_raw_reads": 2
+      },
+      {
+        "branch": "remap",
+        "variant": "reopen",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 10,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 0.34751725116325544,
+        "main_loss": 0.46957965115227046,
+        "mean_raw_reads": 0.175
+      },
+      {
+        "branch": "remap",
+        "variant": "closed",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 9,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 0.3802406708505077,
+        "main_loss": 0.4666901551392417,
+        "mean_raw_reads": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "frozen",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 0,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 1.0741080776641803,
+        "main_loss": 1.0732671068386983,
+        "mean_raw_reads": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "flat",
+        "runs": 10,
+        "transfer_passes": 0,
+        "final_passes": 6,
+        "transfer_loss": 0.6931471805599453,
+        "final_loss": 0.381037463839624,
+        "main_loss": 0.49800499598331993,
+        "mean_raw_reads": 2
+      },
+      {
+        "branch": "breach",
+        "variant": "reopen",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 9,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 0.3804925562097217,
+        "main_loss": 0.4632703151562976,
+        "mean_raw_reads": 0.875
+      },
+      {
+        "branch": "breach",
+        "variant": "closed",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 0,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 1.0721436756034852,
+        "main_loss": 1.0785031994491514,
+        "mean_raw_reads": 0
+      },
+      {
+        "branch": "breach",
+        "variant": "frozen",
+        "runs": 10,
+        "transfer_passes": 10,
+        "final_passes": 0,
+        "transfer_loss": 0.3420679541826648,
+        "final_loss": 1.0741080776641803,
+        "main_loss": 1.0749490484896622,
+        "mean_raw_reads": 0
+      },
+      {
+        "branch": "breach",
+        "variant": "flat",
+        "runs": 10,
+        "transfer_passes": 0,
+        "final_passes": 8,
+        "transfer_loss": 0.6931471805599453,
+        "final_loss": 0.381037463839624,
+        "main_loss": 0.4195211791762455,
+        "mean_raw_reads": 2
+      }
+    ],
+    "checks": {
+      "transfer_count": true,
+      "transfer_gain": true,
+      "remap_closed": true,
+      "remap_upper_frozen": true,
+      "remap_frozen_challenged": true,
+      "remap_reopen_stays_coarse": false,
+      "breach_correct_interface": true,
+      "breach_closed_challenged": true,
+      "breach_gain": true,
+      "persistent_structure": true,
+      "persistent_cost": true
+    },
+    "primary_pass": false
+  },
+  "totals": {
+    "runs": 120,
+    "allocated_label_presentations": 399360,
+    "generated_labels": 49920,
+    "evaluation_predictions": 33600,
+    "costs": {
+      "candidate_fits": 7680,
+      "candidate_fit_rows": 1290240,
+      "refits": 122880,
+      "refit_rows": 19192320,
+      "upper_refits": 21184,
+      "upper_refit_rows": 4067328,
+      "upper_candidate_fits": 720,
+      "upper_candidate_rows": 138240,
+      "prediction_raw_reads": 36544,
+      "feedback_labels": 253440
+    }
+  },
+  "runs": [
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.35390351100645007,
+        "first192_loss": 0.3566005471667118,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.35390351100645007,
+        "first192_loss": 0.3566005471667118,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.35390351100645007,
+        "first192_loss": 0.3566005471667118,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.41994750320924074,
+        "first192_loss": 0.4723289672768418,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.35390351100645007,
+        "first192_loss": 0.3566005471667118,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.35390351100645007,
+        "first192_loss": 0.3566005471667118,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.35390351100645007,
+        "first192_loss": 0.3566005471667118,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.41994750320924074,
+        "first192_loss": 0.4723289672768418,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4511258019174111,
+        "first192_loss": 0.623008150393517,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4511258019174111,
+        "first192_loss": 0.623008150393517,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0093099750263745,
+        "first192_loss": 0.9963009101143667,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4879368676513655,
+        "first192_loss": 0.6536339391225079,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4511258019174111,
+        "first192_loss": 0.623008150393517,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4511258019174111,
+        "first192_loss": 0.623008150393517,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0093099750263745,
+        "first192_loss": 0.9963009101143667,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4879368676513655,
+        "first192_loss": 0.6536339391225079,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.46186905935401806,
+        "first192_loss": 0.6434730365739305,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0415233576168819,
+        "first192_loss": 1.0545324225288895,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0415233576168819,
+        "first192_loss": 1.0545324225288895,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.41994750320924074,
+        "first192_loss": 0.4723289672768418,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.46186905935401806,
+        "first192_loss": 0.6434730365739305,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0415233576168819,
+        "first192_loss": 1.0545324225288895,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0415233576168819,
+        "first192_loss": 1.0545324225288895,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 300,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.41994750320924074,
+        "first192_loss": 0.4723289672768418,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.33027346375933353,
+        "first192_loss": 0.3430344311462211,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.33027346375933353,
+        "first192_loss": 0.3430344311462211,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.33027346375933353,
+        "first192_loss": 0.3430344311462211,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4027524777026279,
+        "first192_loss": 0.4685512861842223,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 192,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.33027346375933353,
+        "first192_loss": 0.3430344311462211,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.33027346375933353,
+        "first192_loss": 0.3430344311462211,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.33027346375933353,
+        "first192_loss": 0.3430344311462211,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4027524777026279,
+        "first192_loss": 0.4685512861842223,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 192,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4724547773264072,
+        "first192_loss": 0.7102503907989863,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4724547773264072,
+        "first192_loss": 0.7102503907989863,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.098616720310379,
+        "first192_loss": 1.1020518529303023,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4783091702404837,
+        "first192_loss": 0.6700357996185045,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.499181067324333,
+        "first192_loss": 0.7651822251267586,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 192,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4804557274483486,
+        "first192_loss": 0.73158625779083,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.098616720310379,
+        "first192_loss": 1.1020518529303023,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4783091702404837,
+        "first192_loss": 0.6700357996185045,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.43614629870169647,
+        "first192_loss": 0.5970895087997278,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0338321975330387,
+        "first192_loss": 1.0303970649131151,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0338321975330387,
+        "first192_loss": 1.0303970649131151,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4027524777026279,
+        "first192_loss": 0.4685512861842223,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.43614629870169647,
+        "first192_loss": 0.5970895087997278,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0338321975330387,
+        "first192_loss": 1.0303970649131151,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0338321975330387,
+        "first192_loss": 1.0303970649131151,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 301,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4027524777026279,
+        "first192_loss": 0.4685512861842223,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.33855844545797514,
+        "first192_loss": 0.35162387989907695,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.33855844545797514,
+        "first192_loss": 0.35162387989907695,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.33855844545797514,
+        "first192_loss": 0.35162387989907695,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.3991251418699479,
+        "first192_loss": 0.46025082995709893,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.33855844545797514,
+        "first192_loss": 0.35162387989907695,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.33855844545797514,
+        "first192_loss": 0.35162387989907695,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.33855844545797514,
+        "first192_loss": 0.35162387989907695,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.3991251418699479,
+        "first192_loss": 0.46025082995709893,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.43298694835544077,
+        "first192_loss": 0.6147345101331358,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.43298694835544077,
+        "first192_loss": 0.6147345101331358,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0267323958784549,
+        "first192_loss": 1.0380168938035503,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.47167451256598,
+        "first192_loss": 0.6537158184798512,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.43298694835544077,
+        "first192_loss": 0.6147345101331358,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.43298694835544077,
+        "first192_loss": 0.6147345101331358,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0267323958784549,
+        "first192_loss": 1.0380168938035503,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.47167451256598,
+        "first192_loss": 0.6537158184798512,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.43389215963759087,
+        "first192_loss": 0.5854282297923916,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0876899504032922,
+        "first192_loss": 1.0764054524781967,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0876899504032922,
+        "first192_loss": 1.0764054524781967,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.3991251418699479,
+        "first192_loss": 0.46025082995709893,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.43389215963759087,
+        "first192_loss": 0.5854282297923916,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0876899504032922,
+        "first192_loss": 1.0764054524781967,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0876899504032922,
+        "first192_loss": 1.0764054524781967,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 302,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.3991251418699479,
+        "first192_loss": 0.46025082995709893,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.37979500301451785,
+        "first192_loss": 0.3279605146030462,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.3971048211903543,
+        "first192_loss": 0.4132833452877704,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.36156331159546246,
+        "first192_loss": 0.3185059863680587,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.43330633956159004,
+        "first192_loss": 0.4260500222351706,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.36156331159546246,
+        "first192_loss": 0.3185059863680587,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.36156331159546246,
+        "first192_loss": 0.3185059863680587,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.36156331159546246,
+        "first192_loss": 0.3185059863680587,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.43330633956159004,
+        "first192_loss": 0.4260500222351706,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.471581386783198,
+        "first192_loss": 0.5978915470088502,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.471581386783198,
+        "first192_loss": 0.5978915470088502,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0918441775666072,
+        "first192_loss": 1.0798982819759348,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.5257721304800701,
+        "first192_loss": 0.6726254646844506,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.471581386783198,
+        "first192_loss": 0.5978915470088502,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.471581386783198,
+        "first192_loss": 0.5978915470088502,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0918441775666072,
+        "first192_loss": 1.0798982819759348,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.5257721304800701,
+        "first192_loss": 0.6726254646844506,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.4660615946423922,
+        "first192_loss": 0.5580047589440446,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.11097361968133,
+        "first192_loss": 1.1821553645968221,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.0754321100864381,
+        "first192_loss": 1.0873780056771103,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.43330633956159004,
+        "first192_loss": 0.4260500222351706,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4660615946423922,
+        "first192_loss": 0.5580047589440446,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0754321100864381,
+        "first192_loss": 1.0873780056771103,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.0754321100864381,
+        "first192_loss": 1.0873780056771103,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 303,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.43330633956159004,
+        "first192_loss": 0.4260500222351706,
+        "final_valid": true,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.3837441918033409,
+        "first192_loss": 0.347586572106013,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.3837441918033409,
+        "first192_loss": 0.347586572106013,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.3837441918033409,
+        "first192_loss": 0.347586572106013,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.442474433537821,
+        "first192_loss": 0.4692212569273847,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.3837441918033409,
+        "first192_loss": 0.347586572106013,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          512
+        ],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.3837441918033409,
+        "first192_loss": 0.347586572106013,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.3837441918033409,
+        "first192_loss": 0.347586572106013,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "persistent",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.442474433537821,
+        "first192_loss": 0.4692212569273847,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.5378089869283561,
+        "first192_loss": 0.7505749431833697,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 192,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.5276393666740535,
+        "first192_loss": 0.7492080690928911,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 128,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.1398322654116757,
+        "first192_loss": 1.1372507816363133,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.5263322989787005,
+        "first192_loss": 0.6928422314363966,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4749634058315085,
+        "first192_loss": 0.6087388401794376,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          512
+        ],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.4749634058315085,
+        "first192_loss": 0.6087388401794376,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": 64,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.1398322654116757,
+        "first192_loss": 1.1372507816363133,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "remap",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.5263322989787005,
+        "first192_loss": 0.6928422314363966,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.5183824634457903,
+        "first192_loss": 0.6987708805631941,
+        "final_valid": true,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.13626762680866,
+        "first192_loss": 1.1388491105840222,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 1.13626762680866,
+        "first192_loss": 1.1388491105840222,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 300,
+      "metrics": {
+        "main_loss": 0.44247443353782095,
+        "first192_loss": 0.4692212569273847,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 192,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "reopen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.5183824634457903,
+        "first192_loss": 0.6987708805631941,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 64,
+        "upper_accepts": [
+          64,
+          512
+        ],
+        "mean_raw_reads": 0.875
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 448,
+        "upper_refit_rows": 86016,
+        "upper_candidate_fits": 24,
+        "upper_candidate_rows": 4608,
+        "prediction_raw_reads": 448,
+        "feedback_labels": 3328
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "closed",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.13626762680866,
+        "first192_loss": 1.1388491105840222,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 96,
+        "candidate_fit_rows": 16896,
+        "refits": 1536,
+        "refit_rows": 258240,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 2560
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "frozen",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 1.13626762680866,
+        "first192_loss": 1.1388491105840222,
+        "final_valid": false,
+        "transfer_valid": true,
+        "upper_unchanged": true,
+        "always_coarse": true,
+        "first_recovery": null,
+        "upper_accepts": [],
+        "mean_raw_reads": 0
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 0,
+        "feedback_labels": 1024
+      }
+    },
+    {
+      "seed": 304,
+      "branch": "breach",
+      "variant": "flat",
+      "proposal_seed": 301,
+      "metrics": {
+        "main_loss": 0.44247443353782095,
+        "first192_loss": 0.4692212569273847,
+        "final_valid": false,
+        "transfer_valid": false,
+        "upper_unchanged": false,
+        "always_coarse": false,
+        "first_recovery": 192,
+        "upper_accepts": [],
+        "mean_raw_reads": 2
+      },
+      "costs": {
+        "candidate_fits": 32,
+        "candidate_fit_rows": 4608,
+        "refits": 512,
+        "refit_rows": 61632,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 0,
+        "upper_candidate_rows": 0,
+        "prediction_raw_reads": 1024,
+        "feedback_labels": 1536
+      }
+    }
+  ]
+}

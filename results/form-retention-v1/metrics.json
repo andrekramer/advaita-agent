@@ -1,0 +1,4047 @@
+{
+  "summary": {
+    "groups": [
+      {
+        "branch": "persistent",
+        "variant": "immediate",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "main_loss": 0.3560434678578665,
+        "change_loss": 0.3372941029907084,
+        "transient_latent_loss": 0.3298889496430855,
+        "replacement_reviews": 10,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "uniform",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "main_loss": 0.38343258069391706,
+        "change_loss": 0.3372941029907084,
+        "transient_latent_loss": 0.3298889496430855,
+        "replacement_reviews": 10,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "earned",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "main_loss": 0.3560434678578665,
+        "change_loss": 0.3372941029907084,
+        "transient_latent_loss": 0.3298889496430855,
+        "replacement_reviews": 10,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "immediate",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 10,
+        "inexact_checkpoints": 6,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "main_loss": 0.41277033618553516,
+        "change_loss": 0.4507478396460457,
+        "transient_latent_loss": 0.5538709099433126,
+        "replacement_reviews": 26,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "uniform",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 26,
+        "inexact_checkpoints": 22,
+        "first_acquisition": 128,
+        "stable_recovery": 742.4,
+        "main_loss": 0.47764146657532247,
+        "change_loss": 0.5257118747535191,
+        "transient_latent_loss": 0.6920831552144753,
+        "replacement_reviews": 26,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "earned",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 20,
+        "inexact_checkpoints": 16,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "main_loss": 0.4399249507927383,
+        "change_loss": 0.505057068860452,
+        "transient_latent_loss": 0.6518102936656731,
+        "replacement_reviews": 26,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "transient",
+        "variant": "immediate",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 16,
+        "inexact_checkpoints": 16,
+        "first_acquisition": 64,
+        "stable_recovery": 678.4,
+        "main_loss": 0.43249020245044534,
+        "change_loss": 0.49018757217586606,
+        "transient_latent_loss": 0.46879418574729287,
+        "replacement_reviews": 32,
+        "harmful_replacements": 10,
+        "wrong_establishments": 1
+      },
+      {
+        "branch": "transient",
+        "variant": "uniform",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "main_loss": 0.43393792180067725,
+        "change_loss": 0.4383047852042287,
+        "transient_latent_loss": 0.3716660770057568,
+        "replacement_reviews": 10,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      },
+      {
+        "branch": "transient",
+        "variant": "earned",
+        "initial_valid": 10,
+        "initial_exact": 10,
+        "final_valid": 10,
+        "final_exact": 10,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "main_loss": 0.4065488089646267,
+        "change_loss": 0.4383047852042287,
+        "transient_latent_loss": 0.3716660770057568,
+        "replacement_reviews": 10,
+        "harmful_replacements": 0,
+        "wrong_establishments": 0
+      }
+    ],
+    "paired": [
+      {
+        "branch": "persistent",
+        "seed": 500,
+        "proposal_seed": 500,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 500,
+        "proposal_seed": 501,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 501,
+        "proposal_seed": 500,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 501,
+        "proposal_seed": 501,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 502,
+        "proposal_seed": 500,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 502,
+        "proposal_seed": 501,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 503,
+        "proposal_seed": 500,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 503,
+        "proposal_seed": 501,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 504,
+        "proposal_seed": 500,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 504,
+        "proposal_seed": 501,
+        "invalid_reduction": 0,
+        "acquisition_delay": 0,
+        "recovery_delay": 0
+      },
+      {
+        "branch": "remap",
+        "seed": 500,
+        "proposal_seed": 500,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 500,
+        "proposal_seed": 501,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 501,
+        "proposal_seed": 500,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 501,
+        "proposal_seed": 501,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 502,
+        "proposal_seed": 500,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 502,
+        "proposal_seed": 501,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 503,
+        "proposal_seed": 500,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 503,
+        "proposal_seed": 501,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 504,
+        "proposal_seed": 500,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "remap",
+        "seed": 504,
+        "proposal_seed": 501,
+        "invalid_reduction": -1,
+        "acquisition_delay": 0,
+        "recovery_delay": 64
+      },
+      {
+        "branch": "transient",
+        "seed": 500,
+        "proposal_seed": 500,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 500,
+        "proposal_seed": 501,
+        "invalid_reduction": 3,
+        "acquisition_delay": 0,
+        "recovery_delay": -192
+      },
+      {
+        "branch": "transient",
+        "seed": 501,
+        "proposal_seed": 500,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 501,
+        "proposal_seed": 501,
+        "invalid_reduction": 3,
+        "acquisition_delay": 0,
+        "recovery_delay": -192
+      },
+      {
+        "branch": "transient",
+        "seed": 502,
+        "proposal_seed": 500,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 502,
+        "proposal_seed": 501,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 503,
+        "proposal_seed": 500,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 503,
+        "proposal_seed": 501,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 504,
+        "proposal_seed": 500,
+        "invalid_reduction": 1,
+        "acquisition_delay": 0,
+        "recovery_delay": -64
+      },
+      {
+        "branch": "transient",
+        "seed": 504,
+        "proposal_seed": 501,
+        "invalid_reduction": 3,
+        "acquisition_delay": 0,
+        "recovery_delay": -192
+      }
+    ],
+    "checks": {
+      "acquisition": true,
+      "stable_final": true,
+      "protection": true,
+      "persistent_loss": true,
+      "transient_loss": true,
+      "remap_final": true,
+      "remap_latency": true,
+      "remap_loss": false
+    },
+    "primary_pass": false
+  },
+  "totals": {
+    "runs": 90,
+    "generated_labels": 23040,
+    "allocated_labels": 138240,
+    "checkpoint_queries": 6120,
+    "main_predictions": 92160,
+    "max_pending_cells": 2,
+    "costs": {
+      "candidate_fits": 5760,
+      "candidate_fit_rows": 1036800,
+      "refits": 92160,
+      "refit_rows": 16044480,
+      "pending_predictions": 2432,
+      "pending_starts": 76,
+      "pending_failures": 20,
+      "confirmed_replacements": 56,
+      "immediate_replacements": 104,
+      "establishments": 131,
+      "used_labels": 138240,
+      "ordinary_selection_predictions": 92160
+    }
+  },
+  "runs": [
+    {
+      "seed": 500,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.31599687827083206,
+        "change_loss": 0.2931688084446407,
+        "transient_latent_loss": 0.33181472235569637,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3501977697298388,
+        "change_loss": 0.2931688084446407,
+        "transient_latent_loss": 0.33181472235569637,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.31599687827083206,
+        "change_loss": 0.2931688084446407,
+        "transient_latent_loss": 0.33181472235569637,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.31599687827083206,
+        "change_loss": 0.2931688084446407,
+        "transient_latent_loss": 0.33181472235569637,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3501977697298388,
+        "change_loss": 0.2931688084446407,
+        "transient_latent_loss": 0.33181472235569637,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.31599687827083206,
+        "change_loss": 0.2931688084446407,
+        "transient_latent_loss": 0.33181472235569637,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.3767210079100403,
+        "change_loss": 0.4146170677230573,
+        "transient_latent_loss": 0.5603737971839892,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.46239007958320816,
+        "change_loss": 0.5175534281513795,
+        "transient_latent_loss": 0.7311704355702807,
+        "replacement_reviews": [
+          128,
+          640,
+          768
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 96,
+        "pending_starts": 3,
+        "pending_failures": 0,
+        "confirmed_replacements": 3,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 2,
+        "main_loss": 0.4102680355875488,
+        "change_loss": 0.48171112307807423,
+        "transient_latent_loss": 0.668636020261243,
+        "replacement_reviews": [
+          64,
+          640,
+          704
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.38457117513826444,
+        "change_loss": 0.43031740217950554,
+        "transient_latent_loss": 0.5908122578135847,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.4834665705630356,
+        "change_loss": 0.5597064101110343,
+        "transient_latent_loss": 0.7923643178330653,
+        "replacement_reviews": [
+          128,
+          640,
+          768
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 96,
+        "pending_starts": 3,
+        "pending_failures": 0,
+        "confirmed_replacements": 3,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 2,
+        "main_loss": 0.4183994302765795,
+        "change_loss": 0.49797391245613565,
+        "transient_latent_loss": 0.6993189569064949,
+        "replacement_reviews": [
+          64,
+          640,
+          704
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.3828026292690204,
+        "change_loss": 0.42678031044101744,
+        "transient_latent_loss": 0.4118124989644088,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.40259878496310386,
+        "change_loss": 0.39797083891117085,
+        "transient_latent_loss": 0.3638177072377792,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.36839789350409713,
+        "change_loss": 0.39797083891117085,
+        "transient_latent_loss": 0.3638177072377792,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.423329928885287,
+        "change_loss": 0.5078349096735506,
+        "transient_latent_loss": 0.5505588590604971,
+        "replacement_reviews": [
+          64,
+          576,
+          640,
+          768
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 4,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.40259878496310386,
+        "change_loss": 0.39797083891117085,
+        "transient_latent_loss": 0.3638177072377792,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 500,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.36839789350409713,
+        "change_loss": 0.39797083891117085,
+        "transient_latent_loss": 0.3638177072377792,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3487396160825011,
+        "change_loss": 0.318980880657472,
+        "transient_latent_loss": 0.32808468550113534,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3699916086557229,
+        "change_loss": 0.318980880657472,
+        "transient_latent_loss": 0.32808468550113534,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3487396160825011,
+        "change_loss": 0.318980880657472,
+        "transient_latent_loss": 0.32808468550113534,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3487396160825011,
+        "change_loss": 0.318980880657472,
+        "transient_latent_loss": 0.32808468550113534,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3699916086557229,
+        "change_loss": 0.318980880657472,
+        "transient_latent_loss": 0.32808468550113534,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3487396160825011,
+        "change_loss": 0.318980880657472,
+        "transient_latent_loss": 0.32808468550113534,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4046993997447542,
+        "change_loss": 0.4309004479819782,
+        "transient_latent_loss": 0.527610400188407,
+        "replacement_reviews": [
+          64,
+          576
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.45017772080760166,
+        "change_loss": 0.47935310496122957,
+        "transient_latent_loss": 0.6149342209585835,
+        "replacement_reviews": [
+          128,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 0,
+        "confirmed_replacements": 2,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4289257282343799,
+        "change_loss": 0.47935310496122957,
+        "transient_latent_loss": 0.6149342209585835,
+        "replacement_reviews": [
+          64,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 1,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4046993997447542,
+        "change_loss": 0.4309004479819782,
+        "transient_latent_loss": 0.527610400188407,
+        "replacement_reviews": [
+          64,
+          576
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.45017772080760166,
+        "change_loss": 0.47935310496122957,
+        "transient_latent_loss": 0.6149342209585835,
+        "replacement_reviews": [
+          128,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 0,
+        "confirmed_replacements": 2,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4289257282343799,
+        "change_loss": 0.47935310496122957,
+        "transient_latent_loss": 0.6149342209585835,
+        "replacement_reviews": [
+          64,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 1,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4247050715870244,
+        "change_loss": 0.47091179166651864,
+        "transient_latent_loss": 0.45980938706655355,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.42158809289661264,
+        "change_loss": 0.42217384913925154,
+        "transient_latent_loss": 0.3725936047528109,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4003361003233909,
+        "change_loss": 0.42217384913925154,
+        "transient_latent_loss": 0.3725936047528109,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.45261859855865116,
+        "change_loss": 0.5267388456097721,
+        "transient_latent_loss": 0.5633690624215891,
+        "replacement_reviews": [
+          64,
+          576,
+          640,
+          768
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 4,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.42158809289661264,
+        "change_loss": 0.42217384913925154,
+        "transient_latent_loss": 0.3725936047528109,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 501,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4003361003233909,
+        "change_loss": 0.42217384913925154,
+        "transient_latent_loss": 0.3725936047528109,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.38077556496036724,
+        "change_loss": 0.38240441510674994,
+        "transient_latent_loss": 0.3288999888492151,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4072790135156856,
+        "change_loss": 0.38240441510674994,
+        "transient_latent_loss": 0.3288999888492151,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.38077556496036724,
+        "change_loss": 0.38240441510674994,
+        "transient_latent_loss": 0.3288999888492151,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.38077556496036724,
+        "change_loss": 0.38240441510674994,
+        "transient_latent_loss": 0.3288999888492151,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4072790135156856,
+        "change_loss": 0.38240441510674994,
+        "transient_latent_loss": 0.3288999888492151,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.38077556496036724,
+        "change_loss": 0.38240441510674994,
+        "transient_latent_loss": 0.3288999888492151,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.43188941156935085,
+        "change_loss": 0.4846321083247172,
+        "transient_latent_loss": 0.5796470376527564,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.4984057857382887,
+        "change_loss": 0.5646579595519561,
+        "transient_latent_loss": 0.753287862055529,
+        "replacement_reviews": [
+          128,
+          640,
+          768
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 96,
+        "pending_starts": 3,
+        "pending_failures": 0,
+        "confirmed_replacements": 3,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 2,
+        "main_loss": 0.4583891337968732,
+        "change_loss": 0.5376315527797618,
+        "transient_latent_loss": 0.691869491281506,
+        "replacement_reviews": [
+          64,
+          640,
+          704
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4253419126915918,
+        "change_loss": 0.47153711056919906,
+        "transient_latent_loss": 0.5477227478968313,
+        "replacement_reviews": [
+          64,
+          576
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4720201399148479,
+        "change_loss": 0.5118866679050746,
+        "transient_latent_loss": 0.6381062902210081,
+        "replacement_reviews": [
+          128,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 0,
+        "confirmed_replacements": 2,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4455166913595296,
+        "change_loss": 0.5118866679050746,
+        "transient_latent_loss": 0.6381062902210081,
+        "replacement_reviews": [
+          64,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 1,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.43795611784283667,
+        "change_loss": 0.4967655208716888,
+        "transient_latent_loss": 0.41825840617189053,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.45472349523139455,
+        "change_loss": 0.47729337853816783,
+        "transient_latent_loss": 0.37019382284177665,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.42822004667607616,
+        "change_loss": 0.47729337853816783,
+        "transient_latent_loss": 0.37019382284177665,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4461781162441558,
+        "change_loss": 0.5132095176743271,
+        "transient_latent_loss": 0.45962518729678054,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.45472349523139455,
+        "change_loss": 0.47729337853816783,
+        "transient_latent_loss": 0.37019382284177665,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 502,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.42822004667607616,
+        "change_loss": 0.47729337853816783,
+        "transient_latent_loss": 0.37019382284177665,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3579178226954799,
+        "change_loss": 0.3262719420515785,
+        "transient_latent_loss": 0.33057081214744294,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3853674548601647,
+        "change_loss": 0.3262719420515785,
+        "transient_latent_loss": 0.33057081214744294,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3579178226954799,
+        "change_loss": 0.3262719420515785,
+        "transient_latent_loss": 0.33057081214744294,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3579178226954799,
+        "change_loss": 0.3262719420515785,
+        "transient_latent_loss": 0.33057081214744294,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3853674548601647,
+        "change_loss": 0.3262719420515785,
+        "transient_latent_loss": 0.33057081214744294,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3579178226954799,
+        "change_loss": 0.3262719420515785,
+        "transient_latent_loss": 0.33057081214744294,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.42166465736653774,
+        "change_loss": 0.45376561139369415,
+        "transient_latent_loss": 0.559873836761796,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.48031933393204423,
+        "change_loss": 0.5161757001953374,
+        "transient_latent_loss": 0.7198712039806562,
+        "replacement_reviews": [
+          128,
+          640,
+          768
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 96,
+        "pending_starts": 3,
+        "pending_failures": 0,
+        "confirmed_replacements": 3,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 2,
+        "main_loss": 0.4458609408691448,
+        "change_loss": 0.5021581783989083,
+        "transient_latent_loss": 0.6589663683316285,
+        "replacement_reviews": [
+          64,
+          640,
+          704
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4148893656471152,
+        "change_loss": 0.44021502795484907,
+        "transient_latent_loss": 0.536489369971772,
+        "replacement_reviews": [
+          64,
+          576
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.46084265227890875,
+        "change_loss": 0.4772223368890665,
+        "transient_latent_loss": 0.6041766125725148,
+        "replacement_reviews": [
+          128,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 0,
+        "confirmed_replacements": 2,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4333930201142239,
+        "change_loss": 0.4772223368890665,
+        "transient_latent_loss": 0.6041766125725148,
+        "replacement_reviews": [
+          64,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 1,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.42516266546869774,
+        "change_loss": 0.46076162759801415,
+        "transient_latent_loss": 0.42755794467832126,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.43947070602551175,
+        "change_loss": 0.4344784443822725,
+        "transient_latent_loss": 0.38469528941957004,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4120210738608269,
+        "change_loss": 0.4344784443822725,
+        "transient_latent_loss": 0.38469528941957004,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4320703687536139,
+        "change_loss": 0.4745770341678464,
+        "transient_latent_loss": 0.4584927355567164,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.43947070602551175,
+        "change_loss": 0.4344784443822725,
+        "transient_latent_loss": 0.38469528941957004,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 503,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4120210738608269,
+        "change_loss": 0.4344784443822725,
+        "transient_latent_loss": 0.38469528941957004,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3767874572801523,
+        "change_loss": 0.36564446869310074,
+        "transient_latent_loss": 0.33007453936193776,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4043270567081734,
+        "change_loss": 0.36564446869310074,
+        "transient_latent_loss": 0.33007453936193776,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3767874572801523,
+        "change_loss": 0.36564446869310074,
+        "transient_latent_loss": 0.33007453936193776,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "persistent",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3767874572801523,
+        "change_loss": 0.36564446869310074,
+        "transient_latent_loss": 0.33007453936193776,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "persistent",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4043270567081734,
+        "change_loss": 0.36564446869310074,
+        "transient_latent_loss": 0.33007453936193776,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "persistent",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.3767874572801523,
+        "change_loss": 0.36564446869310074,
+        "transient_latent_loss": 0.33007453936193776,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.43161351602147147,
+        "change_loss": 0.4752965861757391,
+        "transient_latent_loss": 0.554284625887791,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.509307331063844,
+        "change_loss": 0.5756050174044418,
+        "transient_latent_loss": 0.7259931939972656,
+        "replacement_reviews": [
+          128,
+          640,
+          768
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 96,
+        "pending_starts": 3,
+        "pending_failures": 0,
+        "confirmed_replacements": 3,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 2,
+        "main_loss": 0.46478539972736177,
+        "change_loss": 0.5416403535875197,
+        "transient_latent_loss": 0.6635803775825841,
+        "replacement_reviews": [
+          64,
+          640,
+          704
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "remap",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.43161351602147147,
+        "change_loss": 0.4752965861757391,
+        "transient_latent_loss": 0.554284625887791,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "remap",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.509307331063844,
+        "change_loss": 0.5756050174044418,
+        "transient_latent_loss": 0.7259931939972656,
+        "replacement_reviews": [
+          128,
+          640,
+          768
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 96,
+        "pending_starts": 3,
+        "pending_failures": 0,
+        "confirmed_replacements": 3,
+        "immediate_replacements": 0,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "remap",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 704,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 2,
+        "inexact_checkpoints": 2,
+        "main_loss": 0.46478539972736177,
+        "change_loss": 0.5416403535875197,
+        "transient_latent_loss": 0.6635803775825841,
+        "replacement_reviews": [
+          64,
+          640,
+          704
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 0,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 2,
+        "establishments": 2,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 640,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 1,
+        "inexact_checkpoints": 1,
+        "main_loss": 0.4350189486090909,
+        "change_loss": 0.48210745135097793,
+        "transient_latent_loss": 0.415705508789024,
+        "replacement_reviews": [
+          64,
+          576,
+          640
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 2,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4513085298867635,
+        "change_loss": 0.45960741505028085,
+        "transient_latent_loss": 0.3670299607768473,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 500,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.42376893045874237,
+        "change_loss": 0.45960741505028085,
+        "transient_latent_loss": 0.3670299607768473,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "transient",
+      "variant": "immediate",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 768,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 3,
+        "inexact_checkpoints": 3,
+        "main_loss": 0.46505957928607555,
+        "change_loss": 0.5421887127049473,
+        "transient_latent_loss": 0.5227522674671475,
+        "replacement_reviews": [
+          64,
+          576,
+          768
+        ],
+        "harmful_replacements": [
+          576
+        ],
+        "wrong_establishments": [
+          704
+        ]
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 0,
+        "pending_starts": 0,
+        "pending_failures": 0,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 3,
+        "establishments": 3,
+        "max_pending_cells": 0,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "transient",
+      "variant": "uniform",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 128,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.4513085298867635,
+        "change_loss": 0.45960741505028085,
+        "transient_latent_loss": 0.3670299607768473,
+        "replacement_reviews": [
+          128
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 64,
+        "pending_starts": 2,
+        "pending_failures": 1,
+        "confirmed_replacements": 1,
+        "immediate_replacements": 0,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    },
+    {
+      "seed": 504,
+      "branch": "transient",
+      "variant": "earned",
+      "proposal_seed": 501,
+      "metrics": {
+        "initial_valid": true,
+        "initial_exact": true,
+        "first_acquisition": 64,
+        "stable_recovery": 576,
+        "final_valid": true,
+        "final_exact": true,
+        "invalid_checkpoints": 0,
+        "inexact_checkpoints": 0,
+        "main_loss": 0.42376893045874237,
+        "change_loss": 0.45960741505028085,
+        "transient_latent_loss": 0.3670299607768473,
+        "replacement_reviews": [
+          64
+        ],
+        "harmful_replacements": [],
+        "wrong_establishments": []
+      },
+      "costs": {
+        "candidate_fits": 64,
+        "candidate_fit_rows": 11520,
+        "refits": 1024,
+        "refit_rows": 178272,
+        "pending_predictions": 32,
+        "pending_starts": 1,
+        "pending_failures": 1,
+        "confirmed_replacements": 0,
+        "immediate_replacements": 1,
+        "establishments": 1,
+        "max_pending_cells": 2,
+        "used_labels": 1536,
+        "ordinary_selection_predictions": 1024
+      }
+    }
+  ]
+}

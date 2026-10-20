@@ -1,0 +1,2504 @@
+{
+  "comparison": {
+    "runs": [
+      {
+        "world": "0-reversible",
+        "proposal_seed": 0,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.35220462744386066,
+          0.35353453531564727
+        ],
+        "minimum_cut_effects": [
+          0.3530777937974913,
+          0.35162391469180343
+        ],
+        "pass": false
+      },
+      {
+        "world": "0-reversible",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35220462744386066,
+          0.35353453531564727
+        ],
+        "minimum_cut_effects": [
+          0.3530777937974913,
+          0.35162391469180343
+        ],
+        "pass": true
+      },
+      {
+        "world": "0-persistent",
+        "proposal_seed": 0,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35220462744386066,
+          0.35353453531564727
+        ],
+        "minimum_cut_effects": [
+          0.3530777937974913,
+          0.35162391469180343
+        ],
+        "pass": true
+      },
+      {
+        "world": "0-persistent",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35220462744386066,
+          0.35353453531564727
+        ],
+        "minimum_cut_effects": [
+          0.3530777937974913,
+          0.35162391469180343
+        ],
+        "pass": true
+      },
+      {
+        "world": "1-reversible",
+        "proposal_seed": 0,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.3579886598719145,
+          0.35815394750433144
+        ],
+        "minimum_cut_effects": [
+          0.3552247451559303,
+          0.35349804371963495
+        ],
+        "pass": false
+      },
+      {
+        "world": "1-reversible",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.3579886598719145,
+          0.35815394750433144
+        ],
+        "minimum_cut_effects": [
+          0.3552247451559303,
+          0.35349804371963495
+        ],
+        "pass": true
+      },
+      {
+        "world": "1-persistent",
+        "proposal_seed": 0,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.3579886598719145,
+          -0.021007265207362513
+        ],
+        "minimum_cut_effects": [
+          0.3552247451559303,
+          0.0
+        ],
+        "pass": false
+      },
+      {
+        "world": "1-persistent",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.3579886598719145,
+          0.35815394750433144
+        ],
+        "minimum_cut_effects": [
+          0.3552247451559303,
+          0.35349804371963495
+        ],
+        "pass": true
+      },
+      {
+        "world": "2-reversible",
+        "proposal_seed": 0,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.015429098996035173,
+          -0.03167089491288866
+        ],
+        "minimum_cut_effects": [
+          0.0,
+          0.0
+        ],
+        "pass": false
+      },
+      {
+        "world": "2-reversible",
+        "proposal_seed": 1,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.015429098996035173,
+          -0.001492057075874853
+        ],
+        "minimum_cut_effects": [
+          0.0,
+          0.0
+        ],
+        "pass": false
+      },
+      {
+        "world": "2-persistent",
+        "proposal_seed": 0,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.015429098996035173,
+          0.34783482482251693
+        ],
+        "minimum_cut_effects": [
+          0.0,
+          0.34868034728628916
+        ],
+        "pass": false
+      },
+      {
+        "world": "2-persistent",
+        "proposal_seed": 1,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.015429098996035173,
+          0.34783482482251693
+        ],
+        "minimum_cut_effects": [
+          0.0,
+          0.34868034728628916
+        ],
+        "pass": false
+      },
+      {
+        "world": "3-reversible",
+        "proposal_seed": 0,
+        "structure_prediction": false,
+        "singleton_margins": [
+          0.3552484581559637,
+          0.35905708559697147
+        ],
+        "minimum_cut_effects": [
+          0.3557222055346209,
+          0.3572595390710851
+        ],
+        "pass": false
+      },
+      {
+        "world": "3-reversible",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.3552484581559637,
+          0.35905708559697147
+        ],
+        "minimum_cut_effects": [
+          0.3557222055346209,
+          0.3572595390710851
+        ],
+        "pass": true
+      },
+      {
+        "world": "3-persistent",
+        "proposal_seed": 0,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.3552484581559637,
+          0.35905708559697147
+        ],
+        "minimum_cut_effects": [
+          0.3557222055346209,
+          0.3572595390710851
+        ],
+        "pass": true
+      },
+      {
+        "world": "3-persistent",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.3552484581559637,
+          0.35905708559697147
+        ],
+        "minimum_cut_effects": [
+          0.3557222055346209,
+          0.3572595390710851
+        ],
+        "pass": true
+      },
+      {
+        "world": "4-reversible",
+        "proposal_seed": 0,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35963028626636245,
+          0.3592315418668819
+        ],
+        "minimum_cut_effects": [
+          0.35843966807432787,
+          0.35969486754441493
+        ],
+        "pass": true
+      },
+      {
+        "world": "4-reversible",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35963028626636245,
+          0.3592315418668819
+        ],
+        "minimum_cut_effects": [
+          0.35843966807432787,
+          0.35969486754441493
+        ],
+        "pass": true
+      },
+      {
+        "world": "4-persistent",
+        "proposal_seed": 0,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35963028626636245,
+          0.3592315418668819
+        ],
+        "minimum_cut_effects": [
+          0.35843966807432787,
+          0.35969486754441493
+        ],
+        "pass": true
+      },
+      {
+        "world": "4-persistent",
+        "proposal_seed": 1,
+        "structure_prediction": true,
+        "singleton_margins": [
+          0.35963028626636245,
+          0.3592315418668819
+        ],
+        "minimum_cut_effects": [
+          0.35843966807432787,
+          0.35969486754441493
+        ],
+        "pass": true
+      }
+    ],
+    "passes_by_branch": {
+      "reversible": 5,
+      "persistent": 7
+    },
+    "primary_pass": false
+  },
+  "totals": {
+    "runs": 60,
+    "generated_world_records": 17280,
+    "allocated_outcome_presentations": 103680,
+    "used_outcome_presentations": 97920,
+    "base_evaluation_predictions": 138240,
+    "additional_ablation_predictions": 261632,
+    "costs": {
+      "main_prediction_feature_reads": 126976,
+      "count_refits": 69120,
+      "count_refit_rows": 12170880,
+      "refit_feature_reads": 23181952,
+      "candidate_fits": 3600,
+      "candidate_fit_rows": 652800,
+      "candidate_fit_feature_reads": 912960,
+      "candidate_score_feature_reads": 912960,
+      "selection_outcomes": 28800,
+      "selection_prediction_feature_reads": 63200
+    }
+  },
+  "runs": [
+    {
+      "world": "0-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7046463775937643,
+          0.4255162026851833,
+          0.510356722524337
+        ],
+        "transition64_loss": [
+          0.6934682158944498,
+          1.0014092436572988
+        ],
+        "main_loss": 0.5468397676010948,
+        "first_successful_review": {
+          "384": 384,
+          "768": null,
+          "1152": 896
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1536,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 294912,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23488,
+        "candidate_score_feature_reads": 23488,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664
+      }
+    },
+    {
+      "world": "0-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.38598233531226556,
+          0.42601953348839083,
+          0.6606030535987228
+        ],
+        "transition64_loss": [
+          0.6934682158944498,
+          1.0156055537631712
+        ],
+        "main_loss": 0.4908683074664597,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 1024
+        },
+        "pair_removal_reviews": [
+          512
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 303232,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21760,
+        "candidate_score_feature_reads": 21760,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "0-reversible",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7046463775937643,
+          0.45944983715148824,
+          0.7497821963323726
+        ],
+        "transition64_loss": [
+          0.7028639159796447,
+          1.0156055537631712
+        ],
+        "main_loss": 0.6379594703592083,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12672,
+        "candidate_score_feature_reads": 12672,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864
+      }
+    },
+    {
+      "world": "0-reversible",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7055109853441035,
+          0.4123825091862076,
+          0.7570357967247193
+        ],
+        "transition64_loss": [
+          0.7028639159796447,
+          1.0156055537631712
+        ],
+        "main_loss": 0.6249764304183435,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12096,
+        "candidate_score_feature_reads": 12096,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 736
+      }
+    },
+    {
+      "world": "0-reversible",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.4612726616772943,
+          0.43552419336986226,
+          0.512722774208649
+        ],
+        "transition64_loss": [
+          0.6934682158944498,
+          1.0156055537631712
+        ],
+        "main_loss": 0.46983987641860187,
+        "first_successful_review": {
+          "384": 128,
+          "768": 704,
+          "1152": 896
+        },
+        "pair_removal_reviews": [
+          704
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 364608,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1824
+      }
+    },
+    {
+      "world": "0-reversible",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5564003928665047,
+          0.5610179513831721,
+          0.5921213861462323
+        ],
+        "transition64_loss": [
+          0.700228853642639,
+          0.7254671251069871
+        ],
+        "main_loss": 0.5698465767986364,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "0-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7046463775937643,
+          0.32880626676332525,
+          0.3783516681970099
+        ],
+        "transition64_loss": [
+          0.20956333196269827,
+          0.44405619017640663
+        ],
+        "main_loss": 0.4706014375180331,
+        "first_successful_review": {
+          "384": 384,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1536,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 294912,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23488,
+        "candidate_score_feature_reads": 23488,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1632
+      }
+    },
+    {
+      "world": "0-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.38598233531226556,
+          0.32880626676332525,
+          0.3783516681970099
+        ],
+        "transition64_loss": [
+          0.20956333196269827,
+          0.44405619017640663
+        ],
+        "main_loss": 0.3643800900908669,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21184,
+        "candidate_score_feature_reads": 21184,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "0-persistent",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7046463775937643,
+          0.6979173178704032,
+          0.7030004564170945
+        ],
+        "transition64_loss": [
+          0.6897967219796699,
+          0.7006635993252635
+        ],
+        "main_loss": 0.701854717293754,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 256,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 49152,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12864,
+        "candidate_score_feature_reads": 12864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 672
+      }
+    },
+    {
+      "world": "0-persistent",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7055109853441035,
+          0.6979173178704032,
+          0.6990592699999192
+        ],
+        "transition64_loss": [
+          0.6897967219796699,
+          0.7006635993252635
+        ],
+        "main_loss": 0.7008291910714753,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 64,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 12288,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12864,
+        "candidate_score_feature_reads": 12864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 576
+      }
+    },
+    {
+      "world": "0-persistent",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.4612726616772943,
+          0.32880626676332525,
+          0.3783516681970099
+        ],
+        "transition64_loss": [
+          0.20956333196269827,
+          0.44405619017640663
+        ],
+        "main_loss": 0.3894768655458765,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "0-persistent",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5564003928665047,
+          0.5187492124802807,
+          0.5457971214326766
+        ],
+        "transition64_loss": [
+          0.4997601293137614,
+          0.5413322722491923
+        ],
+        "main_loss": 0.5403155755931539,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "1-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7079925903486058,
+          0.454040422223586,
+          0.5225655952710109
+        ],
+        "transition64_loss": [
+          0.9329389342078543,
+          1.081965823949998
+        ],
+        "main_loss": 0.5615328692810676,
+        "first_successful_review": {
+          "384": 384,
+          "768": null,
+          "1152": 960
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 307200,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23488,
+        "candidate_score_feature_reads": 23488,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664
+      }
+    },
+    {
+      "world": "1-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.42741168613859376,
+          0.45518587206541167,
+          0.6716352798973408
+        ],
+        "transition64_loss": [
+          0.9329389342078543,
+          1.117699609970153
+        ],
+        "main_loss": 0.5180776127004488,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 1024
+        },
+        "pair_removal_reviews": [
+          512
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 303232,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21760,
+        "candidate_score_feature_reads": 21760,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "1-reversible",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7079925903486058,
+          0.44659202688368077,
+          0.7794459394379806
+        ],
+        "transition64_loss": [
+          0.7054420909403819,
+          1.117699609970153
+        ],
+        "main_loss": 0.6446768522234224,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12288,
+        "candidate_score_feature_reads": 12288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 800
+      }
+    },
+    {
+      "world": "1-reversible",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7079925903486058,
+          0.40224052228869517,
+          0.7827369490481719
+        ],
+        "transition64_loss": [
+          0.7054420909403819,
+          1.117699609970153
+        ],
+        "main_loss": 0.6309900205618243,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 768,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 147456,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 11904,
+        "candidate_score_feature_reads": 11904,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 800
+      }
+    },
+    {
+      "world": "1-reversible",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.4890793759123584,
+          0.4560968842970079,
+          0.52852122627437
+        ],
+        "transition64_loss": [
+          0.9329389342078543,
+          1.117699609970153
+        ],
+        "main_loss": 0.49123249549457876,
+        "first_successful_review": {
+          "384": 128,
+          "768": 704,
+          "1152": 960
+        },
+        "pair_removal_reviews": [
+          704
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 364608,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1824
+      }
+    },
+    {
+      "world": "1-reversible",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5733708116208862,
+          0.5853953904906692,
+          0.6015757316039176
+        ],
+        "transition64_loss": [
+          0.818105470994181,
+          0.7462052248775637
+        ],
+        "main_loss": 0.5867806445718243,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "1-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7079925903486058,
+          0.2990048703976763,
+          0.6574403485514434
+        ],
+        "transition64_loss": [
+          0.2362088074435302,
+          0.4075716925141079
+        ],
+        "main_loss": 0.5548126030992419,
+        "first_successful_review": {
+          "384": 384,
+          "768": 448,
+          "1152": null
+        },
+        "pair_removal_reviews": [
+          960
+        ],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23488,
+        "candidate_score_feature_reads": 23488,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "1-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.42741168613859376,
+          0.2990048703976763,
+          0.4218911824022639
+        ],
+        "transition64_loss": [
+          0.2362088074435302,
+          0.4075716925141079
+        ],
+        "main_loss": 0.3827692463128447,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 896
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21184,
+        "candidate_score_feature_reads": 21184,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "1-persistent",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7079925903486058,
+          0.7093823053888637,
+          0.6977679346352432
+        ],
+        "transition64_loss": [
+          0.7185519449372527,
+          0.7116430429195596
+        ],
+        "main_loss": 0.7050476101242376,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12288,
+        "candidate_score_feature_reads": 12288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 768
+      }
+    },
+    {
+      "world": "1-persistent",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7079925903486058,
+          0.6985467247410064,
+          0.6959385070687205
+        ],
+        "transition64_loss": [
+          0.7185519449372527,
+          0.7071025354982221
+        ],
+        "main_loss": 0.7008259407194443,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 192,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 36864,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12672,
+        "candidate_score_feature_reads": 12672,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 608
+      }
+    },
+    {
+      "world": "1-persistent",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.4890793759123584,
+          0.2990048703976763,
+          0.6493857851899728
+        ],
+        "transition64_loss": [
+          0.2362088074435302,
+          0.4075716925141079
+        ],
+        "main_loss": 0.47915667716666915,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 1152
+        },
+        "pair_removal_reviews": [
+          832
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 315456,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1632
+      }
+    },
+    {
+      "world": "1-persistent",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5733708116208862,
+          0.5025272647146283,
+          0.5299804759324472
+        ],
+        "transition64_loss": [
+          0.5021651618492654,
+          0.5438961406165551
+        ],
+        "main_loss": 0.5352928507559872,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "2-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.4121286807617224,
+          0.7758577942620815
+        ],
+        "transition64_loss": [
+          0.7035215279359445,
+          1.1331578390756756
+        ],
+        "main_loss": 0.6309722899014931,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [
+          896
+        ],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23488,
+        "candidate_score_feature_reads": 23488,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "2-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.4069801676435175,
+          0.7907060610841935
+        ],
+        "transition64_loss": [
+          0.7035215279359445,
+          1.1373999206463177
+        ],
+        "main_loss": 0.6342055411361288,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [
+          512
+        ],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 768,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 147456,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22912,
+        "candidate_score_feature_reads": 22912,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280
+      }
+    },
+    {
+      "world": "2-reversible",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.3982139248820545,
+          0.7698987597859861
+        ],
+        "transition64_loss": [
+          0.7430930141109406,
+          1.1373999206463177
+        ],
+        "main_loss": 0.6243476931162387,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 98304,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12672,
+        "candidate_score_feature_reads": 12672,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 768
+      }
+    },
+    {
+      "world": "2-reversible",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.39161867718622173,
+          0.7749498231463329
+        ],
+        "transition64_loss": [
+          0.7035215279359445,
+          1.1373999206463177
+        ],
+        "main_loss": 0.62383296500441,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 576,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 110592,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12288,
+        "candidate_score_feature_reads": 12288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 736
+      }
+    },
+    {
+      "world": "2-reversible",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5357274310977428,
+          0.4420906290525411,
+          0.5793889304713634
+        ],
+        "transition64_loss": [
+          0.8734718937418632,
+          1.1373999206463177
+        ],
+        "main_loss": 0.5190689968738824,
+        "first_successful_review": {
+          "384": 192,
+          "768": 768,
+          "1152": 960
+        },
+        "pair_removal_reviews": [
+          768
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "2-reversible",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5607560665837236,
+          0.5600696186288796,
+          0.6137503747635527
+        ],
+        "transition64_loss": [
+          0.772749310402076,
+          0.8383001030197408
+        ],
+        "main_loss": 0.5781920199920519,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "2-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.3686382511447785,
+          0.37448733047611443
+        ],
+        "transition64_loss": [
+          0.6811180033877989,
+          0.3504360817679109
+        ],
+        "main_loss": 0.4826853254338561,
+        "first_successful_review": {
+          "384": null,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23488,
+        "candidate_score_feature_reads": 23488,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "2-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.3686382511447785,
+          0.37448733047611443
+        ],
+        "transition64_loss": [
+          0.6811180033877989,
+          0.3504360817679109
+        ],
+        "main_loss": 0.4826853254338561,
+        "first_successful_review": {
+          "384": null,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22336,
+        "candidate_score_feature_reads": 22336,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "2-persistent",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.7022609682637827,
+          0.6953213894054477
+        ],
+        "transition64_loss": [
+          0.7038096009001028,
+          0.6993340752839916
+        ],
+        "main_loss": 0.7008375841166353,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 98304,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12672,
+        "candidate_score_feature_reads": 12672,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 768
+      }
+    },
+    {
+      "world": "2-persistent",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049303946806755,
+          0.6941616325442801,
+          0.6970781869260514
+        ],
+        "transition64_loss": [
+          0.6811180033877989,
+          0.6946558713132001
+        ],
+        "main_loss": 0.6987234047170023,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 0,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 0,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 13056,
+        "candidate_score_feature_reads": 13056,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 576
+      }
+    },
+    {
+      "world": "2-persistent",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5357274310977428,
+          0.3004039363848278,
+          0.37448733047611443
+        ],
+        "transition64_loss": [
+          0.2717121148280951,
+          0.3504360817679109
+        ],
+        "main_loss": 0.40353956598622837,
+        "first_successful_review": {
+          "384": 192,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "2-persistent",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5607560665837236,
+          0.4819379559591277,
+          0.5291065896803732
+        ],
+        "transition64_loss": [
+          0.4795478642666423,
+          0.5098831111214225
+        ],
+        "main_loss": 0.5239335374077415,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "3-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.45952661693546604,
+          0.4500795731692591,
+          0.6568509284391428
+        ],
+        "transition64_loss": [
+          0.8994859646816026,
+          1.0993085987982048
+        ],
+        "main_loss": 0.522152372847956,
+        "first_successful_review": {
+          "384": 128,
+          "768": null,
+          "1152": 1024
+        },
+        "pair_removal_reviews": [
+          896
+        ],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 364608,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23296,
+        "candidate_score_feature_reads": 23296,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1920
+      }
+    },
+    {
+      "world": "3-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7042850403545462,
+          0.43795292995305535,
+          0.5612461958340041
+        ],
+        "transition64_loss": [
+          0.8994859646816026,
+          1.1071829787936163
+        ],
+        "main_loss": 0.5678280553805353,
+        "first_successful_review": {
+          "384": 384,
+          "768": 512,
+          "1152": 896
+        },
+        "pair_removal_reviews": [
+          448
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1088,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 208896,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22336,
+        "candidate_score_feature_reads": 22336,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "3-reversible",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7094176699648232,
+          0.40337460862130947,
+          0.7619050506106868
+        ],
+        "transition64_loss": [
+          0.6920160366911274,
+          1.1071829787936163
+        ],
+        "main_loss": 0.6248991097322731,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 576,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 110592,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12480,
+        "candidate_score_feature_reads": 12480,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 768
+      }
+    },
+    {
+      "world": "3-reversible",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7111341677848791,
+          0.4975930175892824,
+          0.7682114793114528
+        ],
+        "transition64_loss": [
+          0.6920160366911274,
+          1.1071829787936163
+        ],
+        "main_loss": 0.6589795548952048,
+        "first_successful_review": {
+          "384": null,
+          "768": 576,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 704,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 135168,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12096,
+        "candidate_score_feature_reads": 12096,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 768
+      }
+    },
+    {
+      "world": "3-reversible",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.6366232242079699,
+          0.43795292995305535,
+          0.6350432120256934
+        ],
+        "transition64_loss": [
+          0.8994859646816026,
+          1.1071829787936163
+        ],
+        "main_loss": 0.5698731220622395,
+        "first_successful_review": {
+          "384": 320,
+          "768": 512,
+          "1152": 1024
+        },
+        "pair_removal_reviews": [
+          448
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1088,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 208896,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21184,
+        "candidate_score_feature_reads": 21184,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "3-reversible",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.541295510301817,
+          0.59318703074249,
+          0.6041414343809004
+        ],
+        "transition64_loss": [
+          0.7688921216843959,
+          0.7915270522885783
+        ],
+        "main_loss": 0.5795413251417357,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "3-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.45952661693546604,
+          0.342039380826709,
+          0.32305709760816037
+        ],
+        "transition64_loss": [
+          0.38544442905519105,
+          0.35546972089113993
+        ],
+        "main_loss": 0.37487436512344513,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23296,
+        "candidate_score_feature_reads": 23296,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1888
+      }
+    },
+    {
+      "world": "3-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7042850403545462,
+          0.342039380826709,
+          0.32305709760816037
+        ],
+        "transition64_loss": [
+          0.38544442905519105,
+          0.35546972089113993
+        ],
+        "main_loss": 0.4564605062631385,
+        "first_successful_review": {
+          "384": 384,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1536,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 294912,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21952,
+        "candidate_score_feature_reads": 21952,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "3-persistent",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7094176699648232,
+          0.698238371724962,
+          0.6991114677620663
+        ],
+        "transition64_loss": [
+          0.7029643882783749,
+          0.7074105037681816
+        ],
+        "main_loss": 0.7022558364839505,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 128,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 24576,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12864,
+        "candidate_score_feature_reads": 12864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 608
+      }
+    },
+    {
+      "world": "3-persistent",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7111341677848791,
+          0.698238371724962,
+          0.7053951453643981
+        ],
+        "transition64_loss": [
+          0.7029643882783749,
+          0.7074105037681816
+        ],
+        "main_loss": 0.7049225616247464,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 256,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 49152,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12480,
+        "candidate_score_feature_reads": 12480,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 608
+      }
+    },
+    {
+      "world": "3-persistent",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.6366232242079699,
+          0.342039380826709,
+          0.32305709760816037
+        ],
+        "transition64_loss": [
+          0.38544442905519105,
+          0.35546972089113993
+        ],
+        "main_loss": 0.4339065675476131,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "3-persistent",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.541295510301817,
+          0.523874580411472,
+          0.5262137252321665
+        ],
+        "transition64_loss": [
+          0.5314370908847118,
+          0.5667428061172743
+        ],
+        "main_loss": 0.5304612719818185,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "4-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.5706926328705512,
+          0.4696538810725123,
+          0.5812369672681663
+        ],
+        "transition64_loss": [
+          0.7439734205199706,
+          1.0349586186265542
+        ],
+        "main_loss": 0.5405278270704099,
+        "first_successful_review": {
+          "384": 256,
+          "768": 576,
+          "1152": 960
+        },
+        "pair_removal_reviews": [
+          448,
+          576
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1344,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 258048,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23296,
+        "candidate_score_feature_reads": 23296,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1632
+      }
+    },
+    {
+      "world": "4-reversible",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.4914114462658451,
+          0.44533017553887544,
+          0.7000877254890024
+        ],
+        "transition64_loss": [
+          0.7439734205199706,
+          1.0349586186265542
+        ],
+        "main_loss": 0.545609782431241,
+        "first_successful_review": {
+          "384": 128,
+          "768": 576,
+          "1152": 1088
+        },
+        "pair_removal_reviews": [
+          448
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 266304,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21760,
+        "candidate_score_feature_reads": 21760,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "4-reversible",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7092035081141868,
+          0.43654598835388003,
+          0.7542744370951483
+        ],
+        "transition64_loss": [
+          0.6912682974099982,
+          1.0349586186265542
+        ],
+        "main_loss": 0.6333413111877384,
+        "first_successful_review": {
+          "384": null,
+          "768": 576,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12288,
+        "candidate_score_feature_reads": 12288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 768
+      }
+    },
+    {
+      "world": "4-reversible",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049073692906053,
+          0.5288832832382372,
+          0.7512136103995211
+        ],
+        "transition64_loss": [
+          0.6912682974099982,
+          1.0349586186265542
+        ],
+        "main_loss": 0.6616680876427878,
+        "first_successful_review": {
+          "384": null,
+          "768": 576,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 98304,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12480,
+        "candidate_score_feature_reads": 12480,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 736
+      }
+    },
+    {
+      "world": "4-reversible",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5407738488823629,
+          0.44533017553887544,
+          0.4955660439387743
+        ],
+        "transition64_loss": [
+          0.7439734205199706,
+          1.0349586186265542
+        ],
+        "main_loss": 0.4938900227866709,
+        "first_successful_review": {
+          "384": 192,
+          "768": 576,
+          "1152": 960
+        },
+        "pair_removal_reviews": [
+          448
+        ],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1472,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 282624,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21184,
+        "candidate_score_feature_reads": 21184,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "4-reversible",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5770785994299241,
+          0.5688564806551173,
+          0.5598718768420282
+        ],
+        "transition64_loss": [
+          0.6646391653145619,
+          0.7281519242883214
+        ],
+        "main_loss": 0.5686023189756899,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    },
+    {
+      "world": "4-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.5706926328705512,
+          0.36156222988736375,
+          0.30286994786694305
+        ],
+        "transition64_loss": [
+          0.2901291039378997,
+          0.3307506856738283
+        ],
+        "main_loss": 0.411708270208286,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 23296,
+        "candidate_score_feature_reads": 23296,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "4-persistent",
+      "variant": "stochastic",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.4914114462658451,
+          0.36156222988736375,
+          0.30286994786694305
+        ],
+        "transition64_loss": [
+          0.2901291039378997,
+          0.3307506856738283
+        ],
+        "main_loss": 0.3852812080067173,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21184,
+        "candidate_score_feature_reads": 21184,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "4-persistent",
+      "variant": "singleton",
+      "proposal_seed": 0,
+      "metrics": {
+        "phase_main_loss": [
+          0.7092035081141868,
+          0.6980559750983762,
+          0.695799570733626
+        ],
+        "transition64_loss": [
+          0.7011370336161282,
+          0.679574968052428
+        ],
+        "main_loss": 0.7010196846487297,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 256,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 49152,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12480,
+        "candidate_score_feature_reads": 12480,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 608
+      }
+    },
+    {
+      "world": "4-persistent",
+      "variant": "singleton",
+      "proposal_seed": 1,
+      "metrics": {
+        "phase_main_loss": [
+          0.7049073692906053,
+          0.7005749833118011,
+          0.695799570733626
+        ],
+        "transition64_loss": [
+          0.7011370336161282,
+          0.679574968052428
+        ],
+        "main_loss": 0.7004273077786775,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 128,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 24576,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 12672,
+        "candidate_score_feature_reads": 12672,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 576
+      }
+    },
+    {
+      "world": "4-persistent",
+      "variant": "deterministic",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5407738488823629,
+          0.36156222988736375,
+          0.30286994786694305
+        ],
+        "transition64_loss": [
+          0.2901291039378997,
+          0.3307506856738283
+        ],
+        "main_loss": 0.40173534221222323,
+        "first_successful_review": {
+          "384": 192,
+          "768": 448,
+          "1152": 832
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20992,
+        "candidate_score_feature_reads": 20992,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "4-persistent",
+      "variant": "full_context",
+      "proposal_seed": null,
+      "metrics": {
+        "phase_main_loss": [
+          0.5770785994299241,
+          0.5216473251249188,
+          0.5108576505291216
+        ],
+        "transition64_loss": [
+          0.5356824833523467,
+          0.5556794416661321
+        ],
+        "main_loss": 0.5365278583613216,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "pair_removal_reviews": [],
+        "structural_predictive_pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 6912,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 1217088,
+        "candidate_fits": 0,
+        "candidate_fit_rows": 0,
+        "candidate_fit_feature_reads": 0,
+        "candidate_score_feature_reads": 0,
+        "selection_outcomes": 0,
+        "selection_prediction_feature_reads": 0
+      }
+    }
+  ]
+}

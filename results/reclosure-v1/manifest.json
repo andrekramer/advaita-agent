@@ -1,0 +1,8 @@
+{
+  "experiments/reclosure_protocol.md": "da65f869424d11d41acdcd0186696f8333d1b8620d50adb3024da4c0b1563c40",
+  "experiments/reclosure.py": "5c92a98420ad02875964ba5ef173dd02776047339dcb4ac963fc3b49c7458f37",
+  "checks/test_reclosure.py": "e2b61944badf786fbd0def08f04edcb897d5c2a1925e3c70f141144f83596b1d",
+  "checks/audit_reclosure.py": "0ab20396a5e97a4862f678a03d00dca443c5a7fff4626fd6f9106c8d76f103c9",
+  "experiments/nested_abstractions.py": "83f5f4ff1e4d63a1090c12805e518e78ea8c01de944c64d1f0eeba3ada01f415",
+  "checks/audit_nested_abstractions.py": "ee9bd555916765299190aab6e3de47546f6f83e1c85680e1fb7c32a21b781055"
+}

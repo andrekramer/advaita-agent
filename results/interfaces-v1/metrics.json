@@ -1,0 +1,4831 @@
+{
+  "comparison": {
+    "groups": [
+      {
+        "branch": "return",
+        "variant": "retain",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.37461938181714577,
+          0.3771883031972233
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.48579558182515714,
+          0.4679974641043711
+        ],
+        "return192_loss": 0.569511165175604,
+        "post_acquisition_loss": 0.47689652296476415,
+        "post_prediction_features": 1.3833333333333333,
+        "retrievals": 10,
+        "prototype_main_steps": 1216,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "return",
+        "variant": "delete",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.37461938181714577,
+          0.3771883031972233
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.4853438738135529,
+          0.5042520727291001
+        ],
+        "return192_loss": 0.6476759494952411,
+        "post_acquisition_loss": 0.49479797327132646,
+        "post_prediction_features": 1.3416666666666666,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "return",
+        "variant": "open",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 0,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.38051939260166395,
+          0.3776792342224506
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.49823641711258737,
+          0.4774764825999538
+        ],
+        "return192_loss": 0.5936156237837269,
+        "post_acquisition_loss": 0.4878564498562706,
+        "post_prediction_features": 1.9,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "novel",
+        "variant": "retain",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.37461938181714577,
+          0.3771883031972233
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.48579558182515714,
+          0.5122032052206053
+        ],
+        "return192_loss": 0.6635782144782514,
+        "post_acquisition_loss": 0.4989993935228812,
+        "post_prediction_features": 1.3333333333333333,
+        "retrievals": 1,
+        "prototype_main_steps": 64,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "novel",
+        "variant": "delete",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.37461938181714577,
+          0.3771883031972233
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.4853438738135529,
+          0.5122032052206053
+        ],
+        "return192_loss": 0.6635782144782514,
+        "post_acquisition_loss": 0.49877353951707903,
+        "post_prediction_features": 1.325,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "novel",
+        "variant": "open",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 0,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.38051939260166395,
+          0.37767923422245053
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.49823641711258737,
+          0.481007809669392
+        ],
+        "return192_loss": 0.6006782779226034,
+        "post_acquisition_loss": 0.4896221133909897,
+        "post_prediction_features": 1.9,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "retain",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.3797058418282882,
+          0.3771883031972233
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.3962962980019617,
+          0.36859305779252277
+        ],
+        "return192_loss": 0.3763579196220864,
+        "post_acquisition_loss": 0.38244467789724224,
+        "post_prediction_features": 1.8083333333333333,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "delete",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.3797058418282882,
+          0.3771883031972233
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.3962962980019617,
+          0.36859305779252277
+        ],
+        "return192_loss": 0.3763579196220864,
+        "post_acquisition_loss": 0.38244467789724224,
+        "post_prediction_features": 1.8083333333333333,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "open",
+        "runs": 10,
+        "acquisition_passes": 9,
+        "trajectory_passes": 9,
+        "endpoint_losses": [
+          0.3869413552079082,
+          0.38051939260166395,
+          0.3776792342224506
+        ],
+        "phase_main_loss": [
+          0.5983533803478942,
+          0.39626038609233327,
+          0.3691755769341746
+        ],
+        "return192_loss": 0.37701381245216853,
+        "post_acquisition_loss": 0.382717981513254,
+        "post_prediction_features": 1.9,
+        "retrievals": 0,
+        "prototype_main_steps": 0,
+        "stale_retrievals": 0
+      }
+    ],
+    "paired": [
+      {
+        "branch": "return",
+        "seed": 200,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.07445928563456855,
+        "retain_minus_open_post": -0.017792184762185914
+      },
+      {
+        "branch": "return",
+        "seed": 200,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.07445928563456855,
+        "retain_minus_open_post": -0.017792184762185914
+      },
+      {
+        "branch": "return",
+        "seed": 201,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.03160517921318029,
+        "retain_minus_open_post": 0.00764176998083238
+      },
+      {
+        "branch": "return",
+        "seed": 201,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.03160517921318029,
+        "retain_minus_open_post": 0.00764176998083238
+      },
+      {
+        "branch": "return",
+        "seed": 202,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.12981612298340806,
+        "retain_minus_open_post": -0.03564846977691544
+      },
+      {
+        "branch": "return",
+        "seed": 202,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.12981612298340806,
+        "retain_minus_open_post": -0.03564846977691544
+      },
+      {
+        "branch": "return",
+        "seed": 203,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.12555804167907447,
+        "retain_minus_open_post": -0.005297148803539098
+      },
+      {
+        "branch": "return",
+        "seed": 203,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.12555804167907447,
+        "retain_minus_open_post": -0.005297148803539098
+      },
+      {
+        "branch": "return",
+        "seed": 204,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": -0.004135167869918743
+      },
+      {
+        "branch": "return",
+        "seed": 204,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.05877058417590919,
+        "retain_minus_open_post": -0.003272034321529782
+      },
+      {
+        "branch": "novel",
+        "seed": 200,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.009785579180326687
+      },
+      {
+        "branch": "novel",
+        "seed": 200,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.009785579180326687
+      },
+      {
+        "branch": "novel",
+        "seed": 201,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0042399272618176
+      },
+      {
+        "branch": "novel",
+        "seed": 201,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0042399272618176
+      },
+      {
+        "branch": "novel",
+        "seed": 202,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.025433063623742425
+      },
+      {
+        "branch": "novel",
+        "seed": 202,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.025433063623742425
+      },
+      {
+        "branch": "novel",
+        "seed": 203,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.002431364432379679
+      },
+      {
+        "branch": "novel",
+        "seed": 203,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.002431364432379679
+      },
+      {
+        "branch": "novel",
+        "seed": 204,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": -0.005062448731578573
+      },
+      {
+        "branch": "novel",
+        "seed": 204,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.015055381053960482
+      },
+      {
+        "branch": "persistent",
+        "seed": 200,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 200,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 201,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 201,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 202,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 202,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 203,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 203,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 204,
+        "proposal_seed": 200,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": -0.0027330361601171083
+      },
+      {
+        "branch": "persistent",
+        "seed": 204,
+        "proposal_seed": 201,
+        "delete_minus_retain_return192": 0.0,
+        "retain_minus_open_post": 0.0
+      }
+    ],
+    "checks": {
+      "trajectories": true,
+      "return_improved_count": true,
+      "return_mean_gain": true,
+      "novel_cost_guard": true,
+      "persistent_cost_guard": true
+    },
+    "primary_pass": true
+  },
+  "totals": {
+    "runs": 90,
+    "generated_world_records": 25920,
+    "allocated_outcome_presentations": 155520,
+    "used_outcome_presentations": 144000,
+    "base_evaluation_predictions": 207360,
+    "additional_ablation_predictions": 304512,
+    "costs": {
+      "main_prediction_feature_reads": 141696,
+      "count_refits": 102400,
+      "count_refit_rows": 18010560,
+      "refit_feature_reads": 26336640,
+      "candidate_fits": 4196,
+      "candidate_fit_rows": 736512,
+      "candidate_fit_feature_reads": 916800,
+      "candidate_score_feature_reads": 724864,
+      "selection_outcomes": 40320,
+      "selection_prediction_feature_reads": 93408,
+      "prototype_candidate_scores": 138,
+      "prototype_selection_predictions": 544,
+      "main_prototype_steps": 1280
+    }
+  },
+  "runs": [
+    {
+      "world": "200-return",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.4979915405763329,
+          0.3642714275402155
+        ],
+        "return192_loss": 0.46513574804662566,
+        "post_acquisition_loss": 0.4311314840582742,
+        "main_loss": 0.4553947923608359,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1728,
+        "count_refits": 960,
+        "count_refit_rows": 165984,
+        "refit_feature_reads": 254016,
+        "candidate_fits": 63,
+        "candidate_fit_rows": 11328,
+        "candidate_fit_feature_reads": 13376,
+        "candidate_score_feature_reads": 9536,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664,
+        "prototype_candidate_scores": 5,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 192
+      }
+    },
+    {
+      "world": "200-return",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.4979915405763329,
+          0.3957163223511785
+        ],
+        "return192_loss": 0.5395950336811942,
+        "post_acquisition_loss": 0.4468539314637557,
+        "main_loss": 0.46587642396449025,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1728,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327744,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12224,
+        "candidate_score_feature_reads": 8512,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-return",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.5121537102575514,
+          0.3856936273833688
+        ],
+        "return192_loss": 0.5195496437455748,
+        "post_acquisition_loss": 0.4489236688204601,
+        "main_loss": 0.46725624886895983,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-return",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.4979915405763329,
+          0.3642714275402155
+        ],
+        "return192_loss": 0.46513574804662566,
+        "post_acquisition_loss": 0.4311314840582742,
+        "main_loss": 0.4719194026079044,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 960,
+        "count_refit_rows": 165984,
+        "refit_feature_reads": 233472,
+        "candidate_fits": 63,
+        "candidate_fit_rows": 11328,
+        "candidate_fit_feature_reads": 13568,
+        "candidate_score_feature_reads": 9728,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664,
+        "prototype_candidate_scores": 5,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 192
+      }
+    },
+    {
+      "world": "200-return",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.4979915405763329,
+          0.3957163223511785
+        ],
+        "return192_loss": 0.5395950336811942,
+        "post_acquisition_loss": 0.4468539314637557,
+        "main_loss": 0.4824010342115587,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 307200,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 8704,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-return",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.5121537102575514,
+          0.3856936273833688
+        ],
+        "return192_loss": 0.5195496437455748,
+        "post_acquisition_loss": 0.4489236688204601,
+        "main_loss": 0.48378085911602836,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-novel",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.4979915405763329,
+          0.4366637782475945
+        ],
+        "return192_loss": 0.6214899454740263,
+        "post_acquisition_loss": 0.4673276594119637,
+        "main_loss": 0.47952557592996226,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1728,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327744,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12224,
+        "candidate_score_feature_reads": 9152,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 5,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-novel",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.4979915405763329,
+          0.4366637782475945
+        ],
+        "return192_loss": 0.6214899454740263,
+        "post_acquisition_loss": 0.4673276594119637,
+        "main_loss": 0.47952557592996226,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1728,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327744,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12224,
+        "candidate_score_feature_reads": 8512,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-novel",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.5121537102575514,
+          0.4029304502057226
+        ],
+        "return192_loss": 0.5540232893902823,
+        "post_acquisition_loss": 0.457542080231637,
+        "main_loss": 0.47300185647641113,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-novel",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.4979915405763329,
+          0.4366637782475945
+        ],
+        "return192_loss": 0.6214899454740263,
+        "post_acquisition_loss": 0.4673276594119637,
+        "main_loss": 0.4960501861770307,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 307200,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 9344,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 5,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-novel",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704,
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.4979915405763329,
+          0.4366637782475945
+        ],
+        "return192_loss": 0.6214899454740263,
+        "post_acquisition_loss": 0.4673276594119637,
+        "main_loss": 0.4960501861770307,
+        "mean_post_prediction_features": 1.5833333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 307200,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 8704,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-novel",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.5121537102575514,
+          0.4029304502057226
+        ],
+        "return192_loss": 0.5540232893902823,
+        "post_acquisition_loss": 0.457542080231637,
+        "main_loss": 0.4895264667234796,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-persistent",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.37789142681995086,
+          0.271247431546323
+        ],
+        "return192_loss": 0.29065725207148324,
+        "post_acquisition_loss": 0.32456942918313697,
+        "main_loss": 0.3843534224440777,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-persistent",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.37789142681995086,
+          0.271247431546323
+        ],
+        "return192_loss": 0.29065725207148324,
+        "post_acquisition_loss": 0.32456942918313697,
+        "main_loss": 0.3843534224440777,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-persistent",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5039214089659594,
+          0.37789142681995086,
+          0.271247431546323
+        ],
+        "return192_loss": 0.29065725207148324,
+        "post_acquisition_loss": 0.32456942918313697,
+        "main_loss": 0.3843534224440777,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-persistent",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.37789142681995086,
+          0.271247431546323
+        ],
+        "return192_loss": 0.29065725207148324,
+        "post_acquisition_loss": 0.32456942918313697,
+        "main_loss": 0.40087803269114625,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-persistent",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.37789142681995086,
+          0.271247431546323
+        ],
+        "return192_loss": 0.29065725207148324,
+        "post_acquisition_loss": 0.32456942918313697,
+        "main_loss": 0.40087803269114625,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "200-persistent",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        3,
+        4
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5534952397071649,
+          0.37789142681995086,
+          0.271247431546323
+        ],
+        "return192_loss": 0.29065725207148324,
+        "post_acquisition_loss": 0.32456942918313697,
+        "main_loss": 0.40087803269114625,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-return",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.5100731369692942,
+          0.47710387891886963
+        ],
+        "return192_loss": 0.6084347849181003,
+        "post_acquisition_loss": 0.49358850794408193,
+        "main_loss": 0.5570478087060896,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1088,
+        "count_refit_rows": 190560,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 61,
+        "candidate_fit_rows": 10944,
+        "candidate_fit_feature_reads": 12800,
+        "candidate_score_feature_reads": 9472,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 64
+      }
+    },
+    {
+      "world": "201-return",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.5100731369692942,
+          0.4929064685254598
+        ],
+        "return192_loss": 0.6400399641312806,
+        "post_acquisition_loss": 0.501489802747377,
+        "main_loss": 0.5623153385749531,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 8576,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-return",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.511676060693724,
+          0.46021741523277515
+        ],
+        "return192_loss": 0.5746618575459114,
+        "post_acquisition_loss": 0.48594673796324955,
+        "main_loss": 0.5519532953855347,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-return",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.5100731369692942,
+          0.47710387891886963
+        ],
+        "return192_loss": 0.6084347849181003,
+        "post_acquisition_loss": 0.49358850794408193,
+        "main_loss": 0.4877249205432329,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1088,
+        "count_refit_rows": 190560,
+        "refit_feature_reads": 303232,
+        "candidate_fits": 61,
+        "candidate_fit_rows": 10944,
+        "candidate_fit_feature_reads": 12736,
+        "candidate_score_feature_reads": 9408,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 64
+      }
+    },
+    {
+      "world": "201-return",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.5100731369692942,
+          0.4929064685254598
+        ],
+        "return192_loss": 0.6400399641312806,
+        "post_acquisition_loss": 0.501489802747377,
+        "main_loss": 0.4929924504120963,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327808,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12352,
+        "candidate_score_feature_reads": 8512,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1600,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-return",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.511676060693724,
+          0.46021741523277515
+        ],
+        "return192_loss": 0.5746618575459114,
+        "post_acquisition_loss": 0.48594673796324955,
+        "main_loss": 0.48263040722267797,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6592,
+        "candidate_score_feature_reads": 6592,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 576,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-novel",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.5100731369692942,
+          0.48486249749208776
+        ],
+        "return192_loss": 0.6239520220645366,
+        "post_acquisition_loss": 0.497467817230691,
+        "main_loss": 0.5596340148971624,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 9344,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-novel",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.5100731369692942,
+          0.48486249749208776
+        ],
+        "return192_loss": 0.6239520220645366,
+        "post_acquisition_loss": 0.497467817230691,
+        "main_loss": 0.5596340148971624,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 8576,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-novel",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.511676060693724,
+          0.47477971924402285
+        ],
+        "return192_loss": 0.6037864655684068,
+        "post_acquisition_loss": 0.4932278899688734,
+        "main_loss": 0.5568073967226173,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-novel",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.5100731369692942,
+          0.48486249749208776
+        ],
+        "return192_loss": 0.6239520220645366,
+        "post_acquisition_loss": 0.497467817230691,
+        "main_loss": 0.4903111267343056,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327808,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12352,
+        "candidate_score_feature_reads": 9280,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1600,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-novel",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.5100731369692942,
+          0.48486249749208776
+        ],
+        "return192_loss": 0.6239520220645366,
+        "post_acquisition_loss": 0.497467817230691,
+        "main_loss": 0.4903111267343056,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327808,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12352,
+        "candidate_score_feature_reads": 8512,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1600,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-novel",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.511676060693724,
+          0.47477971924402285
+        ],
+        "return192_loss": 0.6037864655684068,
+        "post_acquisition_loss": 0.4932278899688734,
+        "main_loss": 0.48748450855976055,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6592,
+        "candidate_score_feature_reads": 6592,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 576,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-persistent",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.42479315711510424,
+          0.36429121117064056
+        ],
+        "return192_loss": 0.38280944942164213,
+        "post_acquisition_loss": 0.3945421841428724,
+        "main_loss": 0.49101692617195,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1152,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-persistent",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.42479315711510424,
+          0.36429121117064056
+        ],
+        "return192_loss": 0.38280944942164213,
+        "post_acquisition_loss": 0.3945421841428724,
+        "main_loss": 0.49101692617195,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1152,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-persistent",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6839664102301051,
+          0.42479315711510424,
+          0.36429121117064056
+        ],
+        "return192_loss": 0.38280944942164213,
+        "post_acquisition_loss": 0.3945421841428724,
+        "main_loss": 0.49101692617195,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-persistent",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.42479315711510424,
+          0.36429121117064056
+        ],
+        "return192_loss": 0.38280944942164213,
+        "post_acquisition_loss": 0.3945421841428724,
+        "main_loss": 0.42169403800909316,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11200,
+        "candidate_score_feature_reads": 8128,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-persistent",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.42479315711510424,
+          0.36429121117064056
+        ],
+        "return192_loss": 0.38280944942164213,
+        "post_acquisition_loss": 0.3945421841428724,
+        "main_loss": 0.42169403800909316,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11200,
+        "candidate_score_feature_reads": 8128,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "201-persistent",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        4,
+        5
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.47599774574153475,
+          0.42479315711510424,
+          0.36429121117064056
+        ],
+        "return192_loss": 0.38280944942164213,
+        "post_acquisition_loss": 0.3945421841428724,
+        "main_loss": 0.42169403800909316,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6592,
+        "candidate_score_feature_reads": 6592,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 576,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-return",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.41933634426783273
+        ],
+        "return192_loss": 0.5207879956602338,
+        "post_acquisition_loss": 0.41070884356078524,
+        "main_loss": 0.4889592914144635,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 960,
+        "count_refit_rows": 165984,
+        "refit_feature_reads": 172032,
+        "candidate_fits": 63,
+        "candidate_fit_rows": 11328,
+        "candidate_fit_feature_reads": 13568,
+        "candidate_score_feature_reads": 9728,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 192
+      }
+    },
+    {
+      "world": "202-return",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.47589023609041
+        ],
+        "return192_loss": 0.6506041186436419,
+        "post_acquisition_loss": 0.43898578947207384,
+        "main_loss": 0.5078105886886559,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 8576,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1344,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-return",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.4301884717802303,
+          0.4625261548951711
+        ],
+        "return192_loss": 0.6238759562531642,
+        "post_acquisition_loss": 0.4463573133377007,
+        "main_loss": 0.5127249379324071,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-return",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.41933634426783273
+        ],
+        "return192_loss": 0.5207879956602338,
+        "post_acquisition_loss": 0.41070884356078524,
+        "main_loss": 0.4889592914144635,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 960,
+        "count_refit_rows": 165984,
+        "refit_feature_reads": 172032,
+        "candidate_fits": 63,
+        "candidate_fit_rows": 11328,
+        "candidate_fit_feature_reads": 13760,
+        "candidate_score_feature_reads": 9920,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 192
+      }
+    },
+    {
+      "world": "202-return",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.47589023609041
+        ],
+        "return192_loss": 0.6506041186436419,
+        "post_acquisition_loss": 0.43898578947207384,
+        "main_loss": 0.5078105886886559,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12608,
+        "candidate_score_feature_reads": 8768,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-return",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.4301884717802303,
+          0.4625261548951711
+        ],
+        "return192_loss": 0.6238759562531642,
+        "post_acquisition_loss": 0.4463573133377007,
+        "main_loss": 0.5127249379324071,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 384,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-novel",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.5382471042169009
+        ],
+        "return192_loss": 0.7753178548966239,
+        "post_acquisition_loss": 0.47016422353531934,
+        "main_loss": 0.5285962113974862,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12800,
+        "candidate_score_feature_reads": 9600,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 7,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-novel",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.5382471042169009
+        ],
+        "return192_loss": 0.7753178548966239,
+        "post_acquisition_loss": 0.47016422353531934,
+        "main_loss": 0.5285962113974862,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12800,
+        "candidate_score_feature_reads": 8704,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-novel",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.4301884717802303,
+          0.4592738480429235
+        ],
+        "return192_loss": 0.617371342548669,
+        "post_acquisition_loss": 0.4447311599115769,
+        "main_loss": 0.5116408356483245,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-novel",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.5382471042169009
+        ],
+        "return192_loss": 0.7753178548966239,
+        "post_acquisition_loss": 0.47016422353531934,
+        "main_loss": 0.5285962113974862,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12992,
+        "candidate_score_feature_reads": 9792,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1312,
+        "prototype_candidate_scores": 7,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-novel",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.40208134285373776,
+          0.5382471042169009
+        ],
+        "return192_loss": 0.7753178548966239,
+        "post_acquisition_loss": 0.47016422353531934,
+        "main_loss": 0.5285962113974862,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12992,
+        "candidate_score_feature_reads": 8896,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1312,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-novel",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 896,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.4301884717802303,
+          0.4592738480429235
+        ],
+        "return192_loss": 0.617371342548669,
+        "post_acquisition_loss": 0.4447311599115769,
+        "main_loss": 0.5116408356483245,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 384,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-persistent",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.34191821328475697,
+          0.3279717590980833
+        ],
+        "return192_loss": 0.3547671646589885,
+        "post_acquisition_loss": 0.3349449861914201,
+        "main_loss": 0.43845005316822006,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1152,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-persistent",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.34191821328475697,
+          0.3279717590980833
+        ],
+        "return192_loss": 0.3547671646589885,
+        "post_acquisition_loss": 0.3349449861914201,
+        "main_loss": 0.43845005316822006,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1152,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-persistent",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.34191821328475697,
+          0.3279717590980833
+        ],
+        "return192_loss": 0.3547671646589885,
+        "post_acquisition_loss": 0.3349449861914201,
+        "main_loss": 0.43845005316822006,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-persistent",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.34191821328475697,
+          0.3279717590980833
+        ],
+        "return192_loss": 0.3547671646589885,
+        "post_acquisition_loss": 0.3349449861914201,
+        "main_loss": 0.43845005316822006,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1184,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-persistent",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.34191821328475697,
+          0.3279717590980833
+        ],
+        "return192_loss": 0.3547671646589885,
+        "post_acquisition_loss": 0.3349449861914201,
+        "main_loss": 0.43845005316822006,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1184,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "202-persistent",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        0,
+        1
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.64546018712182,
+          0.34191821328475697,
+          0.3279717590980833
+        ],
+        "return192_loss": 0.3547671646589885,
+        "post_acquisition_loss": 0.3349449861914201,
+        "main_loss": 0.43845005316822006,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 384,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-return",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.45363786219684804,
+          0.47284804868239655
+        ],
+        "return192_loss": 0.588165208700544,
+        "post_acquisition_loss": 0.4632429554396223,
+        "main_loss": 0.5165199136479339,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1088,
+        "count_refit_rows": 190560,
+        "refit_feature_reads": 274496,
+        "candidate_fits": 61,
+        "candidate_fit_rows": 10944,
+        "candidate_fit_feature_reads": 12800,
+        "candidate_score_feature_reads": 9472,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 64
+      }
+    },
+    {
+      "world": "203-return",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.45363786219684804,
+          0.5356270695219337
+        ],
+        "return192_loss": 0.7137232503796185,
+        "post_acquisition_loss": 0.4946324658593909,
+        "main_loss": 0.5374462539277797,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1472,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 274496,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12800,
+        "candidate_score_feature_reads": 8704,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-return",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.4672178190395524,
+          0.46986238944677033
+        ],
+        "return192_loss": 0.5821938902292917,
+        "post_acquisition_loss": 0.4685401042431614,
+        "main_loss": 0.5200513461836266,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1984,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 372800,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-return",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.45363786219684804,
+          0.47284804868239655
+        ],
+        "return192_loss": 0.588165208700544,
+        "post_acquisition_loss": 0.4632429554396223,
+        "main_loss": 0.5299682652866424,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1088,
+        "count_refit_rows": 190560,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 61,
+        "candidate_fit_rows": 10944,
+        "candidate_fit_feature_reads": 12992,
+        "candidate_score_feature_reads": 9664,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 64
+      }
+    },
+    {
+      "world": "203-return",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.45363786219684804,
+          0.5356270695219337
+        ],
+        "return192_loss": 0.7137232503796185,
+        "post_acquisition_loss": 0.4946324658593909,
+        "main_loss": 0.5508946055664882,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12992,
+        "candidate_score_feature_reads": 8896,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1312,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-return",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.4672178190395524,
+          0.46986238944677033
+        ],
+        "return192_loss": 0.5821938902292917,
+        "post_acquisition_loss": 0.4685401042431614,
+        "main_loss": 0.5334996978223352,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-novel",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.45363786219684804,
+          0.4627974269748074
+        ],
+        "return192_loss": 0.5680639652853657,
+        "post_acquisition_loss": 0.45821764458582775,
+        "main_loss": 0.5131697064120708,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 299072,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 9344,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-novel",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.45363786219684804,
+          0.4627974269748074
+        ],
+        "return192_loss": 0.5680639652853657,
+        "post_acquisition_loss": 0.45821764458582775,
+        "main_loss": 0.5131697064120708,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1600,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 299072,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12416,
+        "candidate_score_feature_reads": 8576,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-novel",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.4672178190395524,
+          0.4443547412673437
+        ],
+        "return192_loss": 0.5311785938704383,
+        "post_acquisition_loss": 0.4557862801534481,
+        "main_loss": 0.5115487967904844,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1984,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 372800,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-novel",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.45363786219684804,
+          0.4627974269748074
+        ],
+        "return192_loss": 0.5680639652853657,
+        "post_acquisition_loss": 0.45821764458582775,
+        "main_loss": 0.5266180580507794,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12608,
+        "candidate_score_feature_reads": 9536,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-novel",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.45363786219684804,
+          0.4627974269748074
+        ],
+        "return192_loss": 0.5680639652853657,
+        "post_acquisition_loss": 0.45821764458582775,
+        "main_loss": 0.5266180580507794,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12608,
+        "candidate_score_feature_reads": 8768,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-novel",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.4672178190395524,
+          0.4443547412673437
+        ],
+        "return192_loss": 0.5311785938704383,
+        "post_acquisition_loss": 0.4557862801534481,
+        "main_loss": 0.524997148429193,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-persistent",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.3310715345162936,
+          0.32582915059457623
+        ],
+        "return192_loss": 0.2941274125249034,
+        "post_acquisition_loss": 0.3284503425554349,
+        "main_loss": 0.4266581717251423,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1984,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 372800,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-persistent",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.3310715345162936,
+          0.32582915059457623
+        ],
+        "return192_loss": 0.2941274125249034,
+        "post_acquisition_loss": 0.3284503425554349,
+        "main_loss": 0.4266581717251423,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1984,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 372800,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11264,
+        "candidate_score_feature_reads": 8192,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-persistent",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6230738300645571,
+          0.3310715345162936,
+          0.32582915059457623
+        ],
+        "return192_loss": 0.2941274125249034,
+        "post_acquisition_loss": 0.3284503425554349,
+        "main_loss": 0.4266581717251423,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1984,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 372800,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-persistent",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.3310715345162936,
+          0.32582915059457623
+        ],
+        "return192_loss": 0.2941274125249034,
+        "post_acquisition_loss": 0.3284503425554349,
+        "main_loss": 0.44010652336385087,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1152,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-persistent",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.3310715345162936,
+          0.32582915059457623
+        ],
+        "return192_loss": 0.2941274125249034,
+        "post_acquisition_loss": 0.3284503425554349,
+        "main_loss": 0.44010652336385087,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1152,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "203-persistent",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        1,
+        2
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.6634188849806827,
+          0.3310715345162936,
+          0.32582915059457623
+        ],
+        "return192_loss": 0.2941274125249034,
+        "post_acquisition_loss": 0.3284503425554349,
+        "main_loss": 0.44010652336385087,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 352,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-return",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704
+        ],
+        "retrieval_reviews": [
+          704
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7028775700689052,
+          0.6988511374867686
+        ],
+        "return192_loss": 0.696964471953532,
+        "post_acquisition_loss": 0.700864353777837,
+        "main_loss": 0.6651640423618701,
+        "mean_post_prediction_features": 0.16666666666666666,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 576,
+        "count_refits": 1088,
+        "count_refit_rows": 190560,
+        "refit_feature_reads": 82048,
+        "candidate_fits": 37,
+        "candidate_fit_rows": 6336,
+        "candidate_fit_feature_reads": 8768,
+        "candidate_score_feature_reads": 8000,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864,
+        "prototype_candidate_scores": 10,
+        "prototype_selection_predictions": 96,
+        "main_prototype_steps": 64
+      }
+    },
+    {
+      "world": "204-return",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.6983604899528627,
+          0.6988511374867686
+        ],
+        "return192_loss": 0.696964471953532,
+        "post_acquisition_loss": 0.6986058137198157,
+        "main_loss": 0.6636583489898559,
+        "mean_post_prediction_features": 0.08333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 82048,
+        "candidate_fits": 36,
+        "candidate_fit_rows": 6144,
+        "candidate_fit_feature_reads": 8768,
+        "candidate_score_feature_reads": 7360,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-return",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7048836845328109,
+          0.7051153587627005
+        ],
+        "return192_loss": 0.7044014599731799,
+        "post_acquisition_loss": 0.7049995216477557,
+        "main_loss": 0.6679208209418159,
+        "mean_post_prediction_features": 1.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1216,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 217216,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-return",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [
+          832
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.42751048299024014,
+          0.5140041047383137
+        ],
+        "return192_loss": 0.6330997051514995,
+        "post_acquisition_loss": 0.47075729386427695,
+        "main_loss": 0.5121636925813051,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1024,
+        "count_refit_rows": 178272,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 62,
+        "candidate_fit_rows": 11136,
+        "candidate_fit_feature_reads": 13376,
+        "candidate_score_feature_reads": 9792,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568,
+        "prototype_candidate_scores": 6,
+        "prototype_selection_predictions": 32,
+        "main_prototype_steps": 128
+      }
+    },
+    {
+      "world": "204-return",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          832
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.42751048299024014,
+          0.5433893968262683
+        ],
+        "return192_loss": 0.6918702893274087,
+        "post_acquisition_loss": 0.4854499399082542,
+        "main_loss": 0.5219587899439566,
+        "mean_post_prediction_features": 1.5,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12608,
+        "candidate_score_feature_reads": 8768,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-return",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.43500836305094664,
+          0.5130502933206668
+        ],
+        "return192_loss": 0.6311920823162056,
+        "post_acquisition_loss": 0.47402932818580673,
+        "main_loss": 0.5143450487956583,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 448,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-novel",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [
+          448,
+          768
+        ],
+        "reopen_reviews": [
+          704
+        ],
+        "retrieval_reviews": [
+          704
+        ],
+        "deletion_reviews": [],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7028775700689052,
+          0.6994786434582236
+        ],
+        "return192_loss": 0.6982194838964418,
+        "post_acquisition_loss": 0.7011781067635644,
+        "main_loss": 0.6653732110190217,
+        "mean_post_prediction_features": 0.16666666666666666,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 576,
+        "count_refits": 1088,
+        "count_refit_rows": 190560,
+        "refit_feature_reads": 82048,
+        "candidate_fits": 37,
+        "candidate_fit_rows": 6336,
+        "candidate_fit_feature_reads": 8768,
+        "candidate_score_feature_reads": 8000,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864,
+        "prototype_candidate_scores": 10,
+        "prototype_selection_predictions": 64,
+        "main_prototype_steps": 64
+      }
+    },
+    {
+      "world": "204-novel",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.6983604899528627,
+          0.6994786434582236
+        ],
+        "return192_loss": 0.6982194838964418,
+        "post_acquisition_loss": 0.6989195667055431,
+        "main_loss": 0.6638675176470076,
+        "mean_post_prediction_features": 0.08333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 82048,
+        "candidate_fits": 36,
+        "candidate_fit_rows": 6144,
+        "candidate_fit_feature_reads": 8768,
+        "candidate_score_feature_reads": 7360,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-novel",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7048836845328109,
+          0.707597426457475
+        ],
+        "return192_loss": 0.709365595362729,
+        "post_acquisition_loss": 0.706240555495143,
+        "main_loss": 0.6687481768400741,
+        "mean_post_prediction_features": 1.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1216,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 217216,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-novel",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.42751048299024014,
+          0.5774117948850473
+        ],
+        "return192_loss": 0.7599150854449668,
+        "post_acquisition_loss": 0.5024611389376438,
+        "main_loss": 0.5332995892968829,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12992,
+        "candidate_score_feature_reads": 9792,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 7,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-novel",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [
+          896
+        ],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.42751048299024014,
+          0.5774117948850473
+        ],
+        "return192_loss": 0.7599150854449668,
+        "post_acquisition_loss": 0.5024611389376438,
+        "main_loss": 0.5332995892968829,
+        "mean_post_prediction_features": 1.3333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 12992,
+        "candidate_score_feature_reads": 8896,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-novel",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": false,
+        "final_pass": true,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 960,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.43500836305094664,
+          0.5398031527164199
+        ],
+        "return192_loss": 0.6846978011077118,
+        "post_acquisition_loss": 0.4874057578836833,
+        "main_loss": 0.5232626685942426,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 448,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-persistent",
+      "variant": "retain",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7013911211057091,
+          0.6987761649696536
+        ],
+        "return192_loss": 0.6968145269193017,
+        "post_acquisition_loss": 0.7000836430376813,
+        "main_loss": 0.6646435685350996,
+        "mean_post_prediction_features": 0.08333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 82048,
+        "candidate_fits": 36,
+        "candidate_fit_rows": 6144,
+        "candidate_fit_feature_reads": 8768,
+        "candidate_score_feature_reads": 8064,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864,
+        "prototype_candidate_scores": 11,
+        "prototype_selection_predictions": 96,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-persistent",
+      "variant": "delete",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [
+          448
+        ],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [
+          448
+        ],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7013911211057091,
+          0.6987761649696536
+        ],
+        "return192_loss": 0.6968145269193017,
+        "post_acquisition_loss": 0.7000836430376813,
+        "main_loss": 0.6646435685350996,
+        "mean_post_prediction_features": 0.08333333333333333,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 512,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 82048,
+        "candidate_fits": 36,
+        "candidate_fit_rows": 6144,
+        "candidate_fit_feature_reads": 8768,
+        "candidate_score_feature_reads": 7360,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 864,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-persistent",
+      "variant": "open",
+      "proposal_seed": 200,
+      "parent": [
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": false,
+        "middle_pass": false,
+        "final_pass": false,
+        "trajectory_pass": false,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": null,
+        "phase_main_loss": [
+          0.5937634195299364,
+          0.7010320020094251,
+          0.7046013563861717
+        ],
+        "return192_loss": 0.7033734552201224,
+        "post_acquisition_loss": 0.7028166791977984,
+        "main_loss": 0.6664655926418444,
+        "mean_post_prediction_features": 1.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1216,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 217216,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6656,
+        "candidate_score_feature_reads": 6656,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 480,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-persistent",
+      "variant": "retain",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.3102231954416966,
+          0.4084753081363281
+        ],
+        "return192_loss": 0.4220421119475283,
+        "post_acquisition_loss": 0.35934925178901234,
+        "main_loss": 0.4378916645311287,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1344,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-persistent",
+      "variant": "delete",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.3102231954416966,
+          0.4084753081363281
+        ],
+        "return192_loss": 0.4220421119475283,
+        "post_acquisition_loss": 0.35934925178901234,
+        "main_loss": 0.4378916645311287,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 16,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 60,
+        "candidate_fit_rows": 10752,
+        "candidate_fit_feature_reads": 11456,
+        "candidate_score_feature_reads": 8384,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1344,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    },
+    {
+      "world": "204-persistent",
+      "variant": "open",
+      "proposal_seed": 201,
+      "parent": [
+        2,
+        3
+      ],
+      "metrics": {
+        "acquisition_pass": true,
+        "middle_pass": true,
+        "final_pass": true,
+        "trajectory_pass": true,
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "retrieval_reviews": [],
+        "deletion_reviews": [],
+        "predictive_recovery": 832,
+        "phase_main_loss": [
+          0.5949764900153615,
+          0.3102231954416966,
+          0.4084753081363281
+        ],
+        "return192_loss": 0.4220421119475283,
+        "post_acquisition_loss": 0.35934925178901234,
+        "main_loss": 0.4378916645311287,
+        "mean_post_prediction_features": 2.0,
+        "max_total_model_cells": 8,
+        "stale_retrievals": 0
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 24,
+        "candidate_fit_rows": 3840,
+        "candidate_fit_feature_reads": 6848,
+        "candidate_score_feature_reads": 6848,
+        "selection_outcomes": 192,
+        "selection_prediction_feature_reads": 448,
+        "prototype_candidate_scores": 0,
+        "prototype_selection_predictions": 0,
+        "main_prototype_steps": 0
+      }
+    }
+  ]
+}

@@ -44,6 +44,32 @@ in a relation or learning parameter. Record which behavior was learned and
 which was supplied through construction. Changing, creating, and collapsing
 distinctions remain later investigations built on this mathematical basis.
 
+## Four influences for consolidation
+
+Four influences help frame the next enquiry. They contribute different questions
+and concepts; they are not a single established theory or a derivation of the
+current implementation.
+
+| Influence | Contribution to the enquiry |
+| --- | --- |
+| [Grossberg: complementary processing](https://sites.bu.edu/steveg/files/2016/06/Gro2000TICS.pdf) | Differently organised processes can compensate for one another's computational limitations. Ask what each learning role contributes and whether their interaction is useful; two copies operating at different rates do not establish complementarity. |
+| [Friston: Markov blankets, free energy, and active inference](https://arxiv.org/abs/2201.06387) | Examine how an agent's internal organisation relates to its environment through sensory and active states, and how inference and action interact. A proposed boundary needs an explicit statistical and dynamical account. |
+| [QBism: expectations, action, and experience](https://arxiv.org/abs/2512.14122) | Treat expectations as belonging to an agent and examine how the consequences of its actions prompt revision. This is an epistemic influence; the project does not thereby implement quantum probability or the Born rule. |
+| [Kelso: coordination dynamics](https://ccs.fau.edu/hbblab/pdfs/2022_Kelso_Journal_of_Physics_Complexity.pdf) | Study forms as stable or temporarily sustained relationships among changing components, including loss of stability, transitions, and metastability. Distinguish movement among existing patterns from learning that changes the available repertoire. |
+
+Kelso adds a language for how complementary processes coordinate while retaining
+different tendencies. His [account of learning and metastability](https://ccs.fau.edu/hbblab/pdfs/ordered/2012_Kelso_Phil.Trans.R.Soc.B.pdf)
+is relevant to the emergence, persistence, and revision of forms. The R-rule
+already supplies paired contributions and phase-dependent weighting; any precise
+correspondence with Haken–Kelso–Bunz dynamics would require defining the phase
+variable and deriving its evolution and stability. No such correspondence is
+established by the shared use of sine and cosine.
+
+These four influences sit within the project's broader non-dual philosophy and
+its interests in probabilistic causality and learned representations. They guide
+consolidation before folds or meta-learning; they add no empirical claims to the
+completed experiments.
+
 ## Research scope and safety
 
 Experiments are small scale and carefully limited in scope. All AI risks and
@@ -227,6 +253,68 @@ The agent–environment action loop remains essential, but its environment is a
 simulation. Physical actuators, live accounts, and external operational systems
 are outside the default experimental scope. Studying or emulating a real system
 does not require connecting the experimental agent to that system.
+
+## Current experimental progression
+
+The next round follows **learning distinctions → learning relationships →
+learning interfaces → learning how to learn**. Creation, retention, information
+hiding, reopening, and collapse are relevant throughout. Distinguish ignoring
+detail during prediction from hiding it behind an interface and from deleting
+it. Randomness belongs in both environmental variation and candidate generation,
+with its usefulness tested against controlled alternatives.
+
+The [bounded plan](experiments/next_round_plan.md) begins with relationships.
+[Experiment 010](results/bundles-v1/findings.md), completed 2026-10-20, learned
+useful joint-feature predictions but failed its stochastic reliability criterion.
+Deterministic search was more reliable at the declared endpoints; both proposal
+types could discard useful structure on a noisy selection batch. This leaves
+coverage and retention as concrete issues before learned folds or meta-learning.
+[Experiment 011](results/bundle-retention-v1/findings.md) then separated shuffled
+coverage from corroborated selection on fresh seeds. Coverage improved, but
+the stricter gate blocked useful discoveries without an observed retention
+benefit in the persistent conditions. The combined method still failed its
+reliability target. Creating, hiding, and deleting a representation may need
+different mechanisms.
+[Experiment 012](results/interfaces-v1/findings.md) then separated hiding a
+learned predictor from deleting its fitted detail. Its fixed criterion passed:
+9/10 trajectories in each branch, with lower early return loss from retrieval
+than rebuilding in 9/10 pairs. Retention gave no benefit when the old relationship
+became wrong; continuously exposing detail adapted better to that novel change.
+This supports selective visibility with retained predictive memory inside a
+supplied interface language. It does not yet establish learned temporal folds,
+discovery of memory boundaries, or meta-learning. The snapshot timing and
+structural operations remained fixed, and raw observations stayed accessible
+to search.
+[Experiment 013](results/nested-abstractions-v1/findings.md) tested learned
+local groupings composed through two supplied interface levels. Transfer to
+unseen compositions passed in 10/10 seed pairs; lower revision with a frozen
+upper relationship and final recovery after relevant reopening each passed in
+9/10. The combined criterion failed because only 7/10 lower-remapping runs
+finished correctly behind the coarse interface. Temporary lower errors could
+cause persistent overexposure at the higher level. This adds restricted
+abstraction and nesting to the demonstrated capabilities while leaving
+attribution of failure and subsequent hiding unresolved. Prediction loss alone
+selected changes in this test; architecture, thresholds and learning rules
+remained supplied. Meta-learning is still a later enquiry.
+[Experiment 014](results/reclosure-v1/findings.md) added an evidence-tested route
+back to a coarse interface. It improved final coarse recovery in remapping
+from 4/10 to 10/10 and preserved needed detail in every persistent-breach run.
+The overall criterion failed: initial transfer and temporary-breach return
+each passed only 7/10. The new operation reduced late parent raw reads by 40%
+on average while leaving some useful reclosures unconfirmed within the budget.
+This rounds out the operations with explicit limits on their reliability;
+it does not establish learned consolidation or meta-learning.
+[Experiment 015](results/form-retention-v1/findings.md) isolated protection of
+an established local form. Earned corroboration preserved immediate acquisition
+and prevented every harmful replacement during a brief misleading burst, while
+uniform corroboration delayed discovery. The combined criterion failed because
+post-change prediction loss rose beyond its allowance when change persisted.
+This adds an explicit distinction between provisional discovery and protected
+retention, with a measured adaptation cost. It has not been integrated into
+the nested learner, and the protection rule remains constructed.
+The [capability consolidation](results/relationships-interfaces-synthesis.md)
+records what is learned, what remains supplied, and the unresolved questions.
+No automatic progression follows from these completed runs.
 
 ## Suggested investigation sequence
 

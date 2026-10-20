@@ -1,0 +1,8 @@
+{
+  "experiments/bundle_retention_protocol.md": "0918264cee7a866f64a258a2da1104dbf0e6659cd3b625111c9cbd5a65045b6b",
+  "experiments/bundle_retention.py": "2e37a110a856b947a55ca36d09d2c2a19f764209e95e12d5001ccecaa085c68c",
+  "checks/test_bundle_retention.py": "c4b31247dfd66938b038d7aeeb38125644a1f24d60782371dcd8a7f5930f8dca",
+  "checks/audit_bundle_retention.py": "a89a2c856f5d1144d40b74f7fbec3af0f40af1fbfe8894a832eb4b78ac8b1355",
+  "experiments/bundles.py": "1c08dc3bb3ed08748232b90f607de627ebb7492d0587bdbb215130b95dc40b7a",
+  "checks/audit_bundles.py": "ef66d7bfb25db5218800436e237a6cc90e3fa282bf0feba0609dc82d8f175bb9"
+}

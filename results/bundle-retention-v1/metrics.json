@@ -1,0 +1,5127 @@
+{
+  "comparison": {
+    "groups": [
+      {
+        "branch": "reversible",
+        "variant": "iid_single",
+        "runs": 10,
+        "passes": 3,
+        "endpoint_passes": 3,
+        "persistent_preserved": null,
+        "departures": null,
+        "pair_phase_coverage": [
+          7,
+          8
+        ],
+        "mean_visited_fraction": [
+          0.7363636363636363,
+          0.759090909090909
+        ],
+        "endpoint_loss": [
+          0.44757917769884714,
+          0.34068844301224166,
+          0.4133639085036874
+        ],
+        "main_loss": 0.5481780133572569,
+        "phase_main_loss": [
+          0.5801763509783168,
+          0.4700860508280278,
+          0.5942716382654261
+        ],
+        "transition64_loss": [
+          0.8530508352979318,
+          0.9504750860448035
+        ],
+        "vetoes": 0
+      },
+      {
+        "branch": "reversible",
+        "variant": "deck_single",
+        "runs": 10,
+        "passes": 7,
+        "endpoint_passes": 7,
+        "persistent_preserved": null,
+        "departures": null,
+        "pair_phase_coverage": [
+          10,
+          9
+        ],
+        "mean_visited_fraction": [
+          1.0,
+          0.8772727272727273
+        ],
+        "endpoint_loss": [
+          0.34083215343996204,
+          0.33958262569344116,
+          0.377054509171831
+        ],
+        "main_loss": 0.5327170458371232,
+        "phase_main_loss": [
+          0.529966959137314,
+          0.47047745971212823,
+          0.5977067186619274
+        ],
+        "transition64_loss": [
+          0.8960229030654913,
+          0.9716545435644408
+        ],
+        "vetoes": 0
+      },
+      {
+        "branch": "reversible",
+        "variant": "iid_split",
+        "runs": 10,
+        "passes": 3,
+        "endpoint_passes": 3,
+        "persistent_preserved": null,
+        "departures": null,
+        "pair_phase_coverage": [
+          7,
+          9
+        ],
+        "mean_visited_fraction": [
+          0.7409090909090909,
+          0.7772727272727273
+        ],
+        "endpoint_loss": [
+          0.48431735687860344,
+          0.34190411437187723,
+          0.3782107320291112
+        ],
+        "main_loss": 0.5438768803985919,
+        "phase_main_loss": [
+          0.5945845070480739,
+          0.46225198087242225,
+          0.5747941532752797
+        ],
+        "transition64_loss": [
+          0.828907469490884,
+          0.9489275164099924
+        ],
+        "vetoes": 7
+      },
+      {
+        "branch": "reversible",
+        "variant": "deck_split",
+        "runs": 10,
+        "passes": 6,
+        "endpoint_passes": 6,
+        "persistent_preserved": null,
+        "departures": null,
+        "pair_phase_coverage": [
+          10,
+          9
+        ],
+        "mean_visited_fraction": [
+          1.0,
+          0.8727272727272727
+        ],
+        "endpoint_loss": [
+          0.37630554671067434,
+          0.34016542249062287,
+          0.377054509171831
+        ],
+        "main_loss": 0.5405375497130187,
+        "phase_main_loss": [
+          0.5599512874455543,
+          0.4673238756274524,
+          0.5943374860660494
+        ],
+        "transition64_loss": [
+          0.8837217740918986,
+          0.9692345902788259
+        ],
+        "vetoes": 12
+      },
+      {
+        "branch": "persistent",
+        "variant": "iid_single",
+        "runs": 10,
+        "passes": 7,
+        "endpoint_passes": 7,
+        "persistent_preserved": 9,
+        "departures": 0,
+        "pair_phase_coverage": [
+          7,
+          9
+        ],
+        "mean_visited_fraction": [
+          0.7363636363636363,
+          0.75
+        ],
+        "endpoint_loss": [
+          0.44757917769884714,
+          0.3778754025664831,
+          0.3782107320291112
+        ],
+        "main_loss": 0.4657425169802388,
+        "phase_main_loss": [
+          0.5801763509783168,
+          0.43302549560257997,
+          0.38402570435981964
+        ],
+        "transition64_loss": [
+          0.4748509433222689,
+          0.35041083266489526
+        ],
+        "vetoes": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "deck_single",
+        "runs": 10,
+        "passes": 10,
+        "endpoint_passes": 10,
+        "persistent_preserved": 10,
+        "departures": 0,
+        "pair_phase_coverage": [
+          10,
+          10
+        ],
+        "mean_visited_fraction": [
+          1.0,
+          0.8772727272727273
+        ],
+        "endpoint_loss": [
+          0.34083215343996204,
+          0.34373130072708646,
+          0.34214881964850435
+        ],
+        "main_loss": 0.40904238071962074,
+        "phase_main_loss": [
+          0.529966959137314,
+          0.3495959599801639,
+          0.34756422304138446
+        ],
+        "transition64_loss": [
+          0.3645307247181416,
+          0.30696898867351435
+        ],
+        "vetoes": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "iid_split",
+        "runs": 10,
+        "passes": 6,
+        "endpoint_passes": 6,
+        "persistent_preserved": 9,
+        "departures": 0,
+        "pair_phase_coverage": [
+          7,
+          9
+        ],
+        "mean_visited_fraction": [
+          0.7409090909090909,
+          0.7454545454545455
+        ],
+        "endpoint_loss": [
+          0.48431735687860344,
+          0.4135375894077909,
+          0.3782107320291112
+        ],
+        "main_loss": 0.48794363104822364,
+        "phase_main_loss": [
+          0.5945845070480739,
+          0.46574496603037124,
+          0.4035014200662258
+        ],
+        "transition64_loss": [
+          0.5055187981634156,
+          0.39613059721147326
+        ],
+        "vetoes": 1
+      },
+      {
+        "branch": "persistent",
+        "variant": "deck_split",
+        "runs": 10,
+        "passes": 9,
+        "endpoint_passes": 9,
+        "persistent_preserved": 10,
+        "departures": 0,
+        "pair_phase_coverage": [
+          10,
+          10
+        ],
+        "mean_visited_fraction": [
+          1.0,
+          0.8772727272727273
+        ],
+        "endpoint_loss": [
+          0.37630554671067434,
+          0.34373130072708646,
+          0.34214881964850435
+        ],
+        "main_loss": 0.4250604094874419,
+        "phase_main_loss": [
+          0.5599512874455543,
+          0.36766571797538694,
+          0.34756422304138446
+        ],
+        "transition64_loss": [
+          0.40765679417543427,
+          0.30696898867351435
+        ],
+        "vetoes": 1
+      }
+    ],
+    "paired": [
+      {
+        "branch": "reversible",
+        "from": "iid_single",
+        "to": "deck_single",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.03531386177030715,
+            "pass_delta": 1
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.03637415099011876,
+            "pass_delta": 1
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.03973550900394496,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.024984340640618274,
+            "pass_delta": 1
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.08573651363697787,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.05549770328540071,
+            "pass_delta": 1
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.022935280366901678,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0032510002226614487,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.06323677641624548,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.04210510131665102,
+            "pass_delta": 0
+          }
+        ]
+      },
+      {
+        "branch": "reversible",
+        "from": "iid_split",
+        "to": "deck_split",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.07358924844305481,
+            "pass_delta": 1
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.03637415099011876,
+            "pass_delta": 1
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.03973550900394496,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.03725804065500449,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.08573651363697787,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.05514096024528958,
+            "pass_delta": 1
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.025250679760314754,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.004942939154359394,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.013637370903392787,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.051149466809240596,
+            "pass_delta": 0
+          }
+        ]
+      },
+      {
+        "branch": "reversible",
+        "from": "iid_single",
+        "to": "iid_split",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.042869337447392186,
+            "pass_delta": 0
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.024857795920808834,
+            "pass_delta": 1
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.00044891838071559054,
+            "pass_delta": -1
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.06147178949394816,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          }
+        ]
+      },
+      {
+        "branch": "reversible",
+        "from": "deck_single",
+        "to": "deck_split",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0045939507746445285,
+            "pass_delta": 0
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.012584095906422621,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.00035674304011112934,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.002764317774128666,
+            "pass_delta": -1
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.001691938931697945,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.011872383981095469,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.09325456812589161,
+            "pass_delta": 0
+          }
+        ]
+      },
+      {
+        "branch": "persistent",
+        "from": "iid_single",
+        "to": "deck_single",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.056329730228733554,
+            "pass_delta": 0
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0397355090039449,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.047837890343221945,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.1802073776985319,
+            "pass_delta": 1
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.2770577242446832,
+            "pass_delta": 1
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.05468341985980618,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.018372738741396943,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.17729061089980785,
+            "pass_delta": 1
+          }
+        ]
+      },
+      {
+        "branch": "persistent",
+        "from": "iid_split",
+        "to": "deck_split",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.2783408709085819,
+            "pass_delta": 1
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0397355090039449,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.047837890343221945,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.1802073776985319,
+            "pass_delta": 1
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.2770577242446832,
+            "pass_delta": 1
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.05468341985980618,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": -0.018372738741396943,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": -0.017110323221596335,
+            "pass_delta": 0
+          }
+        ]
+      },
+      {
+        "branch": "persistent",
+        "from": "iid_single",
+        "to": "iid_split",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.22201114067984834,
+            "pass_delta": -1
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          }
+        ]
+      },
+      {
+        "branch": "persistent",
+        "from": "deck_single",
+        "to": "deck_split",
+        "pairs": [
+          {
+            "seed": 100,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 100,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 101,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 102,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 103,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 100,
+            "main_loss_delta": 0.0,
+            "pass_delta": 0
+          },
+          {
+            "seed": 104,
+            "proposal_seed": 101,
+            "main_loss_delta": 0.16018028767821152,
+            "pass_delta": -1
+          }
+        ]
+      }
+    ],
+    "primary_pass": false
+  },
+  "totals": {
+    "runs": 80,
+    "generated_world_records": 17280,
+    "outcome_presentations": 138240,
+    "base_evaluation_predictions": 184320,
+    "additional_ablation_predictions": 264064,
+    "costs": {
+      "main_prediction_feature_reads": 122624,
+      "count_refits": 92160,
+      "count_refit_rows": 16227840,
+      "refit_feature_reads": 23283968,
+      "candidate_fits": 5760,
+      "candidate_fit_rows": 1044480,
+      "candidate_fit_feature_reads": 1730816,
+      "candidate_score_feature_reads": 1730816,
+      "selection_outcomes": 46080,
+      "selection_prediction_feature_reads": 119584
+    }
+  },
+  "runs": [
+    {
+      "world": "100-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.561569132184981,
+          0.49332234838525446,
+          0.5615042772147446
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.8806466163621725
+        ],
+        "main_loss": 0.5387985859283266,
+        "first_successful_review": {
+          "384": 256,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1824
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39257994149878034,
+          0.4855285724931653,
+          0.6323456584821129
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.8947213283627881
+        ],
+        "main_loss": 0.5034847241580195,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 1024
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 5,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 303232,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21888,
+        "candidate_score_feature_reads": 21888,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.7056506928825516,
+          0.4760488877198931,
+          0.5633041895247118
+        ],
+        "transition64_loss": [
+          0.687301344116213,
+          0.8914460902219755
+        ],
+        "main_loss": 0.5816679233757188,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 960,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 2,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39257994149878034,
+          0.49953750815473186,
+          0.6321185751444799
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.8947213283627881
+        ],
+        "main_loss": 0.508078674932664,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 1024
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 2,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 303232,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21888,
+        "candidate_score_feature_reads": 21888,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.5036216155893554,
+          0.4241717800581126
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.6949258278152665
+        ],
+        "main_loss": 0.5201648071399805,
+        "first_successful_review": {
+          "384": 320,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20288,
+        "candidate_score_feature_reads": 20288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.49953750815473186,
+          0.5373783404630924
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.8947213283627881
+        ],
+        "main_loss": 0.5565389581300992,
+        "first_successful_review": {
+          "384": 320,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1216,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 233472,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.5036216155893554,
+          0.4241717800581126
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.6949258278152665
+        ],
+        "main_loss": 0.5201648071399805,
+        "first_successful_review": {
+          "384": 320,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20288,
+        "candidate_score_feature_reads": 20288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "100-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.49953750815473186,
+          0.5373783404630924
+        ],
+        "transition64_loss": [
+          0.9287350021866908,
+          0.8947213283627881
+        ],
+        "main_loss": 0.5565389581300992,
+        "first_successful_review": {
+          "384": 320,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1216,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 233472,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.561569132184981,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.41370833960272907,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39257994149878034,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.3573786093739955,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.7056506928825516,
+          0.6998510803690524,
+          0.5016566675961283
+        ],
+        "transition64_loss": [
+          0.697464027603083,
+          0.7022111333443313
+        ],
+        "main_loss": 0.6357194802825774,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 960,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 1,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 384,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 73728,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 992
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39257994149878034,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.3573786093739955,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.4374189707985598,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20288,
+        "candidate_score_feature_reads": 20288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.4374189707985598,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.4374189707985598,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20288,
+        "candidate_score_feature_reads": 20288,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376
+      }
+    },
+    {
+      "world": "100-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6327010257724732,
+          0.37265637609113933,
+          0.30689951053206693
+        ],
+        "transition64_loss": [
+          0.39078547919161644,
+          0.24501348787855112
+        ],
+        "main_loss": 0.4374189707985598,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.4337241101945635,
+          0.4564573496218867,
+          0.5247224192393845
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.47163462635194486,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327808,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5529306372063981,
+          0.4564573496218867,
+          0.5247224192393845
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.5113701353558898,
+        "first_successful_review": {
+          "384": 192,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1536,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 294912,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22080,
+        "candidate_score_feature_reads": 22080,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.4337241101945635,
+          0.4564573496218867,
+          0.5247224192393845
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.47163462635194486,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 327808,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5529306372063981,
+          0.4564573496218867,
+          0.5247224192393845
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.5113701353558898,
+        "first_successful_review": {
+          "384": 192,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1536,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 294912,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22080,
+        "candidate_score_feature_reads": 22080,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1568
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5132694693643925,
+          0.5499142430787853,
+          0.5514785499495058
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.0191197677556625
+        ],
+        "main_loss": 0.5382207541308945,
+        "first_successful_review": {
+          "384": 128,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [
+          448,
+          704
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 6,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 315456,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 19904,
+        "candidate_score_feature_reads": 19904,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6567831403940586,
+          0.5081097246810955,
+          0.5247224192393845
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.5632050947715128,
+        "first_successful_review": {
+          "384": 320,
+          "768": 640,
+          "1152": 960
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 5,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5132694693643925,
+          0.4705901606902622,
+          0.5562292445756024
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.5133629582100857,
+        "first_successful_review": {
+          "384": 128,
+          "768": 576,
+          "1152": 960
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [
+          576
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 1,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 315456,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 19712,
+        "candidate_score_feature_reads": 19712,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "101-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6567831403940586,
+          0.4703574369618276,
+          0.5247224192393845
+        ],
+        "transition64_loss": [
+          0.8624211308119346,
+          1.047623935512242
+        ],
+        "main_loss": 0.5506209988650902,
+        "first_successful_review": {
+          "384": 320,
+          "768": 640,
+          "1152": 960
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [
+          640
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 1,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1472,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 282624,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1440
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.4337241101945635,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.3871817022228315,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1856
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5529306372063981,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.4269172112267764,
+        "first_successful_review": {
+          "384": 192,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1632
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.4337241101945635,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.3871817022228315,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1856
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5529306372063981,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.4269172112267764,
+        "first_successful_review": {
+          "384": 192,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1632
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5132694693643925,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.4136968219461079,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 19712,
+        "candidate_score_feature_reads": 19712,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6567831403940586,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.46153471228932985,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5132694693643925,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.4136968219461079,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 19712,
+        "candidate_score_feature_reads": 19712,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "101-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.6567831403940586,
+          0.3542922598524462,
+          0.37352873662148484
+        ],
+        "transition64_loss": [
+          0.36222080446684346,
+          0.3651227449954805
+        ],
+        "main_loss": 0.46153471228932985,
+        "first_successful_review": {
+          "384": 320,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 320,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 319488,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.49540843649047345,
+          0.43807383675204525
+        ],
+        "transition64_loss": [
+          0.6993949949474745,
+          0.7720278424878282
+        ],
+        "main_loss": 0.5453594548406614,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": 896
+        },
+        "first_successful_pair": 576,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 2,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.43867524119794366,
+          0.5021197456610618,
+          0.43807383675204525
+        ],
+        "transition64_loss": [
+          0.8527496889173082,
+          0.7720278424878282
+        ],
+        "main_loss": 0.4596229412036835,
+        "first_successful_review": {
+          "384": 128,
+          "768": null,
+          "1152": 896
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.49540843649047345,
+          0.43807383675204525
+        ],
+        "transition64_loss": [
+          0.6993949949474745,
+          0.7720278424878282
+        ],
+        "main_loss": 0.5453594548406614,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": 896
+        },
+        "first_successful_pair": 576,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 2,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.43867524119794366,
+          0.5021197456610618,
+          0.43807383675204525
+        ],
+        "transition64_loss": [
+          0.8527496889173082,
+          0.7720278424878282
+        ],
+        "main_loss": 0.4596229412036835,
+        "first_successful_review": {
+          "384": 128,
+          "768": null,
+          "1152": 896
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.44647982266446395,
+          0.7490371615501916
+        ],
+        "transition64_loss": [
+          0.6993949949474745,
+          0.9717950071732174
+        ],
+        "main_loss": 0.6327043584980403,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "first_successful_pair": null,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 2,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 384,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 73728,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20864,
+        "candidate_score_feature_reads": 20864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 896
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5616032553228343,
+          0.47203893832610294,
+          0.6979777719889815
+        ],
+        "transition64_loss": [
+          0.8527496889173082,
+          0.9717950071732174
+        ],
+        "main_loss": 0.5772066552126396,
+        "first_successful_review": {
+          "384": 256,
+          "768": 512,
+          "1152": 1088
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 960,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 184320,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1280
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.44647982266446395,
+          0.7490371615501916
+        ],
+        "transition64_loss": [
+          0.6993949949474745,
+          0.9717950071732174
+        ],
+        "main_loss": 0.6327043584980403,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "first_successful_pair": null,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 2,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 384,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 73728,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20864,
+        "candidate_score_feature_reads": 20864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 896
+      }
+    },
+    {
+      "world": "102-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5616032553228343,
+          0.47203893832610294,
+          0.699048001109315
+        ],
+        "transition64_loss": [
+          0.8527496889173082,
+          0.9717950071732174
+        ],
+        "main_loss": 0.5775633982527507,
+        "first_successful_review": {
+          "384": 256,
+          "768": 512,
+          "1152": 1088
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 2,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1376
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.6483577425577273,
+          0.337353449880841
+        ],
+        "transition64_loss": [
+          0.7029934012378154,
+          0.2644430359253573
+        ],
+        "main_loss": 0.5627690945726779,
+        "first_successful_review": {
+          "384": null,
+          "768": 704,
+          "1152": 832
+        },
+        "first_successful_pair": 704,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 896,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 172032,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1248
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.43867524119794366,
+          0.37165645954365334,
+          0.337353449880841
+        ],
+        "transition64_loss": [
+          0.3670226555036421,
+          0.2644430359253573
+        ],
+        "main_loss": 0.382561716874146,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.6483577425577273,
+          0.337353449880841
+        ],
+        "transition64_loss": [
+          0.7029934012378154,
+          0.2644430359253573
+        ],
+        "main_loss": 0.5627690945726779,
+        "first_successful_review": {
+          "384": null,
+          "768": 704,
+          "1152": 832
+        },
+        "first_successful_pair": 704,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 896,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 172032,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1248
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.43867524119794366,
+          0.37165645954365334,
+          0.337353449880841
+        ],
+        "transition64_loss": [
+          0.3670226555036421,
+          0.2644430359253573
+        ],
+        "main_loss": 0.382561716874146,
+        "first_successful_review": {
+          "384": 128,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 128,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2048,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.6972219831367201,
+          0.7019682630651927
+        ],
+        "transition64_loss": [
+          0.7029934012378154,
+          0.6988614758391661
+        ],
+        "main_loss": 0.7005954458271261,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "first_successful_pair": null,
+        "correct_pair_departures": [],
+        "persistent_preservation": false,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 0,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 0,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 0,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21440,
+        "candidate_score_feature_reads": 21440,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 736
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5616032553228343,
+          0.37165645954365334,
+          0.337353449880841
+        ],
+        "transition64_loss": [
+          0.3670226555036421,
+          0.2644430359253573
+        ],
+        "main_loss": 0.42353772158244285,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7025960912794653,
+          0.6972219831367201,
+          0.7019682630651927
+        ],
+        "transition64_loss": [
+          0.7029934012378154,
+          0.6988614758391661
+        ],
+        "main_loss": 0.7005954458271261,
+        "first_successful_review": {
+          "384": null,
+          "768": null,
+          "1152": null
+        },
+        "first_successful_pair": null,
+        "correct_pair_departures": [],
+        "persistent_preservation": false,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 0,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 0,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 0,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21440,
+        "candidate_score_feature_reads": 21440,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 736
+      }
+    },
+    {
+      "world": "102-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5616032553228343,
+          0.37165645954365334,
+          0.337353449880841
+        ],
+        "transition64_loss": [
+          0.3670226555036421,
+          0.2644430359253573
+        ],
+        "main_loss": 0.42353772158244285,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39999441415885834,
+          0.4799577520459821,
+          0.606505998087876
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.97198625429619
+        ],
+        "main_loss": 0.49548605476423885,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1664,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 303232,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1664
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.4799577520459821,
+          0.5112615796091625
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.97198625429619
+        ],
+        "main_loss": 0.5184213351311405,
+        "first_successful_review": {
+          "384": 256,
+          "768": 512,
+          "1152": 960
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22080,
+        "candidate_score_feature_reads": 22080,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39999441415885834,
+          0.4922839608443931,
+          0.5955265444316119
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.9477867214400404
+        ],
+        "main_loss": 0.49593497314495444,
+        "first_successful_review": {
+          "384": 64,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 5,
+        "vetoes": 2,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2112,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 389248,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1920
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.4922839608443931,
+          0.5072283241331376
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.9477867214400404
+        ],
+        "main_loss": 0.5211856529052692,
+        "first_successful_review": {
+          "384": 256,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 2,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21888,
+        "candidate_score_feature_reads": 21888,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1728
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.48565906179962387,
+          0.6596204454288594
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.97198625429619
+        ],
+        "main_loss": 0.5697747269889201,
+        "first_successful_review": {
+          "384": 256,
+          "768": 512,
+          "1152": 1024
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1088,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 208896,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20480,
+        "candidate_score_feature_reads": 20480,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1248
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.48455261121073084,
+          0.670479896685737
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.97198625429619
+        ],
+        "main_loss": 0.5730257272115815,
+        "first_successful_review": {
+          "384": 256,
+          "768": 640,
+          "1152": 1024
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 5,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.48565906179962387,
+          0.6596204454288594
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.97198625429619
+        ],
+        "main_loss": 0.5697747269889201,
+        "first_successful_review": {
+          "384": 256,
+          "768": 512,
+          "1152": 1024
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1088,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 208896,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20480,
+        "candidate_score_feature_reads": 20480,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1248
+      }
+    },
+    {
+      "world": "103-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.48493579524591773,
+          0.6751725294456437
+        ],
+        "transition64_loss": [
+          1.0190105181595164,
+          0.97198625429619
+        ],
+        "main_loss": 0.5747176661432795,
+        "first_successful_review": {
+          "384": 256,
+          "768": 640,
+          "1152": 1024
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          512
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 5,
+        "vetoes": 2,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1408,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 270336,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39999441415885834,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.3772785132421823,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1856
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.4319619331019885,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1600
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.39999441415885834,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.3772785132421823,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22592,
+        "candidate_score_feature_reads": 22592,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1856
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.4319619331019885,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1600
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.4319619331019885,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20096,
+        "candidate_score_feature_reads": 20096,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.4319619331019885,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.4319619331019885,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20096,
+        "candidate_score_feature_reads": 20096,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1408
+      }
+    },
+    {
+      "world": "103-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.5640446737382768,
+          0.3429799667664201,
+          0.38886115880126854
+        ],
+        "transition64_loss": [
+          0.4369108132545004,
+          0.3855281147928772
+        ],
+        "main_loss": 0.4319619331019885,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1536
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5871111251430309,
+          0.4066309248125842,
+          0.781046611270854
+        ],
+        "transition64_loss": [
+          0.8171981752520063,
+          1.0873196773746328
+        ],
+        "main_loss": 0.591596220408823,
+        "first_successful_review": {
+          "384": 256,
+          "768": 512,
+          "1152": null
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 15,
+            "fraction": 0.6818181818181818
+          }
+        },
+        "accepted_changes": 6,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1280,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 245760,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22976,
+        "candidate_score_feature_reads": 22976,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1504
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5319929089188401,
+          0.41256155951200246,
+          0.6405238635468898
+        ],
+        "transition64_loss": [
+          0.8171981752520063,
+          1.056739872266289
+        ],
+        "main_loss": 0.5283594439925775,
+        "first_successful_review": {
+          "384": 192,
+          "768": null,
+          "1152": 1024
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 5,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21888,
+        "candidate_score_feature_reads": 21888,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5871111251430309,
+          0.41256155951200246,
+          0.590700608089591
+        ],
+        "transition64_loss": [
+          0.8171981752520063,
+          1.056739872266289
+        ],
+        "main_loss": 0.5301244309148748,
+        "first_successful_review": {
+          "384": 256,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 2,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1792
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5319929089188401,
+          0.41256155951200246,
+          0.6049067116036034
+        ],
+        "transition64_loss": [
+          0.8171981752520063,
+          1.056739872266289
+        ],
+        "main_loss": 0.516487060011482,
+        "first_successful_review": {
+          "384": 192,
+          "768": null,
+          "1152": 960
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 1,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1856,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 356352,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1824
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7041573766676609,
+          0.38340895379186823,
+          0.6465553031026868
+        ],
+        "transition64_loss": [
+          0.6941868855160788,
+          1.0873196773746328
+        ],
+        "main_loss": 0.5780405445207386,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": 1024
+        },
+        "first_successful_pair": 1024,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20864,
+        "candidate_score_feature_reads": 20864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 992
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.4043140935852572,
+          0.40391083541452283,
+          0.7995814006124828
+        ],
+        "transition64_loss": [
+          0.8171981752520063,
+          1.0873196773746328
+        ],
+        "main_loss": 0.5359354432040876,
+        "first_successful_review": {
+          "384": 64,
+          "768": 512,
+          "1152": null
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [
+          448
+        ],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 4,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1344,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 241792,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1472
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7041573766676609,
+          0.38340895379186823,
+          0.6465553031026868
+        ],
+        "transition64_loss": [
+          0.6941868855160788,
+          1.0873196773746328
+        ],
+        "main_loss": 0.5780405445207386,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": 1024
+        },
+        "first_successful_pair": 1024,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 640,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 122880,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20864,
+        "candidate_score_feature_reads": 20864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 992
+      }
+    },
+    {
+      "world": "104-reversible",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7041573766676609,
+          0.38340895379186823,
+          0.8000037035304084
+        ],
+        "transition64_loss": [
+          0.6941868855160788,
+          1.0873196773746328
+        ],
+        "main_loss": 0.6291900113299792,
+        "first_successful_review": {
+          "384": null,
+          "768": 512,
+          "1152": null
+        },
+        "first_successful_pair": null,
+        "correct_pair_departures": [],
+        "persistent_preservation": null,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": false,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          }
+        },
+        "accepted_changes": 3,
+        "vetoes": 2,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 704,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 135168,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1120
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5871111251430309,
+          0.3063947376471604,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.2657138711741054,
+          0.27473755977530573
+        ],
+        "main_loss": 0.40822804072048413,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5319929089188401,
+          0.3063947376471604,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.2657138711741054,
+          0.27473755977530573
+        ],
+        "main_loss": 0.3898553019790872,
+        "first_successful_review": {
+          "384": 192,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5871111251430309,
+          0.3063947376471604,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.2657138711741054,
+          0.27473755977530573
+        ],
+        "main_loss": 0.40822804072048413,
+        "first_successful_review": {
+          "384": 256,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 256,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 18,
+            "fraction": 0.8181818181818182
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 17,
+            "fraction": 0.7727272727272727
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1792,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 344064,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 22784,
+        "candidate_score_feature_reads": 22784,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 100,
+      "metrics": {
+        "phase_main_loss": [
+          0.5319929089188401,
+          0.3063947376471604,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.2657138711741054,
+          0.27473755977530573
+        ],
+        "main_loss": 0.3898553019790872,
+        "first_successful_review": {
+          "384": 192,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 192,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 20,
+            "fraction": 0.9090909090909091
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1920,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 368640,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21696,
+        "candidate_score_feature_reads": 21696,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "iid_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7041573766676609,
+          0.5384232872641803,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.6969745657470325,
+          0.27473755977530573
+        ],
+        "main_loss": 0.5245863077677008,
+        "first_successful_review": {
+          "384": null,
+          "768": 640,
+          "1152": 832
+        },
+        "first_successful_pair": 640,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1024,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 196608,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20864,
+        "candidate_score_feature_reads": 20864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1216
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "deck_single",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.4043140935852572,
+          0.3063947376471604,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.2657138711741054,
+          0.27473755977530573
+        ],
+        "main_loss": 0.3472956968678929,
+        "first_successful_review": {
+          "384": 64,
+          "768": 448,
+          "1152": 832
+        },
+        "first_successful_pair": 64,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": true,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": true
+      },
+      "costs": {
+        "main_prediction_feature_reads": 2176,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 401536,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21120,
+        "candidate_score_feature_reads": 21120,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1696
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "iid_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7041573766676609,
+          0.5384232872641803,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.6969745657470325,
+          0.27473755977530573
+        ],
+        "main_loss": 0.5245863077677008,
+        "first_successful_review": {
+          "384": null,
+          "768": 640,
+          "1152": 832
+        },
+        "first_successful_pair": 640,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": false,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 16,
+            "fraction": 0.7272727272727273
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 0,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1024,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 196608,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 20864,
+        "candidate_score_feature_reads": 20864,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1216
+      }
+    },
+    {
+      "world": "104-persistent",
+      "variant": "deck_split",
+      "proposal_seed": 101,
+      "metrics": {
+        "phase_main_loss": [
+          0.7041573766676609,
+          0.48709231759939126,
+          0.3311782593712611
+        ],
+        "transition64_loss": [
+          0.6969745657470325,
+          0.27473755977530573
+        ],
+        "main_loss": 0.5074759845461044,
+        "first_successful_review": {
+          "384": null,
+          "768": 576,
+          "1152": 832
+        },
+        "first_successful_pair": 576,
+        "correct_pair_departures": [],
+        "persistent_preservation": true,
+        "endpoint_pass": false,
+        "coverage": {
+          "384": {
+            "relevant_seen": true,
+            "visited": 22,
+            "fraction": 1.0
+          },
+          "1152": {
+            "relevant_seen": true,
+            "visited": 19,
+            "fraction": 0.8636363636363636
+          }
+        },
+        "accepted_changes": 1,
+        "vetoes": 1,
+        "pass": false
+      },
+      "costs": {
+        "main_prediction_feature_reads": 1152,
+        "count_refits": 1152,
+        "count_refit_rows": 202848,
+        "refit_feature_reads": 221184,
+        "candidate_fits": 72,
+        "candidate_fit_rows": 13056,
+        "candidate_fit_feature_reads": 21504,
+        "candidate_score_feature_reads": 21504,
+        "selection_outcomes": 576,
+        "selection_prediction_feature_reads": 1216
+      }
+    }
+  ]
+}

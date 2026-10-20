@@ -1,0 +1,3986 @@
+{
+  "summary": {
+    "groups": [
+      {
+        "branch": "persistent",
+        "variant": "failure_only",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 2,
+        "affected_fine_final_valid": 2,
+        "transient_trajectories": 0,
+        "main_loss": 0.36909006653481846,
+        "after384_loss": 0.3411847153919696,
+        "late_raw_reads": 0.65,
+        "reclosures": 0,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "persistent",
+        "variant": "reclose",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 8,
+        "affected_fine_final_valid": 0,
+        "transient_trajectories": 0,
+        "main_loss": 0.36766624182569696,
+        "after384_loss": 0.33835139088743155,
+        "late_raw_reads": 0.275,
+        "reclosures": 10,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "failure_only",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 4,
+        "affected_fine_final_valid": 3,
+        "transient_trajectories": 0,
+        "main_loss": 0.43249174355297043,
+        "after384_loss": 0.34066146744718556,
+        "late_raw_reads": 0.6,
+        "reclosures": 0,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "remap",
+        "variant": "reclose",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 10,
+        "affected_fine_final_valid": 0,
+        "transient_trajectories": 0,
+        "main_loss": 0.42631533974570573,
+        "after384_loss": 0.33137952993403785,
+        "late_raw_reads": 0.1,
+        "reclosures": 7,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "breach",
+        "variant": "failure_only",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 0,
+        "affected_fine_final_valid": 10,
+        "transient_trajectories": 0,
+        "main_loss": 0.42788335835143165,
+        "after384_loss": 0.3489366111203902,
+        "late_raw_reads": 1,
+        "reclosures": 0,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "breach",
+        "variant": "reclose",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 0,
+        "affected_fine_final_valid": 10,
+        "transient_trajectories": 0,
+        "main_loss": 0.42788335835143165,
+        "after384_loss": 0.3489366111203902,
+        "late_raw_reads": 1,
+        "reclosures": 0,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "transient",
+        "variant": "failure_only",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 0,
+        "affected_fine_final_valid": 8,
+        "transient_trajectories": 0,
+        "main_loss": 0.4867853747878274,
+        "after384_loss": 0.46674064399318177,
+        "late_raw_reads": 1,
+        "reclosures": 0,
+        "reclosures_during_breach": 0
+      },
+      {
+        "branch": "transient",
+        "variant": "reclose",
+        "transfer_valid": 7,
+        "final_valid": 10,
+        "coarse_final_valid": 7,
+        "affected_fine_final_valid": 3,
+        "transient_trajectories": 7,
+        "main_loss": 0.4882611332416447,
+        "after384_loss": 0.4696921609008164,
+        "late_raw_reads": 0.6,
+        "reclosures": 7,
+        "reclosures_during_breach": 0
+      }
+    ],
+    "paired": [
+      {
+        "branch": "persistent",
+        "seed": 400,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 400,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0.0
+      },
+      {
+        "branch": "persistent",
+        "seed": 401,
+        "proposal_seed": 400,
+        "main_cost": 0.005310341024138354,
+        "after384_cost": 0.009209152550030797,
+        "late_read_reduction": 0.25
+      },
+      {
+        "branch": "persistent",
+        "seed": 401,
+        "proposal_seed": 401,
+        "main_cost": 0.005310341024138354,
+        "after384_cost": 0.009209152550030797,
+        "late_read_reduction": 0.25
+      },
+      {
+        "branch": "persistent",
+        "seed": 402,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 402,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "persistent",
+        "seed": 403,
+        "proposal_seed": 400,
+        "main_cost": -0.008513211431539325,
+        "after384_cost": -0.014771423431861719,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "persistent",
+        "seed": 403,
+        "proposal_seed": 401,
+        "main_cost": -0.008513211431539325,
+        "after384_cost": -0.014771423431861719,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "persistent",
+        "seed": 404,
+        "proposal_seed": 400,
+        "main_cost": -8.416417703777102e-05,
+        "after384_cost": -0.0009401737185215087,
+        "late_read_reduction": 0.5
+      },
+      {
+        "branch": "persistent",
+        "seed": 404,
+        "proposal_seed": 401,
+        "main_cost": -0.007748342099375638,
+        "after384_cost": -0.01626852956319713,
+        "late_read_reduction": 0.75
+      },
+      {
+        "branch": "remap",
+        "seed": 400,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "remap",
+        "seed": 400,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "remap",
+        "seed": 401,
+        "proposal_seed": 400,
+        "main_cost": -0.01622381030873188,
+        "after384_cost": -0.026314579895587942,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "remap",
+        "seed": 401,
+        "proposal_seed": 401,
+        "main_cost": -0.007854754204515146,
+        "after384_cost": -0.009576467687154477,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "remap",
+        "seed": 402,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "remap",
+        "seed": 402,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "remap",
+        "seed": 403,
+        "proposal_seed": 400,
+        "main_cost": -0.016144149972564137,
+        "after384_cost": -0.01724473066270321,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "remap",
+        "seed": 403,
+        "proposal_seed": 401,
+        "main_cost": -0.004842312494821699,
+        "after384_cost": -0.006084639402613001,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "remap",
+        "seed": 404,
+        "proposal_seed": 400,
+        "main_cost": -0.006600039833166982,
+        "after384_cost": -0.018035351922937926,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "remap",
+        "seed": 404,
+        "proposal_seed": 401,
+        "main_cost": -0.010098971258847067,
+        "after384_cost": -0.015563605560480587,
+        "late_read_reduction": 1
+      },
+      {
+        "branch": "breach",
+        "seed": 400,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 400,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 401,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 401,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 402,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 402,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 403,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 403,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 404,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "breach",
+        "seed": 404,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "transient",
+        "seed": 400,
+        "proposal_seed": 400,
+        "main_cost": -0.002681643066356598,
+        "after384_cost": -0.005363286132713141,
+        "late_read_reduction": 0.5
+      },
+      {
+        "branch": "transient",
+        "seed": 400,
+        "proposal_seed": 401,
+        "main_cost": -0.002681643066356598,
+        "after384_cost": -0.005363286132713141,
+        "late_read_reduction": 0.5
+      },
+      {
+        "branch": "transient",
+        "seed": 401,
+        "proposal_seed": 400,
+        "main_cost": 0.012925719231582089,
+        "after384_cost": 0.025851438463164178,
+        "late_read_reduction": 0.75
+      },
+      {
+        "branch": "transient",
+        "seed": 401,
+        "proposal_seed": 401,
+        "main_cost": 0.012925719231582089,
+        "after384_cost": 0.025851438463164178,
+        "late_read_reduction": 0.75
+      },
+      {
+        "branch": "transient",
+        "seed": 402,
+        "proposal_seed": 400,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "transient",
+        "seed": 402,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      },
+      {
+        "branch": "transient",
+        "seed": 403,
+        "proposal_seed": 400,
+        "main_cost": -0.0025869588999614113,
+        "after384_cost": -0.0051739177999227115,
+        "late_read_reduction": 0.5
+      },
+      {
+        "branch": "transient",
+        "seed": 403,
+        "proposal_seed": 401,
+        "main_cost": -0.0025869588999614113,
+        "after384_cost": -0.0051739177999227115,
+        "late_read_reduction": 0.5
+      },
+      {
+        "branch": "transient",
+        "seed": 404,
+        "proposal_seed": 400,
+        "main_cost": -0.0005566499923553292,
+        "after384_cost": -0.001113299984710714,
+        "late_read_reduction": 0.5
+      },
+      {
+        "branch": "transient",
+        "seed": 404,
+        "proposal_seed": 401,
+        "main_cost": 0.0,
+        "after384_cost": 0.0,
+        "late_read_reduction": 0
+      }
+    ],
+    "checks": {
+      "transfer": false,
+      "persistent_coarse": true,
+      "remap_coarse": true,
+      "persistent_loss_guard": true,
+      "breach_preserved": true,
+      "breach_loss_guard": true,
+      "transient_trajectories": false,
+      "transient_access_pairs": false,
+      "transient_access_mean": true,
+      "transient_loss_guard": true
+    },
+    "primary_pass": false
+  },
+  "totals": {
+    "runs": 80,
+    "allocated_label_presentations": 358400,
+    "generated_labels": 89600,
+    "evaluation_predictions": 32640,
+    "max_pending_cells_per_run": 8,
+    "costs": {
+      "candidate_fits": 10240,
+      "candidate_fit_rows": 1843200,
+      "refits": 163840,
+      "refit_rows": 28523520,
+      "upper_refits": 37888,
+      "upper_refit_rows": 7274496,
+      "upper_candidate_fits": 2880,
+      "upper_candidate_rows": 552960,
+      "feedback_labels": 358400,
+      "prediction_raw_reads": 37888,
+      "challenger_predictions": 7840,
+      "challenger_starts": 211,
+      "group_invalidations": 0,
+      "failed_witnesses": 184,
+      "accepted_reclosures": 24
+    }
+  },
+  "runs": [
+    {
+      "seed": 400,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          704
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.34904324203383436,
+        "after384_loss": 0.34474663011036566,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.08333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 64,
+        "upper_refit_rows": 12288,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 64,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          704
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.34904324203383436,
+        "after384_loss": 0.34474663011036566,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.08333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 64,
+        "upper_refit_rows": 12288,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 64,
+        "challenger_predictions": 32,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          704
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.34904324203383436,
+        "after384_loss": 0.34474663011036566,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.08333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 64,
+        "upper_refit_rows": 12288,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 64,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          704
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.34904324203383436,
+        "after384_loss": 0.34474663011036566,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.08333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 64,
+        "upper_refit_rows": 12288,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 64,
+        "challenger_predictions": 32,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4370647517818009,
+        "after384_loss": 0.33927131028211793,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4370647517818009,
+        "after384_loss": 0.33927131028211793,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4053807732863175,
+        "after384_loss": 0.33927131028211793,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4053807732863175,
+        "after384_loss": 0.33927131028211793,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4178489628703244,
+        "after384_loss": 0.3678251329273387,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4178489628703244,
+        "after384_loss": 0.3678251329273387,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4178489628703244,
+        "after384_loss": 0.3678251329273387,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4178489628703244,
+        "after384_loss": 0.3678251329273387,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.47645445671048015,
+        "after384_loss": 0.4850361206076501,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          640
+        ],
+        "hide_reviews": [
+          640
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": 640,
+        "main_loss": 0.47377281364412355,
+        "after384_loss": 0.47967283447493697,
+        "late_raw_reads": 0.5,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 288,
+        "challenger_starts": 7,
+        "group_invalidations": 0,
+        "failed_witnesses": 6,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.47645445671048015,
+        "after384_loss": 0.4850361206076501,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 400,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          640
+        ],
+        "hide_reviews": [
+          640
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": 640,
+        "main_loss": 0.47377281364412355,
+        "after384_loss": 0.47967283447493697,
+        "late_raw_reads": 0.5,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 288,
+        "challenger_starts": 7,
+        "group_invalidations": 0,
+        "failed_witnesses": 6,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.351192285993948,
+        "after384_loss": 0.3359671615375102,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320,
+          768
+        ],
+        "hide_reviews": [
+          320,
+          768
+        ],
+        "reopen_reviews": [
+          192,
+          576
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.3565026270180863,
+        "after384_loss": 0.345176314087541,
+        "late_raw_reads": 0.75,
+        "mean_raw_reads": 0.4166666666666667,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 320,
+        "upper_refit_rows": 61440,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 320,
+        "challenger_predictions": 160,
+        "challenger_starts": 3,
+        "group_invalidations": 0,
+        "failed_witnesses": 1,
+        "accepted_reclosures": 2,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.351192285993948,
+        "after384_loss": 0.3359671615375102,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320,
+          768
+        ],
+        "hide_reviews": [
+          320,
+          768
+        ],
+        "reopen_reviews": [
+          192,
+          576
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.3565026270180863,
+        "after384_loss": 0.345176314087541,
+        "late_raw_reads": 0.75,
+        "mean_raw_reads": 0.4166666666666667,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 320,
+        "upper_refit_rows": 61440,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 320,
+        "challenger_predictions": 160,
+        "challenger_starts": 3,
+        "group_invalidations": 0,
+        "failed_witnesses": 1,
+        "accepted_reclosures": 2,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4311397357553457,
+        "after384_loss": 0.3466075315934315,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320
+        ],
+        "hide_reviews": [
+          320
+        ],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4149159254466138,
+        "after384_loss": 0.32029295169784355,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.16666666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 128,
+        "upper_refit_rows": 24576,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 128,
+        "challenger_predictions": 64,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4311397357553457,
+        "after384_loss": 0.3466075315934315,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320,
+          768
+        ],
+        "hide_reviews": [
+          320,
+          768
+        ],
+        "reopen_reviews": [
+          192,
+          512
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.42328498155083055,
+        "after384_loss": 0.337031063906277,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.5,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 384,
+        "upper_refit_rows": 73728,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 384,
+        "challenger_predictions": 192,
+        "challenger_starts": 4,
+        "group_invalidations": 0,
+        "failed_witnesses": 2,
+        "accepted_reclosures": 2,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43268233378590343,
+        "after384_loss": 0.3466075315934315,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43268233378590343,
+        "after384_loss": 0.3466075315934315,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43268233378590343,
+        "after384_loss": 0.3466075315934315,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43268233378590343,
+        "after384_loss": 0.3466075315934315,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.48431316550019987,
+        "after384_loss": 0.4498691950220244,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          576
+        ],
+        "hide_reviews": [
+          576
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": 576,
+        "main_loss": 0.49723888473178196,
+        "after384_loss": 0.47572063348518856,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.6666666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 512,
+        "challenger_predictions": 256,
+        "challenger_starts": 7,
+        "group_invalidations": 0,
+        "failed_witnesses": 6,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.48431316550019987,
+        "after384_loss": 0.4498691950220244,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 401,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          576
+        ],
+        "hide_reviews": [
+          576
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": 576,
+        "main_loss": 0.49723888473178196,
+        "after384_loss": 0.47572063348518856,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.6666666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 512,
+        "upper_refit_rows": 98304,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 512,
+        "challenger_predictions": 256,
+        "challenger_starts": 7,
+        "group_invalidations": 0,
+        "failed_witnesses": 6,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.36375992959798326,
+        "after384_loss": 0.3156049864812006,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.36375992959798326,
+        "after384_loss": 0.3156049864812006,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.36375992959798326,
+        "after384_loss": 0.3156049864812006,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.36375992959798326,
+        "after384_loss": 0.3156049864812006,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.41560073832535444,
+        "after384_loss": 0.3198760148194714,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.41560073832535444,
+        "after384_loss": 0.3198760148194714,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.41560073832535444,
+        "after384_loss": 0.3198760148194714,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.41560073832535444,
+        "after384_loss": 0.3198760148194714,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 0,
+        "upper_refit_rows": 0,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 0,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43160454413567195,
+        "after384_loss": 0.32251179617863934,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43160454413567195,
+        "after384_loss": 0.32251179617863934,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43160454413567195,
+        "after384_loss": 0.32251179617863934,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.43160454413567195,
+        "after384_loss": 0.32251179617863934,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.5010992124089425,
+        "after384_loss": 0.46150113272518034,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.5010992124089425,
+        "after384_loss": 0.46150113272518034,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 9,
+        "group_invalidations": 0,
+        "failed_witnesses": 9,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.5010992124089425,
+        "after384_loss": 0.46150113272518034,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 402,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.5010992124089425,
+        "after384_loss": 0.46150113272518034,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 9,
+        "group_invalidations": 0,
+        "failed_witnesses": 9,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.38248059918818966,
+        "after384_loss": 0.35582398838365015,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320
+        ],
+        "hide_reviews": [
+          320
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.37396738775665034,
+        "after384_loss": 0.34105256495178843,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.3333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 256,
+        "upper_refit_rows": 49152,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 256,
+        "challenger_predictions": 128,
+        "challenger_starts": 3,
+        "group_invalidations": 0,
+        "failed_witnesses": 2,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.416421751346245,
+        "after384_loss": 0.35582398838365015,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320
+        ],
+        "hide_reviews": [
+          320
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.40790853991470566,
+        "after384_loss": 0.34105256495178843,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.3333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 256,
+        "upper_refit_rows": 49152,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 256,
+        "challenger_predictions": 128,
+        "challenger_starts": 3,
+        "group_invalidations": 0,
+        "failed_witnesses": 2,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.481495635750555,
+        "after384_loss": 0.34500754327501426,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          256
+        ],
+        "hide_reviews": [
+          256
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.46535148577799085,
+        "after384_loss": 0.32776281261231105,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.25,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 192,
+        "upper_refit_rows": 36864,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 192,
+        "challenger_predictions": 64,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4717685435115493,
+        "after384_loss": 0.34500754327501426,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          320
+        ],
+        "hide_reviews": [
+          320
+        ],
+        "reopen_reviews": [
+          192
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4669262310167276,
+        "after384_loss": 0.33892290387240126,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.16666666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 128,
+        "upper_refit_rows": 24576,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 128,
+        "challenger_predictions": 64,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4807270564516848,
+        "after384_loss": 0.3539577844554202,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4807270564516848,
+        "after384_loss": 0.3539577844554202,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 320,
+        "challenger_starts": 10,
+        "group_invalidations": 0,
+        "failed_witnesses": 10,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.46919593943935833,
+        "after384_loss": 0.3539577844554202,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.46919593943935833,
+        "after384_loss": 0.3539577844554202,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 320,
+        "challenger_starts": 10,
+        "group_invalidations": 0,
+        "failed_witnesses": 10,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.5365499016375341,
+        "after384_loss": 0.46560347482711884,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": true,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          640
+        ],
+        "hide_reviews": [
+          640
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": 640,
+        "main_loss": 0.5339629427375727,
+        "after384_loss": 0.4604295570271961,
+        "late_raw_reads": 0.5,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 256,
+        "challenger_starts": 6,
+        "group_invalidations": 0,
+        "failed_witnesses": 5,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.5250187846252077,
+        "after384_loss": 0.46560347482711884,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 403,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          640
+        ],
+        "hide_reviews": [
+          640
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": 640,
+        "main_loss": 0.5224318257252463,
+        "after384_loss": 0.4604295570271961,
+        "late_raw_reads": 0.5,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 256,
+        "challenger_starts": 6,
+        "group_invalidations": 0,
+        "failed_witnesses": 5,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.38200369978110954,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          192,
+          640
+        ],
+        "hide_reviews": [
+          192,
+          640
+        ],
+        "reopen_reviews": [
+          64,
+          448
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": 640,
+        "main_loss": 0.38191953560407177,
+        "after384_loss": 0.35284063672859983,
+        "late_raw_reads": 0.5,
+        "mean_raw_reads": 0.4166666666666667,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 320,
+        "upper_refit_rows": 61440,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 320,
+        "challenger_predictions": 160,
+        "challenger_starts": 3,
+        "group_invalidations": 0,
+        "failed_witnesses": 1,
+        "accepted_reclosures": 2,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "persistent",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.38200369978110954,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "persistent",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          192,
+          576
+        ],
+        "hide_reviews": [
+          192,
+          576
+        ],
+        "reopen_reviews": [
+          64,
+          448
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": 576,
+        "main_loss": 0.3742553576817339,
+        "after384_loss": 0.3375122808839242,
+        "late_raw_reads": 0.25,
+        "mean_raw_reads": 0.3333333333333333,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 256,
+        "upper_refit_rows": 49152,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 256,
+        "challenger_predictions": 128,
+        "challenger_starts": 2,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 2,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          128
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4219322567385071,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.8333333333333334,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 640,
+        "upper_refit_rows": 122880,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 640,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          256
+        ],
+        "hide_reviews": [
+          256
+        ],
+        "reopen_reviews": [
+          128
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4153322169053401,
+        "after384_loss": 0.3357454585241834,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.16666666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 128,
+        "upper_refit_rows": 24576,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 128,
+        "challenger_predictions": 64,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "remap",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          128
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.41379452629957436,
+        "after384_loss": 0.351309064084664,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.8333333333333334,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 640,
+        "upper_refit_rows": 122880,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 640,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "remap",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": false,
+        "reclosure_reviews": [
+          256
+        ],
+        "hide_reviews": [
+          256
+        ],
+        "reopen_reviews": [
+          128
+        ],
+        "first_valid_after384": 448,
+        "first_coarse_valid_after384": 448,
+        "main_loss": 0.4036955550407273,
+        "after384_loss": 0.3357454585241834,
+        "late_raw_reads": 0,
+        "mean_raw_reads": 0.16666666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 128,
+        "upper_refit_rows": 24576,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 128,
+        "challenger_predictions": 64,
+        "challenger_starts": 1,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.3823194530197368,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.3823194530197368,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "breach",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.3823194530197368,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "breach",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 512,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.3823194530197368,
+        "after384_loss": 0.35378081044712134,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 11,
+        "group_invalidations": 0,
+        "failed_witnesses": 11,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4412756961881437,
+        "after384_loss": 0.47169329678393523,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 400,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": true,
+        "affected_fine_final_valid": false,
+        "transient_trajectory": true,
+        "reclosure_reviews": [
+          640
+        ],
+        "hide_reviews": [
+          640
+        ],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": 640,
+        "main_loss": 0.4407190461957884,
+        "after384_loss": 0.4705799967992245,
+        "late_raw_reads": 0.5,
+        "mean_raw_reads": 0.75,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 576,
+        "upper_refit_rows": 110592,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 576,
+        "challenger_predictions": 288,
+        "challenger_starts": 8,
+        "group_invalidations": 0,
+        "failed_witnesses": 7,
+        "accepted_reclosures": 1,
+        "max_pending_cells": 8
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "transient",
+      "variant": "failure_only",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4412756961881437,
+        "after384_loss": 0.47169329678393523,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 0,
+        "challenger_starts": 0,
+        "group_invalidations": 0,
+        "failed_witnesses": 0,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 0
+      }
+    },
+    {
+      "seed": 404,
+      "branch": "transient",
+      "variant": "reclose",
+      "proposal_seed": 401,
+      "metrics": {
+        "transfer_valid": false,
+        "final_valid": true,
+        "coarse_final_valid": false,
+        "affected_fine_final_valid": true,
+        "transient_trajectory": false,
+        "reclosure_reviews": [],
+        "hide_reviews": [],
+        "reopen_reviews": [
+          64
+        ],
+        "first_valid_after384": 576,
+        "first_coarse_valid_after384": null,
+        "main_loss": 0.4412756961881437,
+        "after384_loss": 0.47169329678393523,
+        "late_raw_reads": 1,
+        "mean_raw_reads": 0.9166666666666666,
+        "reclosures_during_breach": 0
+      },
+      "costs": {
+        "candidate_fits": 128,
+        "candidate_fit_rows": 23040,
+        "refits": 2048,
+        "refit_rows": 356544,
+        "upper_refits": 704,
+        "upper_refit_rows": 135168,
+        "upper_candidate_fits": 36,
+        "upper_candidate_rows": 6912,
+        "feedback_labels": 4480,
+        "prediction_raw_reads": 704,
+        "challenger_predictions": 352,
+        "challenger_starts": 9,
+        "group_invalidations": 0,
+        "failed_witnesses": 8,
+        "accepted_reclosures": 0,
+        "max_pending_cells": 8
+      }
+    }
+  ]
+}

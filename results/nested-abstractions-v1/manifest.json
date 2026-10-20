@@ -1,0 +1,6 @@
+{
+  "experiments/nested_abstractions_protocol.md": "f2025063e6986e552e70936faa7ca893772e3d00e78180f1319afe83a87000a4",
+  "experiments/nested_abstractions.py": "83f5f4ff1e4d63a1090c12805e518e78ea8c01de944c64d1f0eeba3ada01f415",
+  "checks/test_nested_abstractions.py": "4668bf4887afa1b9a3b29de313b4e1b1b9fce0b2218b39a9e06a5fdcb3728d1c",
+  "checks/audit_nested_abstractions.py": "ee9bd555916765299190aab6e3de47546f6f83e1c85680e1fb7c32a21b781055"
+}
