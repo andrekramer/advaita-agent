@@ -318,6 +318,16 @@ No automatic progression follows from these completed runs.
 
 ## Suggested investigation sequence
 
+The immediate next round is the
+[consolidation plan](experiments/consolidation_round_plan.md), prepared
+2026-10-21 and not yet run. It proposes a shared representation and learning
+contract, compatibility with saved experiments, then bounded tests of
+interacting retention/interface policies and a continuing structural learner.
+The aim is learning and revising generalisations. Interpretability and
+design-led extension follow conditionally; meta-learning remains a later
+evaluation on held-out task families. The plan preserves the earlier frozen
+protocols and does not assume that combining their mechanisms improves them.
+
 1. Establish useful learning with fixed distinctions and connections.
 2. Test relation creation and removal with fixed distinctions, including discovery
    of a newly useful relation and recovery after a relevance reversal.

@@ -75,6 +75,7 @@ successful experiments alone do not justify that step.
 - [Experiment 015: earned protection for forms, fixed protocol](experiments/form_retention_protocol.md)
 - [Experiment 015: protection benefits and adaptation costs](results/form-retention-v1/findings.md)
 - [Capability consolidation: relationships, abstractions, interfaces and limits](results/relationships-interfaces-synthesis.md)
+- [Planned consolidation round: one learner for revisable generalisations](experiments/consolidation_round_plan.md)
 
 The form-learning enquiry moves from supplied associations to reusable groups
 of contexts that share action consequences. In the first small simulator, both
