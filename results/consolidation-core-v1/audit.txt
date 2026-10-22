@@ -1,0 +1,4 @@
+2026-10-22
+Command: python3 checks/audit_consolidation_core.py
+Exit status: 0
+PASS: 380 full replay traces, coverage, provenance, costs and runtime evidence records verified.

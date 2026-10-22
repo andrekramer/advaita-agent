@@ -1,0 +1,18 @@
+test_archive_requires_same_meaning_not_same_name (test_consolidation_core.CoreTests.test_archive_requires_same_meaning_not_same_name) ... ok
+test_changed_group_map_invalidates_pending_upper_evidence (test_consolidation_core.CoreTests.test_changed_group_map_invalidates_pending_upper_evidence) ... ok
+test_checkpoint_restores_local_protection_pending (test_consolidation_core.CoreTests.test_checkpoint_restores_local_protection_pending) ... ok
+test_checkpoint_restores_rng_buffers_and_pending_reclosure (test_consolidation_core.CoreTests.test_checkpoint_restores_rng_buffers_and_pending_reclosure) ... ok
+test_earned_flag_and_pending_evidence_do_not_freeze_predictions (test_consolidation_core.CoreTests.test_earned_flag_and_pending_evidence_do_not_freeze_predictions) ... ok
+test_evidence_leakage_duplicate_labels_and_false_witnesses_rejected (test_consolidation_core.CoreTests.test_evidence_leakage_duplicate_labels_and_false_witnesses_rejected) ... ok
+test_hidden_ports_raise_and_allowed_reads_are_counted (test_consolidation_core.CoreTests.test_hidden_ports_raise_and_allowed_reads_are_counted) ... ok
+test_joint_relationship_cannot_be_replaced_by_singletons (test_consolidation_core.CoreTests.test_joint_relationship_cannot_be_replaced_by_singletons) ... ok
+test_prediction_is_pure_and_step_predicts_before_feedback (test_consolidation_core.CoreTests.test_prediction_is_pure_and_step_predicts_before_feedback) ... ok
+test_repeated_review_cannot_count_as_fresh_confirmation (test_consolidation_core.CoreTests.test_repeated_review_cannot_count_as_fresh_confirmation) ... ok
+test_snapshot_is_detached_and_archive_eviction_is_bounded (test_consolidation_core.CoreTests.test_snapshot_is_detached_and_archive_eviction_is_bounded) ... ok
+test_split_collapse_and_recreate_with_the_existing_local_rule (test_consolidation_core.CoreTests.test_split_collapse_and_recreate_with_the_existing_local_rule) ... ok
+test_stale_deployed_upper_is_recorded_not_silently_repaired (test_consolidation_core.CoreTests.test_stale_deployed_upper_is_recorded_not_silently_repaired) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.392s
+
+OK

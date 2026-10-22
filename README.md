@@ -76,6 +76,19 @@ successful experiments alone do not justify that step.
 - [Experiment 015: protection benefits and adaptation costs](results/form-retention-v1/findings.md)
 - [Capability consolidation: relationships, abstractions, interfaces and limits](results/relationships-interfaces-synthesis.md)
 - [Planned consolidation round: one learner for revisable generalisations](experiments/consolidation_round_plan.md)
+- [Consolidation C0 / 016: shared-core specification](experiments/consolidation_core_spec.md)
+- [Consolidation C0 / 016: compatibility, state contracts and remaining work](results/consolidation-core-v1/findings.md)
+
+Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
+reproduced all 380 complete saved traces from Experiments 012–015 exactly,
+including predictions, structural decisions and costs. Thirteen correctness
+tests and an independent artifact audit passed. A continuing nested learner now
+has explicit evidence identities, semantic dependency checks and resumable
+checkpoints. This preserves the earlier results; it supplies no new evidence
+of improved learning. The protection/interface interaction benchmark (C1) and
+integrated structural learner benchmark (C2) remain unrun. See the
+[completion record](results/consolidation-core-v1/findings.md) for scope and
+reproduction commands.
 
 The form-learning enquiry moves from supplied associations to reusable groups
 of contexts that share action consequences. In the first small simulator, both
@@ -212,8 +225,9 @@ raised post-change loss by .054309 nats, exceeding the fixed .05 allowance.
 All variants ultimately met final validity in all conditions. Eight tests and
 an independent replay of all 90 runs passed, using 138,240 label presentations
 without tuning or rerunning. This supports separating discovery from protection,
-with an explicit adaptation cost. It has not been integrated into the nested
-learner and does not establish a learned retention policy.
+with an explicit adaptation cost. That study did not integrate protection into
+the nested learner. C0 now provides that option in code, but its interaction
+benchmark remains unrun; no learned retention policy has been established.
 
 The first restricted mapping experiment passed in all five seeds: 100% accuracy
 on balanced evaluation with learning frozen, and mean log loss 0.296 versus

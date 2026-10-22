@@ -310,19 +310,23 @@ and prevented every harmful replacement during a brief misleading burst, while
 uniform corroboration delayed discovery. The combined criterion failed because
 post-change prediction loss rose beyond its allowance when change persisted.
 This adds an explicit distinction between provisional discovery and protected
-retention, with a measured adaptation cost. It has not been integrated into
-the nested learner, and the protection rule remains constructed.
+retention, with a measured adaptation cost. That study did not integrate
+protection into the nested learner, and the protection rule remains constructed.
 The [capability consolidation](results/relationships-interfaces-synthesis.md)
 records what is learned, what remains supplied, and the unresolved questions.
 No automatic progression follows from these completed runs.
 
 ## Suggested investigation sequence
 
-The immediate next round is the
-[consolidation plan](experiments/consolidation_round_plan.md), prepared
-2026-10-21 and not yet run. It proposes a shared representation and learning
-contract, compatibility with saved experiments, then bounded tests of
-interacting retention/interface policies and a continuing structural learner.
+The [consolidation plan](experiments/consolidation_round_plan.md), prepared
+2026-10-21, began with C0 on 2026-10-22. The
+[C0 engineering gate passed](results/consolidation-core-v1/findings.md): a
+shared core matched all 380 complete saved traces from 012–015, with thirteen
+correctness tests and an independent artifact audit. The continuing nested
+learner now supports explicit protection/reclosure switches, evidence records
+and checkpoint restoration. No new benchmark has run. C1 next tests the
+interaction of retention and interface policies; C2 conditionally integrates
+structural reduction and retained memory. Each still needs its frozen protocol.
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen
