@@ -1,0 +1,333 @@
+
+Advaita-agent
+A minimal enquiry into form, consequence, and the cost of a difference
+
+
+
+I have been trying to bring several lines of work into a smaller enquiry. The R-rule explored how to think about agency and revision under tension. Inertial variation, selection, and retention concerned how changes acquire a history and influence what happens next. The Chevron attention work carried those ideas towards a larger architecture. It grew beyond what I could comfortably investigate alone, even with AI assistance. I paused that work at a documented (research handoff).
+
+Advaita-agent returns to a more manageable question: can a learner discover a difference that matters, preserve it while it is useful, and let it go when its consequences change?
+
+The first round of small experiments is complete. There is enough here for a working theory of learning through revisable distinctions, with executable examples supporting parts of it. There is also enough evidence to say where the larger proposal has not earned its claims.
+
+My starting proposition is that learning changes how experience is organised for subsequent prediction and action. A distinction earns its place through the consequences it helps us anticipate. Retaining it shapes later responses; revising it changes what can be recognised and learned next.
+
+That is a theoretical framing, still under development. The experiments give it a narrow operational meaning. They do not yet establish a general account of learning or show that the full proposed dynamics are necessary.
+
+The project name matters. Advaita points towards non-dualism but one that makes distinctions as an agent. I am interested in distinctions as useful, revisable articulations within experience, without assuming that each distinction reveals an absolute separation in reality.
+
+Opposites are one possible representation. Multiplying opposites is not the objective. Sometimes learning should remove a separation or live with a complementary one.
+
+This philosophical orientation motivates the enquiry. A successful simulation cannot establish non-dualism, and the mathematical results do not depend on a reader accepting it.
+
+The practical aspiration is simple: can learn; can be interpreted; can be steered. Construction by humans and AI is part of the approach. We supply some structure and allow other structure to develop, keeping track of which is which. At this stage, learning has concrete evidence behind it; effective interpretation and steering remain broader aims.
+
+I use Inertial Variation, Selection, and Retention—IVSR —to describe the organising process. Existing organisation constrains which variations are available. Consequences help select among them. Retained changes influence later responses and later variation. Inertia means this dependence on history; it does not imply that the model contains physical mass or a momentum variable.
+
+The R-rule contributes a perspective on revision under tension. IVSR places such revision in a continuing history. Bringing them together is a proposal about how to understand learning. The experiments use several restricted implementations; they do not currently derive all of them from one geometric law.
+
+Fast response and slower retention are useful candidate roles within this picture. A current situation may call for a quick adjustment, while a reusable form should survive beyond that situation. I think of the latter as a modest version of “I know that”: an organisation available for use again. This is a functional aspiration, not a claim about consciousness. Slowness alone does not make a response knowledgeable, and a retained mistake is still a mistake.
+
+In one mathematical version, the effective predictive weights are the sum of a fast component F and a slower component S. A selected transfer C changes their allocation:
+
+W
+=
+F
++
+S
+,
+S
++
+=
+S
++
+C
+,
+F
++
+=
+F
+−
+C
+.
+
+The superscript + means after transfer. The total W is unchanged immediately. The purpose is persistence: because F and S subsequently decay or update at different rates, where a learned change is stored can affect later prediction.
+
+This can be accompanied by a comparison of responses. Let A(y|x,a) be the fast-adapted prediction of outcome y in context x under action a, and let N(y|x,a) be the prediction using only the slower retained weights. Their difference can be measured by
+
+ 
+ 
+D
+(
+x
+,
+a
+)
+=
+1
+2
+∑
+y
+|
+A
+(
+y
+∣
+x
+,
+a
+)
+−
+N
+(
+y
+∣
+x
+,
+a
+)
+|
+.
+
+For a binary outcome this is simply the absolute difference between their predicted probabilities of outcome 1. It measures disagreement. An observed outcome supplies a different kind of information: how well a prediction fits what happened. Both have a place, but disagreement cannot tell us which response is useful, and agreement cannot certify that either is adequate.
+
+The initial experiments confirmed that the restricted models could learn supplied associations. Transferring fast learning into slower weights improved retention compared with keeping the two components separate. Useful slow weights also developed when their direct learning was disabled and transfer was their only source of learning.
+
+However, a slow-only learner performed better on the main loss measures. In the transfer experiment, every triggered candidate passed external selection; removing that selection gate produced identical trajectories. There was evidence for useful transfer in that task, but no demonstrated need for the complete arrangement. The joint test of handling transient errors and lasting change also failed its criterion. Those qualifications belong in the account of what we learned, alongside the successful comparisons.
+
+The next question concerned the forms being learned. Improving predictions within supplied categories leaves open how the categories themselves arise.
+
+My working connection with name, form, and action is this: a name identifies an organisation, a form groups situations in a reusable way, and action exposes consequences that can support or challenge that grouping. This is the project’s Vedanta-inspired interpretation. In the code, the names are merely identifiers.
+
+Calling something ‘form-something’ adds no understanding by itself. For a small operational test, a form groups contexts that have similar outcome predictions under the available actions. Write that prediction as
+
+p
+M
+(
+y
+∣
+x
+,
+a
+)
+=
+q
+g
+M
+(
+x
+)
+,
+a
+(
+y
+)
+.
+
+Here M is the model, g_M assigns context x to a form, and q is that form’s action-conditioned probability distribution. Learning may change q while leaving the grouping intact. Structural learning changes g_M as well. This makes a form relative to the task. Two situations may be equivalent for the actions and outcomes examined here while differing in ways that another task would reveal. The experiment does not license treating them as equivalent in every respect.
+
+The simulator supplied three binary features, two actions, and a binary outcome. One feature, s, mattered; the other two were irrelevant. Initially, the world followed
+
+y
+=
+s
+XOR
+a
+.
+
+XOR means that the outcome is 1 when s and a differ, and 0 when they agree. The same action therefore has opposite consequences for the two values of s. The learner received feature values, an action, and then its outcome. It was not given category labels or told which feature mattered. Actions were externally scheduled, so this tested learning from consequences without an autonomous exploration policy.
+
+The learner started with a single undifferentiated form. It could propose splitting a form on an observed feature or merging existing forms. We supplied those operations and the feature language. The question was which available distinctions the evidence would support.
+
+Within each form k and action a, it estimated the probability of outcome 1 as
+
+ 
+q
+k
+,
+a
+(
+1
+)
+=
+r
+k
+,
+a
++
+1
+n
+k
+,
+a
++
+2
+,
+
+where n counts observations and r counts outcome-1 observations. The added counts keep predictions away from absolute certainty, including when evidence is scarce. This estimator was fixed, not learned.
+
+Candidate structures were assessed using predictive loss plus a small complexity penalty:
+
+ 
+ 
+J
+(
+M
+;
+B
+)
+=
+1
+|
+B
+|
+∑
+(
+x
+,
+a
+,
+y
+)
+∈
+B
+−
+log
+⁡
+p
+M
+(
+y
+∣
+x
+,
+a
+)
++
+0.01
+K
+(
+M
+)
++
+0.005
+L
+(
+M
+)
+.
+
+B is a batch of observations, K is the number of forms, and L is the number of recognition-rule leaves. A leaf is one condition assigning contexts to a form; several leaves can share a form. Log loss penalises confident mistakes more strongly than hesitant ones. The two penalties express our supplied preference for a smaller representation.
+
+At a scheduled review, candidates were fitted and ranked on training data. Only the winner was compared with the current model on a separate selection batch V. Replacement required
+
+J
+(
+M
+current
+;
+V
+)
+−
+J
+(
+M
+candidate
+;
+V
+)
+>
+0.001
+.
+
+Selection observations did not enter the fitted counts. Separate withheld feature combinations tested whether the learned rule could be reused beyond the combinations encountered during learning. These are deliberately simple mechanisms for making the theoretical question inspectable; I am not claiming to have invented category induction or complexity-penalised prediction. Both the single structural learner and the provisional/retained version discovered the relevant feature, ignored the nuisance features, and achieved 100% accuracy on the four withheld context/action pairs in all five seeds.
+
+Their final predictions were identical. A fixed-feature logistic predictor also reached 100% accuracy. The task therefore demonstrated category learning, without establishing that explicit categories or two learning timescales were necessary for correct prediction.
+
+There was a revealing moment before the first useful split. The provisional and retained models agreed: both predicted probability one half. Their response differential was zero. Yet a structural search found a useful distinction.
+
+The half-probability prediction described the pooled outcomes reasonably; it missed the conditional organisation. Both models could agree while sharing the same limitation. Scheduled search provided a route to variation that their disagreement would not have supplied at that review. This qualifies the theory:
+
+the fast/slow differential can be informative, but cannot be the sole test of whether new distinctions deserve consideration.
+
+I also wanted to test a more complementary division of work. In a separate continuous-world experiment, a fast process estimated a probe’s current position and made local response adjustments. A retained process learned how action consequences varied with position. The roles were constructed to ask whether situated estimates could improve a reusable relationship, and whether that relationship could improve situated estimation in return.
+
+The response relationship was learned. Using its feedback reduced pooled motion-prediction error by about 16% compared with cutting that feedback path. But the predeclared reciprocal-complementarity criterion failed. Learning the retained relationship directly from raw observations produced almost the same deployed prediction performance. We have not shown that both directions of the proposed cooperation were needed.
+
+This experiment learned coefficients within a supplied smooth-function basis. It did not discover that basis or learn a second level of categories. It is also a different implementation from the structural category learner. The results should not yet be assembled into an imaginary single system that has demonstrated everything.
+
+The most direct test of the non-dual motivation was smaller: let a distinction stop mattering. After the learner acquired two forms, the simulator changed to y=a. Both groups now had the same action consequences. The learner was not told that a change had occurred. It used a rolling window of the last 48 training observations and reviewed structural alternatives every 48 observations. In all five seeds, it merged the two forms into one while preserving correct predictions on the withheld combinations. In an unchanged-world control, it kept the useful distinction. A merge-disabled learner also adapted its predictions correctly, but retained two forms with identical responses.
+
+This separated two things that are easy to conflate: becoming insensitive to a feature in prediction, and removing the structural distinction that uses that feature. Both can be measured.
+
+The final experiment let the original distinction return. One uninterrupted learner encountered the sequence
+
+y
+=
+s
+XOR
+a
+⟶
+y
+=
+a
+⟶
+y
+=
+s
+XOR
+a
+.
+
+Changes followed training observations 108 and 228, between the scheduled reviews. There was no reset or restoration of a saved form. The first review after each change contained a mixture of old and new evidence. All five seeds passed the fixed acquire–collapse–reacquire criterion. The merge-enabled learner followed this trajectory:
+
+| Review after training observation | Forms | Accuracy on withheld pairs |
+
+| 48: initial distinction learned | 2 | 100% |
+
+| 192: distinction collapsed | 1 | 100% |
+
+| 240: distinction recreated | 2 | 50% |
+
+| 288: predictions recovered | 2 | 100% |
+
+| 336: final checkpoint | 2 | 100% |
+
+At review 240, the relevant category boundary had returned, but the probability estimates still reflected mixed evidence. Recognising where to distinguish came before predicting the current consequences accurately. Reacquiring a structure and recovering competence were separate events.
+
+There was also a cost to letting go. Over the first 48 training observations after the distinction returned, the merged learner’s mean log loss was about 16% higher than the control that had kept both categories: 0.595 versus 0.512.
+
+Both recovered by the same measured review. For this complete schedule, total average prediction loss also favoured keeping the distinction.
+
+Collapse had produced a smaller representation and improved confidence while the consequences were equivalent. When the difference returned, the retained partition allowed separate adaptation immediately; the merged model had to wait for a structural review. The result gives the theory a trade-off to explain. A distinction can be unnecessary now yet useful to retain against possible future change. We have not learned how to make that judgement.
+
+Nor does reacquisition demonstrate memory of the old category. No saved form was retrieved, and there was no fresh-start comparison establishing faster relearning. It demonstrates that simplification did not permanently close the learner’s ability to distinguish again.
+
+The experiments were small and tightly specified. Five seeds varied input order and feature encoding, but the structural tests covered only two distinct feature permutations and used deterministic, balanced outcomes. Identical final scores often followed from balanced counts. The generalisation test covered four withheld pairs within the constructed world. It is not evidence of broad competence across environments.
+
+Protocols and criteria were fixed before execution. Correctness checks and independent saved-trace audits passed. The acquisition, collapse, and reversibility experiments used 4,880, 4,960, and 4,480 outcome-bearing presentations respectively, across all their conditions. There was no tuning after inspecting those benchmark results. The full records include failed comparisons as well as successes.
+
+So what kind of learning theory do we have?
+
+We have a working account in which learning changes both responses and the distinctions organising those responses. History constrains revision; observed consequences test usefulness; retained organisation shapes what can happen next. The experiments show small instances of this process and expose some of its tensions. Agreement can conceal a missing distinction. A learned structure can return before competence does. Simplicity can help in one phase and impose a cost in the next. These findings make the account more specific. They do not yet distinguish the whole proposal from every simpler explanation. The richer geometry, phase dynamics, traces, and fast/slow couplings remain mechanisms whose particular contributions must be established. The strongest structural results here came from a single learner with fixed search and selection rules.
+
+Meta-learning would take a further step: changing how learning itself is organised—for example, its evidence window, review policy, or criteria for retention. None of those changed in these runs. Similarly, two timescales are not two levels of learned distinctions. Categories of categories, or forms that reorganise other forms, remain an open direction.
+
+Interfaces are another open direction. I want to explore whether an interface can develop as a fold or bundle of relations: a reusable organisation through which further relations become available. For now, that is an idea needing a precise definition. We would have to specify what is bundled, which consequences the bundle preserves, and how it changes subsequent interaction.
+
+The current input, action, and outcome interfaces were supplied. Merging two response categories does not by itself demonstrate a learned relational interface or a mathematical fold.
+
+This leaves room for the philosophical questions without treating an algorithm as their resolution. Name, form, and action remain ways of examining how distinctions enter what happens, and how what happens can revise them. A useful distinction need not become a permanent division.
+
+I am pausing this experimental round here. The next work is to describe the scheme clearly enough that its assumptions and failures are available for criticism. Rare but important differences, noise, interference, and effective steering remain untested extensions. Scaling or connecting these learners to real-world operational systems is not justified by the present results; the usual AI risks remain, and any application would require its own deliberate assessment.
+
+For this stage, the finding is modest but concrete: within a constructed language, a learner can discover a consequential distinction, collapse it when unnecessary, and recreate it when useful again. Doing so has costs as well as benefits. That gives the wider enquiry something definite to work with.
+
+Thanks for reading,
+
+Andre with ChatGPT-6-Astra, 
+
+October 2026
+
+The experiment code is available on github: https://github.com/andrekramer/advaita-agent
+
