@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "runs": 120,
+  "independently_replayed_labels": 399360,
+  "elapsed_seconds": 48.441815583999414,
+  "progression_gate": true,
+  "result_sha256": "6f1a3197b69856e2a4a3789fca6dccf4fc5bc3b183bed0eb02c8b86c8b64c6c3",
+  "runs_sha256": "27d694767d1c5adc181fac1002dda185c79d9064726f6a80a1841e223a6a6546"
+}

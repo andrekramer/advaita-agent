@@ -1,0 +1,8 @@
+test_denominators_pairing_and_thresholds (__main__.HarnessTests.test_denominators_pairing_and_thresholds) ... ok
+test_one_good_final_checkpoint_cannot_hide_instability (__main__.HarnessTests.test_one_good_final_checkpoint_cannot_hide_instability) ... ok
+test_reference_window_is_preserved_and_new_metrics_agree_independently (__main__.HarnessTests.test_reference_window_is_preserved_and_new_metrics_agree_independently) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.079s
+
+OK

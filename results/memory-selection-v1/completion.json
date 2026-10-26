@@ -1,0 +1,16 @@
+{
+  "experiment": "022",
+  "date": "2026-10-26",
+  "status": "complete_audited",
+  "primary_pass": false,
+  "baseline_modified": false,
+  "intervention": "archive competition and reinstatement ablation with independent challenger admission",
+  "benchmark_runs": 80,
+  "used_label_presentations": 542720,
+  "allocated_label_presentations": 542720,
+  "fixture_labels": 2156,
+  "benchmark_seconds": 138.60209670900076,
+  "audit_seconds": 105.76291366700025,
+  "source_manifest_sha256": "716fa5374117c4ccbfc428b1b513bd9fd541b5dd96d0f38a74d8fd1db10ccd88",
+  "audit_sha256": "3d3e7e4503a2489e49eace80e6b884a2e175ebdd3d1862e84460e1a5d5f55647"
+}

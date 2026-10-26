@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "tests": 5,
+  "charged_labels": 1615,
+  "elapsed_seconds": 0.06981241700123064,
+  "log": "test_failed_confirmation_does_not_replace_incumbent (__main__.ProtectionTests.test_failed_confirmation_does_not_replace_incumbent) ... ok\ntest_metrics_independent_arithmetic_and_zero_error_baseline (__main__.ProtectionTests.test_metrics_independent_arithmetic_and_zero_error_baseline) ... ok\ntest_pending_model_is_frozen_and_requires_another_witness (__main__.ProtectionTests.test_pending_model_is_frozen_and_requires_another_witness) ... ok\ntest_protection_is_earned_only_after_two_adequate_reviews (__main__.ProtectionTests.test_protection_is_earned_only_after_two_adequate_reviews) ... ok\ntest_tiny_streams_and_both_full_checkpoints (__main__.ProtectionTests.test_tiny_streams_and_both_full_checkpoints) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.070s\n\nOK\n",
+  "sources": {
+    "advaita/corroboration.py": "c8dc242eed8169ec165a01ba286a9067a9fff6d3d27edaa3986c77e98cbac35d",
+    "experiments/consolidated_protection_protocol.md": "266d9753740399d766e8cb3db17e29ea5b7f31e18633c4946f1974d44baa2e5d",
+    "experiments/consolidated_protection.py": "7b58ea664b5696be89b92b43bbeec05c3426bfe7774f1d2f0db5126bc3b71cbb",
+    "experiments/consolidated_protection_metrics.py": "3a044798f3f4762beb814a289c8a3128e6995f2d1f18f50c19f555b86b8f4a0d",
+    "checks/audit_consolidated_protection.py": "809973a8c08d5e3f37af5fa90549519955c237f4865b1cc10231acb85e8c3c65",
+    "checks/test_consolidated_protection.py": "c213cc83b8ed2f2453301e91e05713b8e45cbeca377419e067b4589eb03554a6"
+  }
+}

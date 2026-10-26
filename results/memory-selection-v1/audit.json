@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "runs": 80,
+  "independently_replayed_labels": 542720,
+  "elapsed_seconds": 105.76291366700025,
+  "artifact_sha256": {
+    "results.json": "e7c1b058e8fc8d8ebe631465ac9e4da2baf7687ad97afac2d2262cca7dac7c59",
+    "runs.jsonl.gz": "c40d4ac54a050fcf185a87c453dbabd387b33208e8c8573d08b0887bf20c0fc6",
+    "worlds.json": "6ffbb1d0daa17a1c9cdef5a11e1b3e6120bc3977ce020d1d80bf1150a034dad6"
+  }
+}

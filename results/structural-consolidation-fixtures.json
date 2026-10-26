@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "tests": 4,
+  "charged_labels": 512,
+  "elapsed_seconds": 0.06412433300101839,
+  "log": "test_all_four_variants_match_independent_checkpoint_replay (__main__.StructuralTests.test_all_four_variants_match_independent_checkpoint_replay) ... ok\ntest_capture_at_reduction_frozen_memory_semantics_and_pending_restore (__main__.StructuralTests.test_capture_at_reduction_frozen_memory_semantics_and_pending_restore) ... ok\ntest_collapse_requires_two_witnesses_and_can_be_recreated (__main__.StructuralTests.test_collapse_requires_two_witnesses_and_can_be_recreated) ... ok\ntest_streams_boundaries_and_reversed_return_are_independently_defined (__main__.StructuralTests.test_streams_boundaries_and_reversed_return_are_independently_defined) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.064s\n\nOK\n",
+  "tested_sources": {
+    "advaita/structural.py": "c386269205554e322dda15543a4fb7880fac324134dc8c9183f40f14c6097bed",
+    "experiments/structural_consolidation.py": "951fb0a8754d21581617c9db90f2940b6895565df1580edc0efd5c40194b76d9",
+    "experiments/structural_consolidation_metrics.py": "a59a9b465752cd53162cb0a9dd576620218e3898b25d357943d5b783a7102a80",
+    "checks/structural_reference.py": "c8b8036311bcc115efc0b8a4438cdd1957a5cd89d7d809827cc84dc3b3e9c7e6",
+    "checks/audit_structural_consolidation.py": "2366f78ef7467691eda18b2625cde5581dbaad73a8f05cd065a2c95b86f0c22a",
+    "checks/test_structural_consolidation.py": "ec988c5ec8ccba383ddf7154c1f51ea4e07240b1ac7e71e8f4eff7d2fd4a19af"
+  }
+}

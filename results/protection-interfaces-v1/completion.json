@@ -1,0 +1,14 @@
+{
+  "stage": "C1",
+  "experiment": "017",
+  "date": "2026-10-23",
+  "status": "complete_audited",
+  "primary_pass": false,
+  "c2_progression_gate": true,
+  "c2_status": "not_started",
+  "fixture_labels_charged_this_stage": 336,
+  "round_fixture_labels_charged": 19216,
+  "round_fixture_labels_remaining": 784,
+  "benchmark_runs": 120,
+  "new_benchmark_label_presentations": 399360
+}

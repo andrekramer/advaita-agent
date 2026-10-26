@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "tests": 6,
+  "charged_labels": 2156,
+  "cumulative_labels": 2156,
+  "elapsed_seconds": 0.18990549999580253,
+  "log": "test_failed_archive_cannot_block_separate_or_shadow (__main__.SelectionTests.test_failed_archive_cannot_block_separate_or_shadow) ... ok\ntest_full_replay_all_policies_and_frozen_qualification (__main__.SelectionTests.test_full_replay_all_policies_and_frozen_qualification) ... ok\ntest_incompatible_memory_is_excluded (__main__.SelectionTests.test_incompatible_memory_is_excluded) ... ok\ntest_independent_metrics_and_threshold (__main__.SelectionTests.test_independent_metrics_and_threshold) ... ok\ntest_original_behavior_and_checkpoint_continuation (__main__.SelectionTests.test_original_behavior_and_checkpoint_continuation) ... ok\ntest_passing_archive_joint_retrieval_and_veto_are_distinct (__main__.SelectionTests.test_passing_archive_joint_retrieval_and_veto_are_distinct) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.190s\n\nOK\n",
+  "sources": {
+    "advaita/memory_selection.py": "9cace990057337e682ada302aed31f0b72cd1bd0800ba3fd4da624612b38c9ec",
+    "experiments/memory_selection_protocol.md": "7b0060172781f5aa9dd6cf7e9b9b82307ede1df5dbabed4ad961acaeee397c53",
+    "experiments/memory_selection.py": "48709e908fe6587c50432556241f610fea24941b815b77b443f6d8f1be2f5966",
+    "experiments/memory_selection_metrics.py": "a7b4e4447e9a5231bfe8599b00ba5afb0ff21c8e5f983cce1c5e462f61e5f8fa",
+    "checks/audit_memory_selection.py": "ea74aa2afd82801d561e6c3d65ba6f9dbd3007e8699c79f3add51d6c13f2870e",
+    "checks/memory_selection_reference.py": "83817183ecdbc17f497d021ac24393dcb9987229c2b6783f31370d70753a491e",
+    "checks/test_memory_selection.py": "2192e02efb39cbca992fe8a060b2e4615b26ee59bd4e9215d373b23b28d8632a"
+  }
+}

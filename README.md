@@ -75,9 +75,33 @@ successful experiments alone do not justify that step.
 - [Experiment 015: earned protection for forms, fixed protocol](experiments/form_retention_protocol.md)
 - [Experiment 015: protection benefits and adaptation costs](results/form-retention-v1/findings.md)
 - [Capability consolidation: relationships, abstractions, interfaces and limits](results/relationships-interfaces-synthesis.md)
-- [Planned consolidation round: one learner for revisable generalisations](experiments/consolidation_round_plan.md)
+- [Consolidation round plan: one learner for revisable generalisations](experiments/consolidation_round_plan.md)
 - [Consolidation C0 / 016: shared-core specification](experiments/consolidation_core_spec.md)
 - [Consolidation C0 / 016: compatibility, state contracts and remaining work](results/consolidation-core-v1/findings.md)
+- [Consolidation C1 / 017: protection and interface interaction protocol](experiments/protection_interfaces_protocol.md)
+- [Consolidation C1 / 017: benefits, adaptation costs and progression gate](results/protection-interfaces-v1/findings.md)
+- [Consolidation C2 / 018: structural integration protocol](experiments/structural_consolidation_protocol.md)
+- [Consolidation C2 / 018: simplification, retained memory and limits](results/structural-consolidation-v1/findings.md)
+- [Completed consolidation round: evidence and next questions](results/consolidation-round-synthesis.md)
+- [Experiment 019: fresh-world replication and extended recovery protocol](experiments/consolidated_recovery_protocol.md)
+- [Experiment 019: stable prediction, abstraction regression and memory limits](results/consolidated-recovery-v1/findings.md)
+- [Experiment 020: corroborating established forms, fixed protocol](experiments/consolidated_protection_protocol.md)
+- [Experiment 020: stability benefits and genuine-change costs](results/consolidated-protection-v1/findings.md)
+- [Experiment 021: prospective memory preservation, fixed protocol](experiments/prospective_memory_protocol.md)
+- [Experiment 021: earlier capture, inconsistent benefit and selection effects](results/prospective-memory-v1/findings.md)
+- [Experiment 022: archive competition versus reinstatement, fixed protocol](experiments/memory_selection_protocol.md)
+- [Experiment 022: independent admission, useful recall and remaining failures](results/memory-selection-v1/findings.md)
+- [Closed test round 019–022: synthesis, baseline and next boundary](results/consolidated-learner-test-round-synthesis.md)
+- [Current evidence map: capabilities, supplied assumptions and limits](results/evidence-map.md)
+
+**Current status:** the consolidated-learner follow-on test round, 019–022,
+is closed with all 320 runs independently audited. It establishes useful
+mechanisms and explicit limits, not a consistently superior combined policy.
+The original integrated learner remains the reference; later protection and
+memory policies remain experimental alternatives. See the
+[closure synthesis](results/consolidated-learner-test-round-synthesis.md) and
+[evidence map](results/evidence-map.md). No additional benchmark is scheduled
+by this closure.
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,
@@ -85,10 +109,74 @@ including predictions, structural decisions and costs. Thirteen correctness
 tests and an independent artifact audit passed. A continuing nested learner now
 has explicit evidence identities, semantic dependency checks and resumable
 checkpoints. This preserves the earlier results; it supplies no new evidence
-of improved learning. The protection/interface interaction benchmark (C1) and
-integrated structural learner benchmark (C2) remain unrun. See the
+of improved learning. See the
 [completion record](results/consolidation-core-v1/findings.md) for scope and
 reproduction commands.
+
+C1 completed on 2026-10-23 with all 120 runs independently audited. **Its
+combined success criterion failed:** earned protection reduced misleading-burst
+local errors from 12 to 2 checkpoints, but increased lasting-change local loss
+by .069240 nats and delayed confirmed recovery by 76.8 records, beyond the
+declared allowances. Reclosure restored coarse interfaces after recovery;
+correct composite output could still conceal an incorrect lower form. The
+separate C2 gate passed: the preselected immediate/reclosure reference achieved
+10/10 transfer and 9/10 final full validity in each condition. The fixed run
+used 399,360 labelled presentations without tuning or rerunning. See the
+[C1 findings](results/protection-interfaces-v1/findings.md).
+
+C2 completed on 2026-10-23 with all 120 runs independently audited. **Its
+combined success criterion also failed:** complete integrated trajectories
+were 0/10 for form return and 3/10 for each detail history, below the required
+8/10. Predictions often recovered while unnecessary distinctions or raw
+exposure remained. Retaining an archive produced no prediction benefit over
+deleting it; no archive was accepted. The bounded round is complete and
+provides a reproducible foundation for further tests, while reliable combined
+learning remains unestablished. See the
+[C2 findings](results/structural-consolidation-v1/findings.md) and
+[round synthesis](results/consolidation-round-synthesis.md).
+
+Experiment 019 completed on 2026-10-26: all 120 fresh-world runs of the
+unchanged learner passed independent audit. With a longer recovery period,
+integrated prediction remained valid across five late reviews in 10/10 runs
+per history. Stable forms and interfaces passed in 6/10 form-return runs and
+9/10 in each detail history, so the all-history representation criterion
+failed. Some abstractions recovered and later regressed. Memory produced no
+benefit in the designated detail-return comparison; the fixed-form control
+also performed well. See the [findings](results/consolidated-recovery-v1/findings.md)
+for the separate prediction, representation and retention claims.
+
+Experiment 020 completed on 2026-10-26 with 60 independently audited runs.
+Requiring a second witness before replacing an established form reduced
+affected-form error checkpoints from 9 to 1 under ordinary noise and from
+23 to 4 during a misleading burst. Its combined criterion nevertheless failed:
+after genuine change, mean confirmed recovery was 89.6 records slower (limit 64)
+and composite loss costs exceeded .05 nats. Stable late full validity improved,
+but appropriate interfaces remained unreliable. The baseline and upper rules
+were preserved; see the [findings](results/consolidated-protection-v1/findings.md)
+for the measured trade-off.
+
+Experiment 021 completed on 2026-10-26 with 60 independently audited runs.
+Prospective preservation confirmed an early snapshot in 7/10 pairs per history
+and reduced mean early-return loss by .028616 nats against both controls.
+**Its primary criterion failed:** only 3/10 pairs improved, requiring 8/10.
+Pre-return costs stayed within their allowances; all policies reached stable
+late prediction and appropriate structure in every run in this batch.
+An archive could also block a fresh update without being retrieved, so the
+mean improvement does not establish reliable reinstatement of earlier knowledge.
+The baseline remains unchanged. See the [findings](results/prospective-memory-v1/findings.md)
+for preservation, retrieval and candidate-selection effects separately.
+
+Experiment 022 completed on 2026-10-26 with 80 independently audited runs.
+Testing the best fresh candidate and memory separately reduced mean early-return
+loss by .045996 nats versus ignoring stored memory and by .052323 versus the
+previous joint ranking. **The primary criterion failed:** 4/10 pairs improved
+versus the required eight. Those four had preserved snapshots before
+simplification; predictions matched the memory-ignoring control until retrieval.
+Competition without retrieval offered no early-return benefit on these worlds.
+Reversal costs passed the mean allowance but included one .131837-nat individual
+setback. All policies reached stable late validity and appropriate structure.
+The [findings](results/memory-selection-v1/findings.md) support useful memory
+access in some cases, while leaving capture quality and recall reliability open.
 
 The form-learning enquiry moves from supplied associations to reusable groups
 of contexts that share action consequences. In the first small simulator, both
@@ -226,8 +314,9 @@ All variants ultimately met final validity in all conditions. Eight tests and
 an independent replay of all 90 runs passed, using 138,240 label presentations
 without tuning or rerunning. This supports separating discovery from protection,
 with an explicit adaptation cost. That study did not integrate protection into
-the nested learner. C0 now provides that option in code, but its interaction
-benchmark remains unrun; no learned retention policy has been established.
+the nested learner. C0 provided that option in code, and C1 subsequently tested
+its interactions, retaining the protection/adaptation trade-off. No learned
+retention policy has been established.
 
 The first restricted mapping experiment passed in all five seeds: 100% accuracy
 on balanced evaluation with learning frozen, and mean log loss 0.296 versus

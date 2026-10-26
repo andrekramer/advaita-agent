@@ -1,0 +1,11 @@
+test_failed_archive_cannot_block_separate_or_shadow (__main__.SelectionTests.test_failed_archive_cannot_block_separate_or_shadow) ... ok
+test_full_replay_all_policies_and_frozen_qualification (__main__.SelectionTests.test_full_replay_all_policies_and_frozen_qualification) ... ok
+test_incompatible_memory_is_excluded (__main__.SelectionTests.test_incompatible_memory_is_excluded) ... ok
+test_independent_metrics_and_threshold (__main__.SelectionTests.test_independent_metrics_and_threshold) ... ok
+test_original_behavior_and_checkpoint_continuation (__main__.SelectionTests.test_original_behavior_and_checkpoint_continuation) ... ok
+test_passing_archive_joint_retrieval_and_veto_are_distinct (__main__.SelectionTests.test_passing_archive_joint_retrieval_and_veto_are_distinct) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.190s
+
+OK

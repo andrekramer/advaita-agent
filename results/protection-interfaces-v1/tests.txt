@@ -1,0 +1,9 @@
+test_all_four_combinations_match_independent_state_replay (__main__.InteractionTests.test_all_four_combinations_match_independent_state_replay) ... ok
+test_only_the_local_channel_is_corrupted_and_boundaries_are_exact (__main__.InteractionTests.test_only_the_local_channel_is_corrupted_and_boundaries_are_exact) ... ok
+test_small_streams_are_independently_reconstructible_and_paired (__main__.InteractionTests.test_small_streams_are_independently_reconstructible_and_paired) ... ok
+test_zero_control_errors_do_not_prove_protection_and_gate_is_separate (__main__.InteractionTests.test_zero_control_errors_do_not_prove_protection_and_gate_is_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.030s
+
+OK

@@ -1,0 +1,10 @@
+test_failed_confirmation_does_not_replace_incumbent (__main__.ProtectionTests.test_failed_confirmation_does_not_replace_incumbent) ... ok
+test_metrics_independent_arithmetic_and_zero_error_baseline (__main__.ProtectionTests.test_metrics_independent_arithmetic_and_zero_error_baseline) ... ok
+test_pending_model_is_frozen_and_requires_another_witness (__main__.ProtectionTests.test_pending_model_is_frozen_and_requires_another_witness) ... ok
+test_protection_is_earned_only_after_two_adequate_reviews (__main__.ProtectionTests.test_protection_is_earned_only_after_two_adequate_reviews) ... ok
+test_tiny_streams_and_both_full_checkpoints (__main__.ProtectionTests.test_tiny_streams_and_both_full_checkpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.070s
+
+OK

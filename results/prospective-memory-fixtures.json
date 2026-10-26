@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "tests": 6,
+  "charged_labels": 854,
+  "elapsed_seconds": 0.14093275000050198,
+  "log": "test_changed_port_meaning_invalidates_pending (__main__.MemoryTests.test_changed_port_meaning_invalidates_pending) ... ok\ntest_discard_matches_plain_deletion_predictions (__main__.MemoryTests.test_discard_matches_plain_deletion_predictions) ... ok\ntest_failed_witness_does_not_confirm_memory (__main__.MemoryTests.test_failed_witness_does_not_confirm_memory) ... ok\ntest_frozen_confirmation_is_delayed_and_reduction_cannot_overwrite (__main__.MemoryTests.test_frozen_confirmation_is_delayed_and_reduction_cannot_overwrite) ... ok\ntest_independent_metrics_and_improving_pair_threshold (__main__.MemoryTests.test_independent_metrics_and_improving_pair_threshold) ... ok\ntest_small_worlds_and_all_three_full_checkpoints (__main__.MemoryTests.test_small_worlds_and_all_three_full_checkpoints) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.141s\n\nOK\n",
+  "sources": {
+    "advaita/prospective_memory.py": "19b8dc6fd412589147261a2f80dae66b8cb3b8e562dae5daabf7a59af75c5988",
+    "experiments/prospective_memory_protocol.md": "d945436ee1df0c2a1b3a87543f1a017d7948959c5e867e7088e597e8ba301bdf",
+    "experiments/prospective_memory.py": "100c36dfef35d383f60be7294a6b91c53864baaeeb5264e754f937b0c24a399c",
+    "experiments/prospective_memory_metrics.py": "02c03ad5b18c96e21371461b1b75131867b3be9c0ff18e3f0c58c9142edeb9cd",
+    "checks/audit_prospective_memory.py": "17c90577118aeb2fe2383653c4c167e0ad1d223914b3b41772c78d545f3a614f",
+    "checks/test_prospective_memory.py": "e368206e614d910af85b230e6ee265bf33c2a0e264b89f0d5482dcfe994d6f5c"
+  }
+}

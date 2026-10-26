@@ -1,0 +1,3158 @@
+[
+  {
+    "seed": 800,
+    "proposal_seed": 800,
+    "branch": "forms",
+    "stable_structural": false,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 832,
+        "main_first": 641,
+        "main_last": 832
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          false,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "retrieved",
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "retrieved_capture": "select/832"
+      }
+    ]
+  },
+  {
+    "seed": 800,
+    "proposal_seed": 801,
+    "branch": "forms",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 832,
+        "main_first": 641,
+        "main_last": 832
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 800,
+    "proposal_seed": 800,
+    "branch": "detail",
+    "stable_structural": false,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          false,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "reduction_failed",
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 800,
+    "proposal_seed": 801,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 800,
+    "proposal_seed": 800,
+    "branch": "reversed",
+    "stable_structural": false,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          false,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "reduction_failed",
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 800,
+    "proposal_seed": 801,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 801,
+    "proposal_seed": 800,
+    "branch": "forms",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      },
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 768,
+        "main_first": 577,
+        "main_last": 768
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 801,
+    "proposal_seed": 801,
+    "branch": "forms",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      },
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 768,
+        "main_first": 577,
+        "main_last": 768
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 801,
+    "proposal_seed": 800,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 801,
+    "proposal_seed": 801,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 801,
+    "proposal_seed": 800,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 801,
+    "proposal_seed": 801,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 802,
+    "proposal_seed": 800,
+    "branch": "forms",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 768,
+        "main_first": 577,
+        "main_last": 768
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 802,
+    "proposal_seed": 801,
+    "branch": "forms",
+    "stable_structural": false,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 1152,
+        "main_first": 961,
+        "main_last": 1152
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "reduction_failed",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "reduced",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 802,
+    "proposal_seed": 800,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 802,
+    "proposal_seed": 801,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 802,
+    "proposal_seed": 800,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 802,
+    "proposal_seed": 801,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 803,
+    "proposal_seed": 800,
+    "branch": "forms",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 768,
+        "main_first": 577,
+        "main_last": 768
+      },
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 1024,
+        "main_first": 833,
+        "main_last": 1024
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "reduced",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 803,
+    "proposal_seed": 801,
+    "branch": "forms",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 768,
+        "main_first": 577,
+        "main_last": 768
+      },
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 1024,
+        "main_first": 833,
+        "main_last": 1024
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "reduced",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 803,
+    "proposal_seed": 800,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 803,
+    "proposal_seed": 801,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 803,
+    "proposal_seed": 800,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 803,
+    "proposal_seed": 801,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 804,
+    "proposal_seed": 800,
+    "branch": "forms",
+    "stable_structural": false,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      },
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 896,
+        "main_first": 705,
+        "main_last": 896
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "retrieved",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": "select/896"
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "retrieved",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": "select/896"
+      }
+    ]
+  },
+  {
+    "seed": 804,
+    "proposal_seed": 801,
+    "branch": "forms",
+    "stable_structural": false,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      },
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 960,
+        "main_first": 769,
+        "main_last": 960
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          1,
+          2
+        ],
+        "upper_action": "improved",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "retrieved",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": "select/960"
+      }
+    ]
+  },
+  {
+    "seed": 804,
+    "proposal_seed": 800,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 804,
+    "proposal_seed": 801,
+    "branch": "detail",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 804,
+    "proposal_seed": 800,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  },
+  {
+    "seed": 804,
+    "proposal_seed": 801,
+    "branch": "reversed",
+    "stable_structural": true,
+    "captures": [
+      {
+        "construction_labels": 192,
+        "contains_pre_simplification": false,
+        "index": 448,
+        "main_first": 257,
+        "main_last": 448
+      }
+    ],
+    "late_reviews": [
+      {
+        "index": 1024,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1088,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1152,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1216,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      },
+      {
+        "index": 1280,
+        "accuracy": 1,
+        "local_exact": [
+          true,
+          true
+        ],
+        "spec": [
+          2,
+          1
+        ],
+        "upper_action": "keep",
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "retrieved_capture": null
+      }
+    ]
+  }
+]

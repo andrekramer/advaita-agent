@@ -1,0 +1,29 @@
+{
+  "oracle_context_queries": 237760,
+  "oracle_context_query_ceiling": 307200,
+  "archive_acceptances": 0,
+  "integrated_delete_prediction_equality": true,
+  "detail_integrated_capture_sources": [
+    {
+      "seed": 702,
+      "proposal_seed": 701,
+      "index": 448,
+      "first_record": "main/257/upper",
+      "last_record": "main/448/upper"
+    },
+    {
+      "seed": 703,
+      "proposal_seed": 700,
+      "index": 448,
+      "first_record": "main/257/upper",
+      "last_record": "main/448/upper"
+    },
+    {
+      "seed": 703,
+      "proposal_seed": 701,
+      "index": 448,
+      "first_record": "main/257/upper",
+      "last_record": "main/448/upper"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+test_all_four_variants_match_independent_checkpoint_replay (__main__.StructuralTests.test_all_four_variants_match_independent_checkpoint_replay) ... ok
+test_capture_at_reduction_frozen_memory_semantics_and_pending_restore (__main__.StructuralTests.test_capture_at_reduction_frozen_memory_semantics_and_pending_restore) ... ok
+test_collapse_requires_two_witnesses_and_can_be_recreated (__main__.StructuralTests.test_collapse_requires_two_witnesses_and_can_be_recreated) ... ok
+test_streams_boundaries_and_reversed_return_are_independently_defined (__main__.StructuralTests.test_streams_boundaries_and_reversed_return_are_independently_defined) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.064s
+
+OK

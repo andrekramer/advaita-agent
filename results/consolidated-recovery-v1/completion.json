@@ -1,0 +1,16 @@
+{
+  "experiment": "019",
+  "date": "2026-10-26",
+  "status": "complete_audited",
+  "learner_modified": false,
+  "representation_pass": false,
+  "memory_pass": false,
+  "benchmark_runs": 120,
+  "new_learning_label_presentations": 641280,
+  "allocated_label_presentations": 814080,
+  "fixture_new_learning_labels": 0,
+  "benchmark_seconds": 102.21139850000327,
+  "audit_seconds": 83.13972933299374,
+  "source_manifest_sha256": "c4a20b3776a3c5333e9f5eac6acf1faead51603ec731646f4c30c78bbff5e20f",
+  "audit_sha256": "b329eb01007b1f2a4d0ca675fc7906dc2bd75e93d06c2b78938ea997e5b64ff3"
+}

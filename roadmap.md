@@ -324,9 +324,91 @@ The [consolidation plan](experiments/consolidation_round_plan.md), prepared
 shared core matched all 380 complete saved traces from 012–015, with thirteen
 correctness tests and an independent artifact audit. The continuing nested
 learner now supports explicit protection/reclosure switches, evidence records
-and checkpoint restoration. No new benchmark has run. C1 next tests the
-interaction of retention and interface policies; C2 conditionally integrates
-structural reduction and retained memory. Each still needs its frozen protocol.
+and checkpoint restoration.
+[C1 / 017](results/protection-interfaces-v1/findings.md) completed on 2026-10-23:
+all 120 runs passed independent audit, but the combined empirical criterion
+failed. Earned protection reduced misleading-burst local errors while exceeding
+the allowed loss and recovery delay after lasting change. Reclosure restored
+abstraction after recovery; it did not remove the local adaptation cost.
+The predeclared immediate/reclosure reference passed the separate progression
+gate (10/10 transfer and 9/10 final full validity in every condition).
+[C2 / 018](results/structural-consolidation-v1/findings.md) completed on
+2026-10-23 with all 120 runs independently audited. Its primary criterion
+failed: complete integrated trajectories were 0/10 for form return and 3/10
+for each detail history, below the required 8/10. Structural reduction,
+dependency selection and retained memory now coexist in one continuing
+learner, but recovery of predictions did not reliably restore minimal forms
+and interfaces. No archive was accepted, and retained and deleted memory
+produced identical prediction paths.
+
+The bounded round is complete; reliable integrated learning remains
+unestablished. The [round synthesis](results/consolidation-round-synthesis.md)
+identifies focused follow-on questions: when to preserve useful memory,
+how to restore abstraction after recovery, and how to balance protection
+against lasting change. Further experiments require a separate protocol.
+The round used 19,728 of 20,000 synthetic fixture labels; the remaining 272
+do not imply further tuning or seed searches.
+
+[Experiment 019](results/consolidated-recovery-v1/findings.md), a separately
+specified test round completed on 2026-10-26, retained the learner unchanged
+and extended recovery on fresh worlds. All 120 runs passed independent audit.
+Stable late prediction passed in 10/10 integrated runs in each history;
+stable representation passed in 6/10 forms and 9/10 for each detail history.
+The representation criterion failed overall, and retained memory provided no
+gain in the designated return comparison. Some forms recovered and later
+regressed; fixed local forms performed well as a control. Further work should
+test prospective preservation and resistance to spurious revisions against
+this unchanged baseline, while measuring their cost when change is genuine.
+[Experiment 020](results/consolidated-protection-v1/findings.md) subsequently
+tested corroboration of established local forms, keeping the upper/interface
+and memory rules fixed. All 60 runs passed independent audit. Protection
+reduced affected-form errors from 9 to 1 in stable noisy conditions and from
+23 to 4 during misleading bursts, but delayed genuine-change recovery by
+89.6 records and exceeded composite-loss allowances. Its combined criterion
+failed. This is a measured stability/adaptation trade-off, not a promoted
+replacement for the baseline. Prospective memory preservation and coordination
+of provisional local changes with upper interfaces remain separate hypotheses
+for a future protocol; neither has been tested by this intervention.
+
+[Experiment 021](results/prospective-memory-v1/findings.md) then tested prospective
+memory preservation separately, completing 60 independently audited runs on
+2026-10-26. Early snapshots were confirmed in 7/10 pairs per history. Mean
+early-return loss improved by .028616 nats, but only 3/10 pairs improved against
+either control, below the required eight; the primary criterion failed.
+Pre-return and reversal cost guards passed, and every policy reached stable
+late prediction and appropriate structure on this batch. Saved traces showed
+that archive availability could block fresh adaptation without retrieval.
+Memory preservation is now tested, but reliable beneficial recall remains
+unestablished. A separate selection/retrieval ablation is the focused next
+question; coordination of provisional local changes with upper interfaces
+remains untested. Neither intervention has been promoted into the baseline.
+
+[Experiment 022](results/memory-selection-v1/findings.md) completed the separate
+selection/retrieval test on 2026-10-26 with 80 independently audited runs.
+Four policies isolated stored-but-ignored memory, competition without retrieval,
+joint ranking and independent admission. Independent admission improved mean
+early-return loss by .045996 nats versus ignoring memory, but only 4/10 pairs
+improved, failing the required eight. All four beneficial pairs had preserved
+snapshots before simplification, and independent admission matched the ignoring
+control until retrieval. Competition alone gave no early-return benefit here.
+Reversal costs met the mean allowance but included a larger individual failure.
+Every policy achieved stable late validity and structure in this batch.
+Capture quality/timing and the relative contributions of restored interfaces
+and fitted parameters are now the focused open questions. No revised policy
+has been promoted; provisional-local/upper coordination remains untested.
+
+**Closure, 2026-10-26:** the follow-on test round 019–022 is complete, with
+320 independently audited runs. The
+[closure synthesis](results/consolidated-learner-test-round-synthesis.md)
+records the connected findings, the unchanged integrated reference and the
+experimental alternatives; the [current evidence map](results/evidence-map.md)
+separates demonstrated capabilities from remaining assumptions and failures.
+No further experiment is required to close this round. Capture quality/timing,
+interface versus parameter reinstatement, and local/upper coordination are
+questions for a separate future protocol. Interpretation and controlled
+modification may be the next bounded enquiry; meta-learning remains later.
+No new benchmark, policy promotion or scaling follows automatically from closure.
+
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen

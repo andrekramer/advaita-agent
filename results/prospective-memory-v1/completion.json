@@ -1,0 +1,16 @@
+{
+  "experiment": "021",
+  "date": "2026-10-26",
+  "status": "complete_audited",
+  "primary_pass": false,
+  "baseline_modified": false,
+  "intervention": "prospective one-slot predictor capture and preservation",
+  "benchmark_runs": 60,
+  "used_label_presentations": 407040,
+  "allocated_label_presentations": 407040,
+  "fixture_labels": 854,
+  "benchmark_seconds": 99.599539791001,
+  "audit_seconds": 77.72131408299902,
+  "source_manifest_sha256": "75dd09f154fa7a07f88f1cec56cde8ce5e1976f1e7032a212d33938d722929ba",
+  "audit_sha256": "ee708134d2acead39740db868397766fddb0dfab4ba2d2dcbf40b9df7adf6aad"
+}

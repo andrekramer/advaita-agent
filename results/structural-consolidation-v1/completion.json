@@ -1,0 +1,17 @@
+{
+  "stage": "C2",
+  "experiment": "018",
+  "date": "2026-10-23",
+  "status": "complete_audited",
+  "primary_pass": false,
+  "round_execution_complete": true,
+  "reliable_integrated_learning_established": false,
+  "fixture_labels_charged_this_stage": 512,
+  "round_fixture_labels_charged": 19728,
+  "round_fixture_labels_remaining": 272,
+  "benchmark_runs": 120,
+  "new_benchmark_label_presentations": 433920,
+  "allocated_label_presentations": 537600,
+  "round_new_benchmark_used_labels": 833280,
+  "round_new_benchmark_allocated_labels": 936960
+}

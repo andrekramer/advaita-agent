@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "tests": 3,
+  "new_learning_labels": 0,
+  "elapsed_seconds": 0.07958662499731872,
+  "log": "test_denominators_pairing_and_thresholds (__main__.HarnessTests.test_denominators_pairing_and_thresholds) ... ok\ntest_one_good_final_checkpoint_cannot_hide_instability (__main__.HarnessTests.test_one_good_final_checkpoint_cannot_hide_instability) ... ok\ntest_reference_window_is_preserved_and_new_metrics_agree_independently (__main__.HarnessTests.test_reference_window_is_preserved_and_new_metrics_agree_independently) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.079s\n\nOK\n",
+  "sources": {
+    "experiments/consolidated_recovery_protocol.md": "0df27ed2dfd3db00a5c0133647a5688602dc735f85080b34cf6eca6af3589b73",
+    "experiments/consolidated_recovery.py": "2225ea4f91d6c26b87becd04d194cf75326bb35852134c0df187e8dabfcf8419",
+    "experiments/consolidated_recovery_metrics.py": "d47ef5d5119023c8fe14aef6be26d6bb0774374b4c87eb39e400454a36bb3207",
+    "checks/audit_consolidated_recovery.py": "198af3f947eb3cef68cacb7a0a87da1bb9bf6df7e1a644c7630fec5215e900f5",
+    "checks/test_consolidated_recovery.py": "52c7fab7062a748a64111aea2a7fb683ddb8e60c80adf99657bf3bcbcc3823b4"
+  }
+}

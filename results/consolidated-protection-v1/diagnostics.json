@@ -1,0 +1,6544 @@
+[
+  {
+    "seed": 900,
+    "proposal_seed": 900,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 0,
+        "established": true,
+        "pending": {
+          "counts": {
+            "0": [
+              95,
+              144
+            ],
+            "1": [
+              2,
+              48
+            ]
+          },
+          "groups": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "partition": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 900,
+    "proposal_seed": 901,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 0,
+        "established": true,
+        "pending": {
+          "counts": {
+            "0": [
+              95,
+              144
+            ],
+            "1": [
+              2,
+              48
+            ]
+          },
+          "groups": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "partition": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 900,
+    "proposal_seed": 900,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 0,
+        "established": true,
+        "pending": {
+          "counts": {
+            "0": [
+              95,
+              144
+            ],
+            "1": [
+              2,
+              48
+            ]
+          },
+          "groups": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "partition": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 900,
+    "proposal_seed": 901,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 0,
+        "established": true,
+        "pending": {
+          "counts": {
+            "0": [
+              95,
+              144
+            ],
+            "1": [
+              2,
+              48
+            ]
+          },
+          "groups": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "partition": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 900,
+    "proposal_seed": 900,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 0,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.4902144688789343,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.20081654495202106,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02851002629207816,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008426855403675604,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008426855403675604,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008426855403675604,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 900,
+    "proposal_seed": 901,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 0,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014414567629853214,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.4902144688789343,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.20081654495202106,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02851002629207816,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008426855403675604,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008426855403675604,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008426855403675604,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 901,
+    "proposal_seed": 900,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 901,
+    "proposal_seed": 901,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 901,
+    "proposal_seed": 900,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 901,
+    "proposal_seed": 901,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 901,
+    "proposal_seed": 900,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.5084377292608881,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.1060198780589579,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "reduction_failed",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.012283189706049857,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.022756841029054675,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00870721263291313,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00870721263291313,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 901,
+    "proposal_seed": 901,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008820842018938901,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.5084377292608881,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.1060198780589579,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "reduction_failed",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.012283189706049857,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.022756841029054675,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00870721263291313,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00870721263291313,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 902,
+    "proposal_seed": 900,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [
+      [
+        128,
+        0
+      ]
+    ],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020737072855337546,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "improved",
+          "confirmation_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.03000777254716336,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 902,
+    "proposal_seed": 901,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 2,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [
+      [
+        128,
+        0
+      ]
+    ],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 902,
+    "proposal_seed": 900,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [
+      [
+        128,
+        0
+      ]
+    ],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "improved",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020737072855337546,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "improved",
+          "confirmation_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.03000777254716336,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010956092941581175,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 902,
+    "proposal_seed": 901,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 2,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [
+      [
+        128,
+        0
+      ]
+    ],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020737072855337546,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.03000777254716336,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.022405051538559484,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "improved",
+          "confirmation_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.027171187830908106,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.01311994307984149,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.01311994307984149,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 902,
+    "proposal_seed": 900,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [
+      [
+        128,
+        0
+      ]
+    ],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "improved",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 902,
+    "proposal_seed": 901,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 2,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [
+      [
+        128,
+        0
+      ]
+    ],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.007360133289244286,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "improved",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.75,
+        "regret": 0.36722732706670946,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          false,
+          true
+        ],
+        "accuracy": 0.71875,
+        "regret": 0.2694396520485086,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "improved",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 0.9375,
+        "regret": 0.136302562511792,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          false,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010675735712343704,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010675735712343704,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.010675735712343704,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 903,
+    "proposal_seed": 900,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 2,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020056143142790472,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02851002629207816,
+        "spec": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 903,
+    "proposal_seed": 901,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 2,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 903,
+    "proposal_seed": 900,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      },
+      {
+        "confirmation_queries": 96,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 3,
+        "pending_cells_peak": 2,
+        "starts": 3
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020056143142790472,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02851002629207816,
+        "spec": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 903,
+    "proposal_seed": 901,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 96,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 3,
+        "pending_cells_peak": 2,
+        "starts": 3
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 903,
+    "proposal_seed": 900,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.5228080810665668,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.1948475161019423,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.027307074660899155,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014023440173473845,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020056143142790472,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduction_failed",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02851002629207816,
+        "spec": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 903,
+    "proposal_seed": 901,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 64,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 2
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.00874150245299643,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.5228080810665668,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.1948475161019423,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.027307074660899155,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.014023440173473845,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.020056143142790472,
+        "spec": [
+          1,
+          2
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduction_failed",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02851002629207816,
+        "spec": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 904,
+    "proposal_seed": 900,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 904,
+    "proposal_seed": 901,
+    "branch": "persistent",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 904,
+    "proposal_seed": 900,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 904,
+    "proposal_seed": 901,
+    "branch": "burst",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 1,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmation_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 904,
+    "proposal_seed": 900,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.5085086714025925,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.1948475161019423,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "reduction_failed",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.01735544525652627,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02091862991769594,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.019798368598990923,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.019798368598990923,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 904,
+    "proposal_seed": 901,
+    "branch": "remap",
+    "protection_costs": [
+      {
+        "confirmation_queries": 0,
+        "confirmations": 0,
+        "establishments": 1,
+        "failures": 0,
+        "pending_cells_peak": 0,
+        "starts": 0
+      },
+      {
+        "confirmation_queries": 32,
+        "confirmations": 1,
+        "establishments": 2,
+        "failures": 0,
+        "pending_cells_peak": 2,
+        "starts": 1
+      }
+    ],
+    "final_protection": [
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      },
+      {
+        "adequate": 2,
+        "established": true,
+        "pending": null
+      }
+    ],
+    "harmful": [],
+    "early_reviews": [
+      {
+        "index": 64,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          false,
+          false
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 128,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.008199105137452367,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 192,
+        "local_actions": [
+          "reduction_failed",
+          "awaiting_confirmation"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "improved",
+        "local_exact": [
+          true,
+          false
+        ],
+        "accuracy": 0.5,
+        "regret": 0.5085086714025925,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 256,
+        "local_actions": [
+          "reduction_failed",
+          "confirmed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.1948475161019423,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 320,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          false
+        ],
+        "upper_action": "reduction_failed",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.01735544525652627,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 384,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "awaiting_reduction",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.02091862991769594,
+        "spec": [
+          2,
+          1
+        ]
+      },
+      {
+        "index": 448,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "reduced",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.019798368598990923,
+        "spec": [
+          1,
+          1
+        ]
+      },
+      {
+        "index": 512,
+        "local_actions": [
+          "reduction_failed",
+          "reduction_failed"
+        ],
+        "established": [
+          true,
+          true
+        ],
+        "upper_action": "keep",
+        "local_exact": [
+          true,
+          true
+        ],
+        "accuracy": 1,
+        "regret": 0.019798368598990923,
+        "spec": [
+          1,
+          1
+        ]
+      }
+    ]
+  }
+]

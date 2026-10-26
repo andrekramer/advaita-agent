@@ -1,0 +1,16 @@
+{
+  "experiment": "020",
+  "date": "2026-10-26",
+  "status": "complete_audited",
+  "primary_pass": false,
+  "baseline_modified": false,
+  "intervention": "corroboration of established local-form replacements",
+  "benchmark_runs": 60,
+  "used_label_presentations": 407040,
+  "allocated_label_presentations": 407040,
+  "fixture_labels": 1615,
+  "benchmark_seconds": 47.46606425000937,
+  "audit_seconds": 39.06841454100504,
+  "source_manifest_sha256": "5af85c46aad43ff501619a2b7b9bc276d2c3593a933b0f5ae4402740dc80c166",
+  "audit_sha256": "19efe6dd8d0a8f5495ebef6496ca948996528e7abcec64babceca5915e84225a"
+}

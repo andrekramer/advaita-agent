@@ -1,0 +1,11 @@
+test_changed_port_meaning_invalidates_pending (__main__.MemoryTests.test_changed_port_meaning_invalidates_pending) ... ok
+test_discard_matches_plain_deletion_predictions (__main__.MemoryTests.test_discard_matches_plain_deletion_predictions) ... ok
+test_failed_witness_does_not_confirm_memory (__main__.MemoryTests.test_failed_witness_does_not_confirm_memory) ... ok
+test_frozen_confirmation_is_delayed_and_reduction_cannot_overwrite (__main__.MemoryTests.test_frozen_confirmation_is_delayed_and_reduction_cannot_overwrite) ... ok
+test_independent_metrics_and_improving_pair_threshold (__main__.MemoryTests.test_independent_metrics_and_improving_pair_threshold) ... ok
+test_small_worlds_and_all_three_full_checkpoints (__main__.MemoryTests.test_small_worlds_and_all_three_full_checkpoints) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.141s
+
+OK
