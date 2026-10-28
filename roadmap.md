@@ -409,6 +409,16 @@ questions for a separate future protocol. Interpretation and controlled
 modification may be the next bounded enquiry; meta-learning remains later.
 No new benchmark, policy promotion or scaling follows automatically from closure.
 
+**Next enquiry, planned 2026-10-27:** test whether explicit situated-prediction
+and form-learning roles improve the architecture before assessing steerability.
+The [comparison plan](experiments/explicit_roles_test_plan.md) separates role
+ownership from review timing, continuous prediction updates and adaptation-history
+feedback. It includes an engineering gate, a bounded comparison and conditional
+fresh-world confirmation. The outcome will determine which architecture is
+carried into a subsequent steering study. The current post covers the existing
+learner; the next will explain the architecture decision and then examine
+steering. No new experiment has been run under this plan.
+
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen

@@ -1,0 +1,176 @@
+
+Advaita-agent: bringing the learner together
+A space of revisable distinctions, a small set of operators, and what the consolidated experiments tell us about learning generalisations.
+
+
+
+The aspiration behind Advaita-agent has stayed the same: can learn; can be interpreted; can be steered. The latest work brings the first of those into sharper focus. Can the mechanisms explored separately—forming categories, learning relationships, hiding detail and retaining knowledge—work together in one continuing learner?
+
+We now have a shared implementation and a completed round of tests. There is evidence for learning and revising generalisations, alongside clearer explanations of where the process fails. That gives us a basis for the next question: can it be steered?
+
+Advaita-agent began as a smaller enquiry following my R-rule and Chevron attention work. I wanted something I could investigate with AI assistance while still examining the assumptions, mathematics and consequences of individual changes. Construction and learning both belong in the project: humans and AI supply an initial organisation, and experience tests what that organisation can become.
+
+The philosophical starting point is non-dualism. Distinctions help us organise experience without necessarily revealing absolute divisions in reality. The aim is to learn which differences matter, where they matter, and when they can be ignored.
+
+A useful learner should sometimes create a distinction. It should also be able to collapse one.
+
+The original mathematical vocabulary starts with pairs of tendencies. For a pair (X,Y), the possible configurations are:
+
+(
+X
+,
+Y
+)
+∈
+{
+(
+0
+,
+0
+)
+,
+(
+1
+,
+0
+)
+,
+(
+0
+,
+1
+)
+,
+(
+1
+,
+1
+)
+}
+.
+
+Neither may participate, either may participate alone, or both may participate. Calling them opposites does not require defining one as the logical negation of the other. This leaves room for complementary aspects and coexistence, as well as opposition. Several pairs give a space of possible configurations and relationships among them.
+
+The important move is to let the learner revise how it organises that space. Some configurations may have consequences similar enough to be treated as one form. A distinction that initially looks unnecessary may later become useful. A relationship may depend on two aspects together even when neither helps on its own.
+
+This is also where I find the connection with name, form and action useful. A name lets us refer to an organisation; a form brings different instances together; action and its consequences can support or challenge that grouping. In the code, names are identifiers. Their usefulness depends on the organisation and evidence behind them.
+
+The consolidated experiments use small finite state spaces, learned groupings and ordinary conditional probabilities. The wider geometry and phase dynamics of the R-rule remain proposals to investigate; these tests do not establish that the full mathematical construction is necessary.
+
+At the level needed here, the predictive mathematics can be written as:
+
+p
+M
+(
+y
+∣
+x
+,
+a
+)
+=
+q
+M
+(
+y
+∣
+ϕ
+M
+(
+x
+)
+,
+a
+)
+.
+
+The learner (M) receives a situation (x) and an action (a), then predicts an outcome (y). The representation (phi_M(x)) determines which distinctions reach the predictor. It may expose a learned group, detailed information, or a combination of outputs from different modules. The probability table (q_M) records what those represented situations have tended to imply.
+
+
+The consolidated reference learner.
+Learning can therefore change two things: the predictions associated with a representation, and the representation itself.
+
+External outcomes keep this process answerable to experience. The basic predictive test is log loss:
+
+ℓ
+=
+−
+log
+⁡
+p
+M
+(
+y
+observed
+∣
+x
+,
+a
+)
+.
+
+A confident wrong prediction receives a larger penalty. Candidates are fitted from available observations and assessed on separate selection evidence. Smaller representations can also be accepted when they remain adequately predictive under declared tolerances. Those tolerances and the preference for adequate simplification are design choices.
+
+This keeps the immediate enquiry close to predictive consequences. We have not added a large catalogue of goals or values to decide which distinctions deserve to exist. We do still choose the observations, possible representations and rules through which usefulness is tested.
+
+I describe the organising process as Inertial Variation, Selection, and Retention—IVSR. Existing organisation constrains variation. Evidence selects among alternatives. Retained changes shape subsequent responses and possibilities for change. Inertia is this dependence on history: useful knowledge can persist, but so can a mistake.
+
+In the consolidated learner, this takes the form of a small family of operators:
+
+- Form and revise: propose alternative groupings of observations and test their predictive usefulness.
+
+- Connect and disconnect: select which available inputs contribute to a relationship.
+
+- Open and close: expose detail when it matters, then reconsider whether a coarser interface is sufficient.
+
+- Collapse: remove a distinction when a simpler organisation remains adequate.
+
+- Preserve and reinstate: freeze a predictor and later consider using it again, provided its inputs still have compatible meanings.
+
+These operators share prediction machinery and evidence records, but they need not have identical acceptance rules. Discovering something provisionally and protecting something established make different demands. Hiding detail and forgetting it are different operations too.
+
+An interface (what I sometimes call a fold) is particularly important. It allows one part of the learner to use what another has learned without receiving all its detail. A higher process can work with a group identity while ignoring differences handled below. Generalisation includes this ability to leave complexity out.
+
+But an interface can also conceal a failure. The parent may recover correct predictions by reopening raw information while the lower abstraction remains wrong. Good output alone does not tell us whether the underlying organisation has recovered.
+
+That became one of the main findings of consolidation. The shared implementation first reproduced the earlier saved behaviour. We then tested interactions within continuing learners, followed by 320 audited runs examining recovery, protection and memory. These were small simulated task families with varied environments and proposal sequences, rather than hundreds of unrelated tasks.
+
+The tests sharpened three points.
+
+First, more experience often restored prediction, but did not reliably preserve useful abstraction. Some representations recovered and later regressed. Learning needs evaluation over a trajectory, not only at a successful endpoint.
+
+Second, protecting an established form reduced revisions caused by misleading evidence. The same protection slowed adaptation when the world genuinely changed. Stability and responsiveness remained a practical trade-off.
+
+Third, memory required both preservation and an opportunity to be used. Waiting until a representation was simplified could mean saving it after earlier knowledge had already been overwritten. Preserving it sooner helped in some cases. Yet an archive could also interfere with candidate selection without ever being recalled.
+
+The final comparison separated those effects. Giving memory and the best fresh candidate their own selection opportunities improved average early-return prediction. Four of ten paired runs improved, and all four had preserved an early snapshot. Simply allowing memory to block fresh updates provided no early-return benefit on those worlds.
+
+That is useful evidence for reinstatement. It is also incomplete: the experiment required improvement in eight pairs, so its main criterion failed. One later snapshot caused a substantial setback when outcomes reversed, despite passing fresh selection. Stored knowledge remains fallible, and a selection batch cannot guarantee its future usefulness.
+
+The detailed protocols, controls and results belong in the Advaita-agent repository. The high-level conclusion is that prediction, representation and memory utility must be assessed separately. The newer policies remain experimental alternatives; their best results have not been combined into an untested “best learner”.
+
+How far does this take us towards a generalised learner?
+
+It supports a framework for learning generalisations: grouping situations by relevant consequences, reusing those groups in relationships, and revising what an agent needs to know. Earlier transfer tests showed small examples of learned groups supporting previously unseen combinations. Consolidation brings these kinds of operation into a common, inspectable implementation and exposes their interactions.
+
+The representation language, available connections, architecture and learning rules are still supplied. We have not shown general competence across unfamiliar task families, or learning how to improve the learning rules themselves. Nor have we shown that all the proposed dynamics are needed. The learner need not always be optimal, but its improvements and failures must remain measurable.
+
+This is enough to close the present round. We have a working framework, bounded evidence of learning, and failures that can be traced to particular decisions. The next enquiry can examine whether that visibility enables useful intervention.
+
+Can we inspect a learned form, understand what supports it, and deliberately change it with reasonably predictable consequences? Can we alter an interface or a retention decision while preserving the learning we want to keep? Could a human or AI help construct an extension that the learner can subsequently test and revise?
+
+Those are steering questions. Having named structures and recorded decisions makes them possible to investigate; it does not answer them. Greater steerability could help control, but would not by itself establish safety or justify scaling or real-world deployment.
+
+The next post will take up the question: can this learner be understood well enough to be steered?
+
+Thanks for following our work,
+
+Andre with CHatGPT-6-Astra, 
+
+October 2026
+
+
+
+
+
+2026/09/11

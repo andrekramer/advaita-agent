@@ -93,6 +93,7 @@ successful experiments alone do not justify that step.
 - [Experiment 022: independent admission, useful recall and remaining failures](results/memory-selection-v1/findings.md)
 - [Closed test round 019–022: synthesis, baseline and next boundary](results/consolidated-learner-test-round-synthesis.md)
 - [Current evidence map: capabilities, supplied assumptions and limits](results/evidence-map.md)
+- [Next test plan: explicit learning roles, architecture decision, then steering](experiments/explicit_roles_test_plan.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -102,6 +103,12 @@ memory policies remain experimental alternatives. See the
 [closure synthesis](results/consolidated-learner-test-round-synthesis.md) and
 [evidence map](results/evidence-map.md). No additional benchmark is scheduled
 by this closure.
+
+The next enquiry, planned on 2026-10-27, compares explicit predictive and
+representational roles with timing and predictive-update controls. The
+[test plan](experiments/explicit_roles_test_plan.md) requires an architecture
+decision before a separately specified steerability study. It has not been
+implemented or run; the current post describes the existing architecture.
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,
