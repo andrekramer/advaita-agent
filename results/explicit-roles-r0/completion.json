@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "saved_runs_exact": 30,
+  "new_fixture_labels": 3516,
+  "fixture_attempts": 3,
+  "verified_contracts": 8,
+  "prior_failures_preserved": true,
+  "note": "Attempt 02 passed seven contracts; attempt 03 reran the sole failed summary contract, verifies unchanged class AST and all unaffected source hashes, and fixes only the displayed representation fraction. No reserved world inspected.",
+  "artifacts": {
+    "results/explicit-roles-r0/fixtures-01.json": "6b81392160af0f7e8a83f1ab44d8258b18bcc2428d3c78bb2270a491504c691b",
+    "results/explicit-roles-r0/compatibility.json": "367a7b0bd12931f55f4ce5315ae682dd00d419daefb96c87cddc81c45560c29f",
+    "results/explicit-roles-r0/fixtures-03.json": "3b81e24e325b6f081b058a39b10fa7bf687da0c90506ea1a8db6be241111ee92",
+    "results/explicit-roles-r0/fixture02-tests.py": "6127f3cab8e6eb454e0a07e45f5e533edfcfce05cf19f96d022bfac8ebf1bbbd",
+    "results/explicit-roles-r0/fixture02-metrics.py": "1ac23f02256796799b5589b90eda9f732ab170f5ba25ab080fcae515fb911962",
+    "results/explicit-roles-r0/fixtures-02.json": "07ffc3867eefe38963aeac9aa7b3d1890bace46fa4d04579ef2d6337d8a13a93"
+  }
+}

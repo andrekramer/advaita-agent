@@ -1,0 +1,22 @@
+{
+  "resumed_from": "fixtures-02.json (seven passed contracts)",
+  "verified_contracts": 8,
+  "status": "pass",
+  "tests": 1,
+  "charged_labels": 0,
+  "cumulative_labels": 3516,
+  "elapsed_seconds": 0.0655086670012679,
+  "log": "test_g_summary_gates_arithmetic_and_failure_retention (__main__.RolesTests.test_g_summary_gates_arithmetic_and_failure_retention) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.065s\n\nOK\n",
+  "tested_sources": {
+    "advaita/explicit_roles.py": "621c3c01071fa52b7a3432d599ebfb73a3d023e412bd5f2a4fe7ce8be12aadf5",
+    "experiments/explicit_roles.py": "71e265853f227151f40ef6a92ba9c1d8307516c2dd0eb1e35b997f30bd5296c7",
+    "experiments/explicit_roles_metrics.py": "c334d653d21e61f870d4fad02ad1ba5ca2f5b6ce4dced6a5daf6865c1fc6f70f",
+    "checks/roles_reference.py": "008b80271a11d34ecb994a619ef7960dbc502b73f3aee70336fe58adc24dc22d",
+    "checks/audit_explicit_roles.py": "c6c897734bb36e32f409616fec53a713400ee8abe11650a7d7a200ad4809805a",
+    "checks/test_explicit_roles.py": "d68fb431f7ec31fe05337f74cfd9a07133d2ac92427a1c7eaad112fb467820c7",
+    "checks/roles_compatibility.py": "5762913b3e413bfa867b9e00499d66ce38081091919ae9aeac06577ddcd2f386",
+    "experiments/explicit_roles_spec.md": "c2f57471a4a0d9bbc2adbb4d7784f8f7961998c783c5eab96c13eaf87aa98ad4",
+    "experiments/explicit_roles_protocol.md": "f95febc8452f06ff5b161ea1be93112f4e83b6086772a6023b8924ea29a38805",
+    "experiments/explicit_roles_test_plan.md": "23a1ceb0e0a323a583c0ea16dd0a710c0e2963dc5d2c3dc95853e5a5f4895952"
+  }
+}

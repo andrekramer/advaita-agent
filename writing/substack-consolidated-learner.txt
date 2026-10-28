@@ -149,6 +149,16 @@ That is useful evidence for reinstatement. It is also incomplete: the experiment
 
 The detailed protocols, controls and results belong in the Advaita-agent repository. The high-level conclusion is that prediction, representation and memory utility must be assessed separately. The newer policies remain experimental alternatives; their best results have not been combined into an untested “best learner”.
 
+Update, 28 October: checking the division of labour
+
+The distinction between learning predictions and learning representations suggested a side experiment: would making their roles more explicit improve the learner?
+
+We completed 300 independently audited runs, with controls separating review timing, predictive updates and stable representation meanings. Keeping meanings stable between structural revisions reduced changes in labels, but did not improve the main measure of representation quality. Slower reviews also delayed adaptation when detail became relevant again.
+
+Using recent learning history to guide proposals improved average adaptation, but still exceeded our declared limits on harmful setbacks. Neither candidate earned adoption.
+
+We therefore retain the architecture described here. This tests one implementation of complementary roles; the wider idea remains open. It also sharpens the question: holding meanings steady is different from learning better forms. The next enquiry remains whether the current learner can be steered.
+
 How far does this take us towards a generalised learner?
 
 It supports a framework for learning generalisations: grouping situations by relevant consequences, reusing those groups in relationships, and revising what an agent needs to know. Earlier transfer tests showed small examples of learned groups supporting previously unseen combinations. Consolidation brings these kinds of operation into a common, inspectable implementation and exposes their interactions.

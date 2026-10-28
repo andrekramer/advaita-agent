@@ -93,7 +93,10 @@ successful experiments alone do not justify that step.
 - [Experiment 022: independent admission, useful recall and remaining failures](results/memory-selection-v1/findings.md)
 - [Closed test round 019–022: synthesis, baseline and next boundary](results/consolidated-learner-test-round-synthesis.md)
 - [Current evidence map: capabilities, supplied assumptions and limits](results/evidence-map.md)
-- [Next test plan: explicit learning roles, architecture decision, then steering](experiments/explicit_roles_test_plan.md)
+- [Explicit-role comparison plan](experiments/explicit_roles_test_plan.md)
+- [Experiment 023: compatibility and role contracts](results/explicit-roles-r0/findings.md)
+- [Experiment 024: 300-run comparison of roles, timing, updating and history](results/explicit-roles-v1/findings.md)
+- [Architecture decision: retain the original reference before steering](results/explicit-roles-architecture-decision.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -104,11 +107,16 @@ memory policies remain experimental alternatives. See the
 [evidence map](results/evidence-map.md). No additional benchmark is scheduled
 by this closure.
 
-The next enquiry, planned on 2026-10-27, compares explicit predictive and
-representational roles with timing and predictive-update controls. The
-[test plan](experiments/explicit_roles_test_plan.md) requires an architecture
-decision before a separately specified steerability study. It has not been
-implemented or run; the current post describes the existing architecture.
+The explicit-role comparison completed on 2026-10-28: R0 reproduced 30 saved
+traces exactly, and all 300 new runs passed independent audit. Stable meaning
+ownership produced no reduction in the primary representation errors (113
+versus 113; no improving pairs). History-guided proposals improved average
+adaptation loss, but failed the full cost safeguards. The original reference
+is retained; conditional confirmation was not opened. See the
+[findings](results/explicit-roles-v1/findings.md) and
+[architecture decision](results/explicit-roles-architecture-decision.md).
+The current post describes the existing architecture. A separately specified
+steerability study remains the next question.
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,

@@ -1,0 +1,17 @@
+{
+  "experiment": "024",
+  "date": "2026-10-28",
+  "status": "complete_audited",
+  "primary_pass": false,
+  "history_pass": false,
+  "benchmark_runs": 300,
+  "fixture_labels": 3516,
+  "used_label_presentations": 1843200,
+  "allocated_label_presentations": 2035200,
+  "benchmark_seconds": 326.00518862501485,
+  "audit_seconds": 309.7648153330083,
+  "baseline_modified": false,
+  "confirmation_eligible": false,
+  "source_manifest_sha256": "42e1c0ffa813f51138366e0513d8a712635dee9916dee03f2e1d527c11dab0b6",
+  "audit_sha256": "bf76c12f78368cb2923436634746a0a21f6b983282ed4050c2e8a86668c895e2"
+}

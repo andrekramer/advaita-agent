@@ -1,0 +1,193 @@
+{
+  "status": "pass",
+  "runs": 30,
+  "new_labels": 0,
+  "replayed_labels": 203520,
+  "records": [
+    {
+      "seed": 800,
+      "branch": "forms",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "5c07b3b7c5ea89428948dc11a0140f1b4b138766af98353b166575c60781cbe1"
+    },
+    {
+      "seed": 800,
+      "branch": "forms",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "e863f70a5cdc5b74aaf653c9e8101b58f8d00262bb316293a0cefac1fb6d94b5"
+    },
+    {
+      "seed": 800,
+      "branch": "detail",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "2fc210b24df0effd656384a2346f969efd39f1d46faef993d08c243e6b803152"
+    },
+    {
+      "seed": 800,
+      "branch": "detail",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "e47c009528ff0188a9f999ba51a6de6ef73f737deb160a5820aea2e2b72e8f8f"
+    },
+    {
+      "seed": 800,
+      "branch": "reversed",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "649b03fdf641dca7ac56cab1aea28ff9250552ef9c04f7ba7c0bb21b342c3c1a"
+    },
+    {
+      "seed": 800,
+      "branch": "reversed",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "cd3a29d9250ab0ac1e036b11b7688df4926a6ad0cff49d289ade59384f21606e"
+    },
+    {
+      "seed": 801,
+      "branch": "forms",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "479301b84ffcfeead2eeee4da8e7ffce55b983ec8dd74bd24443ad4d8630df22"
+    },
+    {
+      "seed": 801,
+      "branch": "forms",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "b375e471f0f211892b32fcf18b989c5e6c3b0581d96f791a719d9031e1b05cfa"
+    },
+    {
+      "seed": 801,
+      "branch": "detail",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "3c7a516f05f5105b7329ffbc78b5116b351d99e59ef3fd4c174ce222726655d6"
+    },
+    {
+      "seed": 801,
+      "branch": "detail",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "4d8c276d196a0ba4474878623b84958fcf2cc48a0b3f1a3a4cdf6dbff207c60a"
+    },
+    {
+      "seed": 801,
+      "branch": "reversed",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "04ff89abf301e584d13b0b071325235c51b2996b8e58e854076be9598834b5a4"
+    },
+    {
+      "seed": 801,
+      "branch": "reversed",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "814aa9cf0289e824b577c879b22e35e31f23bacc8e79d254791824a085d395f6"
+    },
+    {
+      "seed": 802,
+      "branch": "forms",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "4fefd8e9786c3c31569ee3e79f2e0c5e6d3c13ba02ae0fae10d3f7fd1ae0b521"
+    },
+    {
+      "seed": 802,
+      "branch": "forms",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "5cf506e58936697a298cb49352acf1506256d0f5a29f103854745e5ee911517c"
+    },
+    {
+      "seed": 802,
+      "branch": "detail",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "11a8172626e2a29684fdabb1cd6368b4da53027bf41245b94a410e8462f5b56f"
+    },
+    {
+      "seed": 802,
+      "branch": "detail",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "dc8bbc80c54786dd64022f193cd311210998f85db6f9fa32201d49959947e97f"
+    },
+    {
+      "seed": 802,
+      "branch": "reversed",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "f0e08ad2d1f4e69878ad62f827df3135b46c1b8bb46511bb9b14caadd265637f"
+    },
+    {
+      "seed": 802,
+      "branch": "reversed",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "2743968f497a387a32b3677173acd4d0fc66c847e045ee8246483319b855d045"
+    },
+    {
+      "seed": 803,
+      "branch": "forms",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "9e5e618e04197ac6d34b4d828a22ba7a74a18650621521fb1b7343d7db8af749"
+    },
+    {
+      "seed": 803,
+      "branch": "forms",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "3c24fd176e333aa0685052ccd6c1951fa19fbd5ffa19f0ec177acee85b7e0212"
+    },
+    {
+      "seed": 803,
+      "branch": "detail",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "83efeed99cc013da0857a2de609bd0ac6a5ca3bb575efb0cbe7c6919bd2f472a"
+    },
+    {
+      "seed": 803,
+      "branch": "detail",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "c085328ae97ec69e429b5980415ed25d517a3ec880a6a79a8eec26f63d471bbc"
+    },
+    {
+      "seed": 803,
+      "branch": "reversed",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "d78afce7c7ba5cd184c5630d2a69b77d13bbafc6e4614e53dbeaeaf4937a6bf3"
+    },
+    {
+      "seed": 803,
+      "branch": "reversed",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "3a3e49d9928e012951ebf655ea3b1a08a095f30915d2900c2074a1d1a149b9db"
+    },
+    {
+      "seed": 804,
+      "branch": "forms",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "1ebb58c7c7d20e14a7a2807ff00ad8c918ee79914eb6ceda14ad49f26995e319"
+    },
+    {
+      "seed": 804,
+      "branch": "forms",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "5c3b24831740b0f877eb20b5e7ccb652fed0bb85995ec50e93b1ac79ee6c7dec"
+    },
+    {
+      "seed": 804,
+      "branch": "detail",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "805fb4d30915572f531cb4cece2d2b3ca6a764661d5437e593e82525c4417290"
+    },
+    {
+      "seed": 804,
+      "branch": "detail",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "0ee2b86342cb83d39537766f52b188ab2b401ad60d476e3ef3daa09f8b73055f"
+    },
+    {
+      "seed": 804,
+      "branch": "reversed",
+      "proposal_seed": 800,
+      "checkpoint_sha256": "966c3d1b8ba698d2c6c1bb1c077630b38183777feee26309830284e2e6733842"
+    },
+    {
+      "seed": 804,
+      "branch": "reversed",
+      "proposal_seed": 801,
+      "checkpoint_sha256": "6f05e141920e705f69d7de50d46335064057c3af43c0de343e42bd3fb53548ce"
+    }
+  ],
+  "elapsed_seconds": 26.69614533300046,
+  "tested_sources": {
+    "advaita/explicit_roles.py": "621c3c01071fa52b7a3432d599ebfb73a3d023e412bd5f2a4fe7ce8be12aadf5",
+    "checks/roles_compatibility.py": "5762913b3e413bfa867b9e00499d66ce38081091919ae9aeac06577ddcd2f386"
+  }
+}

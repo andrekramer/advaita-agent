@@ -1,6 +1,7 @@
 # Current evidence map
 
-Updated 2026-10-26, at closure of [019–022](consolidated-learner-test-round-synthesis.md).
+Updated 2026-10-28, after [023–024](explicit-roles-v1/findings.md). The earlier
+[019–022 closure](consolidated-learner-test-round-synthesis.md) remains intact.
 This map links successive stages without treating their different policies
 as one learner that has demonstrated every result together. Earlier syntheses
 remain dated records of their respective rounds.
@@ -14,6 +15,8 @@ remain dated records of their respective rounds.
 | Does protection distinguish misleading evidence from lasting change? | [020](consolidated-protection-v1/findings.md): fewer noise/burst errors, with delayed genuine-change recovery and excess loss. | A measured stability/adaptation trade-off, not reliable discrimination or a learned protection rule. |
 | Can useful earlier knowledge survive adaptation? | [021](prospective-memory-v1/findings.md): early preserved snapshots in 7/10 pairs per history, but inconsistent benefit and selection effects without recall. | Snapshot preservation is partly demonstrated; provenance and retrieval counts alone do not establish usefulness. |
 | Does reinstatement add value beyond blocking fresh updates? | [022](memory-selection-v1/findings.md): independent admission improved mean early-return loss by .045996 nats versus ignoring memory; 4/10 pairs improved, all with early snapshots. | Stronger evidence of useful memory access in some cases. The 8/10 consistency criterion failed; one reversed pair incurred a .131837-nat cost. Interface restoration versus parameter reuse is not isolated. |
+| Does explicit ownership of predictions and meanings improve learning? | [024](explicit-roles-v1/findings.md): 300 audited runs with timing/update controls. R128 reduced meaning changes but had 113 primary structure errors versus 113 for U128, with zero improving pairs. | No measured representation benefit from this minimal role implementation. Slower reviews also delayed detail recovery. The original reference remains in use. |
+| Does adaptation history improve structural search? | [024](explicit-roles-v1/findings.md): H128 improved mean adaptation loss by .029189 nats against R128 in 8/10 pairs. | Full gate failed: mean return costs against B64 exceeded .02 in both detail histories, and one individual cost against R128/U128 exceeded .10. This fixed proposal heuristic is not meta-learning. |
 | Can people interpret and steer the learner effectively? | Evidence identities, semantic fingerprints, event traces, bounded state and checkpoint restoration are available. | These are engineering affordances. Successful interpretation and beneficial design-led modification have not been measured. |
 | Does it learn how to learn? | No experiment in these rounds adapts its learning rules through experience and validates improved learning on held-out families. | No meta-learning claim. Changes in protection or evidence state under fixed rules do not suffice. |
 | Are the full R-rule/IVSR dynamics necessary, or is this safer? | Earlier controls sometimes matched or outperformed richer learners; [019–022](consolidated-learner-test-round-synthesis.md) identify further benefits and costs of individual rules. | Necessity, general superiority, formal unification of the conceptual influences and a safety advantage remain unestablished. |
@@ -41,7 +44,9 @@ whole trajectories as well as endpoints, mean gains alongside pairwise failures,
 and actual comparisons rather than combining favorable results from different
 variants. A failed primary criterion remains failed even when a component helps.
 
-The current reference and experimental alternatives are fixed in the
-[closure record](consolidated-learner-test-round-synthesis.md#baseline-and-claim-at-closure).
-No new policy is promoted, and no further benchmark is needed to complete
-this round. Open questions are the starting point for a separately scoped enquiry.
+The original integrated reference is retained by the
+[023–024 architecture decision](explicit-roles-architecture-decision.md), following
+the earlier [closure record](consolidated-learner-test-round-synthesis.md#baseline-and-claim-at-closure).
+No new policy is promoted. Conditional confirmation was not opened because
+the primary role gate failed. Interpretation and steering require a separately
+specified study; the comparison does not establish those capabilities.
