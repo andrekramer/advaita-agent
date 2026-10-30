@@ -1,0 +1,9 @@
+{
+  "status": "incomplete_engineering",
+  "completed_runs": 0,
+  "completed_worlds": 0,
+  "used_labels": 0,
+  "partial_generated_labels": 768,
+  "error": "Composition context generator exhausted after first eight contexts; interrupted before generate() returned. No fitted learner or benchmark outcome. Small fixtures did not span a second composition block.",
+  "date": "2026-10-30"
+}

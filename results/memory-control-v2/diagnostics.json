@@ -1,0 +1,1615 @@
+{
+  "status": "post_hoc_descriptive",
+  "upper_reversal_proposals": 80,
+  "accepted": 0,
+  "improving_but_inadequate": 80,
+  "events": [
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.530746122560416,
+        63.43904137130725
+      ],
+      "before_mass": [
+        46.530746122560416,
+        63.43904137130725
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.1248403944461534,
+      "old_loss": 1.3832730497376993
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.68206563654044,
+        60.749434141536305
+      ],
+      "before_mass": [
+        69.68206563654044,
+        60.749434141536305
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9332837483812131,
+      "old_loss": 1.199935019444383
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.25772539353045,
+        58.173857434517046
+      ],
+      "before_mass": [
+        81.25772539353045,
+        58.173857434517046
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8867922643899279,
+      "old_loss": 1.1578252377110905
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.04555527202544,
+        55.70747673018458
+      ],
+      "before_mass": [
+        87.04555527202544,
+        55.70747673018458
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9574160087689276,
+      "old_loss": 1.314814716577254
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.93947021127293,
+        53.34566247626415
+      ],
+      "before_mass": [
+        89.93947021127293,
+        53.34566247626415
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9212977492745399,
+      "old_loss": 1.2974957058993741
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38642768089667,
+        51.083981398309305
+      ],
+      "before_mass": [
+        91.38642768089667,
+        51.083981398309305
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9279101403712295,
+      "old_loss": 1.3497946345800826
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.10990641570855,
+        48.91818817816585
+      ],
+      "before_mass": [
+        92.10990641570855,
+        48.91818817816585
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8801996184314435,
+      "old_loss": 1.2580575719820828
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1600,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47164578311448,
+        46.84421748524176
+      ],
+      "before_mass": [
+        92.47164578311448,
+        46.84421748524176
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8679841022046886,
+      "old_loss": 1.2721201764851664
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.530746122560416,
+        63.43904137130725
+      ],
+      "before_mass": [
+        46.530746122560416,
+        63.43904137130725
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.264037286268853,
+      "old_loss": 1.6742975296954494
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.68206563654044,
+        60.749434141536305
+      ],
+      "before_mass": [
+        69.68206563654044,
+        60.749434141536305
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.003522013486386,
+      "old_loss": 1.4158898658493135
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.25772539353045,
+        58.173857434517046
+      ],
+      "before_mass": [
+        81.25772539353045,
+        58.173857434517046
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9402109420970147,
+      "old_loss": 1.3755341858693488
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.04555527202544,
+        55.70747673018458
+      ],
+      "before_mass": [
+        87.04555527202544,
+        55.70747673018458
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0263062611288072,
+      "old_loss": 1.5860568931406431
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.93947021127293,
+        53.34566247626415
+      ],
+      "before_mass": [
+        89.93947021127293,
+        53.34566247626415
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.974779355566561,
+      "old_loss": 1.5561422325779057
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38642768089667,
+        51.083981398309305
+      ],
+      "before_mass": [
+        91.38642768089667,
+        51.083981398309305
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9837372891075874,
+      "old_loss": 1.6342782686302237
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.10990641570855,
+        48.91818817816585
+      ],
+      "before_mass": [
+        92.10990641570855,
+        48.91818817816585
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9335165456227176,
+      "old_loss": 1.5083579281326205
+    },
+    {
+      "seed": 1600,
+      "proposal_seed": 1601,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47164578311448,
+        46.84421748524176
+      ],
+      "before_mass": [
+        92.47164578311448,
+        46.84421748524176
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9068399049980416,
+      "old_loss": 1.5248511092174923
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098895,
+        51.620785919112755
+      ],
+      "before_mass": [
+        46.54609957098895,
+        51.620785919112755
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0642301596771888,
+      "old_loss": 1.324858585171239
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "before_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9328645142472325,
+      "old_loss": 1.2536396500415292
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "before_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8930378815384793,
+      "old_loss": 1.2149364935000673
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530456
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530456
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8624728689556622,
+      "old_loss": 1.2135109130066033
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179971,
+        43.407733831961174
+      ],
+      "before_mass": [
+        89.94042980179971,
+        43.407733831961174
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8195025227678853,
+      "old_loss": 1.1161981244320276
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616006,
+        41.56738832517645
+      ],
+      "before_mass": [
+        91.38690747616006,
+        41.56738832517645
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8696287125401827,
+      "old_loss": 1.2873460958781802
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334024,
+        39.80506743026052
+      ],
+      "before_mass": [
+        92.11014631334024,
+        39.80506743026052
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8368803232493556,
+      "old_loss": 1.2310801836429102
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1600,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.11746315964538
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.11746315964538
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.807916449243293,
+      "old_loss": 1.2200161143780957
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098895,
+        51.620785919112755
+      ],
+      "before_mass": [
+        46.54609957098895,
+        51.620785919112755
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0642301596771888,
+      "old_loss": 1.324858585171239
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "before_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9328645142472325,
+      "old_loss": 1.2536396500415292
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "before_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8930378815384793,
+      "old_loss": 1.2149364935000673
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530456
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530456
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8624728689556622,
+      "old_loss": 1.2135109130066033
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179971,
+        43.407733831961174
+      ],
+      "before_mass": [
+        89.94042980179971,
+        43.407733831961174
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8195025227678853,
+      "old_loss": 1.1161981244320276
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616006,
+        41.56738832517645
+      ],
+      "before_mass": [
+        91.38690747616006,
+        41.56738832517645
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8696287125401827,
+      "old_loss": 1.2873460958781802
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334024,
+        39.80506743026052
+      ],
+      "before_mass": [
+        92.11014631334024,
+        39.80506743026052
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8368803232493556,
+      "old_loss": 1.2310801836429102
+    },
+    {
+      "seed": 1601,
+      "proposal_seed": 1601,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.11746315964538
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.11746315964538
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.807916449243293,
+      "old_loss": 1.2200161143780957
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098896,
+        51.62078591911273
+      ],
+      "before_mass": [
+        46.54609957098896,
+        51.62078591911273
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9928776429180275,
+      "old_loss": 1.2250956190368236
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.68974236075472,
+        49.43223394838104
+      ],
+      "before_mass": [
+        69.68974236075472,
+        49.43223394838104
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9234774917760434,
+      "old_loss": 1.2284476812142808
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563758,
+        47.336469401229046
+      ],
+      "before_mass": [
+        81.26156375563758,
+        47.336469401229046
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.868531388605574,
+      "old_loss": 1.1654521894130387
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530454
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530454
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8957373665354322,
+      "old_loss": 1.287005021158947
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179972,
+        43.40773383196116
+      ],
+      "before_mass": [
+        89.94042980179972,
+        43.40773383196116
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.905041108127976,
+      "old_loss": 1.3389500793351599
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616008,
+        41.56738832517643
+      ],
+      "before_mass": [
+        91.38690747616008,
+        41.56738832517643
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8319959664999133,
+      "old_loss": 1.2114545160760535
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334025,
+        39.8050674302605
+      ],
+      "before_mass": [
+        92.11014631334025,
+        39.8050674302605
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8385233729800173,
+      "old_loss": 1.240791390350553
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1600,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.11746315964536
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.11746315964536
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8384123981662026,
+      "old_loss": 1.1758023288012147
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098896,
+        51.62078591911273
+      ],
+      "before_mass": [
+        46.54609957098896,
+        51.62078591911273
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9928776429180275,
+      "old_loss": 1.2250956190368236
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.68974236075472,
+        49.43223394838104
+      ],
+      "before_mass": [
+        69.68974236075472,
+        49.43223394838104
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9234774917760434,
+      "old_loss": 1.2284476812142808
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563758,
+        47.336469401229046
+      ],
+      "before_mass": [
+        81.26156375563758,
+        47.336469401229046
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.868531388605574,
+      "old_loss": 1.1654521894130387
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530454
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530454
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8957373665354322,
+      "old_loss": 1.287005021158947
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179972,
+        43.40773383196116
+      ],
+      "before_mass": [
+        89.94042980179972,
+        43.40773383196116
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.905041108127976,
+      "old_loss": 1.3389500793351599
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616008,
+        41.56738832517643
+      ],
+      "before_mass": [
+        91.38690747616008,
+        41.56738832517643
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8319959664999133,
+      "old_loss": 1.2114545160760535
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334025,
+        39.8050674302605
+      ],
+      "before_mass": [
+        92.11014631334025,
+        39.8050674302605
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8385233729800173,
+      "old_loss": 1.240791390350553
+    },
+    {
+      "seed": 1602,
+      "proposal_seed": 1601,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.11746315964536
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.11746315964536
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8384123981662026,
+      "old_loss": 1.1758023288012147
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098895,
+        51.62078591911277
+      ],
+      "before_mass": [
+        46.54609957098895,
+        51.62078591911277
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0653473557506514,
+      "old_loss": 1.412687361696472
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "before_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0027308703243072,
+      "old_loss": 1.5226125612058719
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563757,
+        47.33646940122908
+      ],
+      "before_mass": [
+        81.26156375563757,
+        47.33646940122908
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9564909045118699,
+      "old_loss": 1.5080066518148618
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530457
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530457
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9428892035493052,
+      "old_loss": 1.5298050700153492
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179972,
+        43.40773383196118
+      ],
+      "before_mass": [
+        89.94042980179972,
+        43.40773383196118
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8566119809783914,
+      "old_loss": 1.3341587865851132
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616008,
+        41.567388325176466
+      ],
+      "before_mass": [
+        91.38690747616008,
+        41.567388325176466
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8936972354212076,
+      "old_loss": 1.580019636624469
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334024,
+        39.80506743026054
+      ],
+      "before_mass": [
+        92.11014631334024,
+        39.80506743026054
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8714035530321076,
+      "old_loss": 1.4857991508687638
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1600,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.117463159645396
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.117463159645396
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8451835574719406,
+      "old_loss": 1.4209131552066427
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098895,
+        51.62078591911277
+      ],
+      "before_mass": [
+        46.54609957098895,
+        51.62078591911277
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0653473557506514,
+      "old_loss": 1.412687361696472
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "before_mass": [
+        69.6897423607547,
+        49.43223394838107
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0027308703243072,
+      "old_loss": 1.5226125612058719
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563757,
+        47.33646940122908
+      ],
+      "before_mass": [
+        81.26156375563757,
+        47.33646940122908
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9564909045118699,
+      "old_loss": 1.5080066518148618
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530457
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530457
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9428892035493052,
+      "old_loss": 1.5298050700153492
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179972,
+        43.40773383196118
+      ],
+      "before_mass": [
+        89.94042980179972,
+        43.40773383196118
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8566119809783914,
+      "old_loss": 1.3341587865851132
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616008,
+        41.567388325176466
+      ],
+      "before_mass": [
+        91.38690747616008,
+        41.567388325176466
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8936972354212076,
+      "old_loss": 1.580019636624469
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334024,
+        39.80506743026054
+      ],
+      "before_mass": [
+        92.11014631334024,
+        39.80506743026054
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8714035530321076,
+      "old_loss": 1.4857991508687638
+    },
+    {
+      "seed": 1603,
+      "proposal_seed": 1601,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.117463159645396
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.117463159645396
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8451835574719406,
+      "old_loss": 1.4209131552066427
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098895,
+        51.62078591911276
+      ],
+      "before_mass": [
+        46.54609957098895,
+        51.62078591911276
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.065072259802438,
+      "old_loss": 1.4206713360245036
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.68974236075472,
+        49.43223394838107
+      ],
+      "before_mass": [
+        69.68974236075472,
+        49.43223394838107
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 1.0574259592454711,
+      "old_loss": 1.535514926935333
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "before_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9941294521670145,
+      "old_loss": 1.5610308265187047
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530455
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530455
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9407798937157411,
+      "old_loss": 1.58951522900935
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179971,
+        43.40773383196118
+      ],
+      "before_mass": [
+        89.94042980179971,
+        43.40773383196118
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9431700823655536,
+      "old_loss": 1.554035076672675
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616006,
+        41.56738832517646
+      ],
+      "before_mass": [
+        91.38690747616006,
+        41.56738832517646
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9213415903451766,
+      "old_loss": 1.6090426525193575
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334025,
+        39.80506743026053
+      ],
+      "before_mass": [
+        92.11014631334025,
+        39.80506743026053
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.874960055582658,
+      "old_loss": 1.596291717809297
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1600,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.11746315964539
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.11746315964539
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8358363850928352,
+      "old_loss": 1.4868948020484718
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 832,
+      "accepted": false,
+      "after_mass": [
+        46.54609957098895,
+        51.62078591911276
+      ],
+      "before_mass": [
+        46.54609957098895,
+        51.62078591911276
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9240847521700802,
+      "old_loss": 1.1334718670353323
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 896,
+      "accepted": false,
+      "after_mass": [
+        69.68974236075472,
+        49.43223394838107
+      ],
+      "before_mass": [
+        69.68974236075472,
+        49.43223394838107
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9673327647843325,
+      "old_loss": 1.2543935215925188
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 960,
+      "accepted": false,
+      "after_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "before_mass": [
+        81.26156375563758,
+        47.33646940122907
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.9367418490625814,
+      "old_loss": 1.284128449434918
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 1024,
+      "accepted": false,
+      "after_mass": [
+        87.047474453079,
+        45.32955839530455
+      ],
+      "before_mass": [
+        87.047474453079,
+        45.32955839530455
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8846238358711298,
+      "old_loss": 1.2916930970317857
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 1088,
+      "accepted": false,
+      "after_mass": [
+        89.94042980179971,
+        43.40773383196118
+      ],
+      "before_mass": [
+        89.94042980179971,
+        43.40773383196118
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8755844403555528,
+      "old_loss": 1.2444443036534967
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 1152,
+      "accepted": false,
+      "after_mass": [
+        91.38690747616006,
+        41.56738832517646
+      ],
+      "before_mass": [
+        91.38690747616006,
+        41.56738832517646
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8769942833747247,
+      "old_loss": 1.3041165946374587
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 1216,
+      "accepted": false,
+      "after_mass": [
+        92.11014631334025,
+        39.80506743026053
+      ],
+      "before_mass": [
+        92.11014631334025,
+        39.80506743026053
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.8223769460738536,
+      "old_loss": 1.2787668287842038
+    },
+    {
+      "seed": 1604,
+      "proposal_seed": 1601,
+      "index": 1280,
+      "accepted": false,
+      "after_mass": [
+        92.47176573193033,
+        38.11746315964539
+      ],
+      "before_mass": [
+        92.47176573193033,
+        38.11746315964539
+      ],
+      "channel": 2,
+      "fraction": 0.25,
+      "gate": false,
+      "moved_mass": 0.0,
+      "new_loss": 0.7945241487988862,
+      "old_loss": 1.1941248302110559
+    }
+  ],
+  "final_reversal": {
+    "correct_forms": 10,
+    "perfect_modal_predictions": 6,
+    "mean_regret": 0.19178894499533464
+  },
+  "result_sha256": "2e66099a8e62d63caefe0b8498425474a218a6834ddcd1541d03266e5f380f69",
+  "runs_sha256": "f2b635d2bd2afc06e0411fde25bc54c5e0de9fa9f60087e5bea0c8259e8164c8"
+}

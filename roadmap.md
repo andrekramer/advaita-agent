@@ -421,6 +421,31 @@ unused, and the original integrated learner remains the reference. See the
 The current post covers the existing learner; the next can explain the decision
 before examining steering. No steerability experiment has yet been run.
 
+**Memory-control round completed, 2026-10-30:** [Experiment 026](results/memory-control-v2/findings.md)
+compared elapsed-time and observation-time forgetting, selective and unconditional
+fast-to-slow transfer, permanent slow memory, a single slow store and the original
+reference. All 350 runs passed independent audit. Retention and transfer-selection
+benefits were measured, but full performance gates failed. In reversal, a fixed
+adequacy requirement repeatedly blocked improving transfers into an outdated
+slow store. This supplies a focused next question: how can contradicted memory
+be weakened, retired or replaced without losing rare, useful knowledge?
+The new family retains raw sufficient statistics supporting forms; it does not
+yet preserve and revise an autonomous slow repertoire of named forms. No new
+baseline, steering capability or learned memory-control policy is established.
+
+**Slow-memory revision completed, 2026-10-30:** [Experiment 027](results/memory-revision-v1/findings.md)
+separated relaxed admission from selective weakening of old evidence. All 350
+runs passed independent replay. Under relaxed admission, adding weakening
+improved late reversal/remap loss in all ten pairs per history and raised final
+reversal validity from 5/10 to 8/10. No selective weakening occurred in stable,
+brief-reversal or familiar-return histories. The primary early-gain criterion
+failed because its measurement window ended before the two-review rule could
+affect prediction. That timing error is recorded; the criterion is not rewritten.
+Two proposal replicates still lost a correct local form while using a raw bypass
+to predict accurately. Next confirmation must predeclare a benefit window after
+the intervention can act, with early adaptation costs still measured. No such
+confirmation, policy promotion or steerability test has been performed.
+
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen

@@ -1,0 +1,17 @@
+{
+  "experiment": "027",
+  "date": "2026-10-30",
+  "status": "complete_audited",
+  "runs": 350,
+  "primary_pass": false,
+  "selectivity_pass": true,
+  "baseline_modified": false,
+  "fixture_labels": 2264,
+  "used_labels": 1890560,
+  "benchmark_restart": false,
+  "primary_window_precedes_first_possible_effect": true,
+  "report_code_sha256": "1b6f3eb7d556893d527ca6fc4a1b49c44ee93d4793961b33bc5c81f0586ca227",
+  "manifest_sha256": "a9838cf3ffcba8f1c784fd66c6a378d1871bf923556d576dddcec29362e07083",
+  "audit_sha256": "a0cc847b22a8efa5246e1e3a8148334726210377ab23096e8473944606ba4798",
+  "findings_sha256": "97388324d2f53f5723f6d254d6caa723c9db7fbd46c27ca2290e5ec8c26288d5"
+}

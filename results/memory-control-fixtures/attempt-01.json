@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "tests": 6,
+  "charged_labels": 2368,
+  "cumulative_labels": 2368,
+  "elapsed_seconds": 0.35733099999197293,
+  "log": "test_a_world_streams_and_new_form (__main__.Contracts.test_a_world_streams_and_new_form) ... ok\ntest_b_full_family_and_baseline_replay (__main__.Contracts.test_b_full_family_and_baseline_replay) ... ok\ntest_c_conservation_capacity_and_blank_clocks (__main__.Contracts.test_c_conservation_capacity_and_blank_clocks) ... ok\ntest_d_selection_rejects_conflicting_evidence (__main__.Contracts.test_d_selection_rejects_conflicting_evidence) ... ok\ntest_e_frozen_pending_reduction (__main__.Contracts.test_e_frozen_pending_reduction) ... ok\ntest_f_metrics_arithmetic_and_guard_failure (__main__.Contracts.test_f_metrics_arithmetic_and_guard_failure) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.357s\n\nOK\n",
+  "sources": {
+    "advaita/memory_control.py": "d2ea29d871050d83f8979ef327112e391f64206baf700ea4c7cda81a947bc34f",
+    "experiments/memory_control.py": "4edacb5e379489548ea8471bc31852abca5f47ad42ff8a493213cad2cb82333a",
+    "experiments/memory_control_metrics.py": "1f8b45bb0da29a1bec00c2dee28df13fb2c6ed17e6a5ad12e92343565c6c789c",
+    "experiments/memory_control_protocol.md": "dbf5dc333f8185c791ba6e666a878f7509e84cda1bcc440ce338f160f0cdce3e",
+    "checks/memory_control_reference.py": "66ad1cc779ad36a888967bb5833a7f39f0a5bf7fc0aceb5a44eed3b2573e06bf",
+    "checks/audit_memory_control.py": "cf9b0215e8b782373a4be03226ce1387780fbeb2b262da6f818d684ed16aacdf",
+    "checks/test_memory_control.py": "f013e8a2313b83394dc0365893f7178c977816ea82f923bfaffd599d78ce65ba"
+  }
+}

@@ -97,6 +97,10 @@ successful experiments alone do not justify that step.
 - [Experiment 023: compatibility and role contracts](results/explicit-roles-r0/findings.md)
 - [Experiment 024: 300-run comparison of roles, timing, updating and history](results/explicit-roles-v1/findings.md)
 - [Architecture decision: retain the original reference before steering](results/explicit-roles-architecture-decision.md)
+- [Experiment 026: memory-control protocol](experiments/memory_control_protocol.md)
+- [Experiment 026: retention, selective migration and blocked revision](results/memory-control-v2/findings.md)
+- [Experiment 027: slow-memory revision protocol](experiments/memory_revision_protocol.md)
+- [Experiment 027: selective weakening, later recovery and a timing limitation](results/memory-revision-v1/findings.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -115,8 +119,30 @@ adaptation loss, but failed the full cost safeguards. The original reference
 is retained; conditional confirmation was not opened. See the
 [findings](results/explicit-roles-v1/findings.md) and
 [architecture decision](results/explicit-roles-architecture-decision.md).
-The current post describes the existing architecture. A separately specified
-steerability study remains the next question.
+The current post describes the existing architecture.
+
+The memory-control round completed on 2026-10-30 with **350 independently
+audited runs**. Selective slow memory improved familiar-return loss against
+fast-only by .070879 nats (10/10 pairs), and transfer selection improved the
+declared adaptation average against unconditional transfer by .023749 (9/10).
+The full criteria failed: retained evidence hindered reversal and none of the
+ten selective reversal runs reached full predictive validity by the horizon.
+Audited traces show that the adequacy gate rejected all 80 improving upper
+transfer proposals after reversal. The original reference remains unchanged.
+See the [findings](results/memory-control-v2/findings.md), including the preserved
+engineering restart. This motivated the subsequent revision experiment.
+
+The memory-revision follow-up also completed on 2026-10-30 with **350
+independently audited runs**. Adding selective weakening to relaxed admission
+improved late reversal loss in all ten pairs and final full validity from 5/10
+to 8/10. Stable, brief-reversal and familiar-return histories triggered no
+selective weakening. The primary early-gain criterion failed: its window ended
+before the two-review rule could affect a prediction, a protocol design error
+documented without retrospectively changing the criterion. Later benefits are
+secondary evidence; two pairs still ended with incorrect forms despite accurate
+output. See the [findings and timing limitation](results/memory-revision-v1/findings.md).
+The original reference remains unchanged. A properly timed fresh confirmation
+and a separate steerability study remain open.
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,

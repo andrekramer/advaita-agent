@@ -1,6 +1,6 @@
 # Current evidence map
 
-Updated 2026-10-28, after [023–024](explicit-roles-v1/findings.md). The earlier
+Updated 2026-10-30, after [027](memory-revision-v1/findings.md). The earlier
 [019–022 closure](consolidated-learner-test-round-synthesis.md) remains intact.
 This map links successive stages without treating their different policies
 as one learner that has demonstrated every result together. Earlier syntheses
@@ -17,6 +17,10 @@ remain dated records of their respective rounds.
 | Does reinstatement add value beyond blocking fresh updates? | [022](memory-selection-v1/findings.md): independent admission improved mean early-return loss by .045996 nats versus ignoring memory; 4/10 pairs improved, all with early snapshots. | Stronger evidence of useful memory access in some cases. The 8/10 consistency criterion failed; one reversed pair incurred a .131837-nat cost. Interface restoration versus parameter reuse is not isolated. |
 | Does explicit ownership of predictions and meanings improve learning? | [024](explicit-roles-v1/findings.md): 300 audited runs with timing/update controls. R128 reduced meaning changes but had 113 primary structure errors versus 113 for U128, with zero improving pairs. | No measured representation benefit from this minimal role implementation. Slower reviews also delayed detail recovery. The original reference remains in use. |
 | Does adaptation history improve structural search? | [024](explicit-roles-v1/findings.md): H128 improved mean adaptation loss by .029189 nats against R128 in 8/10 pairs. | Full gate failed: mean return costs against B64 exceeded .02 in both detail histories, and one individual cost against R128/U128 exceeded .10. This fixed proposal heuristic is not meta-learning. |
+| Does migration into slow memory preserve useful learning? | [026](memory-control-v2/findings.md): 350 audited runs. Selective memory improved familiar early-return loss by .070879 nats against fast-only in 10/10 pairs; gap validity improved from 0/10 to 10/10. | Single slow memory and the original reference also retained the task. The new family stores raw sufficient statistics supporting forms, not autonomous abstract-form memory. |
+| Does selective admission adequately control memory? | [026](memory-control-v2/findings.md): selection improved the declared adaptation average by .023749 nats against unconditional transfer in 9/10 pairs; guards against that control passed. All 80 improving upper transfer proposals after reversal were rejected by the adequacy gate. | Overall criteria failed. Selective reversal had 0/10 final full validity despite 10/10 correct local partitions. Admission control did not adequately revise contradicted retained evidence. No policy promotion. |
+| Does weakening old evidence help beyond admitting new evidence? | [027](memory-revision-v1/findings.md): 350 audited runs. Adding selective weakening to relaxed admission improved late reversal loss by .076204 nats and remap loss by .017282, each in 10/10 pairs; final reversal validity rose from 5/10 to 8/10. | Secondary evidence of later benefit. The primary window ended before the two-review rule could affect predictions: a design error, with its failed criterion preserved. Fresh, correctly timed confirmation is needed. |
+| Can selective weakening preserve useful memory? | [027](memory-revision-v1/findings.md): no selective weakening in stable, brief-reversal or familiar-return histories; combined gap validity 10/10. Retention-oriented gain against uniform weakening was .022737 nats in 10/10 pairs. | Uniform removal was not matched in removed mass. Fast-only adapted better but lost confidence across the gap. Two proposal replicates still ended with an incorrect local form and accurate raw-bypass output. No universal benefit or learned controller is established. |
 | Can people interpret and steer the learner effectively? | Evidence identities, semantic fingerprints, event traces, bounded state and checkpoint restoration are available. | These are engineering affordances. Successful interpretation and beneficial design-led modification have not been measured. |
 | Does it learn how to learn? | No experiment in these rounds adapts its learning rules through experience and validates improved learning on held-out families. | No meta-learning claim. Changes in protection or evidence state under fixed rules do not suffice. |
 | Are the full R-rule/IVSR dynamics necessary, or is this safer? | Earlier controls sometimes matched or outperformed richer learners; [019–022](consolidated-learner-test-round-synthesis.md) identify further benefits and costs of individual rules. | Necessity, general superiority, formal unification of the conceptual influences and a safety advantage remain unestablished. |
@@ -47,6 +51,10 @@ variants. A failed primary criterion remains failed even when a component helps.
 The original integrated reference is retained by the
 [023–024 architecture decision](explicit-roles-architecture-decision.md), following
 the earlier [closure record](consolidated-learner-test-round-synthesis.md#baseline-and-claim-at-closure).
-No new policy is promoted. Conditional confirmation was not opened because
-the primary role gate failed. Interpretation and steering require a separately
-specified study; the comparison does not establish those capabilities.
+No new policy is promoted. Conditional role confirmation was not opened because
+the primary role gate failed. The subsequent [memory-control round](memory-control-v2/findings.md)
+is also complete with benefits and failed full criteria. The subsequent
+[revision round](memory-revision-v1/findings.md) found later benefits from
+selective weakening, alongside a misaligned primary window and remaining
+structural failures. A properly timed fresh confirmation remains open.
+Interpretation and steering still require a separately specified study.

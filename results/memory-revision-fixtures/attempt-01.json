@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "tests": 5,
+  "charged_labels": 2264,
+  "cumulative_labels": 2264,
+  "elapsed_seconds": 0.5307098330085864,
+  "log": "test_a_all_policies_replay_and_control_parity (__main__.Contracts.test_a_all_policies_replay_and_control_parity) ... ok\ntest_b_two_witnesses_and_independent_mass_replay (__main__.Contracts.test_b_two_witnesses_and_independent_mass_replay) ... ok\ntest_c_gap_changed_binding_and_brief_contradiction (__main__.Contracts.test_c_gap_changed_binding_and_brief_contradiction) ... ok\ntest_d_relaxed_admission_and_conservation (__main__.Contracts.test_d_relaxed_admission_and_conservation) ... ok\ntest_e_summary_gate_and_guard_arithmetic (__main__.Contracts.test_e_summary_gate_and_guard_arithmetic) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.531s\n\nOK\n",
+  "sources": {
+    "advaita/memory_revision.py": "c7c457512497f0e2be9dc13dccea2b87ab3c834322837058d11966fc532bae1a",
+    "experiments/memory_revision.py": "867a006b28bcd3b1f7c642d42dc2337e941dbd9e699be7846537db17471d3397",
+    "experiments/memory_revision_protocol.md": "65cd70227aa09b133b5c76e2e814b71f70c30163be7f3e0efee59d96b091d417",
+    "experiments/memory_revision_metrics.py": "9a36a95447e56228f1845ff4b8ff28fd90282380f9d0fed72e43bd800173ce6b",
+    "checks/memory_revision_reference.py": "d36ec7067042c745473072d6580eba349082ce01b8c7f1190a838886649b2215",
+    "checks/audit_memory_revision.py": "180a2b2b14cf54bcef9f113eda652302b2a058ce5f757a17b0ccde3c3896fe9d",
+    "checks/test_memory_revision.py": "3b7d8afcae96ff4b9548a8e04f69bd9b04a8714a14478cea2c1b1fb5dedbdb2a"
+  }
+}
