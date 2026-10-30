@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "runs": 350,
+  "independently_replayed_labels": 1890560,
+  "primary_pass": true,
+  "selectivity_pass": true,
+  "elapsed_seconds": 106.35369858299964,
+  "result_sha256": "bbe7947afc322eed94df1e2a77f41037e116c2dc0bdf9b604ede85a298ba0487",
+  "runs_sha256": "2a1f9125a96ef6fd01e0bf6c848d41c3ea5c41371e955bef948e45e6fba8353d",
+  "worlds_sha256": "06eca3c19bfa8cd48c9d7ebbb2333c684fc500ad151889a69fcf11fa31baeba2"
+}

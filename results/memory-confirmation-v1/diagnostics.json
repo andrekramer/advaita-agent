@@ -1,0 +1,3660 @@
+{
+  "post_audit": true,
+  "environment_gains": [
+    {
+      "seed": 1800,
+      "primary_gain": 0.03544903562063802
+    },
+    {
+      "seed": 1801,
+      "primary_gain": 0.030855767590298344
+    },
+    {
+      "seed": 1802,
+      "primary_gain": 0.057461241537775
+    },
+    {
+      "seed": 1803,
+      "primary_gain": 0.016846953306280943
+    },
+    {
+      "seed": 1804,
+      "primary_gain": 0.02890570513317614
+    }
+  ],
+  "groups": [
+    {
+      "branch": "stable",
+      "policy": "baseline",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.014405331762984525,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "stable",
+      "policy": "fast",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.02045891330750842,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "stable",
+      "policy": "selective",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.005619521771311198,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "stable",
+      "policy": "relaxed",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.005738180464664016,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "stable",
+      "policy": "weaken",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.005619521771311198,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "stable",
+      "policy": "combined",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.005738180464664016,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "stable",
+      "policy": "uniform",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.029793580199864084,
+      "weakenings": 570,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 128
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "baseline",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.014494249003977416,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "fast",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.020462793544836877,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "selective",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.006302049746208465,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "relaxed",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.01015194276642295,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "weaken",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.006302049746208465,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "combined",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.01015194276642295,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "burst",
+      "policy": "uniform",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.034956369158425094,
+      "weakenings": 570,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 128
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "baseline",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.015458524077409042,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "fast",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.021374604751620657,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "selective",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.0071280365120324485,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "relaxed",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.006711015204537024,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "weaken",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.0071280365120324485,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "combined",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.006711015204537024,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "return",
+      "policy": "uniform",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.035007479947643236,
+      "weakenings": 330,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 128
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "baseline",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.02290059419172147,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "fast",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.02137876039467306,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "selective",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 5,
+      "mean_final_regret": 0.19887778624333022,
+      "weakenings": 0,
+      "failures": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.5128309749833065,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.6242123653685714,
+              0.403883029575965,
+              0.3415939110686819,
+              0.6521124958937052,
+              0.6242123653685714,
+              0.403883029575965,
+              0.3415939110686819,
+              0.6521124958937052,
+              0.6242123653685714,
+              0.403883029575965,
+              0.3415939110686819,
+              0.6521124958937052,
+              0.6242123653685714,
+              0.403883029575965,
+              0.3415939110686819,
+              0.6521124958937052,
+              0.33667969682709253,
+              0.6086026352629461,
+              0.624263194028314,
+              0.36496789181929495,
+              0.33667969682709253,
+              0.6086026352629461,
+              0.624263194028314,
+              0.36496789181929495,
+              0.33667969682709253,
+              0.6086026352629461,
+              0.624263194028314,
+              0.36496789181929495,
+              0.33667969682709253,
+              0.6086026352629461,
+              0.624263194028314,
+              0.36496789181929495
+            ],
+            "raw_addition_gains": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "regret": 0.18774800159185834,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              false
+            ],
+            "spec": [
+              1,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.9375,
+            "contexts": 32,
+            "expected_loss": 0.5267021448722001,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.5890242331643393,
+              0.5095785985355699,
+              0.4369955177734638,
+              0.5870493768112425,
+              0.5890242331643393,
+              0.5095785985355699,
+              0.4369955177734638,
+              0.5870493768112425,
+              0.6408675624129965,
+              0.2930191308632088,
+              0.25569842857481734,
+              0.6983881577508088,
+              0.6408675624129965,
+              0.2930191308632088,
+              0.25569842857481734,
+              0.6983881577508088,
+              0.37442969690646905,
+              0.5915609842690445,
+              0.5879562409011536,
+              0.3939405285040107,
+              0.37442969690646905,
+              0.5915609842690445,
+              0.5879562409011536,
+              0.3939405285040107,
+              0.3237902341783515,
+              0.6068662761367949,
+              0.6429464901330956,
+              0.3580849440308744,
+              0.3237902341783515,
+              0.6068662761367949,
+              0.6429464901330956,
+              0.3580849440308744
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.20161917148075192,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              false
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.4828717946817339,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.23070596617443923,
+              0.754609063394924,
+              0.7436181087345454,
+              0.2658395467137275,
+              0.7436181087345454,
+              0.2658395467137275,
+              0.23070596617443923,
+              0.754609063394924,
+              0.6004309391195554,
+              0.3843858265786189,
+              0.3795035707315731,
+              0.631851614239944,
+              0.3795035707315731,
+              0.631851614239944,
+              0.6004309391195554,
+              0.3843858265786189,
+              0.34771397472350735,
+              0.5664855317464852,
+              0.5796300839870584,
+              0.3728883940763826,
+              0.5796300839870584,
+              0.3728883940763826,
+              0.34771397472350735,
+              0.5664855317464852,
+              0.7441166519191749,
+              0.28275154270819286,
+              0.428646724091594,
+              0.7280265299806686,
+              0.428646724091594,
+              0.7280265299806686,
+              0.7441166519191749,
+              0.28275154270819286
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.1577888212902857,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              false
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.9375,
+            "contexts": 32,
+            "expected_loss": 0.48394068153185305,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.34659002630359453,
+              0.6390792337410545,
+              0.6847834805619668,
+              0.24745270487928195,
+              0.6263797321201486,
+              0.3909686214499093,
+              0.2341365320721879,
+              0.6645756074630089,
+              0.5997328607997903,
+              0.39216068027172407,
+              0.25293789823789986,
+              0.6879484785892452,
+              0.5247573496444906,
+              0.665224545511764,
+              0.7446817227827885,
+              0.27327912836410717,
+              0.34659002630359453,
+              0.6390792337410545,
+              0.6847834805619668,
+              0.24745270487928195,
+              0.6263797321201486,
+              0.3909686214499093,
+              0.2341365320721879,
+              0.6645756074630089,
+              0.5997328607997903,
+              0.39216068027172407,
+              0.25293789823789986,
+              0.6879484785892452,
+              0.5247573496444906,
+              0.665224545511764,
+              0.7446817227827885,
+              0.27327912836410717
+            ],
+            "raw_addition_gains": {
+              "0": 0.0
+            },
+            "regret": 0.15885770814040484,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              false
+            ],
+            "spec": [
+              1,
+              2
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.46829376074191487,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.340621247182735,
+              0.6649710372305639,
+              0.6375714117921507,
+              0.2430964766897325,
+              0.6375714117921507,
+              0.2430964766897325,
+              0.340621247182735,
+              0.6649710372305639,
+              0.7302353683432482,
+              0.3846434384296005,
+              0.3067407966712608,
+              0.6486234872295309,
+              0.3067407966712608,
+              0.6486234872295309,
+              0.7302353683432482,
+              0.3846434384296005,
+              0.7302353683432482,
+              0.3846434384296005,
+              0.3067407966712608,
+              0.6486234872295309,
+              0.3067407966712608,
+              0.6486234872295309,
+              0.7302353683432482,
+              0.3846434384296005,
+              0.340621247182735,
+              0.6649710372305639,
+              0.6375714117921507,
+              0.2430964766897325,
+              0.6375714117921507,
+              0.2430964766897325,
+              0.340621247182735,
+              0.6649710372305639
+            ],
+            "raw_addition_gains": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "regret": 0.14321078735046666,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              1,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.9375,
+            "contexts": 32,
+            "expected_loss": 0.5671784890039195,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.3643547851408167,
+              0.6216510015689317,
+              0.6062018544737358,
+              0.26317550302397363,
+              0.6062018544737358,
+              0.26317550302397363,
+              0.3643547851408167,
+              0.6216510015689317,
+              0.7004724566024598,
+              0.39283272350843174,
+              0.3836323997998648,
+              0.5087247691977608,
+              0.3836323997998648,
+              0.5087247691977608,
+              0.7004724566024598,
+              0.39283272350843174,
+              0.5827793733186722,
+              0.526021044313777,
+              0.41688906558711647,
+              0.6067079354611469,
+              0.41688906558711647,
+              0.6067079354611469,
+              0.5827793733186722,
+              0.526021044313777,
+              0.48461746828417757,
+              0.5611291225028291,
+              0.5213583348404962,
+              0.38926125753209156,
+              0.5213583348404962,
+              0.38926125753209156,
+              0.48461746828417757,
+              0.5611291225028291
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.24209551561247133,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.8125,
+            "contexts": 32,
+            "expected_loss": 0.5735548945398704,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.26312143470813965,
+              0.6971672745778495,
+              0.7484781932638441,
+              0.42954711043970095,
+              0.7484781932638441,
+              0.42954711043970095,
+              0.26312143470813965,
+              0.6971672745778495,
+              0.5296173090498515,
+              0.4247455436588688,
+              0.4375135609482826,
+              0.6178322197157571,
+              0.4375135609482826,
+              0.6178322197157571,
+              0.5296173090498515,
+              0.4247455436588688,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.45790050060615645,
+              0.5664926618117005,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.45790050060615645,
+              0.5664926618117005
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.2484719211484222,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.8125,
+            "contexts": 32,
+            "expected_loss": 0.5735548945398704,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.26312143470813965,
+              0.6971672745778495,
+              0.7484781932638441,
+              0.42954711043970095,
+              0.7484781932638441,
+              0.42954711043970095,
+              0.26312143470813965,
+              0.6971672745778495,
+              0.5296173090498515,
+              0.4247455436588688,
+              0.4375135609482826,
+              0.6178322197157571,
+              0.4375135609482826,
+              0.6178322197157571,
+              0.5296173090498515,
+              0.4247455436588688,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.45790050060615645,
+              0.5664926618117005,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.45790050060615645,
+              0.5664926618117005
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.2484719211484222,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.525725681160723,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.45842891275731307,
+              0.5921409655239962,
+              0.45842891275731307,
+              0.5921409655239962,
+              0.5262418568985925,
+              0.4272775499809447,
+              0.5262418568985925,
+              0.4272775499809447,
+              0.66463337963258,
+              0.30059749181198325,
+              0.66463337963258,
+              0.30059749181198325,
+              0.2895433961927301,
+              0.707077858727168,
+              0.2895433961927301,
+              0.707077858727168,
+              0.5936128172090313,
+              0.405752084561668,
+              0.5936128172090313,
+              0.405752084561668,
+              0.43032993676713316,
+              0.5770726014085938,
+              0.43032993676713316,
+              0.5770726014085938,
+              0.33276997710862655,
+              0.6913677726948027,
+              0.33276997710862655,
+              0.6913677726948027,
+              0.6493875176383982,
+              0.34667256136374436,
+              0.6493875176383982,
+              0.34667256136374436
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.20064270776927484,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.5249542802923923,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.3412971028194346,
+              0.7019902585450969,
+              0.4494588500075216,
+              0.5864115813531205,
+              0.5592059579631482,
+              0.4445073343462265,
+              0.6080239698621447,
+              0.3251202130144709,
+              0.6771299439225461,
+              0.3350730993101585,
+              0.5841182660451416,
+              0.3767253520983353,
+              0.39358513628735786,
+              0.5753974924182811,
+              0.33378232989355544,
+              0.7113799859324502,
+              0.6771299439225461,
+              0.3350730993101585,
+              0.5841182660451416,
+              0.3767253520983353,
+              0.39358513628735786,
+              0.5753974924182811,
+              0.33378232989355544,
+              0.7113799859324502,
+              0.3412971028194346,
+              0.7019902585450969,
+              0.4494588500075216,
+              0.5864115813531205,
+              0.5592059579631482,
+              0.4445073343462265,
+              0.6080239698621447,
+              0.3251202130144709
+            ],
+            "raw_addition_gains": {
+              "0": 0.0
+            },
+            "regret": 0.19987130690094412,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              1,
+              2
+            ],
+            "sufficient_minimal": true
+          }
+        }
+      ],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "relaxed",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.10597019976855597,
+      "weakenings": 0,
+      "failures": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.434287021194968,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.7214958864330854,
+              0.2696281722532631,
+              0.2475623594117791,
+              0.7612875434665013,
+              0.6794152922408595,
+              0.31853022735955,
+              0.3213097126955995,
+              0.6993979849819376,
+              0.7214958864330854,
+              0.2696281722532631,
+              0.2475623594117791,
+              0.7612875434665013,
+              0.6794152922408595,
+              0.31853022735955,
+              0.3213097126955995,
+              0.6993979849819376,
+              0.2509404671436968,
+              0.7273576240075202,
+              0.7530326098408806,
+              0.2566868268894813,
+              0.29655509012522285,
+              0.678498723100001,
+              0.6679912002507513,
+              0.3709141637179154,
+              0.2509404671436968,
+              0.7273576240075202,
+              0.7530326098408806,
+              0.2566868268894813,
+              0.29655509012522285,
+              0.678498723100001,
+              0.6679912002507513,
+              0.3709141637179154
+            ],
+            "raw_addition_gains": {
+              "0": 0.0
+            },
+            "regret": 0.10920404780351978,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              false
+            ],
+            "spec": [
+              1,
+              2
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.4377751516238363,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.31571602224505474,
+              0.724878827824667,
+              0.6663448153418025,
+              0.23878370488541578,
+              0.6663448153418025,
+              0.23878370488541578,
+              0.31571602224505474,
+              0.724878827824667,
+              0.748344054031823,
+              0.3240504459668953,
+              0.31214218407217764,
+              0.6954923583450939,
+              0.31214218407217764,
+              0.6954923583450939,
+              0.748344054031823,
+              0.3240504459668953,
+              0.748344054031823,
+              0.3240504459668953,
+              0.31214218407217764,
+              0.6954923583450939,
+              0.31214218407217764,
+              0.6954923583450939,
+              0.748344054031823,
+              0.3240504459668953,
+              0.31571602224505474,
+              0.724878827824667,
+              0.6663448153418025,
+              0.23878370488541578,
+              0.6663448153418025,
+              0.23878370488541578,
+              0.31571602224505474,
+              0.724878827824667
+            ],
+            "raw_addition_gains": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "regret": 0.11269217823238808,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              1,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.45040871522863735,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.2643970648394832,
+              0.7277735655153635,
+              0.6809503062814342,
+              0.20368714567205168,
+              0.6809503062814342,
+              0.20368714567205168,
+              0.2643970648394832,
+              0.7277735655153635,
+              0.7769474701913431,
+              0.2728835660522799,
+              0.30978643670224043,
+              0.6634036649867375,
+              0.30978643670224043,
+              0.6634036649867375,
+              0.7769474701913431,
+              0.2728835660522799,
+              0.6926296495530254,
+              0.38939747743914843,
+              0.33636971566767015,
+              0.7006691638867533,
+              0.33636971566767015,
+              0.7006691638867533,
+              0.6926296495530254,
+              0.38939747743914843,
+              0.38259307994884934,
+              0.6964140780266714,
+              0.6337250159359645,
+              0.3011422572686938,
+              0.6337250159359645,
+              0.3011422572686938,
+              0.38259307994884934,
+              0.6964140780266714
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.12532574183718914,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.45298621118242677,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.17267965120957932,
+              0.7877129793549202,
+              0.8186547258418064,
+              0.3132187545615941,
+              0.8186547258418064,
+              0.3132187545615941,
+              0.17267965120957932,
+              0.7877129793549202,
+              0.6042173013126355,
+              0.31082326789452513,
+              0.3347526643896879,
+              0.7178425317196817,
+              0.3347526643896879,
+              0.7178425317196817,
+              0.6042173013126355,
+              0.31082326789452513,
+              0.5882663593336036,
+              0.23995044108841254,
+              0.22568996936548472,
+              0.6764491033523772,
+              0.22568996936548472,
+              0.6764491033523772,
+              0.5882663593336036,
+              0.23995044108841254,
+              0.31934925028114075,
+              0.6763557064360181,
+              0.6091797479709352,
+              0.4090172315850927,
+              0.6091797479709352,
+              0.4090172315850927,
+              0.31934925028114075,
+              0.6763557064360181
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.12790323779097856,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.45298621118242677,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.17267965120957932,
+              0.7877129793549202,
+              0.8186547258418064,
+              0.3132187545615941,
+              0.8186547258418064,
+              0.3132187545615941,
+              0.17267965120957932,
+              0.7877129793549202,
+              0.6042173013126355,
+              0.31082326789452513,
+              0.3347526643896879,
+              0.7178425317196817,
+              0.3347526643896879,
+              0.7178425317196817,
+              0.6042173013126355,
+              0.31082326789452513,
+              0.5882663593336036,
+              0.23995044108841254,
+              0.22568996936548472,
+              0.6764491033523772,
+              0.22568996936548472,
+              0.6764491033523772,
+              0.5882663593336036,
+              0.23995044108841254,
+              0.31934925028114075,
+              0.6763557064360181,
+              0.6091797479709352,
+              0.4090172315850927,
+              0.6091797479709352,
+              0.4090172315850927,
+              0.31934925028114075,
+              0.6763557064360181
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.12790323779097856,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.4270701105630836,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.34679960830245826,
+              0.6687236409620018,
+              0.34679960830245826,
+              0.6687236409620018,
+              0.6374218769594806,
+              0.33288373756674894,
+              0.6374218769594806,
+              0.33288373756674894,
+              0.7505859897105174,
+              0.24560047998133408,
+              0.7505859897105174,
+              0.24560047998133408,
+              0.21098476055775875,
+              0.787037661700552,
+              0.21098476055775875,
+              0.787037661700552,
+              0.6904165524920777,
+              0.28505682091457274,
+              0.6904165524920777,
+              0.28505682091457274,
+              0.31595888187160187,
+              0.705061788763434,
+              0.31595888187160187,
+              0.705061788763434,
+              0.22850864450369796,
+              0.7696978384743914,
+              0.22850864450369796,
+              0.7696978384743914,
+              0.7371978228600693,
+              0.27294646631932723,
+              0.7371978228600693,
+              0.27294646631932723
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.10198713717163538,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.4270701105630836,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.34679960830245826,
+              0.6687236409620018,
+              0.34679960830245826,
+              0.6687236409620018,
+              0.6374218769594806,
+              0.33288373756674894,
+              0.6374218769594806,
+              0.33288373756674894,
+              0.7505859897105174,
+              0.24560047998133408,
+              0.7505859897105174,
+              0.24560047998133408,
+              0.21098476055775875,
+              0.787037661700552,
+              0.21098476055775875,
+              0.787037661700552,
+              0.6904165524920777,
+              0.28505682091457274,
+              0.6904165524920777,
+              0.28505682091457274,
+              0.31595888187160187,
+              0.705061788763434,
+              0.31595888187160187,
+              0.705061788763434,
+              0.22850864450369796,
+              0.7696978384743914,
+              0.22850864450369796,
+              0.7696978384743914,
+              0.7371978228600693,
+              0.27294646631932723,
+              0.7371978228600693,
+              0.27294646631932723
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.10198713717163538,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              false,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        }
+      ],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "weaken",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.05237997303385797,
+      "weakenings": 40,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 1024
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 960
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 1024
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 1024
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 896
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 896
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 960
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 960
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "combined",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.04317672440879622,
+      "weakenings": 29,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 1024
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 960
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 1024
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 1024
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 896
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 896
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 960
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 960
+        }
+      ]
+    },
+    {
+      "branch": "reversal",
+      "policy": "uniform",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.02670592870809559,
+      "weakenings": 330,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 128
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "baseline",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.022132136992933697,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "fast",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.022855305735399418,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "selective",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 8,
+      "mean_final_regret": 0.06806010826865083,
+      "weakenings": 0,
+      "failures": [
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.8125,
+            "contexts": 32,
+            "expected_loss": 0.48479610525590994,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.8603933470963844,
+              0.1255691312418158,
+              0.1654350134292214,
+              0.7409396983640232,
+              0.1654350134292214,
+              0.7409396983640232,
+              0.8603933470963844,
+              0.1255691312418158,
+              0.14930677764678638,
+              0.8302024221228096,
+              0.7920695355565327,
+              0.11438402816948097,
+              0.7920695355565327,
+              0.11438402816948097,
+              0.14930677764678638,
+              0.8302024221228096,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.45790050060615645,
+              0.5664926618117005,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.45790050060615645,
+              0.5664926618117005
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.15971313186446173,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 0.8125,
+            "contexts": 32,
+            "expected_loss": 0.48479610525590994,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.8603933470963844,
+              0.1255691312418158,
+              0.1654350134292214,
+              0.7409396983640232,
+              0.1654350134292214,
+              0.7409396983640232,
+              0.8603933470963844,
+              0.1255691312418158,
+              0.14930677764678638,
+              0.8302024221228096,
+              0.7920695355565327,
+              0.11438402816948097,
+              0.7920695355565327,
+              0.11438402816948097,
+              0.14930677764678638,
+              0.8302024221228096,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.31655088732699493,
+              0.5778182320124229,
+              0.4747611043093112,
+              0.32022624682282885,
+              0.45790050060615645,
+              0.5664926618117005,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.4691470109730147,
+              0.5469386683597447,
+              0.45790050060615645,
+              0.5664926618117005
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.15971313186446173,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        }
+      ],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "relaxed",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.036826055705302514,
+      "weakenings": 0,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "weaken",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.04253220591017323,
+      "weakenings": 16,
+      "failures": [
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.441871547716685,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.8659560080181943,
+              0.1342990531340338,
+              0.1538273244838538,
+              0.7196951390547095,
+              0.1538273244838538,
+              0.7196951390547095,
+              0.8659560080181943,
+              0.1342990531340338,
+              0.17496040901157497,
+              0.8220830857089401,
+              0.7845567422302226,
+              0.11840815018103315,
+              0.7845567422302226,
+              0.11840815018103315,
+              0.17496040901157497,
+              0.8220830857089401,
+              0.5206423174280872,
+              0.24975637632991907,
+              0.2601654476913228,
+              0.6172254282930778,
+              0.2601654476913228,
+              0.6172254282930778,
+              0.5206423174280872,
+              0.24975637632991907,
+              0.36771383200385277,
+              0.6450356698459107,
+              0.5563151839720583,
+              0.4645354005177735,
+              0.5563151839720583,
+              0.4645354005177735,
+              0.36771383200385277,
+              0.6450356698459107
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.11678857432523682,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "initial_full_valid": true,
+          "final": {
+            "accuracy": 1,
+            "contexts": 32,
+            "expected_loss": 0.441871547716685,
+            "index": 1280,
+            "local_exact": [
+              true,
+              true
+            ],
+            "local_groups": [
+              2,
+              2
+            ],
+            "oracle_regret": 0.0,
+            "predictions": [
+              0.8659560080181943,
+              0.1342990531340338,
+              0.1538273244838538,
+              0.7196951390547095,
+              0.1538273244838538,
+              0.7196951390547095,
+              0.8659560080181943,
+              0.1342990531340338,
+              0.17496040901157497,
+              0.8220830857089401,
+              0.7845567422302226,
+              0.11840815018103315,
+              0.7845567422302226,
+              0.11840815018103315,
+              0.17496040901157497,
+              0.8220830857089401,
+              0.5206423174280872,
+              0.24975637632991907,
+              0.2601654476913228,
+              0.6172254282930778,
+              0.2601654476913228,
+              0.6172254282930778,
+              0.5206423174280872,
+              0.24975637632991907,
+              0.36771383200385277,
+              0.6450356698459107,
+              0.5563151839720583,
+              0.4645354005177735,
+              0.5563151839720583,
+              0.4645354005177735,
+              0.36771383200385277,
+              0.6450356698459107
+            ],
+            "raw_addition_gains": {
+              "1": 0.0
+            },
+            "regret": 0.11678857432523682,
+            "removal_costs": {
+              "0": 0.3680642071684971,
+              "1": 0.3680642071684971
+            },
+            "semantic_alignment": [
+              true,
+              true
+            ],
+            "spec": [
+              2,
+              1
+            ],
+            "sufficient_minimal": true
+          }
+        }
+      ],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 1024
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 960
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 896
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 1024
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 1088
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 1088
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "combined",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.02828352340408662,
+      "weakenings": 12,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 1024
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 896
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 960
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 960
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 896
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 1024
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 1088
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": null
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": null
+        }
+      ]
+    },
+    {
+      "branch": "remap",
+      "policy": "uniform",
+      "final_correct_forms": 10,
+      "final_perfect_modal": 10,
+      "mean_final_regret": 0.043735362068737946,
+      "weakenings": 330,
+      "failures": [],
+      "first_weakening": [
+        {
+          "seed": 1800,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1800,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1801,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1802,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1803,
+          "proposal_seed": 1801,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1800,
+          "tick": 128
+        },
+        {
+          "seed": 1804,
+          "proposal_seed": 1801,
+          "tick": 128
+        }
+      ]
+    }
+  ]
+}

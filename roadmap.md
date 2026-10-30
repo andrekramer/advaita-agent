@@ -444,7 +444,21 @@ affect prediction. That timing error is recorded; the criterion is not rewritten
 Two proposal replicates still lost a correct local form while using a raw bypass
 to predict accurately. Next confirmation must predeclare a benefit window after
 the intervention can act, with early adaptation costs still measured. No such
-confirmation, policy promotion or steerability test has been performed.
+confirmation, policy promotion or steerability test had been performed at the
+close of 027.
+
+**Fresh memory confirmation completed, 2026-10-30:** [Experiment 028](results/memory-confirmation-v1/findings.md)
+kept the learner fixed and evaluated fresh seeds over the complete window after
+the first possible intervention. All 350 runs passed independent audit and all
+primary criteria passed. Selective weakening improved the declared mean loss by
+.033904 nats over admission alone, positive in all ten pairs and five environment
+means. Final reversal validity rose from 3/10 to 10/10, with preservation guards
+passing. This establishes a bounded benefit of selectively revising slow evidence;
+the original and faster-forgetting controls still had lower adaptation loss.
+The reference architecture is not automatically replaced. Interpretability and
+controlled steering can now build on a tested memory-revision mechanism, with
+the existing representation failures and retention/adaptation tradeoffs retained
+as evaluation requirements. No steerability or meta-learning result is claimed.
 
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later

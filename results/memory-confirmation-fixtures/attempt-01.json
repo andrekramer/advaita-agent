@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "tests": 4,
+  "new_learning_labels": 0,
+  "replayed_saved_labels": 6784,
+  "elapsed_seconds": 0.41245116700883955,
+  "log": "test_a_boundaries_and_independent_metrics (__main__.Contracts.test_a_boundaries_and_independent_metrics) ... ok\ntest_b_primary_uses_post_not_early_or_late (__main__.Contracts.test_b_primary_uses_post_not_early_or_late) ... ok\ntest_c_individual_post_and_early_guards (__main__.Contracts.test_c_individual_post_and_early_guards) ... ok\ntest_d_frozen_trace_replay_and_adapter_identity (__main__.Contracts.test_d_frozen_trace_replay_and_adapter_identity) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.412s\n\nOK\n",
+  "sources": {
+    "experiments/memory_confirmation.py": "44e71393006a9f8aaa892b8730962c6febf263ac0948baae0a952a452b815bc5",
+    "experiments/memory_confirmation_protocol.md": "ef43ed27aeafb68ca340e03b62ca11e22bcdead36aa7aac88ca6342b711b261e",
+    "experiments/memory_confirmation_metrics.py": "72a8be32ade5a3977bc9bacc66e3ecc260496aed053facf85182728b5aeb4d24",
+    "checks/audit_memory_confirmation.py": "eda34bc6c8d626860de1f858d237d0b38b4cefb605afc8e1a7f9a6e7f252d5b7",
+    "checks/test_memory_confirmation.py": "3abb39fa37d7595c2bd820fadbf6f12606bfec99748d3d6709d3a592b995edd9",
+    "experiments/report_memory_revision.py": "1b6f3eb7d556893d527ca6fc4a1b49c44ee93d4793961b33bc5c81f0586ca227"
+  }
+}

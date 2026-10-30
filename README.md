@@ -101,6 +101,8 @@ successful experiments alone do not justify that step.
 - [Experiment 026: retention, selective migration and blocked revision](results/memory-control-v2/findings.md)
 - [Experiment 027: slow-memory revision protocol](experiments/memory_revision_protocol.md)
 - [Experiment 027: selective weakening, later recovery and a timing limitation](results/memory-revision-v1/findings.md)
+- [Experiment 028: fresh memory-revision confirmation protocol](experiments/memory_confirmation_protocol.md)
+- [Experiment 028: confirmed benefit and retention/adaptation tradeoffs](results/memory-confirmation-v1/findings.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -141,8 +143,20 @@ before the two-review rule could affect a prediction, a protocol design error
 documented without retrospectively changing the criterion. Later benefits are
 secondary evidence; two pairs still ended with incorrect forms despite accurate
 output. See the [findings and timing limitation](results/memory-revision-v1/findings.md).
-The original reference remains unchanged. A properly timed fresh confirmation
-and a separate steerability study remain open.
+The original reference remains unchanged. This led to a properly timed fresh
+confirmation; steerability remains a separate study.
+
+The confirmation completed on 2026-10-30 with **350 independently audited runs
+and all primary criteria passed**. With unchanged learning rules and fresh seeds,
+selective weakening improved post-intervention loss over relaxed admission alone
+by .033904 nats, positive in 10/10 paired runs and all five environment means.
+The benefit was larger for lasting reversal than category remapping. Final
+reversal full validity rose from 3/10 to 10/10; the combined policy reached
+10/10 final validity in every history and 9/10 familiar-gap validity. No selective
+weakening occurred in stable, brief-reversal or familiar-return histories.
+Simpler controls still adapted more quickly. This confirms a benefit of revising
+slow memory within these tasks, not general superiority or a learned memory
+controller. See the [confirmation findings](results/memory-confirmation-v1/findings.md).
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,
