@@ -1,0 +1,105 @@
+{
+  "post_audit": true,
+  "rows": [
+    {
+      "seed": 2000,
+      "proposal_seed": 2000,
+      "channel": 2,
+      "tick": 768,
+      "affected": 0,
+      "selected_channel_gain": 0.020169888303428474,
+      "composite_gain": 0.020169888303428474,
+      "identical_composite_window": false
+    },
+    {
+      "seed": 2000,
+      "proposal_seed": 2001,
+      "channel": 2,
+      "tick": 704,
+      "affected": 0,
+      "selected_channel_gain": 0.02895676368225164,
+      "composite_gain": 0.02895676368225164,
+      "identical_composite_window": false
+    },
+    {
+      "seed": 2001,
+      "proposal_seed": 2000,
+      "channel": 2,
+      "tick": 768,
+      "affected": 0,
+      "selected_channel_gain": 0.024108403763910546,
+      "composite_gain": 0.024108403763910546,
+      "identical_composite_window": false
+    },
+    {
+      "seed": 2001,
+      "proposal_seed": 2001,
+      "channel": 0,
+      "tick": 704,
+      "affected": 0,
+      "selected_channel_gain": 0.021045553588060262,
+      "composite_gain": 0.0,
+      "identical_composite_window": true
+    },
+    {
+      "seed": 2002,
+      "proposal_seed": 2000,
+      "channel": 0,
+      "tick": 704,
+      "affected": 0,
+      "selected_channel_gain": 0.002506584128424527,
+      "composite_gain": 0.0,
+      "identical_composite_window": true
+    },
+    {
+      "seed": 2002,
+      "proposal_seed": 2001,
+      "channel": 0,
+      "tick": 640,
+      "affected": 0,
+      "selected_channel_gain": 0.024611800923517335,
+      "composite_gain": 0.0,
+      "identical_composite_window": true
+    },
+    {
+      "seed": 2003,
+      "proposal_seed": 2000,
+      "channel": 2,
+      "tick": 768,
+      "affected": 0,
+      "selected_channel_gain": 0.015654500224105306,
+      "composite_gain": 0.015654500224105306,
+      "identical_composite_window": false
+    },
+    {
+      "seed": 2003,
+      "proposal_seed": 2001,
+      "channel": 0,
+      "tick": 832,
+      "affected": 0,
+      "selected_channel_gain": 0.019093021221388007,
+      "composite_gain": 0.0,
+      "identical_composite_window": true
+    },
+    {
+      "seed": 2004,
+      "proposal_seed": 2000,
+      "channel": 0,
+      "tick": 704,
+      "affected": 0,
+      "selected_channel_gain": 0.03244347529036029,
+      "composite_gain": 0.0,
+      "identical_composite_window": true
+    },
+    {
+      "seed": 2004,
+      "proposal_seed": 2001,
+      "channel": 0,
+      "tick": 832,
+      "affected": 0,
+      "selected_channel_gain": 0.021876740874920864,
+      "composite_gain": 0.0,
+      "identical_composite_window": true
+    }
+  ]
+}

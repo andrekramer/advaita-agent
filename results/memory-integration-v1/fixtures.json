@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "new_labels": 0,
+  "contracts": [
+    "input_atomicity",
+    "inspection_copy",
+    "review_reuse",
+    "explicit_mass_discount",
+    "fast_unchanged",
+    "duplicate_control",
+    "checkpoint_continuation",
+    "reference_default"
+  ]
+}

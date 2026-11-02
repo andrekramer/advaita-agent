@@ -1,0 +1,9 @@
+{
+  "experiment": "030",
+  "date": "2026-11-02",
+  "status": "complete_audited",
+  "runs": 120,
+  "primary_pass": false,
+  "promoted": false,
+  "report_code_sha256": "01085dc6391e4e3cffbdf070d1b037b4199ab5558e161a2d4a509c0faa9b33b6"
+}

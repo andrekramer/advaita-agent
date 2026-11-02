@@ -103,6 +103,10 @@ successful experiments alone do not justify that step.
 - [Experiment 027: selective weakening, later recovery and a timing limitation](results/memory-revision-v1/findings.md)
 - [Experiment 028: fresh memory-revision confirmation protocol](experiments/memory_confirmation_protocol.md)
 - [Experiment 028: confirmed benefit and retention/adaptation tradeoffs](results/memory-confirmation-v1/findings.md)
+- [Optional continuing runtime: inspection, memory choices and control API](docs/memory-runtime.md)
+- [029–031: integration, lifecycle tests and bounded steering](results/memory-integration-round-synthesis.md)
+- [Experiment 030: repeated changes and rare distinctions](results/memory-lifecycle-v1/findings.md)
+- [Experiment 031: scripted steering and downstream effects](results/memory-steering-v1/findings.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -157,6 +161,17 @@ weakening occurred in stable, brief-reversal or familiar-return histories.
 Simpler controls still adapted more quickly. This confirms a benefit of revising
 slow memory within these tasks, not general superiority or a learned memory
 controller. See the [confirmation findings](results/memory-confirmation-v1/findings.md).
+
+On 2026-11-02, **optional memory integration passed exact replay of all 350 saved
+runs**, including midway restart. The common runtime defaults to the original
+learner. Subsequent independent audits covered 120 lifecycle runs and 60 bounded
+steering runs. Later prediction and rare-information retention improved in the
+lifecycle test, but full criteria failed on repeated-change recovery and early
+costs. Scripted steering improved the intended composite outcome in only 4/10
+changing-history pairs. Six other interventions improved a local prediction
+without changing the composite output. The original remains the default;
+inspection and control APIs are available, but reliable interpretation and
+steering are not established. See the [round synthesis](results/memory-integration-round-synthesis.md).
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,

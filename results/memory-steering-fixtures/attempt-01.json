@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "charged_labels": 672,
+  "cumulative_labels": 672,
+  "elapsed_seconds": 0.329755374987144,
+  "log": "test_a_all_control_paths (__main__.Contracts.test_a_all_control_paths) ... ok\ntest_b_explicit_control_and_selector (__main__.Contracts.test_b_explicit_control_and_selector) ... ok\ntest_c_metrics_and_gates (__main__.Contracts.test_c_metrics_and_gates) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.330s\n\nOK\n",
+  "sources": {
+    "experiments/memory_steering.py": "41c1ea4457d2ce887c901747d21f1bb70a9d8b7b333bb45dcd49e9fe50af4370",
+    "experiments/memory_steering_metrics.py": "7fe7cd573984bbad6bc4ecb2fdb362cc525821ff965fd192fecbfae8d51c4984",
+    "experiments/memory_steering_protocol.md": "3f17a703ab184885c7d4590a4fcdf18f297df88f2c69d92f0c8a75bdf78471b6",
+    "checks/audit_memory_steering.py": "dad69251234da9d54ae4a6e8c650970ea48707f83fc94699e62790e91caf527a",
+    "checks/test_memory_steering.py": "6b80550c7584abb2772ea2b162800d0b0085ee626ba20920832dc3ff2a7bcf09"
+  }
+}

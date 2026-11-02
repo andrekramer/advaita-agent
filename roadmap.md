@@ -460,6 +460,18 @@ controlled steering can now build on a tested memory-revision mechanism, with
 the existing representation failures and retention/adaptation tradeoffs retained
 as evaluation requirements. No steerability or meta-learning result is claimed.
 
+**Optional integration and follow-on tests completed, 2026-11-02:**
+[029–031](results/memory-integration-round-synthesis.md) delivered a common
+continuing runtime with explicit memory choices, copied inspection state,
+checkpointing and one bounded slow-evidence weakening operation. All 350 saved
+traces reproduced exactly. The 120-run lifecycle and 60-run scripted steering
+studies passed independent audit but failed their full empirical criteria.
+Rare-information retention and later revision benefits coexist with delayed
+adaptation and representation failures. In steering, improvements in local
+confidence often did not affect the composite outcome. The next question is
+whether inspection can identify interventions relevant to a specified downstream
+output. That study has not begun; no default promotion or learned controller.
+
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen

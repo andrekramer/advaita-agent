@@ -1,0 +1,3509 @@
+{
+  "status": "pass",
+  "runs": 350,
+  "new_labels": 0,
+  "replayed_labels": 1890560,
+  "records": [
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "86ffcfb3aecd1839f0cf6d60c8cf904c677ae9b98d8782aca9810d21e2cdda04",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "cd5cb7cfe331e5e2843bd2b162b1382fbf3819508b82363b37fcdcaf18b37b3c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "f7a62ca151dee502dd8ffc8bf10e1b82cdadfd3386bd427aee8a292ef614117f",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "ff547d68406900624bf421f58448eb3529c015eab767c25cf3c85b408a0effc0",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "d36935d61f835c20a81cb388179d038273b281539c36641fab01330adaabcb98",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "af95424ec197669fb26dd8780356b295070e8a954b01a8361a925134262e2b18",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "94a82a1da8c19720a65ec2fdebf766a9ade4f379bd40eb4206b888deac2701e6",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "eaf5a8f9f2a5ed8caca25bfc6de64aaba53c5d0e6dea9e88d6c105cde905d4e7",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "c63e38da79de673c14226c183aa96b3ec22eb6caaaa6940a57d6ab858c304b86",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "f42257fb507e20dd3feff46a578e53932dd9e56d6ac840ba38ad52de4b599e27",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "05d978dd6525c02087b4ee6a507e193b956a25ca53e8dc3f81562d9856896f4e",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "23647f701a2680b4461e684faf5a956f62fccb8ad7026d59f3575d7580709472",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "bf09f96c9fe1974fb302f992ebf6c8b579037777ea61dda9305ffa47823c42ea",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "e4aedcbe704d2d6f83318a3ad397f56a3c39b744ede078d348919e6a6cf8cf98",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "c779b238ebcf6b00df430bb12968a87f63fb7e31558578bd296ef73438a9e8f2",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "a191e99da1be460f8b75af7c639dc0df99847edc836b3cc43655cf32d585065c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "433945e9b5a21192a5dd2d80319dabfcdd11f0a806bf09dc0b1503fa29c54338",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "995e5bb3fce05fbf7942c57077844fb86539104beda8f0d198b993c42721970e",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "56ca6f4f13b191dbc45ed4bf6c8221846e6d3908a088ee486046e9de0798bc7a",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "95add5675c157c25b10dd0db84d41bda65900cb616244e68a516c885e4260ef6",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "0ea5cf9276c4448ba5b545c97dfa7f8428c3be65e3705b9cc7feb3c12d40300c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "df00b38c0d1ac39c02f5068321dc691268575c6ac17036b7ba077ad980295b18",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "afc8ac6f4ff99e7fe107bba25c6e9a32b03510029dd41b7b51935c9332117814",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "1a88c0df096470bee610e1f3a1015e606059f7806c28432dafda31b108cd1fdf",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "485c210f10e1b8321687eb5b22fcb246c341171f1e96ad2f89416db7d4e68b1d",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "65fad794593ae8f4cf35c610f6e9b98476ada826aea1c4fab25b5158a2bce895",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "49b6fdbebb0316a83ff6dc04a130097fbaf77664c051ccf4ba15cdda212219ba",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "cbe2f1ea0e2003ed9e0b027054c37a724f364e990da053c29a9f85a1ffd44775",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "0f8753c67223022f510177c3f69ea8b31e908f8de152ca30115d42d674a57605",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "0b375d2c663e9566579291afe9aa8919637f25b362d817db9215391088d1903d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "6b6ca3c4de48bd88688f324b726b7d55bf117f975e785294635bfe66c5bd3c69",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "911f75f97eb6ea2bca11fb6bc258b46564da53a2f0ed55d627fa87ed355cf142",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "1009c8f6ebbcebea97e2fdea3184048102672d5eb8e4609d17ce1d70fc32dba3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "71cd7cf270fd14ddc48e61d4b675f37b875364c0d48264942d039a5d72b12827",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "0105367bd9c57643d0992c47ec584d8c2d0c6b8655b87850dafc50f8342be025",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "7037ec3082cb14748000338299c74824c0df3a1e30fc49941cde06150a9d8939",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "d3e3def6e5a5c21d326fe2f5c777ca1bef08b7f2a0136f09e344421e44ada8cc",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "cd9b92202a0e9c559ec26b0be923f22c17ee3fa805cd527d9c6f3b6b4869ea03",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "f4340373137fe8c9b11a4f6a3182430b9e3d64150f300d5e31586ae846c5a1f5",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "91c727899f40aedc9a8c4f3999282ef9a4d74704235dd13ff16381dcc4becf06",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "2d81310158dec33561422e5f3eb4bda54c81c1823baec389bc018eeeeecda0e3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "de91460e01f317e39767a8685032dd0e64ac29499944452fdeec11c0cf03caff",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "fc242dbd1c97e65ce164c8b6710ae1899d6c74ecc1364f8a7e4c7f14c3a3264a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "1919bf594cbd1a43fe0ff06102130d6ca36b64b0e70608f9ac1df266409e0ca8",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "d9d65938e213abf4a795f9d553a79b00415c2b9c8efb3e9d9eb150a0daa5b211",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "a369fd5b9e39264b949f8672a5f419da3501db58927cb655883cdbbe27bdf3fb",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "5f236b22e4db04cd1bc472e9ba43a4b491c9b27ad7d642a6b59915f151e529ca",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "7a9d8bd4a3be34f3e9bec270638a87aab6bfe53edc94c9f8509e8c66b95d7e61",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "0e9fe4caf04603709bf0458bceb067056767950746933c0b656719d220fac738",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "c78cafd5f3361e03472d9dee5b7eed618b20a4f78b98f16a50e01b472d86b225",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "b706019b26821baa860f401cb4502e4a2e59369b1a9cdb18bbab68e63f1ad244",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "49694830927e1efee75884dac92f57414734b453242893b115a30b101cd446a3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "ba68d87c6304ec5d84b2d189c9d9ac7ab8b8c8d90880bf32caeb43c1a5f39502",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "2f289316c451856a69825fe458e62d0937345dd2b742ff1b584be7407845b850",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "8c63190c923349731011e2f8733d32db4a144538406e03915341277893a48f8b",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "c51d45fd38f411d1230d08ba73653b88d32bc41bb29e8bcf3c97a30316e5ad9f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "6fa180184ecacae35075eed426526a905285bd3ca9a32269a2e3baab5400e972",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "8f210f14a185544863c162872d1dc1f53f8ab10c4d260db201559d518978822c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "4d3ce024f4115ab2e1a3e3be88df59dcaea26ef1e0fd2c5c027c435fad5b07bc",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "e7d0a1c6d2d8dec6c30405738081ac5a3c8af985023622b9086fa63483b09f6d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "82fe322bc959e619f8af3a7a950ec045ae4b0d171fe33f6da7fb48b77d571d1a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "589e2df2aafd411759c472cf3f19e0da9b20ae3fca073664ec8195ba41c43f75",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "a656808fa515344d817824b627578d7eeb8e8d645c65b17364fef210250883d7",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "cf8bd6031cd6cd28fb4b5bd4eed361327e75ef67d69d0defb9d4c3867b5c0e05",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "35dba95b4009058c45c4d5dcfa008aadf770a69acfd9de87857877ff24a600a9",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "493ddd3f11f032612dd291113fc652a696e6d40f83254615372ec074a81e4e1d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "4ff98a2bf2a0c03e335910b503e8d454611d82ba0a67ea26e6fabca316939b6a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "9f90c26dde7bdf3974ae603bc0d6f232840cfeabd707101fabdfc4e79390c656",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "425cf754fd20c4a851cda4a39dbe7f192c7877c122da9403b651876b2d122f77",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1800,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "a4ec49bc060e71a3df54d1fa6d42598cb9c9873f54c877ccb9c015dc96db6f11",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "e497c5cb9f1002e5ba642da52262c775ba2a2cb5d648a36f13d422f533c73f8c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "8c6db36c2cf0d24f5735d0fcac1cda7d463df78a13e57373d61e62cfb28be7ca",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "d78615a19b12e9139cacf4d046842a8e68534a0da0d440695e0e5e13383fa9e3",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "da83cdcdc94cdc2526c301edffbc52c19912aa6f871329a21ee8b3c5fd3a73db",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "16ae0810af45b357b9171f4584dd0da40480d5c863d27eaaeb9cf880d7456fb5",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "ad86e3abfa0fb4f130a6aa0cd6973988b498a6a6f5348f3e3ee0b3e3019a2658",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "2c950745b49bd97879fe79feffb64de0fa461ff3631a46810382974181bf6942",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "4924be95d9554189cd485940ecd88d925502a32f76d59df99a0f61b9de5b36f4",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "3d63e13734228decacbaec958962621fd635c9d865271491a0c8ae35d1a51491",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "30620e6911f51028f0e3a5ec861cf0f80f1e102ffc2a838cb140fb9519c43eb2",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "733182ab1dcdcae8383bf78c47fbf31331d2d5a05d46045d66661fd1be889005",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "cd8cb6ba7ba58300247865a84e06ff9e71dd1930889229bca0a9f8a39343523a",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "3e7f568e3d01afb187737dc96d6f75eaefccaaaadd30232d325376f9550b6ade",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "ed47705dbb4c51c5292b63e2db05653f2102c91b32fdea424e37dcc5a96d8f44",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "723005e87e1bf1ff5ca2772c78e61c5eeca85a4c81ad6dab08f0fcb3465c170f",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "2ede2959703779dc99e32e03d90bc5b04b48b19457fb09393f8040658f6d8346",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "97206b05b9ae04e7e1854cf087c18bd62abb81f6fba22010b29f8b6f361f7c3e",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "41a5c1ce040e43c3c126ac1a25bf8f0331a68c104f358f186c76813bee5a5ac8",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "72c3d4f1cded4ec1740ce89b9e19bc7725a9d7ab32f78898b6f37b0d70de5332",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "c41e8bd1f4fbc9a636ddef9e2eb601cb57d00bfeec70d4655ac91d40027d47ce",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "50a6a176f059dc6a9ebf4d282a9d5d4c3516024b359e4bf1826a87d79133819d",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "e152f6c1d705a5e42d66caf8f54e8273b4e180c00b5b83db61b5e990eb44eaa7",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "ad247338855265d0e603ab1775529093020cb994a12e9934745e472937bfb3c5",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "ff3bbbf9e0ba9f47fa849167fde1871bde17abd83e52fbbf65d9dfc9058d0723",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "37c8b7c350a2a58ba85d802ae758363ac1114b518c5af858bf1e1b36dd587a0c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "a6f90d8167e2a6d4798bf5572ad71213b8362f4fffc9e6eaf65d29963cb4f530",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "46cbbb083ed7ae8a8a8598e58d6a7ec5a877376ae0fa51414615406ce9dfb19a",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "82a2311a5ed55390e686e5fd92f41becd88be6f36003624f067bc3e7e2e77a99",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "070d46b220aa32a7bc0227743f3e6ccd6b610d390e76987d7ff037081b8910c2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "50db58878b6d9ceaa1c3ab8349ca915e02fe0ca2af8755924f05fbcd082335c3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "45d8b719155b301cfe74b5e7cbd16b9c13cc6fc8c40c22e9f67ad53bc6060cc7",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "1fe30f4964ba2918ed68c2d8032f44ec208a8c2537b317774a5ea200cd63deb4",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "5327fa6af1f8825f50ae86f28f9d08afbb074f539ffed2a2c23e27cbc39870e1",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "320c0d3b9ba465707ba5c420a90cb96fc02d114456bfc4b08ccdbe7329cb7f5d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "14de2ccc560ad9cbf73ae2bf5db05e080ac81098cbd9eb0e96014bdb5db6787b",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "fe16b0b4b3312e513944a21343c446c22b349860218adc007b984d65f9424e3b",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "cfae7f1822a26523b57c4c8d0de109d50a5ac9b5d64501c4182f6fc52f1f3bec",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "6b3a580d832ef7faf790e4f8ec826d20741118f1506a6e6899c782a75b2431e2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "888ed915e07029bf57360c01097a49e90e9540d3f90c2d355bdce9325d97d4f2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "7b1582a1b4f6d0caaf8eeeb184521b8bc7a8a9baf118fa2c20a73ec075f5b0fb",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "a67951e3a8d7c1324666dc64632a8d80af1092a674a0383b56ed2b18cde164e2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "92c691fd180a654dfa2d1f0ba6301f52ee2928c115645a50f1c4b61a6ed47aa9",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "7667be66a9c8d81554d417cf79aa292efbcb5edfe13ebfbb11cc37643c59e0cd",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "bdccf00e523a4cda6f3075209ccefe9286173c29327946b9f5f88c78b0404fc2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "1e590046053307df4399522ef29f0a9e9b2763f84d5d9b3518c64b6b5e022377",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "262c06cbe560c41a9e7048501ae907d5ad24a814cac2d9bbfab9674075f0c07c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "0bb811ea115c2f038b1c29adc52e9e857c8827d26bda2edff853c0190e714a31",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "a0e7887834df8853be28d0897504d3600cc7ee204c1e30148374f2bed8050d0e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "de1fd36029f25b6586ea9bd16e8ec02fdd5f226e35dcfbc6fd0026f4aa9ce137",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "b283884734202e9a18fe13285236a711c955f8064c4044de44b0e78def43a797",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "cde4ea2b3cb94dcb4fb2e9a18f1b9408c9a18532741ebc4cd3306d50704f9fce",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "9f6cbeab35d43ed03c2a5c73907fa5aee56d4b8e02b82eb3e663cc9ed602f6be",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "9634800174238c94831c1a20359bda7e0e26c1615a660a729732559b902c1b10",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "eff33716ce7b3b954a7372182ebddcacf9b8a2e72d876ad999ffdbf6b7b34cac",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "05efc0efa0540f18ec893917f96cdc0d2e5d0262b6138f990a4f91b1d387e539",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "24c06894a4a04c74f0de635a6b8b09e0f76007afeb70dcb0533d0ce7487449e0",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "f22d1dd2df4c41682221e6b1a0e425ba617f95870a483c0db6d5709c1375114a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "4ab579c971dde0b45d691e45b1e92aead7cdcde904b2d913a6934c329397912d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "81221a292e3faaf1f5ab9a047590c08341858622993b63f1be49891c01cd73e0",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "81f34595116e14069ab4ae5c27f35c62546413a62470e74935e5c658d8798a96",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "cce160f4466ac2889c847fdaa65be64c811caf08c2a043a1d1b0d3ebaab792c7",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "1c71aacc1e90ecfd2dd477ab2c961ec5104533f9139049b74f5da131e465494d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "db4ebfd304af32161df3b57aec2983a3ef8e406a511cc04e653bd4f8a345a29f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "a9ef30180f35ddd5998266d9cab56537a21580d651805ee7c9b80dda861433b2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "0b2afb5985ab308aa194db68260f94779925e861c16b5bc3545bb469fc8ec71c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "622231fe92137aa0ec7da78db13980241446975e12a7426eca956041b07a078f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "d5d3ec96b407fcf90676937d4c8ad8cec2abecf974eb18f000522a665fca6b09",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "dd90323523b51e050be06ea89dc79c4d9872bba312713a987e75af09c3b3e764",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "56af5121e300eb483705f885584dff8463f3d8319d96081e120692cb8988b1a1",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1801,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "6750be4bf06ae3b23b50ec0a95439f8df4ac81e3e6c4dc26a3d603555c965b28",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "a92ac4dc89fa2429f78783bd5afc3c101ed41d5031489218f5b6c704514644d5",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "2423305e74e64eef898648fce0e24d370f0a27ebf7198a01c981bc5dd0789913",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "21eb40ba36fa932aeca95477ac80cba1ce714507e59c54e2a1e14b35753b52d3",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "0621cdcddc31e6df04b8ed01d8c66f08d7c1f98c8cc552a487419ef44b25574a",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "53aa6a91d4bb373d086aa76215f0134a46b0e10bf7b21dddffe637edae34da05",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "30cb228cab9ee4c809fd070353a9865727216b7d9a03fd7b991f1f1308387943",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "c18c12929ee30fdc19f1ddd7824fcb94b4a98a0475cbd5e8e844150e528190cc",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "34c655aa26f98f9611eae8fc1123702787bd9e036c33513aa3ca694256e5019c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "fe931d2e11c1a10159b626e9f643b266ac220ed076cc1e6ba8ac614023d182c4",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "84ca768f9ab91dd99b9d023a842685f17cfa16ca032d088706835beaa9a23eca",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "8ebe684c628475323a3037f4ca3d3982abd29fedece3fc6466a3aa2387dfbff9",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "07ed7fd6e45961bb20fd865c451283552d2ebb121304d400e7a5b60cc36048db",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "129496d38ded09f33fbc9a4330a5f1cbde45feec02bf04e0ca7d5df70ee5bb3a",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "77f50d84cf7cdf37d4fcbe22a5e0744d939bd1fbc981d906e8842067d39bdf0b",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "484d30d836a16adb0ac3d9a780dc09c572bd0ddb5c34c91ae227f89b6edcf191",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "c61ce518a9e8873c9bbff4a2eb504830d60279a19e5eb4917484a66dd84449a1",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "8423fbd1be8a279bf6e3c3a9998ab16e21106ad5a75e97e02565ba93a292dd7b",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "3937af6b5d2f4c7296308cbf9c001da46d667eb0c95bde0d6e9674fe8912affd",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "c84be3b404c3f18c19ab07964cc0dec1ba4110c5060bdcf4029dd938fc662226",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "463e6231e3cceb50c1908b788fb3040f9e8ed31254e09f7713b1b320cb86a774",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "d453001581041a0a27d613c2277501f823db858898ddafff4bd89307bb7de626",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "097028616ffa9f8b18a0d70d05ca8ea9528a69da9162c44f7eb5c4a7bcab496f",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "cec24b827ff5fb76af40f6f58132d0f29b7ae6fc519479d7b4921cb93c4d1f21",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "ea1bc5b3fc2bca3e920da5b9f8c84d49b47a8f84ec6674b87c23c8c12a35f8ac",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "35bb6a7391d9c6bdf26efb89128b0287f3431898089d43cecef694316aa2ef50",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "325d71e2b5cbb2c134819084f51687f77acc74152a70f9a173ad8629b525d756",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "783632a5f124673b2ab6427f258bca2778c352a6093436f45abe8effa650d6fa",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "01860a75b3b34d95ce861f4a5cc2aac881455ef9cda10321d2fc870f9022962c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "869cbba93ef0f0a53b2a3b452db7744fe7a9b10de4f139d565c1cdac06356f07",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "e54f04d9d974846b55a70d25f42b59bf8fd0934cecce88fb6b19a2654b5ec70c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "2ad447dd6f4d31fa98ead4e7214cb969d502e43e1f2b623591ce68a59bb7ca9e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "3ad6d4d57706b8b0f66ae98b1a4e94ac9725896c40f4cbd0a58ca1fa880e47ca",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "029a96725fd3904591ee4bfb702e310ff5ebeeab658e04a488b77a3f0c127467",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "746a487c28d8a4d3c0af8d7f149be4740520fe9f2f8a6c9e8b5a085ea511b669",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "1b0a6403bc67263783674e43bad4efd2dcd99f7ec7e2fdb9bf82f8f71eb1393e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "d27e6bfd1faa7c3b0ccc37710864a4daf576029a62461a11c1b8e22c59431dae",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "f1a35847ce855dc43a5c15aa26615c38653e8e3565af226e7a623d332577d903",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "fa3ebf9ac881574eff38e66a0df5c8386488d8f7b6c5613c10b81c2604ffd626",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "190f2620256f53162b9ee7abcad5f024b4f1a22061eb76633d9cb4cd10594b56",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "401d43019ecc5dbdc43537944d3dce1d21ee87cbf8be41a6d6f9e4d70eb2301c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "b31b0a61422d0d4972b4a7db8abd5b5161c2fd63b396a7d3c564e972627daeff",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "177e2a99cb78f41cf3df59932cc7ef07200ae92b6ca42815020062a1240fc30a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "8646750bc05d446977a78f0998e0c07e4e8213c71f19addd44bd4c7e51632d05",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "c6f61c3aa5e2b69291bea162ce005b5c38d791ac43d265e929c3561c0db7940f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "436e75e0ebc5cba5a612587e19ee9298ca00ddbdbf8105d52f0939e48511201f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "35a8625218e2497ba5f2dc9d2cdb1917a96bef847b2bb0e08a20f95fd4955056",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "0f48617698408f77a2ad11541ba5e1dfa4fdadb9bd57037223a2967054031e61",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "68917785b80f33a8f9e21f95688896a3e8cd5decddcdf4f6fc6376ba015f23f1",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "b64b9cabb291ef16eee5a11d93e43b7d7b609c39f231c49d34714b0ab6115182",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "240fa0c064367dffc0f7c905a55c15d8f66db61aa95861c10e8ce8339c808cd4",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "ef0c274ee519e693d289f664d932ebfb48e3619fd502b0a067445054cb2ee69b",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "fc45c2541d53b3acba5f30c9873677414e6083bcb03f1bc3de503be55088f5ae",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "172a08a70c77073d16626adcfe71ac0ea4e756d8983dc7e7e2c25a7bbf27eb91",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "e68a62453829274b025b9280e05fca00bd65adca18d732671d8332f6d9956a40",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "356f47ad382c27db1be91aa0de8328683dccb70849a40346f081b51248b92690",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "0e40d0b34b6f60362a46ddf22c588ff549d0df7e478182536b7ed6443b14d732",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "93eb04ef5c3f828997a2245679d14af0641c5d4003f02a4abba8c9a6909679d9",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "e2da39cce8b87ad07773b8aeb828b86a0abfe514798602fceb4e9be0a1cc1e7d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "8917fe9c2c6a7c110922c35b5cc34f6a6781bcabc24c18a5b2809883bc2c4f6d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "11bcf776e71914731731dbf182532a5f56f5a92cfbaedf62436365af1fa98655",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "f03976b75a49599327937c77b3b52c14f5fece9ead8e43858322d83a6eaf8ffb",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "bde0a6a82dc011b41c955b750b1c1e933042b52fdee4ac02fd7c937326cd261f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "188989644e88ee7c28df90aa5d11e6bd9b2bd3392db677da85fb1b1d2f466699",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "caf1a2ccfb9d9a33fc1063469ae6b38dd055afa7e501155a573d6541ee34ad83",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "ac9f890319d6ac0c5a9dcf20e4ca993c62a2daef400454d713c4f883efd11e83",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "2de6ae2b1686ddf5473ff15f1587a71233ac9798aeebe573ba0cd359cf1ce6b3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "472c4d935b9f66b65226f29365002c5689aff5d394423557a75f439eddb433f8",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "b88cf1cfcfb9f19393ab6cd5b72831d4f3e7abf1fda6a4729897e21cc57210cf",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "9a41f9030bddf9392e765e3b01a0adb6d81e7cf8787b4403d2fece19f06f6386",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1802,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "42631cd2a1ade6357035d820c6f09ad71d3ace581631a7b36535600120d89c6a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "6f0c62f8757706296a8326ab99da7bd4d9e9174527e88679f546e91677a8de64",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "f4313d43d35aa4b1bf8918c4597295dabc3af261b375135ee3990f9f2f7e59c6",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "0db600d8ec24ea938c1223caa7d1f53ab152f5d4603963d39738761da1f161b9",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "bf71d82230c936c5ddda6a02c03e174b29b35a7310d08b421a464fb75ae9a2f3",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "85249db976e08a6dc335cb94cb425c3b756ad26e5e1f4b3f92d54778044660a1",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "b0e3bd97068cc4e9d085b5c8cbb200f377cc970baef739ad9a157f84ec657231",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "2d9028e499d3305006669830c63c083179d31edd3e5b631ef073973dee135a23",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "b50dfd1768255c43d03f0656d499380c48c29c8abc648a695531b29a25982c46",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "ce9737215018d95837df5dc2cee0733b3b1cb59e7dc9a1cd450c1bcafb7126e1",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "4d69e6935fcc691d4a6e885138f0c97bd431db5184b7fc8cb9609b3a2394f840",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "6877f3865eadccf01dc46ff276a09eb6ea2f40e2bbd7f5df3bcf053503fd1fe7",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "48d7cb44d7a7b77f142f5209d4b976b5e73b5c810403b0b037b45d3b0ec6c2f0",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "69b49c1cb74d2cb18c342205a4731620d0627bb101d9e212267b7e744f0744a2",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "385ec78886c748fd7f84e01eda95e3091519e48b9318f985686433cbd9076324",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "6e79416957192ca52d7c344c9f1d716eae64d7060043794963aea7d57bb33026",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "c7a4ed5c618471f2483d715aef69acafe03301182b47aefafe9c8eb981038e3d",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "c57c2555c388bf2ea6d87aeb1a673502e073cc19e3c4d1b1a48594df3e0c3c50",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "53cc1e063fc01699beadccf5988ae99f32d689b51874273998d0eef19bdbf5aa",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "73de7d17af61e2ee5e4c90fdd520ec39106b104dd230f0748791eeec24221025",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "a8f0a70025f55e9cba5572b31ece93077afdd0b0d00c1b76bd9a1939caea4f33",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "406e7a8fc9e0708f153c0620f42e5ab2483774a2c177cb6c2562a1c104738a5c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "2213f2c92e022ef3b21fd28ce9cc76134305b6c9a45dcc0b71a5290cc61fd4d6",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "b8d356286fdac98f5c6bdda2e97205576389cfe1247383a131c91e58d86b20ae",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "3ce8a65bb0a68d72c6747af35d33f5b33fd83f83078484499b0a9a2b2bc49b6e",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "5a5ebd23587e51ad46dd7cf5b7f8c3d572dcf478bbcdd24a512559b8eb9cdb09",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "5a6f4a78f173208bcd947dd28f42383016d988b7c4574635d75b6ba23473f316",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "245b5e68ea6dbafe77f08687fae94e55d88f3ef73eb3f006ac585409e554db70",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "8d795613065c082afa0f8566e7b0845bf614780d966a6b89b4d44a84090f994d",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "ec91534a64bd5070924b3c0d5e0838282e6c7fe2ef7aa140823794116a029d8d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "7fc2842298327fe8d0f11c369343c1612426a6d1b0e184d4f119cb64c11d6a34",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "63ab588625f82b5cb657bf4d74a703f6c2bd6196baeb71129fdff08b9bfa3b37",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "8bbdea25db2c6128b501d04ef5897493c1af14f9f1b892b1312c110673af1d5e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "249611504c1df7f9848a02941c65e228ea02e5a05e46aaf5d12ebf7e20a95c31",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "11e808293b03306d3812116e4ae870e77650da91ef01588349102be583614881",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "5edc0c2b7753c452db1275a3c8e3574082ab0591f0565514500a709ab15f2b09",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "07dc42f4aab5c69d0fbf84a1c30443fe0345daab83d01df7beb666a81319fd82",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "75057e00cb573567c7947e7055e1065ae7e4d865252d037224137b33a0f4224c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "b8138568856048d50301bf772e420249c3d9e934e21c61707e0937583a07f36f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "7bd56d2823b3ac28877cfede66b37e8765f204c628be54b4f3b94bd2e232260a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "b14aaf863f91a4a87301548a63f22378d72949bdfac2950bac4d9718d1b45222",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "1a81afe8934e7ae3e300dcc24f44e516e112cd41faea9d1b3f790e8fcac39e8f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "95900be22dd4d40d11ea8eabbc66bebb098eb6e4d0c7251b19a7c5690919aec5",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "36c64e91f135e21a2eba3607e7e8cd2170cfb183b691f4af364ab2ef0483fe5d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "7accadcc116bdc180ac62c58db87c9aa3d276e7554bb73c8a2835153521e6720",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "9e9ac9fd78d2f0b9894d42bedddf6f5fd7eac1457575cf46942501ccf83b1287",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "a6b85a68c38d777a21dea09f2f5a16a350fc7d3eb90564511a2a976cdda7cf5c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "a3bc7fc894364be332edc7cb8a9698979ef8546d2bc407ade657f4077b02aecd",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "ee264ac8af0e66dd99a2d79d1d0c6a5aba527c777c9a31e430d91e1a7a6d0c21",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "28ef5c9f15afe43cbddc798ae5773dcdffb1466c9212fff66166f83186301738",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "8204cc74b990d3851b30b9da1b863ef3d0b72a914830271e349af84035dcba6d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "da846effe242a6107cc4c6433e7235fd927c25955c6d0c15867f471e7746f92f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "a0d692d265d76645528dfca5b443a01cd37214f16390a93f31b7b264617c89f5",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "7ea1631624fc25da5639e553b2aea76dae6623666c67bfca1c2363ed69633c1d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "dfb1a13251d319e39b202074c55091ee6031b7c022d95ffab4a4fafd77f3eb0c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "63299fc139125b98efee2b68d49cb6b37228d5eb15c6eead494573d1588413be",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "07a884f5f317b87f46114f2ea826b19408b7abab1fa956b21ad683dbba9b083e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "6fbf15ccd6dc4fabad196c766aae12769f4755b2878f727379af8dc66d4a4cea",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "e4e09d8fb50c259710550eda6fa8120ef82ac1fe13a085d5a4358d3f32d425f8",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "b83821d1be2bc3a680bd2b297c294e3e78d8e61be007906becac6f7e09fd9a0c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "65da028e9a25e1b4b795359960928c10bf317777276ae8912ffad477f3604e9f",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "84c861ee7cd27456ac78a1cf679b98a8ec9737daf84509e57d755c39d5e75c8b",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "1347ece59387e2de26827b08d8a6fcf39821788290f34b7dbec0630b045fb56d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "a19c93d3ea4efd7a87eb262baad0e1ba104df1561236831fb6a1d8185c9bb033",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "2df813d47727e1e502128ce61a5914a989cfa5b96d1f90ddb7f20aabf9b16b21",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "39e54390155edd643637c7e0a13862f80659e934ca8ec1bb49e2f0a32d9a170c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "11fc170a58c80213ab932edf780fc8388df1c9c3d3eafea23d5bd4ac15895960",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "31f0773f75c6ee715ec712729926bae23aa6e69302d73aae6c9ef426cc2a0dd1",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "8a8eeb1772c72e253946792aea60875b03b599914be0608ea443d6201908a2a3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "81256d9d450be6692dbabcfdb6ade4a7110ecc0da39c6a243a7de52551bd10c3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1803,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "06bf79bbb4f8c431248a41a470e48757b6c1020d7307b3d69d921d7927feb597",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "d6ecd479d7a59feeafb0da636ffb7fa6e7ec299dbc50dac19b3da8db55f6a8a3",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "2aae397e34d1673577029f36c48b03708c2281b899b787c06e459b86c76f7a1c",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "4edd3ece95d36ebe71747d523f33c10b35ca06b5fd12b760f4408e9bc63c4819",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "b5e0c7d5e99df081b7aac63974d0525f4555aa3a73d946d746516c98dc775d1a",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "0f8f3e0a2edf497994a1592e3b6b5ea743260dc0ea311f2d96463cb5941644aa",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "ee19ce8643ad0877e89959420820ff567d996916954f574b685d6d6cf2e6d173",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "d7b8d834c0bb6e04ea92e8fb04cf54ed0f0068889810c5db81a5c166e93dfdb9",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "baseline",
+      "checkpoint_sha256": "c990183eefc024e1f49f250e460d93d5139d5d69bc042e3282c306bd29b848c4",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "fast",
+      "checkpoint_sha256": "b9d3648e649692e47077808f332411a328c86b096c10485fae4cff03b0c26da8",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "selective",
+      "checkpoint_sha256": "5ddb55ad7c7716f794ae06b2c624e34b4bec7357848caed757e92b9dd2027a20",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "relaxed",
+      "checkpoint_sha256": "a3d1bd2d4a6b4e48387e09132f2dcdc266f28f33cc16ea2e5015e6d0481ecc56",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "weaken",
+      "checkpoint_sha256": "c115d90f4d3635af3608e76262fd8712cf748f7b25fdb74f35d22bc596f260e9",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "combined",
+      "checkpoint_sha256": "1aaa243c7c0f11aae8364b7bef07ffee5577a14ea060b5160bfc3c6680005131",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "stable",
+      "policy": "uniform",
+      "checkpoint_sha256": "aa2bcb273ead693ae20ff4cd8f87dd2dfb9373a875faf70fa1d0d576aa7fa638",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "43fd647f2a7662951fdc9bebddd55f31aa57d665751bdd405d3e9aed4c7bb762",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "4e66d0e0492e529f6d3fee896f7fde2a6c73722c6ee7f7647a108227ed79ec33",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "8a17f93d619c1c8c03106fcc3d979fd1e08d196014023b3e4a74a83673b148f7",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "4709021c24c70bc215f6421b1a5c728bf57091c7ad030d2feb6a2e2e8cedd6b2",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "07e792f380e4046f551b78b88d1142426c4fd394e344e7e2bdac26f02c694892",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "234cb4e166483209ad943cc9a3cbf267425b855ae9694c6b1b5e934d1489d654",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "ad76518c99206ecabaa323ca10c1cc8008721d84624f2213bee959e3f5f476f9",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "baseline",
+      "checkpoint_sha256": "caab7d67358c9f2d81503478265a85e4c74e8d7ec538eff00d050f7248d8d113",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "fast",
+      "checkpoint_sha256": "8ba96ac8869ef19fd6f3e88b1e16b9cd1e9afcac812962bb5cadc9cb38f06173",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "selective",
+      "checkpoint_sha256": "a0f6bba33fadc93929161012c303b9a40f963fb17c1dc95f764fafbd40d3ae7b",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "relaxed",
+      "checkpoint_sha256": "a22aefccace50e8ff9a5ad0c75f8e0b67c5dee0c28090b469c8fd2aa8e9c23e2",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "weaken",
+      "checkpoint_sha256": "597496cb3a04c6e6f31e0d2d7608e98d46cea2a9b2f6f6b7b3d4d452e9b87c9f",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "combined",
+      "checkpoint_sha256": "e0e6049ce505f51c699b9612c1608279d3b210867161b4bfc349dce6a3a6fca9",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "burst",
+      "policy": "uniform",
+      "checkpoint_sha256": "66377e6bb4668d40085c2965b9673264de13c25a1d6dae06e2836bfcde0c299f",
+      "predictions": 1280,
+      "reviews": 20,
+      "feedback_labels": 6784
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "63740e707dacc041f293ee047fb21ca0310761b42b14d440d4f34c137a4ae5fa",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "9195c2b3686663aaa496bf54bbf90b0579c429fb7813c06f61a580f60987d8e7",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "2e7937cfddf13c9d43ba5d7e514a0b233347d9c9f3de7850cb7b7d4f686d6dd2",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "a92bf177536027c388b303a9d225b3915d0b535c5f5d6d2c87c06486b29485e4",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "108467f080cb8dbf44cab2a2ccc3543eed9791f9daa31e352aa3306d80859c89",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "f5721fa758a0f7d9169e821f48016aafad568ae9eb2bc0f2ae3ae6268b98ce6d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "bad784826d666c27b489fda165d7340212937dacefed4aaca7b36e9e6d06d209",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "baseline",
+      "checkpoint_sha256": "ed09a70ba2116391985e831ed8b3ef92230534af05a5a3e74446d7c951b38223",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "fast",
+      "checkpoint_sha256": "46c17f887b0ac124516a595776d35bec59e0f2b978d756ff0309c69eb8cd4873",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "selective",
+      "checkpoint_sha256": "41eacbe33292eecc9c4a5757c7922ae46bfff32af1810bf04f340c00c44d2f61",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "relaxed",
+      "checkpoint_sha256": "d3a6ed903f902d9105bf3046ec26db31b0e68814da12d39f3610cbab8d5356e4",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "weaken",
+      "checkpoint_sha256": "4fd74f84404671e1ab9719c560454b08c70a0abc6dcf0c34c6504d9063573da3",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "combined",
+      "checkpoint_sha256": "b8d4340d72787367936996b419417a95d7c34e41748c27bd756030e588786fc8",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "return",
+      "policy": "uniform",
+      "checkpoint_sha256": "6d1da0b080b97ae8f310007f7744d97ae6f0ae86d799f29278a6c752859080a1",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "70a4e0ac3e3a6443e7941548f2f602086cc87c8cbb73928d1f077e4677ad9ec6",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "fca81fdf94cc306b2d0e1e95dc3ca61afd27c0f09dc2200f9db1d95f40496139",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "3fd03df2882be08dbd30a3acadf28b8dff31f15aed5e3d8860cfc63236004081",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "d63e1f512472557d734c8fdb41f9b4a67183e702df336cb59a48317d2ca90746",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "62f5c0761be90ec1bf468d02bf5e68af986784ba93c9ed08e1dd6deba6b416d1",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "f3d3c8d1830199cc582436cb22eede142f07e02cc10f5a1a23721a3df793496e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "61a1885755d083eafc2ee3aba66ca159d91fb32f6e02afc5b62f7b69444f4d1b",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "baseline",
+      "checkpoint_sha256": "65ea618b82fed514bb2ff4658952f6819c8ae58f86329d78b901c725a2db0d95",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "fast",
+      "checkpoint_sha256": "4053e1af621d116177f98d471af8c96a26426f5c72ea93e941b6c9f2bcad130d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "selective",
+      "checkpoint_sha256": "fa099bb11fc368a7ff89478bda7c37acaa4a305a5a40803489bd4d7a4df7f2c5",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "relaxed",
+      "checkpoint_sha256": "3a830602df0dd2add21a4f1aa6a50334a178867a08772a12691a902a728ebd32",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "weaken",
+      "checkpoint_sha256": "0d1c6ecd7b3c5fd4827b677db0f40ab8642425d551a832df45948f62979492d0",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "combined",
+      "checkpoint_sha256": "c2f1e6c3b12108b3f06d55bdcaa93d6790e99802444a0c0b26e86c35cd32d54d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "reversal",
+      "policy": "uniform",
+      "checkpoint_sha256": "b82650d61a62bb7f0689a77c3e12f0572166c0203e6df37c622d83f0897e353d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "a152b0cf2aa3653c02bb05b174e59551832b41fbc7511b15619766978369b4c8",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "3dce188503b9e730a5e268b793f225fa7b8740b9c9aa3224b461c96516e5b1bd",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "daecff5ab6bd19df6901b75f99a83a21ed30d4179ec40db84a2933a94b58db4c",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "9c4c311fd8ab625d2351e1df3af6fe5cf71eb6b6dcbf517a881428d864f3b04a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "0880d5b329a991dae24dd2f5c5e81f4ca5ad87c06e743df515556cec45e87886",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "15483362d91697ca9904837ce407d5f14a4ceae710c49ee542cdf915ed5ddc1a",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1800,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "3615b2c16c01ce9c1230b70dd947a5ea6eed275b56b06cf4bbc52296f5f6927d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "baseline",
+      "checkpoint_sha256": "ca138288d14cdd0d2689fc240f2edcdf1a252043934b526c6130f8158a2ff9f5",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "fast",
+      "checkpoint_sha256": "f214f11d7224a74e11b182bd8936b49e69e0ca2a51f1b94f8e8272644499cea5",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "selective",
+      "checkpoint_sha256": "c57e3cd2fa3d3d9e8c8c7131d9ce73b3464af9bc913cac5dc957bfdc259e8391",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "relaxed",
+      "checkpoint_sha256": "f11c30b4d5054257bb53e9b735f5e8c795635a53897ef8122d8db4f16a268db6",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "weaken",
+      "checkpoint_sha256": "f59f16519fef0ac5ff418fd9b3884008726f9fcc8f74fc09d8cc954c7332234d",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "combined",
+      "checkpoint_sha256": "ab2bc5c89ecffea8158082daab5b46f11788d2c79e852d68777cc4c272f9099e",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    },
+    {
+      "seed": 1804,
+      "proposal_seed": 1801,
+      "branch": "remap",
+      "policy": "uniform",
+      "checkpoint_sha256": "3a30381cd6a226862644e03a04a1dbb547e2a151b4db39e95f773eed909da0db",
+      "predictions": 1280,
+      "reviews": 12,
+      "feedback_labels": 4480
+    }
+  ],
+  "elapsed_seconds": 287.94067724997876
+}

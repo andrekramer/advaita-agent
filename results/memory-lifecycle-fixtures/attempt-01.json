@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "charged_labels": 1792,
+  "cumulative_labels": 1792,
+  "elapsed_seconds": 0.6527622919820715,
+  "log": "test_a_worlds_and_all_backends (__main__.Contracts.test_a_worlds_and_all_backends) ... ok\ntest_b_measurement_reconstruction (__main__.Contracts.test_b_measurement_reconstruction) ... ok\ntest_c_summary_gates (__main__.Contracts.test_c_summary_gates) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.652s\n\nOK\n",
+  "sources": {
+    "experiments/memory_lifecycle.py": "12d29052ac4ccecb075eefb1737d4937aa92d14a2db6fdd98c4140aa6c949364",
+    "experiments/memory_lifecycle_metrics.py": "44a1026511abfa17eceedb837b5243e38b4d38e9a818e11ad170cfe40dd0cd4f",
+    "experiments/memory_lifecycle_protocol.md": "d9a2547a5f257f52c18fbaf7d148333137304158fdfd07bd2a0da64691d5a99a",
+    "checks/audit_memory_lifecycle.py": "e0ee03b4c25f8b23f27c65a0e3d91a9bb03706a4d2a8d91344ec5a7b477bd131",
+    "checks/test_memory_lifecycle.py": "7466a6220dc662e2f21b5662e86e4b0fbb9fc4fefcd054e5603472046b6c32b3"
+  }
+}
