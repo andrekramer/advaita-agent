@@ -94,3 +94,9 @@ buffer. Logs and evidence identities are audit affordances, not a safety proof.
 Evidence: [integration](../results/memory-integration-v1/findings.md),
 [lifecycle tests](../results/memory-lifecycle-v1/findings.md), and
 [steering protocol](../experiments/memory_steering_protocol.md).
+
+The subsequent [032 inspection test](../results/introspection-v1/findings.md)
+found that upper prediction tables can remain stale after a local form changes
+during review. A later refit, including one inside an explicit control, can
+refresh them. Inspection faithfully reports stored state but does not certify
+post-review consistency. See [the inspection contract and limitations](introspection.md).

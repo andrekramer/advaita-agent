@@ -470,7 +470,19 @@ Rare-information retention and later revision benefits coexist with delayed
 adaptation and representation failures. In steering, improvements in local
 confidence often did not affect the composite outcome. The next question is
 whether inspection can identify interventions relevant to a specified downstream
-output. That study has not begun; no default promotion or learned controller.
+output. Experiment 032 now addresses that question below; no default promotion or learned controller.
+
+**Introspection comparison completed, 2026-11-03:**
+[032](results/introspection-v1/findings.md) independently replayed 30 decision
+trajectories and 120 counterfactual continuations. Interface-informed future
+forecasts passed their criteria (28/29 correct versus 17/29), but the full gate
+failed: only 4/20 changing trajectories improved over disagreement-led control,
+and repeated-history validity remained 7/10. Five immediate-effect failures
+exposed stale upper prediction tables following local form changes during
+review. Refitting alone reproduced those changes in saved-state diagnostics.
+Next: define and compare coherent post-review inspection and explicit refresh
+attribution before broader steering. This consistency repair is not implemented;
+human/LLM interpretation, learned controllers and meta-learning remain open.
 
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later

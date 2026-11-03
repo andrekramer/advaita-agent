@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "date": "2026-11-03",
+  "state_audit": "pass",
+  "full_primary_pass": false,
+  "forecast_gate_pass": true,
+  "steering_gate_pass": false,
+  "learner_changed": false,
+  "default_promoted": false,
+  "protected_files": 1470,
+  "totals": {
+    "trunks": 30,
+    "continuations": 120,
+    "generated_labels": 153600,
+    "used_labels": 811776,
+    "candidate_fits": 86599,
+    "scoring_queries": 2893248,
+    "raw_bin_visits": 15135968,
+    "main_predictions": 520704,
+    "immediate_predictions": 11520,
+    "final_grid_predictions": 3840,
+    "auxiliary_predictions": 720,
+    "oracle_context_queries": 23264
+  },
+  "next_question": "Post-review state consistency and separate refresh attribution before richer steering",
+  "artifacts": {
+    "audit.json": "541da871da80b41983c41bae4e95f681e733af259960cc21da1e9c2798405b0c",
+    "results.json": "80648a1a96700a5f5cce50fe66d0ccfacf18daf1f9e9971a946aa41443b3fe84",
+    "diagnostics.json": "cb7ad8f6d74b5420cc24061d620e3c318d6c5520512cad12d3cfcacf9ab0fd18",
+    "manifest.json": "75610c592e3b2c5ec071d4a148c897adbdb8c72542ef5c61cdb601970336c043",
+    "findings.md": "49b8b20b7ddc9b8ef8d8ae7763ec29e778c9d1879437da0ec9cb1b7ed973ff8f",
+    "runs.jsonl.gz": "ee4b7c97bed85e408364f16d5db7ab7cbbb85172f1899141d12ea664a6c85bb5",
+    "worlds.json": "8aa2ed79f8c1605a206ecd55e41c35d78794f8ff0ac50e8203b3c6d60e66f07b"
+  }
+}

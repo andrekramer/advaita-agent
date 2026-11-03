@@ -1,0 +1,114 @@
+{
+  "scope": "Post-outcome saved-state diagnostic; no new labels or changed gates",
+  "cases": [
+    {
+      "seed": 2102,
+      "history": "repeated",
+      "proposal_seed": 2100,
+      "tick": 768,
+      "channel": 1,
+      "review_actions": [
+        "reduction_failed",
+        "improved",
+        "keep"
+      ],
+      "upper_spec": [
+        1,
+        1
+      ],
+      "control_delta": 0.0858912311949378,
+      "refit_only_delta": 0.0858912311949378,
+      "control_vs_refit_delta": 0.0,
+      "future_composite_gain": 0.0,
+      "future_predictions_identical": true
+    },
+    {
+      "seed": 2102,
+      "history": "forms",
+      "proposal_seed": 2100,
+      "tick": 832,
+      "channel": 1,
+      "review_actions": [
+        "reduction_failed",
+        "improved",
+        "keep"
+      ],
+      "upper_spec": [
+        2,
+        1
+      ],
+      "control_delta": 0.1383204074135814,
+      "refit_only_delta": 0.1383204074135814,
+      "control_vs_refit_delta": 0.0,
+      "future_composite_gain": 0.0,
+      "future_predictions_identical": true
+    },
+    {
+      "seed": 2104,
+      "history": "repeated",
+      "proposal_seed": 2100,
+      "tick": 640,
+      "channel": 1,
+      "review_actions": [
+        "reduction_failed",
+        "improved",
+        "keep"
+      ],
+      "upper_spec": [
+        2,
+        1
+      ],
+      "control_delta": 0.12708570082909354,
+      "refit_only_delta": 0.12708570082909354,
+      "control_vs_refit_delta": 0.0,
+      "future_composite_gain": 0.0,
+      "future_predictions_identical": true
+    },
+    {
+      "seed": 2104,
+      "history": "repeated",
+      "proposal_seed": 2101,
+      "tick": 640,
+      "channel": 1,
+      "review_actions": [
+        "reduction_failed",
+        "improved",
+        "keep"
+      ],
+      "upper_spec": [
+        2,
+        1
+      ],
+      "control_delta": 0.12708570082909354,
+      "refit_only_delta": 0.12708570082909354,
+      "control_vs_refit_delta": 0.0,
+      "future_composite_gain": 0.0,
+      "future_predictions_identical": true
+    },
+    {
+      "seed": 2104,
+      "history": "forms",
+      "proposal_seed": 2100,
+      "tick": 704,
+      "channel": 1,
+      "review_actions": [
+        "reduction_failed",
+        "improved",
+        "keep"
+      ],
+      "upper_spec": [
+        2,
+        1
+      ],
+      "control_delta": 0.28332943689816426,
+      "refit_only_delta": 0.28332943689816426,
+      "control_vs_refit_delta": 0.0,
+      "future_composite_gain": 0.0,
+      "future_predictions_identical": true
+    }
+  ],
+  "independent_refit_verified": true,
+  "new_labels": 0,
+  "new_learning_runs": 0,
+  "report_source_sha256": "e14ae1bd2ddb8dcd3e81c4705b207feae628f5ab419a0ce4b51378a9f747474d"
+}

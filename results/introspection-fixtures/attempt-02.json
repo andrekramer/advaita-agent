@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "new_labels": 0,
+  "replayed_presentations": 512,
+  "elapsed_seconds": 0.38470754100126214,
+  "log": "test_a_replay_all_four_branches (__main__.Contracts.test_a_replay_all_four_branches) ... ok\ntest_b_readonly_and_accurate_packet (__main__.Contracts.test_b_readonly_and_accurate_packet) ... ok\ntest_c_choices_ports_and_uncertainty (__main__.Contracts.test_c_choices_ports_and_uncertainty) ... ok\ntest_d_control_invalid_reuse_stale_and_noop (__main__.Contracts.test_d_control_invalid_reuse_stale_and_noop) ... ok\ntest_e_metrics_classification (__main__.Contracts.test_e_metrics_classification) ... ok\ntest_f_summary_pass_and_fail (__main__.Contracts.test_f_summary_pass_and_fail) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.384s\n\nOK\n",
+  "sources": {
+    "experiments/introspection.py": "bced3174ab9ff6fedfec2cb5d79c3fc21b276713cb49185c479db8b833bcbff3",
+    "experiments/introspection_controller.py": "f30aadc4f281940750639ef4b22b0d355e901b6038d57271ce40e54afeca1f58",
+    "experiments/introspection_metrics.py": "4e999bee4e804966fe7b0ba98031862e3f534dab1907080ab1ddb85b671fb9d7",
+    "experiments/introspection_protocol.md": "bd8fcd86b2ba9aaf29bc3aa2a77f68428dcf64e99002d8c9e5ff3797167313ee",
+    "checks/test_introspection.py": "2bc3d2b85daca05f6de485604259551abda67b4487802f845aed05b7f20e2833",
+    "checks/audit_introspection.py": "36d4eec8ba4cb1faba106fcde5a9bbded415d84efd06e71b61b2566d5a459116"
+  }
+}

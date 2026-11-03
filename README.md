@@ -107,6 +107,8 @@ successful experiments alone do not justify that step.
 - [029–031: integration, lifecycle tests and bounded steering](results/memory-integration-round-synthesis.md)
 - [Experiment 030: repeated changes and rare distinctions](results/memory-lifecycle-v1/findings.md)
 - [Experiment 031: scripted steering and downstream effects](results/memory-steering-v1/findings.md)
+- [Experiment 032: introspection, effect forecasts and control limits](results/introspection-v1/findings.md)
+- [Inspection packets and state-consistency limits](docs/introspection.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -172,6 +174,16 @@ changing-history pairs. Six other interventions improved a local prediction
 without changing the composite output. The original remains the default;
 inspection and control APIs are available, but reliable interpretation and
 steering are not established. See the [round synthesis](results/memory-integration-round-synthesis.md).
+
+On 2026-11-03, [the introspection comparison](results/introspection-v1/findings.md)
+completed 30 decision trajectories and 120 independently audited continuations.
+Interface-informed future-effect forecasts were correct for 28/29 eligible
+interventions, versus 17/29 for disagreement alone. The full gate failed: control
+gains were inconsistent, repeated-history final validity was 7/10, and five
+immediate-effect predictions exposed a stale upper table after local form
+changes. A saved-state diagnostic reproduced those five changes by refitting
+alone. Post-review state consistency is the next bounded prerequisite; the
+learner and original default remain unchanged.
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,

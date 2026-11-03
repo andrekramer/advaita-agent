@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "trunks": 30,
+  "continuations": 120,
+  "primary_pass": false,
+  "elapsed_seconds": 39.72078870900441,
+  "result_sha256": "80648a1a96700a5f5cce50fe66d0ccfacf18daf1f9e9971a946aa41443b3fe84",
+  "runs_sha256": "ee4b7c97bed85e408364f16d5db7ab7cbbb85172f1899141d12ea664a6c85bb5",
+  "worlds_sha256": "8aa2ed79f8c1605a206ecd55e41c35d78794f8ff0ac50e8203b3c6d60e66f07b"
+}

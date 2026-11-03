@@ -1,6 +1,6 @@
 # Current evidence map
 
-Updated 2026-11-02, after [029–031](memory-integration-round-synthesis.md). The earlier
+Updated 2026-11-03, after [032](introspection-v1/findings.md). The earlier
 [019–022 closure](consolidated-learner-test-round-synthesis.md) remains intact.
 This map links successive stages without treating their different policies
 as one learner that has demonstrated every result together. Earlier syntheses
@@ -24,6 +24,7 @@ remain dated records of their respective rounds.
 | Is optional memory control integrated without behavior changes? | [029](memory-integration-v1/findings.md): common runtime reproduced all 350 saved traces and exact native checkpoints, including midway restore. | Integration by composition around alternative frozen engines; the original remains default. No new archive-plus-weighted-memory algorithm. |
 | Does memory control handle recurring changes and rare knowledge? | [030](memory-lifecycle-v1/findings.md): 120 audited runs. Settled gain .043923 nats over admission-only and rare-context gain .180382 over fast-only, both in 10/10 pairs. | Full criterion failed: final validity 4/10 in repeated reversals and 7/10 in rare history; early revision costs exceeded limits. Rare-history combined and admission-only behavior matched. |
 | Can an explicit controller use inspection to steer learning? | [031](memory-steering-v1/findings.md): 60 audited runs; one diagnostic-led weakening action gained .008889 nats on composite prediction in 4/10 changing pairs. Stable controls were inactive; collateral guards passed. | Full steering gate failed. Six local interventions improved local probability estimates without changing primary-window composite predictions. This was a scripted controller, not a human/LLM interpretability study; all changed environments happened to affect node0. |
+| Can inspection forecast intervention relevance? | [032](introspection-v1/findings.md): 30 audited decision trajectories, 120 continuations. Future-effect direction 28/29 correct versus 17/29 from disagreement alone; aware control gained .005957 nats on average over disagreement. | Full gate failed: 4/20 gains, 15 ties, 1 loss; repeated-history validity 7/10. Five immediate-effect failures were entirely reproduced by refitting stale upper tables. Supplied dependency knowledge and a hand-written controller, not learned introspection. Post-review consistency needs attention before broader steering. |
 | Does it learn how to learn? | No experiment in these rounds adapts its learning rules through experience and validates improved learning on held-out families. | No meta-learning claim. Changes in protection or evidence state under fixed rules do not suffice. |
 | Are the full R-rule/IVSR dynamics necessary, or is this safer? | Earlier controls sometimes matched or outperformed richer learners; [019–022](consolidated-learner-test-round-synthesis.md) identify further benefits and costs of individual rules. | Necessity, general superiority, formal unification of the conceptual influences and a safety advantage remain unestablished. |
 
@@ -65,5 +66,7 @@ the tested tasks, while preserving the earlier failures and simpler-control
 advantages. [029–031](memory-integration-round-synthesis.md) subsequently integrated
 the optional variant and tested recurring changes, rare distinctions and one
 scripted control. The new API passed compatibility, but the two broader empirical
-gates failed. Human/LLM interpretation and useful downstream-targeted steering
-remain open; no further test or default promotion has been made.
+gates failed. [032](introspection-v1/findings.md) then demonstrated better future-effect
+forecasts with supplied dependency knowledge, while failing full immediate-effect
+and steering criteria. Post-review state consistency is a concrete next task;
+human/LLM interpretation and reliable steering remain open. No default promotion.
