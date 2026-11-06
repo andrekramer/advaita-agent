@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "date": "2026-11-05",
+  "audit": "pass",
+  "full_usefulness_pass": false,
+  "incremental_coordination_pass": false,
+  "interaction_pass": false,
+  "protected_files": 1500,
+  "frozen_engines_changed": false,
+  "experimental_subclass_added": true,
+  "default_promoted": false,
+  "totals": {
+    "runs": 150,
+    "generated_labels": 153600,
+    "used_labels": 1536000,
+    "candidate_fits": 152380,
+    "scoring_queries": 5257568,
+    "raw_bin_visits": 26942520,
+    "main_predictions": 921600,
+    "grid_predictions": 153600,
+    "extra_decay_cell_visits": 1105920
+  },
+  "fixture_replay_presentations": 1792,
+  "synthetic_labelled_steps": 1,
+  "further_experiment_run": false,
+  "next_question": "Permit downstream adaptation while preserving useful earlier knowledge",
+  "artifacts": {
+    "audit.json": "be0a61cdbbf86d534461bbab120784d3a9c48e7386c06c09614b871bb1c45c02",
+    "results.json": "a393fcd98e1bd6e0d517eeecb519f12355b716588b6b203bde3ff6d959787058",
+    "manifest.json": "fd62ed9802e69b9d75adfa465c4fb7afb3afe9b134285ada464c3e1003c0d979",
+    "findings.md": "480deee3c852a886bc0873f9827439c1ae314b0625081c59af51f9d7765e5f95",
+    "runs.jsonl.gz": "a495adefbf9abff4f1abf8627b4a6fd262d9f97c2b7b5f81c19699a8280437b3",
+    "worlds.json": "6a7279e4310df641f031dbae6dca76349bc4c7a90a731f2be90c2f0ecf391187",
+    "descriptive.json": "31e44be9000c1767aa0370df9d3aaa476850158b6a62ebba5417092741abcbb2"
+  }
+}

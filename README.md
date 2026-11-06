@@ -109,6 +109,11 @@ successful experiments alone do not justify that step.
 - [Experiment 031: scripted steering and downstream effects](results/memory-steering-v1/findings.md)
 - [Experiment 032: introspection, effect forecasts and control limits](results/introspection-v1/findings.md)
 - [Inspection packets and state-consistency limits](docs/introspection.md)
+- [Experiment 033: selective protection and plasticity results](results/selective-steering-v1/findings.md)
+- [Selective steering controls and their limits](docs/selective-steering.md)
+- [Experiment 034: local versus downstream plasticity](results/coordinated-steering-v1/findings.md)
+- [Coordinated plasticity experiment and API](docs/coordinated-steering.md)
+- [Next-round plan: temporary downstream plasticity and retention](experiments/downstream_retention_plan.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful
@@ -184,6 +189,27 @@ immediate-effect predictions exposed a stale upper table after local form
 changes. A saved-state diagnostic reproduced those five changes by refitting
 alone. Post-review state consistency is the next bounded prerequisite; the
 learner and original default remain unchanged.
+
+On 2026-11-05, [selective steering](results/selective-steering-v1/findings.md)
+completed **180 independently audited runs**. An experimental subclass can lock a
+local category boundary while its estimates continue learning, and independently
+shorten another channel's slow-memory half-life. Protection held the intended
+form through every burst check; plasticity improved local loss in all 20 changing
+pairs. The full usefulness gate failed: composite loss worsened on average and
+some costs persisted after release. A separate refresh-only comparison preserved
+all baseline online predictions and ordinary review decisions. These are tested
+local controls, not reliable global steering; the original default is unchanged.
+
+Also on 2026-11-05, [the factorial comparison](results/coordinated-steering-v1/findings.md)
+completed **150 independently audited runs**. With protection fixed, downstream
+plasticity improved active composite loss over protection alone by .096068 nats
+in all 20 changing pairs. Adding local plasticity supplied no further primary
+benefit: 16 ties and four small losses, mean gain −.001692 nats. Coordinated control
+beat local-only and unsteered controls, but failed the decisive downstream-only
+comparison and preservation guards. Faster downstream adaptation increased the
+cost of recovering returning knowledge. The evidence favors a downstream
+adaptation bottleneck in these tasks, without establishing a reliable default
+or ruling out coordination under other conditions.
 
 Consolidation started on 2026-10-22. **C0 passed:** the new `advaita` core
 reproduced all 380 complete saved traces from Experiments 012–015 exactly,

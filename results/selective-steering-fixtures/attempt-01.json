@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "fresh_random_labels": 0,
+  "transformed_replay_presentations": 1344,
+  "prerequisite_cases": [
+    {
+      "seed": 2102,
+      "history": "repeated",
+      "proposal_seed": 2100,
+      "channel": 1,
+      "delta_after_refresh": 0.0
+    },
+    {
+      "seed": 2102,
+      "history": "forms",
+      "proposal_seed": 2100,
+      "channel": 1,
+      "delta_after_refresh": 0.0
+    },
+    {
+      "seed": 2104,
+      "history": "repeated",
+      "proposal_seed": 2100,
+      "channel": 1,
+      "delta_after_refresh": 0.0
+    },
+    {
+      "seed": 2104,
+      "history": "repeated",
+      "proposal_seed": 2101,
+      "channel": 1,
+      "delta_after_refresh": 0.0
+    },
+    {
+      "seed": 2104,
+      "history": "forms",
+      "proposal_seed": 2100,
+      "channel": 1,
+      "delta_after_refresh": 0.0
+    }
+  ],
+  "elapsed_seconds": 1.797947540995665,
+  "log": "test_a_saved_refresh_failures (__main__.Contracts.test_a_saved_refresh_failures) ... ok\ntest_b_six_paths_and_world (__main__.Contracts.test_b_six_paths_and_world) ... ok\ntest_c_control_semantics_and_resume (__main__.Contracts.test_c_control_semantics_and_resume) ... ok\ntest_d_metrics (__main__.Contracts.test_d_metrics) ... ok\ntest_e_summary_gates (__main__.Contracts.test_e_summary_gates) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 1.798s\n\nOK\n",
+  "sources": {
+    "advaita/selective_steering.py": "e99dc62340a2732ebe7efa25e023d7958a34f58aee4634df22a712536714eee5",
+    "experiments/selective_steering.py": "65450cd8cfa65c2f2cad1a8752b7ff68cd700e9dec510d8880f0b579c753f62b",
+    "experiments/selective_steering_metrics.py": "f40d34be9e0c25fa2891f2f780cc1db4a25dc48b98edba5d4e277f9eff068c34",
+    "experiments/selective_steering_protocol.md": "18f6b8aa4ee5bbca5d858c01da133c05ae885ad7243eca8b163f67cee75661d1",
+    "checks/audit_selective_steering.py": "7a29c685d3442fc9d27aede6134b060a907d0b909c3de36fbab90a086fb91a59",
+    "checks/test_selective_steering.py": "af4ddb590836f9ef504964beadea46d9b5747b63c5790d83a4ec100fc4f2b6d4"
+  }
+}

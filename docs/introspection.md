@@ -36,3 +36,10 @@ No fix or additional refresh operation has been added to the frozen runtime.
 Before broader human/LLM steering, define and test that contract, attribute
 refresh effects separately from evidence changes, and preserve the fresh-outcome
 comparisons, collateral measurements and abstention controls used here.
+
+Update, 2026-11-05: [033](../results/selective-steering-v1/findings.md) adds a
+post-review refit in a separate experimental subclass. Refresh-only preserved
+all online predictions and ordinary review choices in 30 fresh pairs; snapshots
+were independently verified. The frozen runtime described above is unchanged.
+The same study found useful local protection/plasticity but failed its full
+steering criteria. See [the new controls and boundaries](selective-steering.md).

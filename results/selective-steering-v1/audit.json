@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "runs": 180,
+  "parity": {
+    "status": "pass",
+    "paired_runs": 30,
+    "maximum_prediction_delta": 0
+  },
+  "empirical_pass": false,
+  "elapsed_seconds": 91.33319954201579,
+  "result_sha256": "d85e055bac86478266c50d21b8c391712c145cac931fe55032be6435373efa6f",
+  "runs_sha256": "f2277df3cde5fccb22387050638f322df90ea59d9383cc4194b3bcb7dd392962",
+  "worlds_sha256": "ef5b212477320495a2b2396a36842704adf64a73b6a075e865e76ce7dc391196"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "fresh_random_labels": 0,
+  "transformed_replay_presentations": 1792,
+  "synthetic_labelled_steps": 1,
+  "elapsed_seconds": 0.47846879198914394,
+  "log": "test_a_all_policies_and_parity (__main__.Contracts.test_a_all_policies_and_parity) ... ok\ntest_b_composite_decay_restore_and_release (__main__.Contracts.test_b_composite_decay_restore_and_release) ... ok\ntest_c_measurement_reuse (__main__.Contracts.test_c_measurement_reuse) ... ok\ntest_d_factorial_gates (__main__.Contracts.test_d_factorial_gates) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.478s\n\nOK\n",
+  "sources": {
+    "advaita/coordinated_steering.py": "e158bd1f8cc22e583befd83524d8808061d990a52aa3c0ef4664a6701084c32a",
+    "experiments/coordinated_steering.py": "74ab0f09d47359b0bb7371594f29d03fcaabe484f2774e95d0bf8a374695060b",
+    "experiments/coordinated_steering_metrics.py": "50fc24d4d282ec5a31305791b8d53b6dc04d4e668b23fd68be1a4fd54b172033",
+    "experiments/coordinated_steering_protocol.md": "843c3c9c77cbda158ca299900af1bbb8748656ddba803e36650b0ad936105b02",
+    "checks/audit_coordinated_steering.py": "8470f978e2c248a3907a3ebb153bbf8ec5a8cac816695c20bfa3590a35922a5f",
+    "checks/test_coordinated_steering.py": "4b00cc7083b89b4db87c7c9b9e2e520fa0b3cdc4cb58fdc5282c244ea9e0b870"
+  }
+}

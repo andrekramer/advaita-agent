@@ -100,3 +100,8 @@ found that upper prediction tables can remain stale after a local form changes
 during review. A later refit, including one inside an explicit control, can
 refresh them. Inspection faithfully reports stored state but does not certify
 post-review consistency. See [the inspection contract and limitations](introspection.md).
+
+For the separate 033 experimental subclass with coherent post-review snapshots,
+local partition locks, configurable local plasticity and release, see
+[selective steering](selective-steering.md). It does not change this runtime's
+default or the earlier frozen behavior.

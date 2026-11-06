@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "date": "2026-11-05",
+  "audit": "pass",
+  "refresh_only_parity": {
+    "status": "pass",
+    "paired_runs": 30,
+    "maximum_prediction_delta": 0
+  },
+  "empirical_pass": false,
+  "frozen_engines_changed": false,
+  "experimental_subclass_added": true,
+  "default_promoted": false,
+  "protected_files": 1485,
+  "totals": {
+    "runs": 180,
+    "generated_labels": 153600,
+    "used_labels": 1843200,
+    "candidate_fits": 184348,
+    "scoring_queries": 6344800,
+    "raw_bin_visits": 32296376,
+    "main_predictions": 1105920,
+    "grid_predictions": 184320
+  },
+  "fixture_replay_presentations": 1344,
+  "followup_run": false,
+  "next_question": "How should local protection and plasticity coordinate with downstream learning?",
+  "artifacts": {
+    "audit.json": "ab90d3b0ed3383f6505750950c695e3d2d4252aa4302d9b9b614cfa65727e9ba",
+    "results.json": "d85e055bac86478266c50d21b8c391712c145cac931fe55032be6435373efa6f",
+    "manifest.json": "fd920ef62b7cfba76bbe81b0db100099faa491e0687269f1fa03a43fb4f31b35",
+    "findings.md": "ac78c6d95b43ef19be87de1b7ee5053584515342b9724e7fc511c82cdac5d305",
+    "runs.jsonl.gz": "f2277df3cde5fccb22387050638f322df90ea59d9383cc4194b3bcb7dd392962",
+    "worlds.json": "ef5b212477320495a2b2396a36842704adf64a73b6a075e865e76ce7dc391196",
+    "descriptive.json": "7c67999d14c7b0bc9f3548169a60a59f30695caf4cbf52b575d0046e0086ecd0"
+  }
+}

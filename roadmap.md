@@ -484,6 +484,42 @@ Next: define and compare coherent post-review inspection and explicit refresh
 attribution before broader steering. This consistency repair is not implemented;
 human/LLM interpretation, learned controllers and meta-learning remain open.
 
+**Selective steering completed, 2026-11-05:**
+[033](results/selective-steering-v1/findings.md) tested explicit partition locking,
+selective slow-memory plasticity, and release in 180 independently audited runs.
+The experimental subclass supplies coherent post-review snapshots; refresh-only
+matched all original online predictions and ordinary decisions in 30 pairs.
+Local protection and adaptation passed: 100% protected-form burst correctness,
+and .076595-nat flexible-local improvement in all 20 changing pairs. The full
+criterion failed on composite benefit, preservation after release and final
+reversal validity. Misdirected locking prevented required category revision;
+release restored the ability to change without undoing the altered history.
+Next enquiry, if pursued: how local steering should coordinate with downstream
+learning. No additional experiment is scheduled, no default is promoted, and
+human/LLM interpretation or learned control policy remains untested.
+
+**Local/downstream plasticity comparison completed, 2026-11-05:**
+[034](results/coordinated-steering-v1/findings.md) held protection fixed in a
+2×2 plasticity design plus an unsteered reference, with 150 audited runs.
+Downstream plasticity helped active composite prediction; adding local plasticity
+produced no further primary-window benefit (16 ties, four losses). The interaction
+criterion also failed. Coordinated control improved on local-only and unsteered
+controls, but failed the full gate through the downstream-only comparison and
+returning/later costs. The next unresolved issue is how to permit downstream
+adaptation while retaining useful earlier knowledge. This follow-up has not been
+run; no default change, learned timing policy or meta-learning claim follows.
+
+**Next-round plan prepared, 2026-11-05; not started:**
+[Temporary downstream plasticity](experiments/downstream_retention_plan.md)
+first checks the saved evidence, then proposes a comparison of short, medium,
+long and evidence-closed downstream boosts against protection alone. Local
+plasticity stays ordinary. Returning, persistent-change and stable histories
+separate retained adaptation from convenient timing. The primary candidate is
+specified before outcomes; simpler fixed pulses remain controls. A one-slot
+preserved downstream predictor is a conditional later question, informed by
+021–022, not an implementation or automatic continuation of this plan.
+No fresh seeds, learner changes or experiments were run to prepare this plan.
+
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen

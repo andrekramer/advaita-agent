@@ -1,6 +1,6 @@
 # Current evidence map
 
-Updated 2026-11-03, after [032](introspection-v1/findings.md). The earlier
+Updated 2026-11-05, after [034](coordinated-steering-v1/findings.md). The earlier
 [019–022 closure](consolidated-learner-test-round-synthesis.md) remains intact.
 This map links successive stages without treating their different policies
 as one learner that has demonstrated every result together. Earlier syntheses
@@ -25,6 +25,8 @@ remain dated records of their respective rounds.
 | Does memory control handle recurring changes and rare knowledge? | [030](memory-lifecycle-v1/findings.md): 120 audited runs. Settled gain .043923 nats over admission-only and rare-context gain .180382 over fast-only, both in 10/10 pairs. | Full criterion failed: final validity 4/10 in repeated reversals and 7/10 in rare history; early revision costs exceeded limits. Rare-history combined and admission-only behavior matched. |
 | Can an explicit controller use inspection to steer learning? | [031](memory-steering-v1/findings.md): 60 audited runs; one diagnostic-led weakening action gained .008889 nats on composite prediction in 4/10 changing pairs. Stable controls were inactive; collateral guards passed. | Full steering gate failed. Six local interventions improved local probability estimates without changing primary-window composite predictions. This was a scripted controller, not a human/LLM interpretability study; all changed environments happened to affect node0. |
 | Can inspection forecast intervention relevance? | [032](introspection-v1/findings.md): 30 audited decision trajectories, 120 continuations. Future-effect direction 28/29 correct versus 17/29 from disagreement alone; aware control gained .005957 nats on average over disagreement. | Full gate failed: 4/20 gains, 15 ties, 1 loss; repeated-history validity 7/10. Five immediate-effect failures were entirely reproduced by refitting stale upper tables. Supplied dependency knowledge and a hand-written controller, not learned introspection. Post-review consistency needs attention before broader steering. |
+| Can we protect one distinction while making another more plastic? | [033](selective-steering-v1/findings.md): 180 audited runs. Locked partitions remained correct at all burst checks; faster local slow-memory decay improved the flexible predictor by .076595 nats in all 20 changing pairs. Refresh-only preserved all baseline online predictions and ordinary decisions. | Full gate failed: mean composite loss worsened by .013170 nats; final reversal validity fell from 9/10 to 6/10 and post-release costs exceeded limits. Controls obey supplied instructions; correct local steering is not reliably beneficial global steering. |
+| Must local and downstream plasticity increase together? | [034](coordinated-steering-v1/findings.md): 150 audited runs. Downstream plasticity gained .096068 nats over protection-only in all 20 changing pairs. Joint plasticity beat local-only and unsteered controls. | Joint plasticity added no active-window benefit over downstream-only: 16 ties, four losses; mean gain −.001692 nats. Full gate and interaction criterion failed; reversal return cost over unsteered was .066130 nats. Supplied scheduled controls, not learned coordination or a universal bottleneck claim. |
 | Does it learn how to learn? | No experiment in these rounds adapts its learning rules through experience and validates improved learning on held-out families. | No meta-learning claim. Changes in protection or evidence state under fixed rules do not suffice. |
 | Are the full R-rule/IVSR dynamics necessary, or is this safer? | Earlier controls sometimes matched or outperformed richer learners; [019–022](consolidated-learner-test-round-synthesis.md) identify further benefits and costs of individual rules. | Necessity, general superiority, formal unification of the conceptual influences and a safety advantage remain unestablished. |
 
@@ -68,5 +70,14 @@ the optional variant and tested recurring changes, rare distinctions and one
 scripted control. The new API passed compatibility, but the two broader empirical
 gates failed. [032](introspection-v1/findings.md) then demonstrated better future-effect
 forecasts with supplied dependency knowledge, while failing full immediate-effect
-and steering criteria. Post-review state consistency is a concrete next task;
-human/LLM interpretation and reliable steering remain open. No default promotion.
+and steering criteria. [033](selective-steering-v1/findings.md) then supplied a coherent post-review
+snapshot in an experimental subclass and tested selective local locks, plasticity
+and release. Local benefits passed, but composite usefulness and preservation
+failed. Coordination with downstream learning, human/LLM interpretation and
+reliable steering remain open. No default promotion.
+
+[034](coordinated-steering-v1/findings.md) subsequently isolated local and downstream
+plasticity. Downstream changes provided the measured active composite benefit;
+adding local plasticity did not improve it further. Preserving returning knowledge
+remains a problem. The default is unchanged, and no further timing or retention
+experiment has been run.
