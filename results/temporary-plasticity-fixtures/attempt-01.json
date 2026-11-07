@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "fresh_random_labels": 0,
+  "reused_world_training_presentations": 112640,
+  "synthetic_scalar_presentations": 6912,
+  "elapsed_seconds": 10.905345082981512,
+  "log": "test_a_reused_runs_and_parity (__main__.Contracts.test_a_reused_runs_and_parity) ... ok\ntest_b_closure_and_label_ordering (__main__.Contracts.test_b_closure_and_label_ordering) ... ok\ntest_c_checkpoint_and_inspection (__main__.Contracts.test_c_checkpoint_and_inspection) ... ok\ntest_d_gates (__main__.Contracts.test_d_gates) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 10.905s\n\nOK\n",
+  "sources": {
+    "advaita/temporary_plasticity.py": "c9e7086ec192469622a3a8cf4ca8fad87c6f26ad0995243057efb1f6a8edb1a0",
+    "experiments/temporary_plasticity.py": "2fcfa98c2a411da1190754e8a6b64651b63d1504033d38f3ce19705fabb5fa63",
+    "experiments/temporary_plasticity_metrics.py": "04bc989fd1587e70c32d7e6ffb5acc729c64bc3799a1f27e70e00f1264a6cead",
+    "experiments/temporary_plasticity_protocol.md": "b68f726a0b712220612dcde66c69994871763d41b3400fd908931e56d909fb8c",
+    "checks/test_temporary_plasticity.py": "de0e92d1218ef808b0ff91c7bf02d9e3cf9489ebe03bb3bd89ca107b53380da9",
+    "checks/audit_temporary_plasticity.py": "47baea7e54281f8f82b01372fb008a5ec7627742429a025d94b32059eab580df",
+    "experiments/diagnose_downstream_retention.py": "7dbbf43b5a37fc247bbb4b8fa4200679448d248d960d55a3818d75c3be0e3096"
+  }
+}

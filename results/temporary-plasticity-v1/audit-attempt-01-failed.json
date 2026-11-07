@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "date": "2026-11-06",
+  "auditor": "checks/audit_temporary_plasticity.py",
+  "completed_runs": 114,
+  "examined_runs": 115,
+  "attempted_replay_training_presentations": 1177600,
+  "first_failing_run": {
+    "seed": 2402,
+    "history": "forms",
+    "proposal_seed": 2400,
+    "policy": "G"
+  },
+  "failure": "Exact schema-35 restore hash at tick 768 differs although numerical controller state agrees within tolerance",
+  "saved_hash": "e3c374f9a159b9a2a5dc91e69980186245f9628dc34fe93d7374f29c58d696f9",
+  "reference_hash": "a43637bd9399d02e8a15af79564e4c613d1aa48d277c07c87aa5588a87a6d716",
+  "elapsed_seconds": null,
+  "elapsed_note": "Original failed auditor did not persist elapsed time; 900-second alarm did not fire",
+  "error": "AssertionError during verify_run restore_checks comparison",
+  "sources_unchanged": true,
+  "output_hashes": {
+    "results.json": "046856080ecb261bf6bfef087b9d315bc113bced0787a665d5c37ae5d7b23013",
+    "runs.jsonl.gz": "4dad505f0c8350928ddf9d53f90d43c62b6d506803be8a77e7675da9fbd11cc5",
+    "worlds.json": "6ec65777ad55c81fc751e05d74c3cfbebdc0bfc90c25764ba908f281f299dcf3",
+    "manifest.json": "435880e36b0810e94b59b53e585e3b48fcb64731261b223dc21acaa9d092cb58"
+  }
+}

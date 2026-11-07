@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "status": "completed",
+  "study": 35,
+  "runs": 250,
+  "audit": "pass_with_disclosed_serialization_supplement",
+  "empirical_pass": false,
+  "default_changed": false,
+  "frozen_files_unchanged": 1518,
+  "fixture_attempts": 1,
+  "audit_attempts": 2,
+  "archive_study_started": false,
+  "postoutcome_auditor_correction": {
+    "maximum_loss_difference": 1.1102230246251565e-16,
+    "changed_adequacy_decisions": 0
+  },
+  "verification_hashes": {
+    "checks/audit_temporary_plasticity_serialization.py": "bcf478cc3e5f5f2dc43ef1f7b9490c9b65c74b0eb3c120d794727733ff213107",
+    "experiments/report_temporary_plasticity.py": "25a3ca0661fa17339f89d3db2bacf4e947804303148ab987154b76034106c18b",
+    "results/temporary-plasticity-v1/audit.json": "f342708a6af642292144b2d0124051098d604844e179bca1bafb8e701f8e631a",
+    "results/temporary-plasticity-v1/audit-attempt-01-failed.json": "dcd20260767b9a627cd227ab7e29c6ee452b0f01b587c64979fc5b146efcd8b3",
+    "results/temporary-plasticity-v1/audit-serialization-supplement.json": "df6b21db406733dd0e3f96cee00286175c3c552c8bb620a83115f820a3bfe1b7",
+    "results/temporary-plasticity-v1/results.json": "046856080ecb261bf6bfef087b9d315bc113bced0787a665d5c37ae5d7b23013",
+    "results/temporary-plasticity-v1/runs.jsonl.gz": "4dad505f0c8350928ddf9d53f90d43c62b6d506803be8a77e7675da9fbd11cc5",
+    "results/temporary-plasticity-v1/worlds.json": "6ec65777ad55c81fc751e05d74c3cfbebdc0bfc90c25764ba908f281f299dcf3",
+    "results/temporary-plasticity-v1/manifest.json": "435880e36b0810e94b59b53e585e3b48fcb64731261b223dc21acaa9d092cb58",
+    "results/temporary-plasticity-v1/findings.md": "15884fefba9e2e40906b207c7486db291cb9fa2ba528d5669dfa4bc9e615bc76",
+    "results/temporary-plasticity-v1/descriptive.json": "dcab19f773c59eae3d755513ae60878975c4ab96f40de958cc33b3065f14e95e"
+  }
+}

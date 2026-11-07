@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "reason": "Serialized log versus log1p rounding; no learning or empirical changes",
+  "maximum_loss_difference": 1.1102230246251565e-16,
+  "minimum_threshold_margin": 0.000993887699688778,
+  "diagnostic_batches": 2000,
+  "changed_adequacy_decisions": 0,
+  "output_hashes": {
+    "results.json": "046856080ecb261bf6bfef087b9d315bc113bced0787a665d5c37ae5d7b23013",
+    "worlds.json": "6ec65777ad55c81fc751e05d74c3cfbebdc0bfc90c25764ba908f281f299dcf3",
+    "runs.jsonl.gz": "4dad505f0c8350928ddf9d53f90d43c62b6d506803be8a77e7675da9fbd11cc5",
+    "manifest.json": "435880e36b0810e94b59b53e585e3b48fcb64731261b223dc21acaa9d092cb58"
+  },
+  "supplement_sha256": "bcf478cc3e5f5f2dc43ef1f7b9490c9b65c74b0eb3c120d794727733ff213107",
+  "elapsed_seconds": 134.81684412498726,
+  "full_replay_runs": 250
+}

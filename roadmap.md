@@ -506,10 +506,10 @@ produced no further primary-window benefit (16 ties, four losses). The interacti
 criterion also failed. Coordinated control improved on local-only and unsteered
 controls, but failed the full gate through the downstream-only comparison and
 returning/later costs. The next unresolved issue is how to permit downstream
-adaptation while retaining useful earlier knowledge. This follow-up has not been
-run; no default change, learned timing policy or meta-learning claim follows.
+adaptation while retaining useful earlier knowledge. That remaining issue is tested in 035 below; no default change, learned timing
+policy or meta-learning claim follows.
 
-**Next-round plan prepared, 2026-11-05; not started:**
+**Next-round plan prepared, 2026-11-05; executed as 035 on 2026-11-06:**
 [Temporary downstream plasticity](experiments/downstream_retention_plan.md)
 first checks the saved evidence, then proposes a comparison of short, medium,
 long and evidence-closed downstream boosts against protection alone. Local
@@ -519,6 +519,60 @@ specified before outcomes; simpler fixed pulses remain controls. A one-slot
 preserved downstream predictor is a conditional later question, informed by
 021–022, not an implementation or automatic continuation of this plan.
 No fresh seeds, learner changes or experiments were run to prepare this plan.
+
+**Temporary downstream plasticity completed, 2026-11-06:**
+[035](results/temporary-plasticity-v1/findings.md) compared protection alone,
+three fixed durations and evidence-based closure across returning, persistent
+and stable histories. All 250 runs were independently reconstructed. G retained
+adaptation (mean gain .075449 nats over protection-only; 40/40 changing records,
+including matched return/persistent trajectories), but worsened early return by
+.023147 nats versus the long boost; only 2/20 returning pairs improved. The
+shortest pulse gained .011814 nats on early return but lost too much reversal
+adaptation. No duration policy passed the full bundle. A serialization-only
+auditor correction was disclosed; all frozen learner sources and results remain
+unchanged. The next conditional study is one preserved downstream predictor,
+with matched capture, compatibility, evidence-based admission and persistence
+through refits. It is tested in 036 below; no default promotion.
+
+**Preserved-predictor comparison completed, 2026-11-06:**
+[036](results/preserved-prediction-v1/findings.md) compared discard, shadow
+storage and evidence-qualified frozen prediction across 180 independently
+reconstructed runs. Every pair confirmed a snapshot. Active predictions,
+ordinary learning decisions and final learning state matched across conditions;
+shadow and discard outputs matched exactly. Thus recall benefits were not
+selection-blocking effects. Early-return gain was .011777 nats in 6/20 pairs,
+below the .02 / 14-of-20 requirements. All familiar-return pairs eventually
+used memory, but compatibility was often restored too late for early benefit.
+On polarity rechange, old authorization persisted for 64 observations, producing
+a .099819-nat mean later cost and failing preservation. The full criterion
+failed. Next conditional enquiry: withdraw recall sooner when evidence changes,
+keeping capture and capacity fixed. Independently usable archived input encodings
+are a separate design question. Neither follow-up has started; default unchanged.
+
+**First steering round bounded, 2026-11-06:**
+[Round plan](experiments/steering_round_one_plan.md) treats 031–036 as existing
+component evidence and proposes one final withdrawal/block-and-release study,
+with at most 240 fresh runs. Freeze representation language, memory capacity and
+active learning. Separate supplied command execution from evidence-responsive
+withdrawal and measure useful recall as well as stale-recall costs. After that
+study, produce a steering synthesis and review the next goals with the user,
+regardless of empirical pass/fail. No new experiment has started under this plan;
+no larger archive, independent encoding or meta-learning work is part of closure.
+
+**First steering round closed, 2026-11-06:**
+[037](results/recall-withdrawal-v1/findings.md) completed 240 independently audited
+comparisons. All 60 supplied block/release runs obeyed their commands. Evidence-
+triggered withdrawal gained .246703 nats at immediate rechange, with ten gains,
+ten ties and no losses; full criteria failed only on the declared 14/20 gain
+consistency threshold. In a descriptive check, the ten ties had no recall active
+in that window. Useful recall was retained (.021621-nat whole-return gain over
+shadow in all 20 pairs), and preservation/validity guards passed. Transient costs,
+stable-task withdrawals and fixed timing remain limitations. The
+[round synthesis](results/steering-round-one-synthesis.md) records the operator
+inventory, implementation map, evidence and decisions for 031–037. Keep all new
+controls experimental and the original default unchanged. **Stop experiments
+here and review next goals with the user.** No new benchmark, architecture or
+meta-learning study is an automatic continuation.
 
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later

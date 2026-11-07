@@ -1,6 +1,7 @@
 # Current evidence map
 
-Updated 2026-11-05, after [034](coordinated-steering-v1/findings.md). The earlier
+Updated 2026-11-06, after [037](recall-withdrawal-v1/findings.md). The
+[first steering round is closed](steering-round-one-synthesis.md) for goals review. The earlier
 [019–022 closure](consolidated-learner-test-round-synthesis.md) remains intact.
 This map links successive stages without treating their different policies
 as one learner that has demonstrated every result together. Earlier syntheses
@@ -27,6 +28,9 @@ remain dated records of their respective rounds.
 | Can inspection forecast intervention relevance? | [032](introspection-v1/findings.md): 30 audited decision trajectories, 120 continuations. Future-effect direction 28/29 correct versus 17/29 from disagreement alone; aware control gained .005957 nats on average over disagreement. | Full gate failed: 4/20 gains, 15 ties, 1 loss; repeated-history validity 7/10. Five immediate-effect failures were entirely reproduced by refitting stale upper tables. Supplied dependency knowledge and a hand-written controller, not learned introspection. Post-review consistency needs attention before broader steering. |
 | Can we protect one distinction while making another more plastic? | [033](selective-steering-v1/findings.md): 180 audited runs. Locked partitions remained correct at all burst checks; faster local slow-memory decay improved the flexible predictor by .076595 nats in all 20 changing pairs. Refresh-only preserved all baseline online predictions and ordinary decisions. | Full gate failed: mean composite loss worsened by .013170 nats; final reversal validity fell from 9/10 to 6/10 and post-release costs exceeded limits. Controls obey supplied instructions; correct local steering is not reliably beneficial global steering. |
 | Must local and downstream plasticity increase together? | [034](coordinated-steering-v1/findings.md): 150 audited runs. Downstream plasticity gained .096068 nats over protection-only in all 20 changing pairs. Joint plasticity beat local-only and unsteered controls. | Joint plasticity added no active-window benefit over downstream-only: 16 ties, four losses; mean gain −.001692 nats. Full gate and interaction criterion failed; reversal return cost over unsteered was .066130 nats. Supplied scheduled controls, not learned coordination or a universal bottleneck claim. |
+| Does ending plasticity after adequate prediction improve retention? | [035](temporary-plasticity-v1/findings.md): 250 audited runs. Evidence-based closure retained active adaptation: .075449-nat gain over protection-only in all 40 changing records (20 distinct matched pre-return trajectories). Protected forms and final validity passed. | Full criterion failed: early return worsened by .023147 nats versus the long boost, with 2/20 positive pairs; reversal preservation guards failed. The shortest pulse improved pooled return by .011814 nats but lost too much adaptation. No tested duration policy passed. A fixed closure rule, not meta-learning or restored prior knowledge. |
+| Can a preserved predictor help without blocking ongoing learning or losing its parameters? | [036](preserved-prediction-v1/findings.md): 180 audited runs; all pairs confirmed immutable snapshots, with exact active-prediction and review parity across discard/shadow/recall. Familiar-return gain .011777 nats in 6/20 pairs; all 20 eventually used recall. | Full criterion failed: mean gain and consistency below target; polarity rechange incurred .099819-nat later cost from the first 64-record authorization interval. Delayed compatible meanings and stale admission limit recall. Output reuse, not faster active representation repair or learned memory control. |
+| Can recall be blocked, released and withdrawn from fresh performance evidence? | [037](recall-withdrawal-v1/findings.md): 240 audited runs; all 60 explicit block/release runs obeyed commands. Evidence withdrawal gained .246703 nats on immediate rechange, retained useful recall and passed preservation/validity guards with exact active-learning parity. | Full gate failed on 10/20 gains versus 14 required (ten ties, no losses). Tied pairs had no recall active in that window; this post-outcome explanation does not change the denominator. Transient costs and stable-task withdrawals remain; explicit timing is supplied and the evidence controller is fixed, not learned. |
 | Does it learn how to learn? | No experiment in these rounds adapts its learning rules through experience and validates improved learning on held-out families. | No meta-learning claim. Changes in protection or evidence state under fixed rules do not suffice. |
 | Are the full R-rule/IVSR dynamics necessary, or is this safer? | Earlier controls sometimes matched or outperformed richer learners; [019–022](consolidated-learner-test-round-synthesis.md) identify further benefits and costs of individual rules. | Necessity, general superiority, formal unification of the conceptual influences and a safety advantage remain unestablished. |
 
@@ -79,5 +83,20 @@ reliable steering remain open. No default promotion.
 [034](coordinated-steering-v1/findings.md) subsequently isolated local and downstream
 plasticity. Downstream changes provided the measured active composite benefit;
 adding local plasticity did not improve it further. Preserving returning knowledge
-remains a problem. The default is unchanged, and no further timing or retention
-experiment has been run.
+remained a problem. [035](temporary-plasticity-v1/findings.md) then tested boost
+duration and evidence-based closure. Adaptation remained useful, but no tested
+duration met the adaptation/retention bundle. The first audit encountered a
+log/log1p serialization discrepancy; a disclosed supplement reconstructed all
+250 runs without changing any decision or frozen result. A separate preserved-
+predictor integration study followed as [036](preserved-prediction-v1/findings.md).
+All snapshots were confirmed and active learning was unchanged, isolating actual
+prediction reuse. However, early usefulness was inconsistent and stale recall
+harmed the next reversal. Faster withdrawal is tested in 037 below; independently
+usable archived encodings remain untested. The default is unchanged.
+
+[037](recall-withdrawal-v1/findings.md) completes the bounded first steering round.
+Its withdrawal rule improved exposed rechange cases while preserving useful
+recall, with a failed prespecified consistency criterion and remaining limits.
+The [closure synthesis](steering-round-one-synthesis.md) separates command
+execution, usefulness and limitations. Further experiments stop for the user
+goals review; no default or safety claim is promoted.

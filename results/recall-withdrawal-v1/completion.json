@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "date": "2026-11-06",
+  "study": 37,
+  "runs": 240,
+  "audit": "pass",
+  "empirical_pass": false,
+  "command_execution_pass": true,
+  "default_changed": false,
+  "frozen_dependencies": 1553,
+  "fixture_attempts": 1,
+  "audit_attempts": 1,
+  "steering_round_status": "closed_for_user_goals_review",
+  "next_experiment_started": false,
+  "verification_hashes": {
+    "experiments/report_recall_withdrawal.py": "3d7e247c578f9df3cd0105e70767ea650bdd46cfa38114d3990b1195dd96cba6",
+    "results/recall-withdrawal-v1/results.json": "b3a181ecff43b3fdf6fd85c653223444f635cb1486cd71ca61d927ef5c5f18ae",
+    "results/recall-withdrawal-v1/runs.jsonl.gz": "c0fa56c91c9c2a4f337fe56e9083089d5fba062cbc1491e738c3203215f5e649",
+    "results/recall-withdrawal-v1/worlds.json": "0fb530b230e5c28504cd3d43eafa877cf2875dd9a18f7d411e827acffd2d6d55",
+    "results/recall-withdrawal-v1/manifest.json": "e691cb3dcd3c3e1b6ce2b4958e2f051c44f126edd61aff0f23dff9216bdfecfd",
+    "results/recall-withdrawal-v1/audit.json": "fd3970d509577573732218141e2c513be6c9089f06c3501a1235e2a3f86e700c",
+    "results/recall-withdrawal-v1/descriptive.json": "afad0efda5933562ad1de60bcf10f33ddfec86fc435895e08b014171af8b980c",
+    "results/recall-withdrawal-v1/findings.md": "a42bc8805118819740068145b4131fa87e51678f7d260c9fcc2ffbc7ee756c92",
+    "results/steering-round-one-synthesis.md": "2e743b3ea09e5bb9eb369ead8d193c08a66633a4a7cc6d4b11cf4b150a504556"
+  }
+}

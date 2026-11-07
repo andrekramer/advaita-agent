@@ -114,6 +114,14 @@ successful experiments alone do not justify that step.
 - [Experiment 034: local versus downstream plasticity](results/coordinated-steering-v1/findings.md)
 - [Coordinated plasticity experiment and API](docs/coordinated-steering.md)
 - [Next-round plan: temporary downstream plasticity and retention](experiments/downstream_retention_plan.md)
+- [Experiment 035: temporary downstream plasticity and recovery](results/temporary-plasticity-v1/findings.md)
+- [Temporary-plasticity controller and limits](docs/temporary-plasticity.md)
+- [Experiment 036: preserved prediction, recall delay and stale authorization](results/preserved-prediction-v1/findings.md)
+- [One preserved predictor: behavior and limits](docs/preserved-prediction.md)
+- [First steering round: completed synthesis and decisions](results/steering-round-one-synthesis.md)
+- [Experiment 037: recall withdrawal and explicit block/release](results/recall-withdrawal-v1/findings.md)
+- [Recall permission API and limits](docs/recall-withdrawal.md)
+- [First steering round: original closure plan](experiments/steering_round_one_plan.md)
 
 **Current status:** the consolidated-learner follow-on test round, 019–022,
 is closed with all 320 runs independently audited. It establishes useful

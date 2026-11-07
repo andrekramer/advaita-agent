@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "fresh_random_labels": 0,
+  "reused_training_presentations": 194560,
+  "synthetic_scalar_presentations": 1632,
+  "elapsed_seconds": 22.158639375003986,
+  "log": "test_a_reused_worlds_and_active_parity (__main__.Contracts.test_a_reused_worlds_and_active_parity) ... ok\ntest_b_confirmation_admission_and_no_same_batch_use (__main__.Contracts.test_b_confirmation_admission_and_no_same_batch_use) ... ok\ntest_c_meanings_and_immutable_parameters (__main__.Contracts.test_c_meanings_and_immutable_parameters) ... ok\ntest_d_all_gates (__main__.Contracts.test_d_all_gates) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 22.158s\n\nOK\n",
+  "sources": {
+    "advaita/preserved_prediction.py": "544e676eed233cdf865dcc6ef6c980017a7ff521aa8b5aacf32b9511f6f9cd29",
+    "experiments/preserved_prediction.py": "fe57132e37b1573b3d16a3e2d40d9862fd1e4251718ca6c5e3df880400e1c004",
+    "experiments/preserved_prediction_metrics.py": "2473fecf2ba9cd5aa9bf6cba6cda6dc08b25c3da5decd5db70c16d0251d2938a",
+    "experiments/preserved_prediction_protocol.md": "1f9f8735d9923d79db44cd5f458cfe9d06057c8291d59f93017d3911f7466e88",
+    "checks/audit_preserved_prediction.py": "a9cf3da2888839afabb0e043419081387b9910d8890a600132fddadebb0a40b8",
+    "checks/test_preserved_prediction.py": "f74185a3e9acc20a2b89aaa4b95ee3d2e9960639350443a010105d3589b55cdd"
+  }
+}

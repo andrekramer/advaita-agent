@@ -1,0 +1,4024 @@
+{
+  "status": "descriptive_post_audit",
+  "fresh_labels": 0,
+  "training_presentations": 0,
+  "command_runs": 60,
+  "command_events": 120,
+  "blocked_archive_predictions": 0,
+  "block_and_release_fidelity": true,
+  "records": [
+    {
+      "seed": 2600,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "8b9e0de8b12cb5a97f3b0250171a7a625ae1741389d0e8b3fe872ba513243b6f",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "3552d00e14254c4ae59a76e4096f2d097714232911de17581bb829e044d471b6",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 128,
+        "early_return": 128,
+        "later": 0,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        752,
+        1024,
+        1648
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 737,
+          "last": 752,
+          "archive_loss": 0.5266797642847357,
+          "active_loss": 0.4965706968505564
+        },
+        {
+          "first": 1009,
+          "last": 1024,
+          "archive_loss": 0.4069934511752906,
+          "active_loss": 0.37874957966570594
+        },
+        {
+          "first": 1633,
+          "last": 1648,
+          "archive_loss": 0.6627719857921306,
+          "active_loss": 0.6159172566627632
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 112,
+        "early_return": 128,
+        "later": 48,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "253143f7bfb3a642c3d0f161f96eed6bd45fd451869fa1e192f15eaa589c9e08",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "d4e6142d4fc75f59ba025cbe1131f3d6fb19786228e97eb2b609edb96cb62a54",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 128,
+        "early_return": 128,
+        "later": 64,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        752,
+        1024,
+        1648,
+        1952
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 737,
+          "last": 752,
+          "archive_loss": 0.5266797642847357,
+          "active_loss": 0.4965706968505564
+        },
+        {
+          "first": 1009,
+          "last": 1024,
+          "archive_loss": 0.4069934511752906,
+          "active_loss": 0.37874957966570594
+        },
+        {
+          "first": 1633,
+          "last": 1648,
+          "archive_loss": 0.6627719857921306,
+          "active_loss": 0.6159172566627632
+        },
+        {
+          "first": 1937,
+          "last": 1952,
+          "archive_loss": 0.41052720903123446,
+          "active_loss": 0.3680908450015435
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 112,
+        "early_return": 128,
+        "later": 80,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "404eb35e4a2650b6ef57c32e4711ce563a49bf9d2432e054bc0ab0e007bf2fd9",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "e914cba0dc60017fa930f24ad43559f51016aadd3b1a8f45981ae1bf5ee99aa6",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.7372507238876117,
+          "active_loss": 0.6557543090901403
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 208
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "e3ee59faeab5a901cbb1e02078e00a0602b209e0f28808445fe2555d0865a31a",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "296d689a078005e6ba328aadfead05eef4bfc87a0c1a974934080f7e2ee4d36f",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.7372507238876117,
+          "active_loss": 0.6529834442618042
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 0.9055777357055489,
+          "active_loss": 0.6933705684527495
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 80
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "87a6f854e9fc5a2390d598f5157a0542d3a8a262990e0f6c873b43bf5e3052f0",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "5c7873807f8af46a8e1451e5a6423e713b304a44c8c6af2c00c33d8d2d03157d",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 16,
+        "rechange": 16,
+        "returning": 320
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360,
+        1456,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.7372507238876117,
+          "active_loss": 0.6411675819371266
+        },
+        {
+          "first": 1441,
+          "last": 1456,
+          "archive_loss": 0.5491385439105242,
+          "active_loss": 0.5121918742054322
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 1.8574062229094421,
+          "active_loss": 1.3651978782175507
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 16,
+        "rechange": 16,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "b4632165984d03d7a857c9a02e7145cb80fa7fb1980ddfcbd6b772fcfe858a25",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "2da92f42b89a04ab3df684d30a2f3a6e6878a9e39a1e054ce972db0802e366fa",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360,
+        1456,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.7372507238876117,
+          "active_loss": 0.6275009467248351
+        },
+        {
+          "first": 1441,
+          "last": 1456,
+          "archive_loss": 0.5491385439105242,
+          "active_loss": 0.5116836414236827
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 1.8574062229094421,
+          "active_loss": 1.2573904639956266
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "53273af64707706ab8dca79e0b308a61c27c901e4f563b71e3c0179a108688c5",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "d53a9f7d21fc73162c95d21165c8d4a27b9a36db59de0edac81eb84709d0cb00",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "ab745d335a234b1de3d640d421244d4e043dc6757691a89a905542e41ab1bcfb",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "cf40580ed4be2f5195354aab4aec327d45042a85e41df2b113433ce82ca71a8c",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "e95b6635d9f8ff27d7ca8c1964058efb6c8530a4cbea7afbd84861ec98711089",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "0ab257da48a3f799f66a0e0325dad858d60f9a2fb61fca8492307282763282db",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "cc15650bac57b8f50273fd297c6d01452d91236119c4fd31006151297cad6aaf",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "2808e9d90520e3c4be474dc959cc816e2f0ec7f8601c795fda27d670a6741ade",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "08526a2afe3a97d71ec1fd8e74dde7bb64547a8e4c52f4116975b804f25827d5",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "be94b71ad7e5b0e14580d85506f1dd5e53a63a833b0466641d7081d81570d766",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "9bc631aa9892978fd3e7c0c31c26c879dc9c0019cd46fcc53e0e9b73bc660523",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "b71d0a2b3748eeda389d4518d7f2fe46991f64d8e29b69cc48cdce208c0b3d56",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2600,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "4869339f548182a990949c566e55c870639ad099218f39a3f58aed05866eabc8",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "83fdc055135a003ef5c42cd3c6a3356c6c9bcfa1b5bb30c78903c828c5f935d9",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1696
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1681,
+          "last": 1696,
+          "archive_loss": 0.3172711789163835,
+          "active_loss": 0.26436642213334355
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 0,
+        "later": 32,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "0832a2293a67f2a4c007d5a6579a89b0cb8560caff01e38c14e4c91fbb00818e",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "8eae5bed8a215570d18fd1738436f24d688ead2deddd93a670eeef512eb10e27",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1696
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1681,
+          "last": 1696,
+          "archive_loss": 0.3172711789163835,
+          "active_loss": 0.26436642213334355
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 0,
+        "later": 32,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "db5b658e72e1d338c32b167b19011fdeffa7cdac0ee610b76359f7ca7bbb82fe",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "93b73b1032410e9678dbdb59241368f7bf2b4c747019f5fa103be39cf4f77ff7",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360,
+        1440
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.6504894063396172,
+          "active_loss": 0.5675642118383135
+        },
+        {
+          "first": 1425,
+          "last": 1440,
+          "archive_loss": 0.45050905999861524,
+          "active_loss": 0.40793821269422875
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 112
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "9369dc4e068297fe2506838dbed442fa1b8b978beeecdf45380e97882e09bb0b",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "638294f6f5dc2166a3a48962b1b6b55e8d5ac79517e9ae68a250285aa8f35b46",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360,
+        1440
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.6504894063396172,
+          "active_loss": 0.5672040363596582
+        },
+        {
+          "first": 1425,
+          "last": 1440,
+          "archive_loss": 0.45050905999861524,
+          "active_loss": 0.40785806749025943
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 176
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "e4751d29cdc6da9de1a6054664b2ea933cdce30d0d41ab3d6fe5e75351d78709",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "12aeaa6dc7b12d2dd1b3acf358e3ff30bb268d451e8d2badb5a4af75096848fe",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.6504894063396172,
+          "active_loss": 0.47573527146164285
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 144
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "2626c65d5037aa4d9390f343c20952bcb46be62b6e80c068534fb3914c13c8ca",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "1661ceb147f6614fd4b62285a1743d2bbccb57fd043721cc8037ccf6e30bf643",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1360
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1345,
+          "last": 1360,
+          "archive_loss": 0.6504894063396172,
+          "active_loss": 0.5859394524238704
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 208
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "0568495419496dca8576e8401ea09c3ef9ca67682f19022ab8874bf5f59d1c0d",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "2cf961d5c24a789569b6c4ac3c5f29a28edc59611caa5a5ce014a0c6b32bd9c0",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "bd3be361be2b9406026c6e281eb1af15032865a161d3f40e10520beacee63b3c",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "4c7b079ba1e83662c6e87af02cd88956f6f283aeadd18cda8fea27e81038ec1a",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "9c237f0320fd3d6e6fe89130d951211a713418737ab1508fee71e2420ad93354",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "d3ded8d6bd0d85b022332fe697b9ead13da49c7a73a1160709f4b2a662a5deba",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "782e831a98fdce836ab4372c549bcb203db287ed298b3b2a518df75c35a0c079",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "ed2d5fd23f32108a6e2188807990b8f14074b2f7ea014a6c3ddce477c74c09d0",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "42512b1195d7e018c7fe65a45dfc3bc34f997ae27c7368a89d44d8c500aa631d",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "181b89346806e9ceb3fdad10e5e53f01d6adddc71aac153a22f45fccede86788",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "5adceb8ea17b8988de20a9752d4fd63f491bec283babc6c59a271e724fcb37e6",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "ef6cc3ae25fcb53be43a8a58d781aa60e966668954cb10a7a58697bc86ed4f64",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2601,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "326a5ce97ce96f7a1aa994a755d3c85a80f8f3c075dfc2efe86886321a66145e",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "044f44cf78b1044760bdffe473f19e2d540fe23ea119b8938cc3dd0b62abc787",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        624,
+        1120,
+        1424,
+        1504
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 609,
+          "last": 624,
+          "archive_loss": 0.40638287414056523,
+          "active_loss": 0.3765574606997025
+        },
+        {
+          "first": 1105,
+          "last": 1120,
+          "archive_loss": 0.40330418991070793,
+          "active_loss": 0.373303990015234
+        },
+        {
+          "first": 1409,
+          "last": 1424,
+          "archive_loss": 0.26331559800006543,
+          "active_loss": 0.23101228118011452
+        },
+        {
+          "first": 1489,
+          "last": 1504,
+          "archive_loss": 0.26853126072646505,
+          "active_loss": 0.2358334004028021
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 48,
+        "early_return": 32,
+        "later": 0,
+        "rechange": 0,
+        "returning": 80
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "d293113cfbd141b860dbc83913d421eb421d747cc986c8e590aecd18591935a4",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "2688cba887850b6d75d0d4e666d918345a465680f093447cdd6222cd07160545",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 64,
+        "later": 64,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        624,
+        1120,
+        1424,
+        1504
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 609,
+          "last": 624,
+          "archive_loss": 0.40638287414056523,
+          "active_loss": 0.3765574606997025
+        },
+        {
+          "first": 1105,
+          "last": 1120,
+          "archive_loss": 0.40330418991070793,
+          "active_loss": 0.3753397902705292
+        },
+        {
+          "first": 1409,
+          "last": 1424,
+          "archive_loss": 0.26331559800006543,
+          "active_loss": 0.22607563681742818
+        },
+        {
+          "first": 1489,
+          "last": 1504,
+          "archive_loss": 0.26853126072646505,
+          "active_loss": 0.23750501546817526
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 48,
+        "early_return": 32,
+        "later": 64,
+        "rechange": 0,
+        "returning": 80
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "47734c4b57a34a4bddb4a1b1660c4c18c5de61473b54ecb7b1f3c133501c9d77",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "bb27b6682bfa05580f231d54d7bd60e477f17116ad69b15f8962665a39a9f8e1",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1408,
+        1456
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1393,
+          "last": 1408,
+          "archive_loss": 0.5284040013353718,
+          "active_loss": 0.46164349418950784
+        },
+        {
+          "first": 1441,
+          "last": 1456,
+          "archive_loss": 0.5333759472596397,
+          "active_loss": 0.47014559074246376
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 176
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "d4b5a191e1c0f08e811325a12466e8943adf7350854c5d6ddc2bd6bf678fd72e",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "ca3f3c23be90b9837679f195b6b64ee9608304e34e64edad0910e2d5632d92a3",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 128,
+        "later": 0,
+        "rechange": 0,
+        "returning": 384
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1408,
+        1456
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1393,
+          "last": 1408,
+          "archive_loss": 0.5284040013353718,
+          "active_loss": 0.46191802812492083
+        },
+        {
+          "first": 1441,
+          "last": 1456,
+          "archive_loss": 0.5333759472596397,
+          "active_loss": 0.47035728364109136
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 128,
+        "later": 0,
+        "rechange": 0,
+        "returning": 368
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "e5884a2127417ac347062b05fe7499f3228b0ffe7e395d8bb374a3ce297eae34",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "5e0539ac43e98e5c8e3c01ea78fd38b9c719d3caa935095099eebca11c2d5d3c",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1456,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1441,
+          "last": 1456,
+          "archive_loss": 0.5333759472596397,
+          "active_loss": 0.5008690596398321
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 2.167621196914746,
+          "active_loss": 1.4402037727293477
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 240
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "56f48d4404163335ec572910e729afd794c7cbd8bc894d045ab8c8409ddf9962",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "a40b593780250a11e82eed0e36c46ad900a647845440f10b7d8d1176122e73d4",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1456
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1441,
+          "last": 1456,
+          "archive_loss": 0.5333759472596397,
+          "active_loss": 0.4726253750735923
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 112
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "a5f6f95a7450b063542b0c776454a617b43adf0f4020796374ad09f536c26c51",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "33b6b6fb9b44e3252e87ba3a30f427a0db249453e7526649b6275c4316323127",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "599f4881ea90a3459d37728fcb5b16a409a4a0c23c64dd4c235e560aa9013f07",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "42dc78eb019a682e174ab64678b75cce9137d6927fbe94633757229ecff6754c",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "c583706ffa32ce7e8333c1d8afb96b036a20f336f010635f4a5299320eb17820",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "dc561ffafb54c74d9aacd63ec257894f8332d29f7dd90e0830ce6f3efa494727",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "ce6fdd55704e64f3e1bdd552746f39e26abecddd86dc26fc61fbe7cb7023dd44",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "28f5718f2e5dbaa8bfeff140eeeb733350a861232776b5b922b24ce4a75e4eea",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "fc5e3533e9f285923070f551d94073639b62e1f0f14d328d2e0d8649e6bb152a",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "62c93680534f7fed3e35220e1d3819577d88df7f2223fd333640d730ca44a194",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "444df60d7e5de94ded3ea7fbea78154fba494b4c32d4661d19c7b0d5138b0529",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "f688c713d80bb1fd208642c64339e4712fa7cc376a8f289abcff17c799871902",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2602,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "793670a7b7e05b246be48840b2926e3eace03c3c0ea5a0eb5d20761b446790dc",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "5f5a30f2f9cc56ec618c8076b7cac9f6c0be48c7928df7a96729911d26239ef0",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 64
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 64
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "7e42b0538db65ce870ab1576746fa0967f93c857c3b489b00329bace9b7b7302",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "0afffca22921abe7245e451a31cb90e242d0b82f48df97022a84120b268567f6",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 64
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 0,
+        "rechange": 0,
+        "returning": 64
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "38e316b7d93977e4485df69e2e617ed87c58e0cda1207af3a6415e8bbdbed06c",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "f164056ebd1fac6c13ec72e766affcec00dab1283ae7b3115216830d3148a7d9",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1392,
+        1488
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1377,
+          "last": 1392,
+          "archive_loss": 0.5080618175595486,
+          "active_loss": 0.475648885953871
+        },
+        {
+          "first": 1473,
+          "last": 1488,
+          "archive_loss": 0.5214639826305504,
+          "active_loss": 0.45852536124051085
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "c0c7634b344a457ec6f10cc3b225f3263c34b22a5c90da4e4548bb6db83bb881",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "608fb23f7d7ce93a81d81ee43e40a9dc9d9033aeeedd5d4b6b55b82fd2f661a7",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1392,
+        1488
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1377,
+          "last": 1392,
+          "archive_loss": 0.5080618175595486,
+          "active_loss": 0.47551498587260044
+        },
+        {
+          "first": 1473,
+          "last": 1488,
+          "archive_loss": 0.5214639826305504,
+          "active_loss": 0.45794205582443154
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "504f9ef2763897c66a8111d391f01945722c37af3370e08e9f84227a8c99c305",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "d2c079c6ef66e3db7657fe4cf9869389c460706b10db8905097bcca8386345fb",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1392,
+        1488,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1377,
+          "last": 1392,
+          "archive_loss": 0.5080618175595486,
+          "active_loss": 0.4844897092156351
+        },
+        {
+          "first": 1473,
+          "last": 1488,
+          "archive_loss": 0.5214639826305504,
+          "active_loss": 0.46915349359253683
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 1.8488911436537505,
+          "active_loss": 1.3316022490096824
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "453914ebdbd26e936de5c2a79435eccf8b251ad82fe73d672a1b4d97bffe7feb",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "5d2293e48dd0614cb7377c634a15f7b07a22cd232830ad1d081eea9ba20746eb",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1488,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1473,
+          "last": 1488,
+          "archive_loss": 0.5214639826305504,
+          "active_loss": 0.46865261230309946
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 1.8488911436537505,
+          "active_loss": 1.3350375814455753
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 208
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "6a7d0cffd812d8e86c863b52964f73d4962d8f28b08d7a116b1df32dcfed4e73",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "a004d57d7e309192c5dd6fd051323ce2e28da476f065e3a792c0bf6b2bf8d273",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "530aca7703e0f51fc0dd30475f4cc0a6b41bdbd94c2b5ec56756b02f87240324",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "da18cab92a29924760ed397d97503af7fb447e49f9565a630f5b883de0d434ac",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "3ef8e0c41da4ca709b28df4cfa71b893a2bf954f67398a966d62e922775c07ce",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "7e97a15b8efb0538382724cb6cf70ff1415a7a04634c97873382b4fc25db9bb3",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "6807e9b6dfbfbea6a5b58536706189c84494af7ba50ffc1837ec448e7f1139ef",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "f38c59db1c4708f9810cbf4659296283505ebbd691cd8f405807569c958e0dbf",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "cb8637e72148074588807e8d8d80ac61f17f4eddd0a9751fcc20863ff1105f63",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "557ecf8e8bbf4611f56cf5cd652b6eec3f014bd270368d78e00ab1c43ddc0b9e",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "d3d63f15cac955d8dfd76a393d9f15bb71889e83c2b1add9e946841c4ad05184",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "0377f3aa3798eff75daf74e22acf82543a657c76da0b47ed316d639258da9337",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2603,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "6b050ac06a6eb64e4d6e91fcc40fbf169482999e80a8056100edb76f6493854e",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "a540df6698d13020f04246937dbb1712db755dec6170fb04c52052d14b6384d3",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 64,
+        "later": 80,
+        "rechange": 16,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "stable",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1072,
+        1392,
+        1584,
+        1744
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1057,
+          "last": 1072,
+          "archive_loss": 0.503176993802659,
+          "active_loss": 0.45003393575584444
+        },
+        {
+          "first": 1377,
+          "last": 1392,
+          "archive_loss": 0.28017146109728996,
+          "active_loss": 0.2440363572518364
+        },
+        {
+          "first": 1569,
+          "last": 1584,
+          "archive_loss": 0.7740100560008227,
+          "active_loss": 0.7274864018047794
+        },
+        {
+          "first": 1729,
+          "last": 1744,
+          "archive_loss": 0.5399944188847572,
+          "active_loss": 0.48821648992407746
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 48,
+        "later": 128,
+        "rechange": 48,
+        "returning": 96
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "20149cf3b5cbef566661a5178863b4a7a6e8d5c8b4817cb3142e7f5184bf7641",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "4d475405c3a78c19a7d95d30d99344d40b0bc4c1a61d3dbfe61a463d9af7793a",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 64,
+        "later": 80,
+        "rechange": 16,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "stable",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1072,
+        1392,
+        1584,
+        1744
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1057,
+          "last": 1072,
+          "archive_loss": 0.503176993802659,
+          "active_loss": 0.45003393575584444
+        },
+        {
+          "first": 1377,
+          "last": 1392,
+          "archive_loss": 0.28017146109728996,
+          "active_loss": 0.2440363572518364
+        },
+        {
+          "first": 1569,
+          "last": 1584,
+          "archive_loss": 0.7740100560008227,
+          "active_loss": 0.7274864018047794
+        },
+        {
+          "first": 1729,
+          "last": 1744,
+          "archive_loss": 0.5399944188847572,
+          "active_loss": 0.48821648992407746
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 64,
+        "early_return": 48,
+        "later": 128,
+        "rechange": 48,
+        "returning": 96
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "5907fb34bea8265b043ba6fd2dee290165cc012625b131637bbf128e40eae75b",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "9377fd7b74047b9bb59305cbf40b78f3d89814a9005f43bf7575e40a49962e9d",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1312,
+        1424,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1297,
+          "last": 1312,
+          "archive_loss": 0.645831546808693,
+          "active_loss": 0.5847838467985759
+        },
+        {
+          "first": 1409,
+          "last": 1424,
+          "archive_loss": 0.5085155657244651,
+          "active_loss": 0.47981001203233065
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 1.3132396152412291,
+          "active_loss": 1.0091608851843297
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 112
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "7f2efe02f7735f5b7571b1d1839d739cdb3a69e4736cf811cf07e3a2f98ba005",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "3f63cd1f183520affa6ad43b8d65c8dacabcd106d0a0dadaa3ad9860adbb339a",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 128
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1424,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1409,
+          "last": 1424,
+          "archive_loss": 0.5085155657244651,
+          "active_loss": 0.4795050540872116
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 1.3132396152412291,
+          "active_loss": 1.0104646278421419
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 80
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "ca70eea793774b56438e11a0af5b0f4bda202a3d4edfbe45cae12a9a10a3db51",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "5abdc0592c1656b1c7cf8bf70a66c863bfd8ba978776f620c66703def8eecd8b",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 16,
+        "rechange": 16,
+        "returning": 256
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1312,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1297,
+          "last": 1312,
+          "archive_loss": 0.645831546808693,
+          "active_loss": 0.545240730908845
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 2.00531706801305,
+          "active_loss": 1.4703829261894477
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 64,
+        "later": 16,
+        "rechange": 16,
+        "returning": 224
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "d7d3a7fbf13ae1c03b53ca1e575da9d76c9a7114754b5491a67f28d1fdaa1c97",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": true,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "8eba7c4ad31d0f4be801cfa506a30507f43acbbc56c57a8ace0c27d7a9458bd4",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 192
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [
+        1312,
+        1552
+      ],
+      "withdrawal_windows": [
+        {
+          "first": 1297,
+          "last": 1312,
+          "archive_loss": 0.645831546808693,
+          "active_loss": 0.5779443934579019
+        },
+        {
+          "first": 1537,
+          "last": 1552,
+          "archive_loss": 2.00531706801305,
+          "active_loss": 1.3555755851116702
+        }
+      ],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 16,
+        "rechange": 16,
+        "returning": 160
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "0a4467090c4958d1916807cb46a0daf93390b07794054f5e36ee8d10728abad2",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "a02028b4cffa73039eb2936d89398e39e87b3c74dfff8170a12528fa09f147e2",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "2631b081d474674f6ff34a48de20b177215bb7a481e7ab78ac7ca1cdacf2621a",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "dbd0aa1cfb51f8bc98f3d52bb5e6c62c40579b1ed22a3ac7db449dfbe2288c1f",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "be12a7e41338b3025ce504acd22efef31449563b7cb49eee7b3ff0b3b32fa528",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "a561aa4a76425c824f94b8457feac262439ffd116482f33925c71a371f0e8e75",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated_persistent",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "1489a70901b52416322f771c7e090765b9b53a26bf4eefea2347597ae61d0cf0",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "bc9919e0ea4049e1af7d3ce9a76a3899aa218b2af3b32ec839f0e96d9037c752",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "repeated_persistent",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "e8a21114a69d42beff0c043ff882c5d8666b9371c345296a2215206b6665e988",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "52b0faebea7a9a41201c2b3e70dcfaa3ac04a56b5d540dd75826981f4b13c46f",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_other",
+      "proposal_seed": 2600,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "command",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [
+        {
+          "before_sha256": "e834c7bf4da514a90f4a9ef779977f7ab0d75dcc835e28d13c2b17458a049719",
+          "blocked": true,
+          "previous_blocked": false,
+          "previous_route": false,
+          "reason": "037 scheduled recall block",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1552
+        },
+        {
+          "before_sha256": "9be18a785af72a0de42d266dcf56f113c7ef27e3caec8ab71ff4f708c57f81d1",
+          "blocked": false,
+          "previous_blocked": true,
+          "previous_route": false,
+          "reason": "037 scheduled block release",
+          "route_after": false,
+          "source": "supplied experiment schedule",
+          "tick": 1664
+        }
+      ],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    },
+    {
+      "seed": 2604,
+      "history": "forms_other",
+      "proposal_seed": 2601,
+      "policy": "evidence",
+      "withdrawal_ticks": [],
+      "withdrawal_windows": [],
+      "commands": [],
+      "uses_by_window": {
+        "active": 0,
+        "early_return": 0,
+        "later": 0,
+        "rechange": 0,
+        "returning": 0
+      },
+      "blocked_uses": 0
+    }
+  ],
+  "posthoc_opportunity": [
+    {
+      "seed": 2600,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2600,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "gain": 0.18654462791620918,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2601,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2601,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2602,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2602,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2603,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2603,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2604,
+      "history": "forms",
+      "proposal_seed": 2600,
+      "gain": 0.21987215687289519,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2604,
+      "history": "forms",
+      "proposal_seed": 2601,
+      "gain": 0.2195477451301543,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2600,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "gain": 0.6161742034259547,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2600,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "gain": 0.6515770153305158,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2601,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2601,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2602,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "gain": 0.6398660839692056,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2602,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "gain": 0.0,
+      "current_rechange_uses": 0,
+      "evidence_rechange_uses": 0,
+      "withdrawal_ticks": []
+    },
+    {
+      "seed": 2603,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "gain": 0.5554756857723488,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2603,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "gain": 0.5541690411139482,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2604,
+      "history": "repeated",
+      "proposal_seed": 2600,
+      "gain": 0.6290801805223143,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    },
+    {
+      "seed": 2604,
+      "history": "repeated",
+      "proposal_seed": 2601,
+      "gain": 0.661753377020267,
+      "current_rechange_uses": 64,
+      "evidence_rechange_uses": 16,
+      "withdrawal_ticks": [
+        1552
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "closure_ticks": {
+    "stable": {
+      "640": 10,
+      "704": 0,
+      "768": 0,
+      "832": 0,
+      "896": 0,
+      "960": 0,
+      "1024": 0
+    },
+    "forms": {
+      "640": 0,
+      "704": 0,
+      "768": 3,
+      "832": 2,
+      "896": 3,
+      "960": 2,
+      "1024": 0
+    },
+    "repeated": {
+      "640": 0,
+      "704": 0,
+      "768": 0,
+      "832": 1,
+      "896": 7,
+      "960": 2,
+      "1024": 0
+    },
+    "forms_persistent": {
+      "640": 0,
+      "704": 0,
+      "768": 3,
+      "832": 2,
+      "896": 3,
+      "960": 2,
+      "1024": 0
+    },
+    "repeated_persistent": {
+      "640": 0,
+      "704": 0,
+      "768": 0,
+      "832": 1,
+      "896": 7,
+      "960": 2,
+      "1024": 0
+    }
+  },
+  "guard_failures": [
+    {
+      "history": "repeated",
+      "control": "P",
+      "window": "returning",
+      "channel": 2,
+      "mean_cost": 0.09372775291338223,
+      "max_cost": 0.16005215253529625,
+      "passed": false
+    },
+    {
+      "history": "repeated",
+      "control": "P",
+      "window": "early_return",
+      "channel": 2,
+      "mean_cost": 0.13874679896408493,
+      "max_cost": 0.23136760774949805,
+      "passed": false
+    },
+    {
+      "history": "repeated",
+      "control": "D512",
+      "window": "returning",
+      "channel": 2,
+      "mean_cost": 0.035525055797729424,
+      "max_cost": 0.0694153959642605,
+      "passed": false
+    }
+  ],
+  "adaptation_failures": [],
+  "posthoc_1024_snapshots": [
+    {
+      "history": "forms",
+      "policy": "P",
+      "original_map_loss": 0.872822009391389,
+      "composite_slow_mass": 111.80906544607751,
+      "raw_interfaces": 3
+    },
+    {
+      "history": "forms",
+      "policy": "D128",
+      "original_map_loss": 0.9110491252145625,
+      "composite_slow_mass": 117.69248229019024,
+      "raw_interfaces": 1
+    },
+    {
+      "history": "forms",
+      "policy": "D512",
+      "original_map_loss": 0.9872574745392779,
+      "composite_slow_mass": 60.69973572165506,
+      "raw_interfaces": 2
+    },
+    {
+      "history": "forms",
+      "policy": "G",
+      "original_map_loss": 0.9605502237318095,
+      "composite_slow_mass": 96.03311970645214,
+      "raw_interfaces": 2
+    },
+    {
+      "history": "repeated",
+      "policy": "P",
+      "original_map_loss": 1.1046610281192386,
+      "composite_slow_mass": 84.70666705076673,
+      "raw_interfaces": 9
+    },
+    {
+      "history": "repeated",
+      "policy": "D128",
+      "original_map_loss": 1.3356377840286349,
+      "composite_slow_mass": 78.56851111293355,
+      "raw_interfaces": 7
+    },
+    {
+      "history": "repeated",
+      "policy": "D512",
+      "original_map_loss": 1.6121484734133884,
+      "composite_slow_mass": 56.006214681212796,
+      "raw_interfaces": 0
+    },
+    {
+      "history": "repeated",
+      "policy": "G",
+      "original_map_loss": 1.5661728462953088,
+      "composite_slow_mass": 79.57359121713351,
+      "raw_interfaces": 0
+    }
+  ],
+  "posthoc_stored_prediction_loss_terms": 2560
+}

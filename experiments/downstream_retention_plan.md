@@ -1,5 +1,7 @@
 # Next round: downstream adaptation without avoidable retention costs
 
+Status update 2026-11-06: this plan was executed as [035](../results/temporary-plasticity-v1/findings.md). The conditional preserved-memory study was subsequently executed as [036](../results/preserved-prediction-v1/findings.md). The original planning text follows.
+
 Planned 2026-11-05. **Planning only: no new experiment or implementation has
 started.** Recommended next study: 035, temporary downstream plasticity. A separate
 preserved-memory study is conditional, not part of the initial run. This document

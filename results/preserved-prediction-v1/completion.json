@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "date": "2026-11-06",
+  "study": 36,
+  "runs": 180,
+  "audit": "pass",
+  "empirical_pass": false,
+  "default_changed": false,
+  "frozen_files_unchanged": 1537,
+  "fixture_attempts": 1,
+  "audit_attempts": 1,
+  "exact_final_learning_state_comparisons": 120,
+  "next_experiment_started": false,
+  "verification_hashes": {
+    "experiments/report_preserved_prediction.py": "02fccd5597c38487901c4def843c77cfd4af6db603dde5bb9b83c4c80e8fd701",
+    "results/preserved-prediction-v1/results.json": "ce891578d7f302705a423c465f28235fdf07e67128c2c93215fe1f18d54021d7",
+    "results/preserved-prediction-v1/runs.jsonl.gz": "87149511f9513e6e6ebd32b275c2e602831a1aaa48669fc4b85885ac97d1f09a",
+    "results/preserved-prediction-v1/worlds.json": "26cfbba82318306170da53cbc953253be042f062fe0ad3e9b4dea0959b943a2a",
+    "results/preserved-prediction-v1/audit.json": "5de04cfb992a88758ceff9c716170b8f9a5e3c8a2a4afed20cd1edd69eaaf5cd",
+    "results/preserved-prediction-v1/manifest.json": "d2986d89209b7c4970bceacc055fe2b5eafc245d6c972047920945e06f219b0a",
+    "results/preserved-prediction-v1/findings.md": "ee3b42e7a6b7c51ef3ad36b9522f048fe4f60c75dc53a4406be80a62c2e4973c",
+    "results/preserved-prediction-v1/descriptive.json": "a1e4ae751e329d50f4283730510fe72be1ed5f41cefdbce87468e8f1604c97db"
+  }
+}

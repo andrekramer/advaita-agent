@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "runs": 180,
+  "empirical_pass": false,
+  "elapsed_seconds": 112.01103270897875,
+  "result_sha256": "ce891578d7f302705a423c465f28235fdf07e67128c2c93215fe1f18d54021d7",
+  "runs_sha256": "87149511f9513e6e6ebd32b275c2e602831a1aaa48669fc4b85885ac97d1f09a",
+  "worlds_sha256": "26cfbba82318306170da53cbc953253be042f062fe0ad3e9b4dea0959b943a2a"
+}

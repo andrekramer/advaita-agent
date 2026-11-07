@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "fresh_random_labels": 0,
+  "reused_training_presentations": 266240,
+  "synthetic_scalar_presentations": 255,
+  "elapsed_seconds": 30.66425666696159,
+  "log": "test_a_replay_and_reference_parity (__main__.Contracts.test_a_replay_and_reference_parity) ... ok\ntest_b_causal_withdrawal_and_partial_restore (__main__.Contracts.test_b_causal_withdrawal_and_partial_restore) ... ok\ntest_c_block_precedence_release_and_validation (__main__.Contracts.test_c_block_precedence_release_and_validation) ... ok\ntest_d_gates (__main__.Contracts.test_d_gates) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 30.662s\n\nOK\n",
+  "sources": {
+    "advaita/recall_withdrawal.py": "30930cba11836221bcc76146cb873ef3bc2162570284037f025af9e352174250",
+    "experiments/recall_withdrawal.py": "9ffae2ec3ff521c1edf4e779c93de9b2ac29c2f2bf89693fbae98975fd199483",
+    "experiments/recall_withdrawal_metrics.py": "cf3a388bfae9acea8931f2485265622532557c81b56ff7e11721893a7724af3c",
+    "experiments/recall_withdrawal_protocol.md": "738931da8fa134fdee4455a934e6f0ac65c3134cc6dbe7a7e8524c6591ff4b34",
+    "checks/audit_recall_withdrawal.py": "9e7b550ba63ed9487102a68feab385b3cfe0ce33b31829ca234b02cf47c55be7",
+    "checks/test_recall_withdrawal.py": "29b7f01e9a84518dc8d27b5138da30afc928d321f7446ec093f1e489cf068723"
+  }
+}
