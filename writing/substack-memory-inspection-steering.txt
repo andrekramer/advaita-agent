@@ -1,0 +1,89 @@
+Advaita-agent: remembering, inspecting and steering
+What small experiments reveal about retaining knowledge, revising it, and controlling when it is used.
+
+
+
+The aspiration behind Advaita-agent is: can learn; can be interpreted; can be steered. Earlier experiments explored learning useful distinctions, combining them into relationships, and hiding detail behind interfaces. The latest work asks what happens when those learned forms acquire a history. What should persist? What should become more open to change? Can we understand enough of the learner’s organisation to intervene usefully?
+
+We now have evidence for selective memory revision and some working steering controls. We also have failures that clarify what control requires. Remembering something, understanding its role and deciding whether to use it are separate capabilities.
+
+For readers new to the project, Advaita-agent is a small enquiry into learning through revisable distinctions. It grew out of my R-rule and subsequent (Transformer) attention work, with the aim of keeping the system small enough to investigate with AI assistance. Humans and AI construct its initial organisation and possible operations; experience tests what that organisation can become.
+
+The name reflects a non-dual philosophical starting point. A distinction can help us navigate experience without being an absolute division in reality. Opposites and complementary pairs provide ways to organise differences. Learning should discover which differences matter, and should sometimes collapse a distinction that no longer earns its place.
+
+The experiments implement this using small finite spaces, learned groupings and probability tables. Observed input/output pairs provide the evidence. A prediction can be wrong; a grouping can be unhelpful; an interface can hide information that has become relevant. These consequences give us something measurable without claiming that the simulations settle the philosophical questions.
+
+I describe the organising process as Inertial Variation, Selection, and Retention—IVSR. Existing organisation constrains variation, evidence selects among alternatives, and retained changes influence what happens next. Inertia makes accumulated knowledge possible. It can also make an established mistake difficult to dislodge.
+
+That tension became central to the memory experiments.
+
+A learner that adapts quickly can lose knowledge it will need again. One that strongly retains its past can fail to respond when circumstances genuinely change. Simply adding a slower store does not resolve the problem. We need to distinguish admitting new evidence, reducing the influence of old evidence, and preserving something for possible later use.
+
+In the weighted-memory experiments, recent evidence changes quickly while retained evidence changes more slowly. Transfer into the slower store is selective. But an early version could become trapped: evidence that improved on the old prediction still failed a demanding admission test. The system held onto knowledge that had become misleading.
+
+We therefore separated two decisions. Should new evidence enter? And should contradicted retained evidence carry less weight?
+
+A fresh confirmation study found a repeatable benefit from combining more permissive admission with selective weakening of slow evidence. It passed the declared improvement and preservation criteria. In the lasting-reversal task, fully valid final states rose from three of ten runs to ten of ten compared with admission alone. Validity checked the learned organisation as well as its predictions.
+
+That is a useful positive result, with a specific scope. Faster-forgetting alternatives and the original reference learner still adapted better on the main adaptation measure. Selective revision improved the trade-off relative to retaining the same slow evidence without weakening it; it did not outperform every simpler alternative. The memory confirmation report gives the comparisons and limits.
+
+This makes the slower level interesting as a provisional “I know that”: a form supported by accumulated experience, yet still open to revision. I mean this functionally, without a claim about consciousness. Retention gives a generalisation continuity. Revision keeps that continuity answerable to evidence.
+
+Inspection then asks where a difficulty actually resides.
+
+Has the learner formed the wrong categories? Does it have the right categories but outdated predictions? Is an upper relationship using them incorrectly? Or is an old predictor being recalled when it should no longer supply the answer?
+
+These possibilities call for different interventions. One finding was especially revealing: improving a local prediction often made no difference to the final output. The upper interface received a category identity, so a change in confidence below it did not necessarily pass through. Information hiding was doing exactly what it was designed to do, including hiding a potentially useful change.
+
+Inspection also exposed a more practical problem. An upper prediction table could still reflect an earlier lower-level organisation. Apparent benefits from intervention sometimes came from refreshing that table. We needed coherent snapshots before attributing an effect to steering.
+
+This is a modest but important meaning of interpretability: tracing what information a prediction depends on, what evidence supports it, and which operation can affect it. We have tested structured diagnostics and scripted choices. We have not yet shown that a person or an LLM can read these records and reliably choose a beneficial intervention.
+
+The steering experiments introduced several explicit controls. A local distinction could be held fixed while its probabilities continued to update. A selected evidence store could become more plastic. Retained evidence could be discounted. Later experiments could block a preserved predictor from supplying output and then release that restriction.
+
+These controls make selective intervention possible. They also make mistakes more specific and observable.
+
+Protecting a distinction helped preserve it through a brief disruption, but a wrongly chosen lock prevented a necessary category change. Increasing local plasticity improved local adaptation while sometimes worsening the combined prediction. In another comparison, changing plasticity at the downstream predictor helped; adding local plasticity provided no further benefit.
+
+The lesson is that a controller needs to understand where change can have an effect. “Make the learner more adaptable” is too broad an instruction. Adaptable where, and with what consequences for the rest of the system?
+
+Release matters too. Returning a learning rate to its ordinary setting does not restore evidence already lost or undo knowledge acquired during the intervention. Experiments with temporary plasticity made this clear. The system could obey the instruction to become stable again while stabilising its newer knowledge rather than recovering the older knowledge we wanted.
+
+That led back to preservation. Could an earlier predictor remain available while active learning continued?
+
+We tested a frozen predictor whose use was separated from the ongoing learner. This let us distinguish an improvement due to recall from an improvement in learning itself. The active learner continued to receive the same evidence and make the same updates across the comparison conditions.
+
+Preservation helped in some returning situations. But a stored predictor needs compatible input meanings. If the categories it depends on are unavailable, saving the numerical prediction table is insufficient. Useful early recall was often delayed until the active learner reconstructed those meanings.
+
+There was a second problem: a predictor that had just demonstrated its usefulness could become misleading after another change. Fresh evidence supporting recall was only a temporary reason to use it.
+
+The final experiment therefore tested withdrawal of permission. One control explicitly blocked recall and later released the block. Another compared the archived and active predictions against newly observed outcomes and stopped recall when the recent evidence favoured the active learner.
+
+All 60 explicit block-and-release runs obeyed their commands. Release allowed a future fresh admission decision; it did not automatically revive an old authorisation. The evidence-based rule also reduced the cost of stale recall while preserving useful recall under the declared checks.
+
+The full empirical criterion nevertheless failed. Ten paired comparisons improved and ten tied, short of the required fourteen improvements. Later inspection showed that the tied cases had no recall operating in the relevant window. That explains the pattern, but does not turn a failed declared test into a pass. Withdrawal also required observations before it could act, leaving transient errors, and it sometimes triggered in stable conditions. The completed steering synthesis records these results and the earlier failures.
+
+The distinction between learning and permission to use knowledge now seems particularly useful. A stored prediction can remain available for examination while being prevented from supplying the current output. Blocking it need not erase it or interrupt active learning. Conversely, preserving it does not grant it permanent authority.
+
+Across these studies, inspection helps identify what might need changing; steering provides a limited set of explicit operations; subsequent evidence tests their consequences. That gives us a practical way to investigate control. An instruction being executed correctly, however, does not establish that it was a good instruction.
+
+These are successive experimental variants. We have not combined every favourable result into one validated configuration, and the original reference remains the default. The tasks, representation language, available commands and control rules were supplied. No study here shows a learner discovering better learning rules for itself. Adaptive behaviour under a fixed controller is still short of meta-learning.
+
+Nor does this work establish a safety advantage. Inspectable structures and enforceable permissions may help us investigate and constrain behaviour, but reliable interpretation, beneficial intervention and broader safety remain further questions. The experiments remain small and deliberately limited in scope.
+
+For me, the philosophical thread remains the provisional nature of form. A learned distinction acquires stability through its history, participates in relationships, and may eventually need revision. Our controls introduce further distinctions: what is held stable, what may change, and what is currently permitted to influence an answer. Those decisions also need scrutiny.
+
+The first steering round is now complete. Before adding more mechanisms, a useful next question is whether the inspection records are understandable enough for a human or AI to choose interventions, and whether the benefits survive a different family of tasks. The longer-term possibility is a learner whose organisation can be developed through both experience and deliberate design, with the consequences of each made easier to examine.
+
+That remains the aspiration: can learn; can be interpreted; can be steered. We now have more precise meanings for each, and a clearer view of the work between them.
+
+Thanks for following our work,
+
+Andre with CHatGPT-6-Astra,
+
+November 2026
+
+The experiment code is available on github:
+
+https://github.com/andrekramer/advaita-agent
+
