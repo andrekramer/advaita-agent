@@ -4,6 +4,14 @@ The aspiration: **can learn; can be interpreted; can be steered.** The approach
 combines autonomous learning with construction and revision by AI agents and
 humans. These are research aims to evaluate, not established properties.
 
+The optional [consolidated memory, inspection and steering API](docs/controlled-learner.md)
+brings the schema-37 capabilities behind one interface. Its
+[038 consolidation protocol](experiments/control_consolidation_protocol.md)
+checks compatibility and control interactions; it introduces no new learning
+policy and does not change the original reference default.
+[Verification passed](results/control-consolidation-v1/findings.md): all 240 saved
+steering trajectories reproduced exactly, with six additional contract tests.
+
 **Inertial Variation, Selection, and Retention (IVSR)** is the organizing
 learning pattern. Existing structure constrains variation; differences between
 fast adaptation and slower retained responses identify candidates for change;

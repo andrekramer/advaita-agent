@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "date": "2026-11-10",
+  "study": 38,
+  "engineering_verification": "pass",
+  "replayed_runs": 240,
+  "contract_tests": 6,
+  "fresh_random_labels": 0,
+  "default_changed": false,
+  "new_empirical_claim": false,
+  "next_experiment_started": false,
+  "verification_hashes": {
+    "results/control-consolidation-v1/manifest.json": "3a8da782dfa65ebf410f9f499cc3987ea13552a8b458c32d296eac61725513f1",
+    "results/control-consolidation-v1/attempt-01.json": "987e4fc305138ff92612b94298f2df400ebfe7cd00307c8244d136ee64b1b236",
+    "results/control-consolidation-v1/findings.md": "0cf1072dcff1c8f0bee6aa9f231dfbb787f0d74ddfb4d0af9483485c6a8dc87e"
+  }
+}

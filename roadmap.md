@@ -574,6 +574,24 @@ controls experimental and the original default unchanged. **Stop experiments
 here and review next goals with the user.** No new benchmark, architecture or
 meta-learning study is an automatic continuation.
 
+**Consolidation authorized, 2026-11-10:** The user selected a bounded architecture
+consolidation after reviewing the first steering round. [038](experiments/control_consolidation_protocol.md)
+defines one optional interface over the existing schema-37 path, with coherent
+inspection, memory provenance, explicit commands and checkpoint continuation.
+Compatibility and interaction checks reuse existing evidence; no new task-family
+experiment, policy tuning or meta-learning is included. See the
+[architecture and API contract](docs/controlled-learner.md). The original default
+and all previous empirical outcomes remain unchanged.
+
+**038 consolidation completed, 2026-11-10:**
+[Verification](results/control-consolidation-v1/findings.md) reproduced all 240 saved
+037 trajectories exactly, including 960 midway restorations. Six deterministic
+contract tests passed for coherent detached inspection, protection/plasticity,
+release, recall compatibility and permission, causal withdrawal, and invalid
+input rejection. No fresh random labels or new usefulness claim. The optional
+API is available; fixed schedules and unvalidated combinations remain explicit.
+This consolidation is closed before operator studies or independent task families.
+
 The aim is learning and revising generalisations. Interpretability and
 design-led extension follow conditionally; meta-learning remains a later
 evaluation on held-out task families. The plan preserves the earlier frozen

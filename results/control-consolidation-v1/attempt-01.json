@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "error": null,
+  "date": "2026-11-10",
+  "scope": "engineering compatibility and contracts, not new utility evidence",
+  "fresh_random_labels": 0,
+  "counts": {
+    "replayed_runs": 240,
+    "reused_scalar_labels": 2211840,
+    "synthetic_scalar_labels": 1914,
+    "observations": 491520,
+    "reviews": 7680,
+    "restores": 960,
+    "frozen_files": 1562
+  },
+  "log": "test_block_over_real_admission_release_and_readmission (__main__.Contracts.test_block_over_real_admission_release_and_readmission) ... ok\ntest_inspection_coherence_detachment_and_future_parity (__main__.Contracts.test_inspection_coherence_detachment_and_future_parity) ... ok\ntest_meaning_compatibility_gates_output (__main__.Contracts.test_meaning_compatibility_gates_output) ... ok\ntest_partial_monitor_restore_and_causal_withdrawal (__main__.Contracts.test_partial_monitor_restore_and_causal_withdrawal) ... ok\ntest_protection_plasticity_release_and_restore (__main__.Contracts.test_protection_plasticity_release_and_restore) ... ok\ntest_validation_is_atomic (__main__.Contracts.test_validation_is_atomic) ... ok\ntest_all_240_saved_trajectories (__main__.SavedReplay.test_all_240_saved_trajectories) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 316.657s\n\nOK\n",
+  "tests_run": 7,
+  "elapsed_seconds": 317.71275895799045,
+  "sources": {
+    "advaita/controlled.py": "46ff2beb89a0760fd85cdb07ef6f7c45e394b260deac45f6105743818e0ce2ff",
+    "checks/test_controlled_learner.py": "882da33fb86158c708e816608c99dcfc267ee40f2201dc49a039b6405b0872e9",
+    "experiments/control_consolidation_protocol.md": "88f70927565e380d3c04771088ce3ae35f58c821e7cbc378ffe56614f91d7c6e",
+    "docs/controlled-learner.md": "e1e6e694b4065aa739665140a603963bf2ce62632f649115436718c1759b01ce"
+  }
+}

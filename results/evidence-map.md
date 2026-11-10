@@ -100,3 +100,13 @@ recall, with a failed prespecified consistency criterion and remaining limits.
 The [closure synthesis](steering-round-one-synthesis.md) separates command
 execution, usefulness and limitations. Further experiments stop for the user
 goals review; no default or safety claim is promoted.
+
+[038](control-consolidation-v1/findings.md) subsequently implements the
+user-authorized consolidation of memory, inspection and steering. An optional
+common interface over the existing schema-37 path reproduced all 240 saved
+trajectories exactly and passed six deterministic interaction/contract tests.
+This is engineering compatibility evidence: no new random worlds, policy tuning,
+human/LLM comprehension finding or empirical usefulness result. The original
+default and previous failed criteria remain unchanged. Fixed memory timing and
+excluded combinations are documented in the
+[architecture contract](../docs/controlled-learner.md).
