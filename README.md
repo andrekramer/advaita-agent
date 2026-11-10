@@ -7,13 +7,42 @@ humans. These are research aims to evaluate, not established properties.
 There's a series of posts on Substack: 
 [andrekramermsc.substack.com](https://andrekramermsc.substack.com/p/advaita-agent).
 
-The optional [consolidated memory, inspection and steering API](docs/controlled-learner.md)
-brings the schema-37 capabilities behind one interface. Its
-[038 consolidation protocol](experiments/control_consolidation_protocol.md)
-checks compatibility and control interactions; it introduces no new learning
-policy and does not change the original reference default.
-[Verification passed](results/control-consolidation-v1/findings.md): all 240 saved
-steering trajectories reproduced exactly, with six additional contract tests.
+**Current status:** the first steering round (031–037) and its architecture
+consolidation (038) are complete. The round establishes explicit, inspectable
+controls with useful effects in small constructed tasks. It does not establish
+generally reliable steering. The [round synthesis](results/steering-round-one-synthesis.md)
+separates command execution, usefulness and limitations.
+
+- **Inspect:** examine forms, supporting evidence, dependencies and prediction
+  sources. Inspection exposed local improvements that could not affect the
+  downstream output, and motivated coherent post-review snapshots.
+- **Protect and adapt:** hold a local partition fixed while predictions continue
+  learning, or make selected evidence stores more plastic. Local gains did not
+  guarantee better combined predictions; incorrect protection obstructed learning.
+- **Retain and recall:** preserve a predictor separately from active learning.
+  Compatible input meanings are needed to use it, and ending a plasticity boost
+  does not restore forgotten knowledge.
+- **Block and release:** prevent recalled predictions from supplying output.
+  Release permits fresh admission rather than reviving old authorization.
+
+The [final steering study](results/recall-withdrawal-v1/findings.md) completed
+240 independently audited comparisons. All 60 explicit block/release runs obeyed
+their commands. Evidence-triggered withdrawal reduced stale-recall loss in ten
+paired comparisons and tied in ten, while passing the declared useful-recall and
+collateral-cost guards. **Its full empirical criterion failed:** it required
+14 improving pairs. The ten ties had no recall active in that window; this
+explains the pattern without changing the criterion. Detection lag and withdrawals
+in stable conditions remain limitations.
+
+The optional [consolidated API](docs/controlled-learner.md), `ControlledLearner`,
+now brings the compatible memory, inspection and steering mechanisms behind one
+interface. [038 verification](results/control-consolidation-v1/findings.md)
+reproduced all 240 saved trajectories exactly, including 960 checkpoint
+restorations, and passed six interaction tests. This is engineering compatibility
+evidence, not a new learning advantage. Recall is shadowed by default in this API;
+the original reference learner remains the project default. Automatic policies
+remain experimental, and human/LLM interpretation, meta-learning and any safety
+advantage remain unestablished. No further experiment starts automatically.
 
 **Inertial Variation, Selection, and Retention (IVSR)** is the organizing
 learning pattern. Existing structure constrains variation; differences between
@@ -133,9 +162,12 @@ successful experiments alone do not justify that step.
 - [Experiment 037: recall withdrawal and explicit block/release](results/recall-withdrawal-v1/findings.md)
 - [Recall permission API and limits](docs/recall-withdrawal.md)
 - [First steering round: original closure plan](experiments/steering_round_one_plan.md)
+- [038: memory, inspection and steering consolidation protocol](experiments/control_consolidation_protocol.md)
+- [038: exact replay, control interactions and limitations](results/control-consolidation-v1/findings.md)
+- [Consolidated learner: architecture and control API](docs/controlled-learner.md)
 
-**Current status:** the consolidated-learner follow-on test round, 019–022,
-is closed with all 320 runs independently audited. It establishes useful
+The earlier consolidated-learner follow-on test round, 019–022,
+closed with all 320 runs independently audited. It establishes useful
 mechanisms and explicit limits, not a consistently superior combined policy.
 The original integrated learner remains the reference; later protection and
 memory policies remain experimental alternatives. See the
@@ -206,8 +238,8 @@ interventions, versus 17/29 for disagreement alone. The full gate failed: contro
 gains were inconsistent, repeated-history final validity was 7/10, and five
 immediate-effect predictions exposed a stale upper table after local form
 changes. A saved-state diagnostic reproduced those five changes by refitting
-alone. Post-review state consistency is the next bounded prerequisite; the
-learner and original default remain unchanged.
+alone. This motivated the coherent post-review snapshots tested in 033 below;
+the original default remains unchanged.
 
 On 2026-11-05, [selective steering](results/selective-steering-v1/findings.md)
 completed **180 independently audited runs**. An experimental subclass can lock a
