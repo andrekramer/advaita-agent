@@ -5,7 +5,7 @@ combines autonomous learning with construction and revision by AI agents and
 humans. These are research aims to evaluate, not established properties.
 
 There's a series of posts on Substack: 
-[andrekramermsc.substack.com](https://andrekramermsc.substack.com/p/advaita-agent}.
+[andrekramermsc.substack.com](https://andrekramermsc.substack.com/p/advaita-agent).
 
 The optional [consolidated memory, inspection and steering API](docs/controlled-learner.md)
 brings the schema-37 capabilities behind one interface. Its
