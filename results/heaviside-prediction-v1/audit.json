@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "reconstructed_confirmation_runs": 18000,
+  "reconstructed_development_runs": 2304,
+  "tradeoff_pass": false,
+  "scalar_max_error": 5.551115123125783e-16,
+  "elapsed_seconds": 10.133213042048737
+}

@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "cases": 160,
+  "branches": 640,
+  "scored_observations": 327680,
+  "reconciled_debits": 14070,
+  "closure_reasons": {
+    "cell": {
+      "meaning changed": 57,
+      "expired": 17
+    },
+    "budget": {
+      "exhausted": 74
+    }
+  },
+  "gates": {
+    "learn": false,
+    "interpret": true,
+    "steer": false
+  },
+  "scope": "independent scoring of saved predictions and debit records, paired outcomes and decision criteria. Native no-command parity and cloned one-step checks ran in the trial.",
+  "hashes": {
+    "manifest.json": "81cda6ce6b0070c403e37f2afa655d920bb25e2913cddf572470bc6c455c01ef",
+    "cases.jsonl.gz": "4b65d14ba00f32b13a3f4dc2c404e30216f7c729dc45ec4b732c53ad41000fac",
+    "summary.json": "9beb27e29f200ff1b4e4b12822384b7516d8bbc942d84160f20f7bd14723ae19"
+  }
+}

@@ -1,13 +1,33 @@
 # advaita-agent
 
-The aspiration: **can learn; can be interpreted; can be steered.** The approach
-combines autonomous learning with construction and revision by AI agents and
-humans. These are research aims to evaluate, not established properties.
+The project asks whether a system **can learn, can be interpreted and can be
+steered**. It combines learning from experience with construction and revision
+by humans and AI agents.
+
+**Research pivot, 13 November 2026.** For the next bounded research round we
+have adopted direction and strength as the organising pair for each learned
+distinction. In fast and slow memory separately, direction records which outcome
+the evidence favours and strength records how much evidence is retained. A
+steering command increases plasticity for one selected distinction. It has no
+mass cap and closes when the distinction changes meaning or after 256 observations.
+[Working architecture](docs/direction-strength-architecture.md) · [Implementation](advaita/direction_strength.py)
+
+The mathematical specification gives the evidence update, the transfer from fast
+to slow memory, and the effect of steering one distinction. It identifies which
+decisions depend on the structural review policy. [Direction and strength maths](maths-direction-strength.md)
+
+The decision rests on all three aims. Across 12 fresh simulated environments
+the learner acquired distinctions that transferred, a script anticipated 187
+of 222 material intervention effects in the correct direction, and selective
+steering improved mean target Brier loss by 0.00164 over abstention while meeting
+every preservation limit. Recovery is a diagnostic across timescales. We track
+when predictions recover and when earlier forms reappear as separate observations.
+[Confirmation and scoring audit](results/cell-duration-confirmation-v1/findings.md)
 
 There's a series of posts on Substack: 
 [andrekramermsc.substack.com](https://andrekramermsc.substack.com/p/advaita-agent).
 
-**Current status:** the first steering round (031–037) and its architecture
+**Earlier steering work.** The first steering round (031–037) and its architecture
 consolidation (038) are complete. The round establishes explicit, inspectable
 controls with useful effects in small constructed tasks. It does not establish
 generally reliable steering. The [round synthesis](results/steering-round-one-synthesis.md)
@@ -165,6 +185,16 @@ successful experiments alone do not justify that step.
 - [038: memory, inspection and steering consolidation protocol](experiments/control_consolidation_protocol.md)
 - [038: exact replay, control interactions and limitations](results/control-consolidation-v1/findings.md)
 - [Consolidated learner: architecture and control API](docs/controlled-learner.md)
+- [Heaviside side quest: direction/strength review and comparison design](experiments/heaviside_review.md)
+- [Heaviside Stage 1: fixed-row comparison protocol](experiments/heaviside_prediction_protocol.md)
+- [Heaviside Stage 1: confirmed trade-offs, exact scalar equivalence and plots](results/heaviside-prediction-v1/findings.md)
+- [Heaviside Stage 2: native contextual-output comparison protocol](experiments/heaviside_native_protocol.md)
+- [Heaviside Stage 2: reversal gains, streak costs and selective weakening](results/heaviside-native-v1/findings.md)
+- [Strength inspection: direction, retained mass and fast/slow allocation](docs/strength-inspection.md)
+- [Strength inspection and steering: frozen comparison protocol](experiments/strength_inspection_protocol.md)
+- [Strength inspection results: better effect forecasts and control choices, with retention costs](results/strength-inspection-v1/findings.md)
+- [Direction and strength working architecture and decision record](docs/direction-strength-architecture.md)
+- [Direction and strength trial of targeted plasticity and a slow-evidence budget](results/direction-strength-v1/findings.md)
 
 The earlier consolidated-learner follow-on test round, 019–022,
 closed with all 320 runs independently audited. It establishes useful

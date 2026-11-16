@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "tests": 3,
+  "log": "test_detached_exact_bank_descriptions (__main__.Contracts.test_detached_exact_bank_descriptions) ... ok\ntest_hidden_allocation_and_empty_bank (__main__.Contracts.test_hidden_allocation_and_empty_bank) ... ok\ntest_probe_clock_priors_and_command_parity (__main__.Contracts.test_probe_clock_priors_and_command_parity) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.882s\n\nOK\n",
+  "elapsed_seconds": 0.8817457919940352,
+  "fresh_confirmation_labels": 0,
+  "sources": {
+    "experiments/strength_inspection_protocol.md": "5a7fb88a4799b9d5f7b0aef863f67f4c2f635b00ce04730b21637893a83c6f82",
+    "experiments/strength_inspection.py": "5c560159475ef8379d195f083ff32d0cb580a51425676d867770bd95ee64e360",
+    "experiments/strength_inspection_run.py": "9c0140dd276ba5572404c33d025795b46a1edde6f24607c76c1f86b865dfd617",
+    "experiments/strength_inspection_metrics.py": "304e4302d3e27e46f0666f4a6c76902625a201658f43960038b0d64e1e1d39f5",
+    "experiments/report_strength_inspection.py": "d0da40274356a3137c70cfedcafb9296dfcabbc9e21a42d9cc3cf8d6b9a7c5f3",
+    "checks/test_strength_inspection.py": "fde99c2440b6c7a7cc43b1eb04144e642bd88b7f01900ea53eaf9718bff35eff",
+    "checks/audit_strength_inspection.py": "2d74bcc7b99328d7fe8bfa7baea49a9ec403aef9c6c9c515df1548732b3e6bc4"
+  }
+}

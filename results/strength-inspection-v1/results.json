@@ -1,0 +1,718 @@
+{
+  "status": "completed_pending_audit",
+  "summary": {
+    "gates": {
+      "mechanical": true,
+      "information_forecast": true,
+      "effect_direction": true,
+      "steering_mean": true,
+      "steering_consistency": true,
+      "versus_no_op": true,
+      "preservation": false
+    },
+    "information_pass": true,
+    "steering_pass": false,
+    "presentation_tested": false,
+    "future_error_difference": {
+      "mean": -0.00017063613092560851,
+      "low": -0.00021219776334180252,
+      "high": -0.00012778346221078334,
+      "positive": 0,
+      "n": 12
+    },
+    "steering_gains": {
+      "existing": {
+        "mean": 0.0021255641787425554,
+        "low": 0.0010274999088923174,
+        "high": 0.0035170339815942847,
+        "positive": 9,
+        "n": 12
+      },
+      "no_op": {
+        "mean": 0.010559588124105535,
+        "low": 0.008926887762459132,
+        "high": 0.012208243868723231,
+        "positive": 12,
+        "n": 12
+      },
+      "disagreement": {
+        "mean": 0.008529211279702808,
+        "low": 0.006093917600462287,
+        "high": 0.01080494598375454,
+        "positive": 11,
+        "n": 12
+      },
+      "rotated": {
+        "mean": 0.010559588124105535,
+        "low": 0.008926887762459132,
+        "high": 0.012208243868723231,
+        "positive": 12,
+        "n": 12
+      }
+    },
+    "guards": [
+      {
+        "history": "stable",
+        "window": "active",
+        "channel": 0,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "active",
+        "channel": 1,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "active",
+        "channel": 2,
+        "mean": 0.0002484202668218335,
+        "maximum": 0.0017992450409281269,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "released",
+        "channel": 0,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "released",
+        "channel": 1,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "released",
+        "channel": 2,
+        "mean": 0.0003697869707434594,
+        "maximum": 0.003441428806732108,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "returning",
+        "channel": 0,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "returning",
+        "channel": 1,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "stable",
+        "window": "returning",
+        "channel": 2,
+        "mean": 0.00022206718867364902,
+        "maximum": 0.0018734801778872573,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "active",
+        "channel": 0,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "active",
+        "channel": 1,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "released",
+        "channel": 0,
+        "mean": -0.00034005703624720267,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "released",
+        "channel": 1,
+        "mean": -5.4743170417249215e-05,
+        "maximum": 0.0006302170711470628,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "released",
+        "channel": 2,
+        "mean": -0.007427063839133045,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "returning",
+        "channel": 0,
+        "mean": 0.00040229747014941297,
+        "maximum": 0.005218209992215783,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "returning",
+        "channel": 1,
+        "mean": -6.607828178410713e-05,
+        "maximum": 0.003637999553892546,
+        "passed": true
+      },
+      {
+        "history": "forms",
+        "window": "returning",
+        "channel": 2,
+        "mean": 0.010261311258403025,
+        "maximum": 0.061119850684299676,
+        "passed": false
+      },
+      {
+        "history": "repeated",
+        "window": "active",
+        "channel": 0,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "repeated",
+        "window": "active",
+        "channel": 1,
+        "mean": 0.0,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "repeated",
+        "window": "released",
+        "channel": 0,
+        "mean": -0.002510335086234943,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "repeated",
+        "window": "released",
+        "channel": 1,
+        "mean": -0.004225009841197289,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "repeated",
+        "window": "released",
+        "channel": 2,
+        "mean": -0.014598668057006686,
+        "maximum": 0.0,
+        "passed": true
+      },
+      {
+        "history": "repeated",
+        "window": "returning",
+        "channel": 0,
+        "mean": 0.0049675896511927374,
+        "maximum": 0.04376902170733332,
+        "passed": true
+      },
+      {
+        "history": "repeated",
+        "window": "returning",
+        "channel": 1,
+        "mean": 0.006707180045199108,
+        "maximum": 0.06954700772574951,
+        "passed": false
+      },
+      {
+        "history": "repeated",
+        "window": "returning",
+        "channel": 2,
+        "mean": 0.012211493877883157,
+        "maximum": 0.08174639891356505,
+        "passed": false
+      }
+    ],
+    "future_accuracy": 0.9675925925925926,
+    "nonnegligible_effects": 31,
+    "groups": [
+      {
+        "history": "stable",
+        "task": "local",
+        "policy": "existing",
+        "n": 12,
+        "loss": 0.0932422703588881,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0003316768518673713
+      },
+      {
+        "history": "stable",
+        "task": "local",
+        "policy": "raw_banks",
+        "n": 12,
+        "loss": 0.0932422703588881,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0003316768518673713
+      },
+      {
+        "history": "stable",
+        "task": "local",
+        "policy": "direction_strength",
+        "n": 12,
+        "loss": 0.0932422703588881,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0003316768518673713
+      },
+      {
+        "history": "stable",
+        "task": "local",
+        "policy": "no_op",
+        "n": 12,
+        "loss": 0.0932422703588881,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0003316768518673713
+      },
+      {
+        "history": "stable",
+        "task": "local",
+        "policy": "disagreement",
+        "n": 12,
+        "loss": 0.0932422703588881,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0003316768518673713
+      },
+      {
+        "history": "stable",
+        "task": "local",
+        "policy": "rotated",
+        "n": 12,
+        "loss": 0.0932422703588881,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0003316768518673713
+      },
+      {
+        "history": "stable",
+        "task": "composite",
+        "policy": "existing",
+        "n": 12,
+        "loss": 0.09363009646659204,
+        "gain": -6.290525612390648e-05,
+        "actions": 1,
+        "unnecessary": 1,
+        "missed": 0,
+        "regret": 6.290525612390648e-05
+      },
+      {
+        "history": "stable",
+        "task": "composite",
+        "policy": "raw_banks",
+        "n": 12,
+        "loss": 0.09406403174411179,
+        "gain": -0.000496840533643667,
+        "actions": 5,
+        "unnecessary": 5,
+        "missed": 0,
+        "regret": 0.000496840533643667
+      },
+      {
+        "history": "stable",
+        "task": "composite",
+        "policy": "direction_strength",
+        "n": 12,
+        "loss": 0.09406403174411179,
+        "gain": -0.000496840533643667,
+        "actions": 5,
+        "unnecessary": 5,
+        "missed": 0,
+        "regret": 0.000496840533643667
+      },
+      {
+        "history": "stable",
+        "task": "composite",
+        "policy": "no_op",
+        "n": 12,
+        "loss": 0.09356719121046814,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 0,
+        "regret": 0.0
+      },
+      {
+        "history": "stable",
+        "task": "composite",
+        "policy": "disagreement",
+        "n": 12,
+        "loss": 0.09356719121046814,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 0,
+        "regret": 0.0
+      },
+      {
+        "history": "stable",
+        "task": "composite",
+        "policy": "rotated",
+        "n": 12,
+        "loss": 0.09356719121046814,
+        "gain": 0.0,
+        "actions": 5,
+        "unnecessary": 5,
+        "missed": 0,
+        "regret": 0.0
+      },
+      {
+        "history": "forms",
+        "task": "local",
+        "policy": "existing",
+        "n": 12,
+        "loss": 0.12262283980983339,
+        "gain": 0.001299886507149887,
+        "actions": 5,
+        "unnecessary": 1,
+        "missed": 7,
+        "regret": 0.007597056985428991
+      },
+      {
+        "history": "forms",
+        "task": "local",
+        "policy": "raw_banks",
+        "n": 12,
+        "loss": 0.12262283980983339,
+        "gain": 0.001299886507149887,
+        "actions": 5,
+        "unnecessary": 1,
+        "missed": 7,
+        "regret": 0.007597056985428991
+      },
+      {
+        "history": "forms",
+        "task": "local",
+        "policy": "direction_strength",
+        "n": 12,
+        "loss": 0.12262283980983339,
+        "gain": 0.001299886507149887,
+        "actions": 5,
+        "unnecessary": 1,
+        "missed": 7,
+        "regret": 0.007597056985428991
+      },
+      {
+        "history": "forms",
+        "task": "local",
+        "policy": "no_op",
+        "n": 12,
+        "loss": 0.12392272631698327,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 11,
+        "regret": 0.008896943492578878
+      },
+      {
+        "history": "forms",
+        "task": "local",
+        "policy": "disagreement",
+        "n": 12,
+        "loss": 0.12262283980983339,
+        "gain": 0.001299886507149887,
+        "actions": 5,
+        "unnecessary": 1,
+        "missed": 7,
+        "regret": 0.007597056985428991
+      },
+      {
+        "history": "forms",
+        "task": "local",
+        "policy": "rotated",
+        "n": 12,
+        "loss": 0.12392272631698327,
+        "gain": 0.0,
+        "actions": 5,
+        "unnecessary": 5,
+        "missed": 7,
+        "regret": 0.008896943492578878
+      },
+      {
+        "history": "forms",
+        "task": "composite",
+        "policy": "existing",
+        "n": 12,
+        "loss": 0.18663073620271894,
+        "gain": 0.001697968736019841,
+        "actions": 2,
+        "unnecessary": 0,
+        "missed": 10,
+        "regret": 0.011147080910986665
+      },
+      {
+        "history": "forms",
+        "task": "composite",
+        "policy": "raw_banks",
+        "n": 12,
+        "loss": 0.1766487501665471,
+        "gain": 0.01167995477219169,
+        "actions": 11,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0011650948748148163
+      },
+      {
+        "history": "forms",
+        "task": "composite",
+        "policy": "direction_strength",
+        "n": 12,
+        "loss": 0.1766487501665471,
+        "gain": 0.01167995477219169,
+        "actions": 11,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.0011650948748148163
+      },
+      {
+        "history": "forms",
+        "task": "composite",
+        "policy": "no_op",
+        "n": 12,
+        "loss": 0.1883287049387388,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 12,
+        "regret": 0.012845049647006506
+      },
+      {
+        "history": "forms",
+        "task": "composite",
+        "policy": "disagreement",
+        "n": 12,
+        "loss": 0.18287215925951367,
+        "gain": 0.005456545679225111,
+        "actions": 5,
+        "unnecessary": 0,
+        "missed": 7,
+        "regret": 0.007388503967781394
+      },
+      {
+        "history": "forms",
+        "task": "composite",
+        "policy": "rotated",
+        "n": 12,
+        "loss": 0.1883287049387388,
+        "gain": 0.0,
+        "actions": 11,
+        "unnecessary": 11,
+        "missed": 1,
+        "regret": 0.012845049647006506
+      },
+      {
+        "history": "repeated",
+        "task": "local",
+        "policy": "existing",
+        "n": 12,
+        "loss": 0.16004830949208024,
+        "gain": 0.02918465274432976,
+        "actions": 11,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.00564852085271408
+      },
+      {
+        "history": "repeated",
+        "task": "local",
+        "policy": "raw_banks",
+        "n": 12,
+        "loss": 0.16004830949208024,
+        "gain": 0.02918465274432976,
+        "actions": 11,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.00564852085271408
+      },
+      {
+        "history": "repeated",
+        "task": "local",
+        "policy": "direction_strength",
+        "n": 12,
+        "loss": 0.16004830949208024,
+        "gain": 0.02918465274432976,
+        "actions": 11,
+        "unnecessary": 0,
+        "missed": 1,
+        "regret": 0.00564852085271408
+      },
+      {
+        "history": "repeated",
+        "task": "local",
+        "policy": "no_op",
+        "n": 12,
+        "loss": 0.18923296223640998,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 12,
+        "regret": 0.03483317359704384
+      },
+      {
+        "history": "repeated",
+        "task": "local",
+        "policy": "disagreement",
+        "n": 12,
+        "loss": 0.18850930417000103,
+        "gain": 0.000723658066408959,
+        "actions": 1,
+        "unnecessary": 0,
+        "missed": 11,
+        "regret": 0.03410951553063488
+      },
+      {
+        "history": "repeated",
+        "task": "local",
+        "policy": "rotated",
+        "n": 12,
+        "loss": 0.18923296223640998,
+        "gain": 0.0,
+        "actions": 11,
+        "unnecessary": 11,
+        "missed": 1,
+        "regret": 0.03483317359704384
+      },
+      {
+        "history": "repeated",
+        "task": "composite",
+        "policy": "existing",
+        "n": 12,
+        "loss": 0.24578021641123443,
+        "gain": 0.018484540940802294,
+        "actions": 5,
+        "unnecessary": 0,
+        "missed": 7,
+        "regret": 0.01830168367238103
+      },
+      {
+        "history": "repeated",
+        "task": "composite",
+        "policy": "raw_banks",
+        "n": 12,
+        "loss": 0.2425748820974312,
+        "gain": 0.02168987525460554,
+        "actions": 6,
+        "unnecessary": 0,
+        "missed": 6,
+        "regret": 0.015096349358577786
+      },
+      {
+        "history": "repeated",
+        "task": "composite",
+        "policy": "direction_strength",
+        "n": 12,
+        "loss": 0.2425748820974312,
+        "gain": 0.02168987525460554,
+        "actions": 6,
+        "unnecessary": 0,
+        "missed": 6,
+        "regret": 0.015096349358577786
+      },
+      {
+        "history": "repeated",
+        "task": "composite",
+        "policy": "no_op",
+        "n": 12,
+        "loss": 0.2642647573520367,
+        "gain": 0.0,
+        "actions": 0,
+        "unnecessary": 0,
+        "missed": 12,
+        "regret": 0.03678622461318332
+      },
+      {
+        "history": "repeated",
+        "task": "composite",
+        "policy": "disagreement",
+        "n": 12,
+        "loss": 0.2595625865384043,
+        "gain": 0.004702170813632406,
+        "actions": 1,
+        "unnecessary": 0,
+        "missed": 11,
+        "regret": 0.03208405379955092
+      },
+      {
+        "history": "repeated",
+        "task": "composite",
+        "policy": "rotated",
+        "n": 12,
+        "loss": 0.2642647573520367,
+        "gain": 0.0,
+        "actions": 6,
+        "unnecessary": 6,
+        "missed": 6,
+        "regret": 0.03678622461318332
+      }
+    ],
+    "mechanical_maxima": {
+      "raw_banks": 3.3306690738754696e-16,
+      "direction_strength": 3.3306690738754696e-16
+    },
+    "probe_mean_errors": {
+      "prediction_only": 0.009505871920338976,
+      "existing": 0.00019929474952878009,
+      "raw_banks": 4.2124266073763195e-17,
+      "direction_strength": 4.2693472214318085e-17
+    }
+  },
+  "totals": {
+    "environments": 12,
+    "worlds": 36,
+    "trunks": 72,
+    "continuations": 288,
+    "generated_scalar_labels": 368640,
+    "acquisition_label_presentations": 73728,
+    "prefix_label_presentations": 207360,
+    "future_label_presentations": 663552,
+    "training_label_presentations": 944640,
+    "controller_reused_scalar_labels": 13824,
+    "synthetic_probe_scalar_labels": 27648,
+    "probe_clones": 9216,
+    "restores": 576
+  },
+  "elapsed_seconds": 87.25154208403546
+}

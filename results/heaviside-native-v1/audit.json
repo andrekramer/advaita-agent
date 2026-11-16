@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "prefixes": 240,
+  "native_futures": 720,
+  "output_records": 4320,
+  "native_pass": false,
+  "attribution_pass": true,
+  "scope": "independent forecasts, native review decisions, final learning state and metrics; runtime metadata roundtrips checked by runner",
+  "elapsed_seconds": 105.11299020797014
+}

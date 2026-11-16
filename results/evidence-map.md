@@ -1,11 +1,25 @@
 # Current evidence map
 
-Updated 2026-11-06, after [037](recall-withdrawal-v1/findings.md). The
-[first steering round is closed](steering-round-one-synthesis.md) for goals review. The earlier
-[019–022 closure](consolidated-learner-test-round-synthesis.md) remains intact.
-This map links successive stages without treating their different policies
-as one learner that has demonstrated every result together. Earlier syntheses
-remain dated records of their respective rounds.
+Updated 13 November 2026 after the direction/strength confirmation. The working
+architecture for the next bounded round exposes fast and slow evidence for each
+distinction and steers one cell until its meaning changes or the command expires.
+[Architecture decision](../docs/direction-strength-architecture.md)
+
+The first cell trial found that the uncapped command met its target benefit
+and preservation limits. Fresh confirmation covered 12 environments, 240
+instructions and 1,200 paired continuations. All 12 environments met the
+acquisition criterion. A supplied script predicted the direction of 187 of 222
+material effects using cell-specific evidence, compared with 105 using channel
+totals to estimate the allocation. Uncapped steering improved target Brier by
+0.001636 over abstention (95% paired interval 0.001223–0.002135) and met every
+preservation limit. The 25% mass budget and 63-tick command met the declared
+practical equivalence margins on this schedule. [First trial](direction-strength-v1/findings.md) ·
+[Confirmation](cell-duration-confirmation-v1/findings.md) · [Scoring audit](cell-duration-confirmation-v1/audit.json)
+
+Recovery of predictions and recovery of earlier forms are separate diagnostics.
+At 128 observations after polarity return, upper modal accuracy averaged 69.7%
+and both original local partitions were present in 22.9% of uncapped cases.
+The endpoint leaves the relative contributions of fast and slow memory open.
 
 | Question | Evidence available | Current boundary |
 | --- | --- | --- |
@@ -110,3 +124,78 @@ human/LLM comprehension finding or empirical usefulness result. The original
 default and previous failed criteria remain unchanged. Fixed memory timing and
 excluded combinations are documented in the
 [architecture contract](../docs/controlled-learner.md).
+
+The [Heaviside Stage 1 side quest](heaviside-prediction-v1/findings.md), completed
+2026-11-13, tests direction and retained strength in an isolated binary predictor.
+An independent implementation reconstructed all 2,304 development and 18,000
+confirmation run records (200 fresh confirmation seeds). Vector and scalar
+forecasts agreed within 5.55e-16. Larger imposed support reduced revision, a
+property already present in native count tables. The selected vector achieved
+the declared trade-off against selected fixed gain, with small short-prefix
+benefits and no meaningful long-prefix difference, but failed the combined gate
+against the rolling-window control: it adapted faster to reversal while suffering
+greater post-streak loss. This is a fixed-row retention-policy comparison, not
+evidence of geometric-coordinate superiority or improved native-agent learning.
+The native reference and selective-weakening comparison follows as Stage 2 below;
+the architecture and defaults are unchanged.
+
+The [Heaviside Stage 2 comparison](heaviside-native-v1/findings.md), also completed
+2026-11-13, evaluates alternative output predictors for one supplied familiar
+context while native learning and reviews continue. Forty fresh outcome histories
+produce 240 prefixes, 720 native future trajectories and 4,320 output records,
+all independently reconstructed. One acquired state and proposal state are reused;
+the output records are not independent experimental samples.
+
+The direction/strength predictor failed the prespecified native-improvement
+criterion. It adapted faster to reversal but incurred greater stable and
+post-streak loss. Against the native combined admission/weakening learner, paired
+Brier differences were +0.007270 (stable), +0.017776 (post-streak) and -0.028918
+(reversal observations 129–256). Negative differences favor the predictor.
+The separate fixed-gain comparison passed, with post-streak benefit confined to
+short histories and no meaningful long-history difference. Vector/scalar
+forecasts remained equivalent within 5.55e-16; this is not geometric superiority.
+
+Selective weakening did act: 53 accepted composite weakenings occurred in
+long-history reversals, with the earliest forecast effect at observation 193.
+Combined admission/weakening improved reversal loss over admission alone by
+0.003294 averaged across histories (95% paired interval: improvement of
+0.002071–0.004549). No weakening occurred in the other history/future conditions.
+This supports a bounded retention-policy trade-off, not a replacement of the
+architecture. The supplied output address, differing uses of review evidence,
+and single acquired state limit the comparison; category discovery, transfer and
+broader competence were not tested. No defaults changed and no further benchmark
+is scheduled by this result.
+
+The [strength-inspection follow-up](strength-inspection-v1/findings.md), completed
+2026-11-13, tests an additional read-only description of each prediction cell's
+fast/slow evidence. The existing inspection supplies row totals and channel-wide
+bank masses; the new adapter exposes the allocation for each row. Raw counts and
+direction/strength are equivalent encodings of that additional information, and
+produced the same commands. No learning equations or defaults changed.
+
+Independent reconstruction passed for 72 fresh acquired trunks and 288 controlled
+continuations across 12 environment seeds. Conditional one-observation effect
+forecasts were exact to numerical precision. A supplied 64-step approximation
+using bank allocation reduced mean absolute future-effect error from 0.000530
+to 0.000359 Brier units relative to the existing-view proportional-allocation
+approximation. Overall effect-direction accuracy was 209/216 versus 197/216;
+among the 31 effects exceeding .001 in magnitude it was 25/31 versus 12/31.
+The latter is a [descriptive breakdown](strength-inspection-v1/descriptive-diagnostics.json),
+not a new criterion. Most tested effects
+were negligible, so the aggregate accuracy alone is insufficient evidence.
+
+Bank-informed selection reduced active-window target Brier by 0.002126 relative
+to existing-view selection (95% environment-cluster interval 0.001027–0.003517),
+with positive means in 9/12 environments; its improvement over no intervention
+was 0.010560. But the full steering criterion failed preservation: three
+output/history guards failed when earlier conditions returned, with maximum
+case cost 0.081746. The richer view also caused more actions (38 versus 24),
+including more hindsight-unnecessary actions (6 versus 2). These results support
+better bounded effect prediction and short-term selection by this supplied script,
+not uniformly beneficial control.
+
+This is additional-information evidence, not evidence that geometric notation
+is superior or easier for a human/LLM to understand. The
+[blinded reader task pack](strength-inspection-v1/reader-tasks/README.md) compares
+equivalent raw/named information but remains unscored. No reader-comprehension,
+general safety or meta-learning claim is established.

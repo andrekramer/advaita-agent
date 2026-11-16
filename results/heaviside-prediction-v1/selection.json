@@ -1,0 +1,81 @@
+{
+  "chosen": {
+    "vector": 0.9,
+    "fixed": 0.1,
+    "rotor": 0.2,
+    "prior_selected": 0.9
+  },
+  "scores": {
+    "vector": [
+      {
+        "parameter": 0.9,
+        "objective": 0.18422024220330868
+      },
+      {
+        "parameter": 0.97,
+        "objective": 0.1887986806336118
+      },
+      {
+        "parameter": 0.99,
+        "objective": 0.20712430360051748
+      }
+    ],
+    "fixed": [
+      {
+        "parameter": 0.01,
+        "objective": 0.2207131219905301
+      },
+      {
+        "parameter": 0.03,
+        "objective": 0.1930849975837002
+      },
+      {
+        "parameter": 0.1,
+        "objective": 0.18399081410296778
+      }
+    ],
+    "rotor": [
+      {
+        "parameter": 0.02,
+        "objective": 0.2302848661226041
+      },
+      {
+        "parameter": 0.06,
+        "objective": 0.20135468493306208
+      },
+      {
+        "parameter": 0.2,
+        "objective": 0.18303817056290325
+      }
+    ],
+    "prior_selected": [
+      {
+        "parameter": 0.9,
+        "objective": 0.1859343490595632
+      },
+      {
+        "parameter": 0.97,
+        "objective": 0.18934791529036513
+      },
+      {
+        "parameter": 0.99,
+        "objective": 0.2068797833110918
+      }
+    ]
+  },
+  "development_world_sha256": "ef457f40fe3ab0e87b0fa0b177058886629957c10bbc60137598a13748b13f67",
+  "development_metrics_sha256": "65043b34f0827d03ff9264dbf759b8fd64b604062f2a7e37482325563c90c667",
+  "sources": {
+    "advaita-heaviside.md": "b5048835bf3f3041178b0507f6343c41d65a703188d32fc9739511d64908b3f9",
+    "experiments/heaviside_review.md": "48d7923375a1a02ea689f97f5c0dc56df1d68b4cc2b0ca3548ba890f1e4f0439",
+    "checks/test_heaviside_feasibility.py": "9a4ebf4e2ab5f38dcb35f1e0abefdb130d1e712caca276cc450ffa80cbafb2cf",
+    "results/heaviside-feasibility-v1/attempt-01.json": "3b0b84da480d6c039576eb27a23037eda405f3a41039bbab1d26b0f5f66b86c6",
+    "experiments/heaviside_prediction_protocol.md": "0edec2d1ac0b89bff5b3d7b86bdc0f99391063a85f3ae1e5cba497e9747d161e",
+    "experiments/heaviside_predictors.py": "a238fbbb2bbd5906980b918f105284d1e23114e3b6a0ef27b865d7b93b05f173",
+    "experiments/heaviside_prediction.py": "9d0dae9fbcfed9d15cfc4742a7f1524be2deea3320dbdf9ea3a7f27039a959a9",
+    "checks/test_heaviside_prediction.py": "9f3144bbec60d050b94c75186bc54ab0893c53cb21b76f588e7ed9a05dfb4c7b",
+    "results/heaviside-prediction-fixtures/attempt-01.json": "abb10a06147d7baa5fd2ff98479ac7aa2ff5dbd1d761905809ca30b65466cbb6",
+    "checks/audit_heaviside_prediction.py": "de0a25156958d790f5f9ab51cf72d556bcae6b8c6764bdaa0686c6bc5981365e",
+    "experiments/report_heaviside_prediction.py": "990cd3813030291269e1bb6abd46982f5cf503786120f2431fed80129f482acf"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "date": "2026-11-13",
+  "scope": "deterministic feasibility; no development or confirmation seeds",
+  "tests": 6,
+  "observations": {
+    "native_strength": [
+      {
+        "effective_mass": 10,
+        "y": 0,
+        "after": 0.45454545454545453
+      },
+      {
+        "effective_mass": 10,
+        "y": 1,
+        "after": 0.5454545454545454
+      },
+      {
+        "effective_mass": 1000,
+        "y": 0,
+        "after": 0.4995004995004995
+      },
+      {
+        "effective_mass": 1000,
+        "y": 1,
+        "after": 0.5004995004995005
+      }
+    ],
+    "prior_and_prediction_clock": {
+      "initial": 0.75,
+      "native_after_decay_before_label": 0.7454545454545454,
+      "proposed_after_uniform_decay_before_label": 0.7499999999999999
+    },
+    "two_bank_age_counterexample": [
+      {
+        "before": 0.75,
+        "effective_mass": 12.0,
+        "rho": 0.9892280131939755,
+        "after": 0.6914078824170448
+      },
+      {
+        "before": 0.75,
+        "effective_mass": 12.0,
+        "rho": 0.9993233275026507,
+        "after": 0.69225160740469
+      }
+    ],
+    "native_entry_points": {
+      "coarse_before": 0.75,
+      "coarse_observe_return": 0.75,
+      "coarse_after": 0.75,
+      "raw_port_observe_return": 0.75,
+      "raw_port_after": 0.6923076923076923
+    },
+    "weighted_entry_point": {
+      "diagnostic_before_tick": 0.75,
+      "emitted_after_decay": 0.7495471017043615,
+      "after_label": 0.6914078824170448
+    }
+  },
+  "log": "test_a_supplied_acceptance_once (__main__.Feasibility.test_a_supplied_acceptance_once) ... ok\ntest_b_native_counts_already_retain_strength (__main__.Feasibility.test_b_native_counts_already_retain_strength) ... ok\ntest_c_stationary_prior_is_not_discounted_prior (__main__.Feasibility.test_c_stationary_prior_is_not_discounted_prior) ... ok\ntest_d_same_odds_and_mass_need_not_determine_two_bank_revision (__main__.Feasibility.test_d_same_odds_and_mass_need_not_determine_two_bank_revision) ... ok\ntest_e_native_reference_update_path (__main__.Feasibility.test_e_native_reference_update_path) ... ok\ntest_f_weighted_native_prediction_is_post_decay_pre_label (__main__.Feasibility.test_f_weighted_native_prediction_is_post_decay_pre_label) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.005s\n\nOK\n",
+  "commit": "51415c6480ef7d73fdd896e0ad34be6fbe5f4a92",
+  "sources": {
+    "advaita-heaviside.md": "b5048835bf3f3041178b0507f6343c41d65a703188d32fc9739511d64908b3f9",
+    "checks/test_heaviside_feasibility.py": "9a4ebf4e2ab5f38dcb35f1e0abefdb130d1e712caca276cc450ffa80cbafb2cf",
+    "advaita/continuing.py": "9c31b3fadac62b4a80475f445cea20b63cb27e49ad94cfbd1518d2bb8b7dc763",
+    "advaita/models.py": "ba177d77916ec4ac99e40243b9d35b15ae11bc01f781c51bed146cffb2c26eb1",
+    "advaita/structural.py": "c386269205554e322dda15543a4fb7880fac324134dc8c9183f40f14c6097bed",
+    "advaita/memory_control.py": "d2ea29d871050d83f8979ef327112e391f64206baf700ea4c7cda81a947bc34f",
+    "advaita/memory_revision.py": "c7c457512497f0e2be9dc13dccea2b87ab3c834322837058d11966fc532bae1a"
+  }
+}

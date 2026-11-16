@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "date": "2026-11-13",
+  "native_pass": false,
+  "attribution_pass": true,
+  "default_changed": false,
+  "verification_hashes": {
+    "findings.md": "afd722e3c186ee73a077e64b778150955aaa37a1195dd93c5ff45df501677410",
+    "mean-forecasts.svg": "ba0d127c2de5aea9d29b3c238ce564e264e430a5b5df1955233e343236078a11",
+    "audit.json": "e0884dda79dc1259860d1a2df8bdebdc31ca7d8bdd2a4ed6b6b8a578905087d8",
+    "artifact-hashes.json": "cf6f3e0065e6d5359a66964816a5cb710a59930b9b52dbcc1751be41247ecbe4"
+  }
+}

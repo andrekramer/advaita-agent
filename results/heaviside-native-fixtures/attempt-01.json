@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "date": "2026-11-13",
+  "tests": 3,
+  "confirmation_worlds": 0,
+  "log": "test_independent_references_on_synthetic_trajectory (__main__.Contracts.test_independent_references_on_synthetic_trajectory) ... ok\ntest_metrics_observe_the_post_second_review_interval (__main__.Contracts.test_metrics_observe_the_post_second_review_interval) ... ok\ntest_native_parity_routing_mirroring_and_read_only_reviews (__main__.Contracts.test_native_parity_routing_mirroring_and_read_only_reviews) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 7.042s\n\nOK\n",
+  "elapsed_seconds": 7.042608040967025,
+  "sources": {
+    "experiments/heaviside_native.py": "9f00a8e7cb4afc245e5c6c24f459307943274b08c1529ae494cb793b98bd136e",
+    "checks/test_heaviside_native.py": "9d81b6b22fa26effed51b60594e1da967c8adc65d980c3675abce16d97d32841",
+    "checks/audit_heaviside_native.py": "2e0fcc14ba86c9d72b295de8bd26b289835d7e86c8dc4444af4698b0c33e1728"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "date": "2026-11-13",
+  "tests": 4,
+  "fresh_labels": 0,
+  "command": "python3 checks/test_heaviside_prediction.py",
+  "cases": [
+    "read_only_and_mirror",
+    "strength_and_window",
+    "twin_and_fixed_limit",
+    "windows_recovery_and_gates"
+  ],
+  "sources": {
+    "checks/test_heaviside_prediction.py": "9f3144bbec60d050b94c75186bc54ab0893c53cb21b76f588e7ed9a05dfb4c7b",
+    "experiments/heaviside_predictors.py": "a238fbbb2bbd5906980b918f105284d1e23114e3b6a0ef27b865d7b93b05f173"
+  }
+}

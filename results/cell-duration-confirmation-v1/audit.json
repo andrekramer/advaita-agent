@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "cases": 240,
+  "continuations": 1200,
+  "observations": 614400,
+  "debits": 33596,
+  "criteria": {
+    "learn": true,
+    "interpret": true,
+    "steer": true
+  },
+  "equivalent": true,
+  "hashes": {
+    "summary.json": "724ef64cb670bbe64e1be255ba6e2367c983aaca5eb634e72b9c952b7ff6d3a7",
+    "cases.jsonl.gz": "42a593574c84051cf51a5a9567dc20697a8dcf98b770bc440924c2f8f896a883",
+    "manifest.json": "3e175f428ba11dcbe552d75d09869a4595264a24b5af44866058b9d11e90cd9a"
+  },
+  "scope": "Rescored saved predictions, timing, debits, paired intervals and decision criteria. Native parity and clone probes are runner checks."
+}

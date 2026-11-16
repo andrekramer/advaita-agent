@@ -1,0 +1,48 @@
+{
+  "scope": "Post-outcome descriptive breakdown and computation accounting; no criteria or decisions changed",
+  "inputs": {
+    "runs.jsonl.gz": "210dc3491793a98ec20bd49deba845fb6f9fe76527e746f247feb980c09c7171",
+    "results.json": "3e8ff338557adf9c70f2eaac6a5251c5a16dca6672a0d77ad5bea46fae12329c"
+  },
+  "views": {
+    "existing": {
+      "effect_mae": 0.0005300633505243624,
+      "all_correct": 197,
+      "all_n": 216,
+      "material_correct": 12,
+      "material_n": 31,
+      "actions": 24,
+      "unnecessary": 2,
+      "missed": 26,
+      "regret": 0.007181487421583674
+    },
+    "raw_banks": {
+      "effect_mae": 0.00035942721959875384,
+      "all_correct": 209,
+      "all_n": 216,
+      "material_correct": 25,
+      "material_n": 31,
+      "actions": 38,
+      "unnecessary": 6,
+      "missed": 16,
+      "regret": 0.005055923242841118
+    },
+    "direction_strength": {
+      "effect_mae": 0.000359427219598754,
+      "all_correct": 209,
+      "all_n": 216,
+      "material_correct": 25,
+      "material_n": 31,
+      "actions": 38,
+      "unnecessary": 6,
+      "missed": 16,
+      "regret": 0.005055923242841118
+    }
+  },
+  "computation": {
+    "projected_cell_steps": 909312,
+    "conditional_probability_forecasts": 221184,
+    "meaning": "Projection count includes three equivalent/approximate inspection evaluators, four commands and64 steps per cell; probe forecast count includes four views, both clocks and three outputs. Auditor/fixtures excluded."
+  },
+  "changed_choices": 14
+}

@@ -17,6 +17,20 @@ recommended; the default scope is simulation without live external actuation.
 
 ## Aspiration and immediate mathematical focus
 
+On 13 November 2026 the project adopted direction and strength in fast and slow
+memory as its working architecture for the next bounded round. Use the command
+that temporarily makes one learned distinction more plastic for subsequent
+steering comparisons. Its scope follows the meaning of the selected cell and
+ends on a change of meaning or at expiry. Judge extensions by what the system
+learns, which effects a script can predict, and whether an instruction helps its
+target within the preservation limits. [Architecture decision](docs/direction-strength-architecture.md)
+
+When earlier conditions return, record prediction accuracy and the structure
+of the learned forms at explicit elapsed times. Fast predictions and slower
+structure may recover on different schedules, and a different form may support
+the same prediction. Keep these observations as diagnostics alongside the
+measured cost of steering relative to abstention. [Confirmation findings](results/cell-duration-confirmation-v1/findings.md)
+
 The aspiration is a system that **can learn, can be interpreted, and can be
 steered**. It combines autonomous learning with construction and revision by
 AI agents and humans. Evaluate these three aims separately: improvement from

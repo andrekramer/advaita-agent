@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "stage": "isolated prediction only",
+  "date": "2026-11-13",
+  "tradeoff_pass": false,
+  "default_changed": false,
+  "native_comparison_started": false,
+  "verification_hashes": {
+    "audit.json": "f305c13720b5c7649a9398e94c8690db66eb344ccb523bd8bc356005ac004e10",
+    "findings.md": "f3945d2e1d9dabaaa60650d7a53ecc5325f7fd348294754b229f92a3e7370884",
+    "mean-forecasts.svg": "19c84fd35758ae9823136260907d67758d10d0485c707587c5ad1f03f899bdc3",
+    "artifact-hashes.json": "206dd7df1c483f837df0f985253a6d916eb9a6c161cccd41ac795c333b2a2671"
+  }
+}
