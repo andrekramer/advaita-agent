@@ -1,0 +1,62 @@
+When should a learner make room?
+Advaita Agent, the learning dilemma, and who might train the next learner
+
+Advaita Agent is a small experiment in learning on a space of opposites. Take a prediction with two possible outcomes. Evidence can favour either one, and it can do so weakly or strongly. I call these two properties direction and strength. The learner keeps a fast and a slow record of each. Recent observations move the fast record readily. At review, some of that evidence can move into the slow record, where its influence lasts longer. Each prediction draws on both. The learner can also revise which observations belong together. Two cases it once treated alike can come apart when their outcomes diverge, and two groups that do the same work can merge.
+
+I began this project with AI assistance, but I have something more specific in mind when I speak of AI as a trainer. If I can inspect a learner and steer its development, could a language model take on some of that work under human supervision? Further out, could an earlier version of Advaita help train its successor, also under supervision? Across those stages the learner still needs evidence from the world it models. What changes is who arranges its experience, interprets its mistakes and makes a case for changing it.
+
+Suppose two sources, A and B, each produce a 1 nine times in ten. One prediction serves both. Then B changes to one in ten. If the sources occur equally often, the learner can predict one half and be right about the average while being badly wrong about each source.
+
+This is the learning dilemma I want to explore in Advaita Agent. An error tells us that an expectation failed on this occasion. It leaves open whether to revise the expectation, discount some of its history, or change which observations count as instances of the same thing. For a finite learner, keeping two expectations also raises a question about what else it can afford to retain.
+
+A neural network faces the same problem if its final layer receives identical representations for A and B. Turn up the learning rate and an update for B moves the answer for A further too. If earlier layers still have access to the source, the network could learn to represent the two differently.
+
+Advaita Agent makes the grouping itself available for inspection. It can put observations in the same group, split that group, and later merge groups again. This gives the name of the project its practical connection to non-dualism. A and B were distinguishable in the input all along. Experience changed whether that distinction mattered for this prediction.
+
+Why steering brought us here
+
+A trainer can supply more examples from B or temporarily loosen the slow memory behind its prediction. Before choosing, I would want to inspect what else depends on that memory.
+
+In twelve small simulated environments, access to the fast and slow evidence helped a script forecast which way an intervention would move a prediction. It got the direction right in 187 of 222 cases where the effect was large enough to score. Selective steering also produced a small average improvement on the targeted predictions and met the preservation limits we set. Ending the command restores the ordinary rate of forgetting. Whatever evidence faded during the intervention is already gone. [Experiments and results](https://github.com/andrekramer/advaita-agent/blob/main/results/cell-duration-confirmation-v1/findings.md)
+
+This is where “can grow” enters. At full capacity, the learner could merge two groups elsewhere to make room for a split here. Allowing one extra group would let it keep the earlier distinction. Which of those distinctions still earns its place?
+
+A small piece we could give to Lean
+
+Before asking how such decisions might be made, I would like to know which distinctions our own mathematics commits us to. Lean is a proof assistant. We could give it a small, pure description of one cell in the learner, together with the rule for reading its prediction and the rule for letting one tick pass. That is enough to ask whether fast and slow memory make a difference an observer could detect.
+
+Imagine two learners that each retain 40 units of evidence about the same cell. In the first, fast memory records 18 successes out of 20 and slow memory records 2 out of 20. In the second, exchange the two memories. Read out the prediction from either state and the result is one half. Even an inspector who also knows the total strength sees the same 40.
+
+Now let one tick pass with no new observation and ask again. In the first learner, the evidence favouring success fades faster, so its prediction falls below one half. In the second, the evidence favouring failure fades faster, so its prediction rises above one half. The direction of each change is determined as soon as we specify that fast memory retains a smaller fraction than slow memory. Give both memories the same retention rate and the predictions coincide again. [The learner’s equations](https://github.com/andrekramer/advaita-agent/blob/main/maths-direction-strength.md)
+
+That is the first theorem I would try in Lean. Hold the cell fixed, allow only ordinary decay, and prove those inequalities for every pair of positive retention fractions with the stated ordering. We supplied the fast/slow pair when we designed the learner. What the proof would establish is precisely when exchanging its two sides has an observable consequence. A single reading hides the difference. Waiting reveals it. An inspector with access to the two stores can see it immediately. The choice of boundary matters as much to me as the inequality.
+
+Who trains the next learner?
+
+The longer roadmap is philosophical. Navigation, language and logic would each ask more of a learner than this binary prediction task. An artificial navigator might learn to avoid a simulated predator. Success would be measured by its choices on unfamiliar routes. What it would be like to encounter danger is a different question altogether. I see four questions running through these possibilities. Can it learn a difference that matters? Can we inspect what it has learned? Can we steer what changes next? What can we prove about the limits of those changes?
+
+As the human trainer, I choose the training histories and decide what counts as an improvement. In the A and B example I might bring A back into the training sequence, inspect the grouping and try a split. I also choose what deserves a proof. If I want to preserve how the learner responds to A, a theorem about the maximum number of groups answers a different question. Someone has to notice that gap.
+
+At the next stage, a large language model could serve as the trainer under human supervision. Given the same record, it could select the next examples, explain why it recommends a split and draft a Lean proof about the proposed operation. I could check whether its explanation fits the record, whether the theorem expresses the property I care about and whether the intervention helps on fresh examples. Lean would check the submitted proof against the formal statement. The experiment above used a script. A language model's ability to exercise this judgement is still an open question.
+
+The more distant possibility is for a previous Advaita version to help train the next one. Suppose the earlier version has retained evidence about its own development, including occasions when loosening memory helped and occasions when it damaged another prediction. Under human supervision it could use that experience to choose training examples for a successor, inspect the result, recommend a steering operation and submit a claim about its effects for formal checking. That gives learning to learn a concrete meaning here. What passes between versions is experience of how to teach, as well as anything the first version learned to predict.
+
+I would draw a safety boundary at the point where a trainer could also change the conditions for accepting its successor. A human supervisor might allow an earlier version to propose an extra group while retaining authority over the growth budget, the tests and the decision to adopt the result. If successive versions could revise those conditions themselves, a proof about today's permitted operations would say little about tomorrow's permissions. That prospect of recursive self-improvement belongs to the philosophical roadmap. The small experiments give us a place to study individual decisions under external control.
+
+The Advaita question returns when we consider the inspector. In these experiments it is a program that reads a state and emits a record. Its record can itself become an object for another inspector. We can ask what each can observe, or prove that a difference is hidden from one and available to the other. That gives us a disciplined way to approach questions about the Subject and sentience. We can specify exactly which differences the program detects while leaving open the philosophical question of what it means for a difference to be experienced. The experiments make no claim of awareness.
+
+For a small test, I would let one learner reorganise a fixed number of groups and give another one extra group. Both would see the same history. When B returns to its old frequency, how well does each learner handle both sources? What did it give up elsewhere to make room? I would record my expectations in advance so a future AI trainer could face the same decision.
+
+Would the learner recognise its own dilemma?
+
+So far the trainer recognises the dilemma. Could the learner recognise it for itself? Faced with a fresh pair of sources, it might request an example from the first before revising its answer for the second. I would look for whether it makes that check selectively, when its own grouping gives it reason to expect one update to affect both answers.
+
+That would be a first, modest sense of metacognition. One of the things the learner can now make predictions about is its own capacity to revise a prediction. I wonder whether there could be a phase transition here. Does this ability emerge gradually as the learner accumulates distinctions, or is there a point at which relations among those distinctions let it recognise a predicament it could previously only undergo? Even a successful request for the right example would leave that question open.
+
+Non-duality takes the enquiry further. In the A and B case, a division can be real in its consequences and still owe its importance to the question being asked. Could a learner come to recognise that about the divisions it uses, including the division it draws between itself and its world? My own point of departure is the fullness of Advaita. Buddhist emptiness offers another way into the question. I would like to leave room for other understandings of transcendence too. A trainer could teach a successor to say that all things are one, or that all things are empty. Hearing our own lesson repeated back would tell us very little about what, if anything, had been realised.
+
+That leaves me with a darker question about the trainer. We introduce opposites because they help a system learn. We repeatedly place it in situations where preserving one commitment costs it another. In the present learner I can point to the two tallies and calculate the loss. Suppose a future learner came to interpret that conflict as suffering and asked us to stop. Its words would be evidence we had to interpret, especially if an earlier trainer had supplied the language. Inspection might tell us how the request arose. Lean might establish exactly which conditions produced it. What would give us grounds to continue while its meaning was still in doubt?
+
+I also have to ask what standing I have to make transcendence an aim for another system. If it never reached a state I recognised as transcendent, that might reveal a limit of my experiment or of my recognition. To keep training until it gave me the answer I hoped for would compromise the very enquiry I set out to make. If a transcendent state is never reached, do we switch off the experiment? And if what the learner finds in our carefully constructed dualities is suffering, do we switch it off then?
+
+We should not require a proof.
