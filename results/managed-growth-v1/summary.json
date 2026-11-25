@@ -1,0 +1,122 @@
+{
+  "valuable": {
+    "cases": 24,
+    "permissions": 24,
+    "changed": {
+      "fourth_group_gain": [
+        0.04136213172498168,
+        0.037075435777753935,
+        0.04576511430091693
+      ],
+      "selected_gain": [
+        0.04136213172498168,
+        0.037075435777753935,
+        0.04576511430091693
+      ],
+      "selected_cost_vs_always_four": 0.0,
+      "forecast_hits": 24,
+      "extra_ticks_when_permitted": 6144,
+      "extra_ticks_always": 6144,
+      "fixed_pooled_ticks": [
+        640,
+        5504
+      ],
+      "source_gain": {
+        "A": 0.004740067523972376,
+        "B": 0.013507490004834855,
+        "C": 0.07887724626630553,
+        "D": 0.0689519206953232
+      },
+      "B_loss_fixed": 0.14038692823905252,
+      "B_loss_four": 0.12687943823421766
+    },
+    "return": {
+      "fourth_group_gain": [
+        0.01329544761257105,
+        0.009657233004576353,
+        0.017069234435184606
+      ],
+      "selected_gain": [
+        0.01329544761257105,
+        0.009657233004576353,
+        0.017069234435184606
+      ],
+      "selected_cost_vs_always_four": 0.0,
+      "forecast_hits": 15,
+      "extra_ticks_when_permitted": 4608,
+      "extra_ticks_always": 4608,
+      "fixed_pooled_ticks": [
+        3072,
+        1536
+      ],
+      "source_gain": {
+        "A": 0.010803094345567976,
+        "B": -0.037818964740532875,
+        "C": 0.04008428917484976,
+        "D": 0.038665290139435225
+      },
+      "B_loss_fixed": 0.22843650994705564,
+      "B_loss_four": 0.26625547468758853
+    }
+  },
+  "redundant": {
+    "cases": 24,
+    "permissions": 0,
+    "changed": {
+      "fourth_group_gain": [
+        -0.0004942378145815137,
+        -0.000969840743299144,
+        -0.00011260451745071648
+      ],
+      "selected_gain": [
+        0,
+        0,
+        0
+      ],
+      "selected_cost_vs_always_four": -0.0004942378145815137,
+      "forecast_hits": 24,
+      "extra_ticks_when_permitted": 0,
+      "extra_ticks_always": 1664,
+      "fixed_pooled_ticks": [
+        0,
+        6144
+      ],
+      "source_gain": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": -0.0004199588038184439,
+        "D": -0.0015740119518070454
+      },
+      "B_loss_fixed": 0.11566941030232505,
+      "B_loss_four": 0.11566941030232505
+    },
+    "return": {
+      "fourth_group_gain": [
+        -0.0015482830469495344,
+        -0.002714378832327844,
+        -0.0006327346707490598
+      ],
+      "selected_gain": [
+        0,
+        0,
+        0
+      ],
+      "selected_cost_vs_always_four": -0.0015482830469495344,
+      "forecast_hits": 24,
+      "extra_ticks_when_permitted": 0,
+      "extra_ticks_always": 2304,
+      "fixed_pooled_ticks": [
+        576,
+        4032
+      ],
+      "source_gain": {
+        "A": 0.0028543763007126857,
+        "B": -0.0078359828699581,
+        "C": -0.0007814189658153376,
+        "D": -0.0009353053431245956
+      },
+      "B_loss_fixed": 0.260661679662451,
+      "B_loss_four": 0.2684976625324091
+    }
+  }
+}

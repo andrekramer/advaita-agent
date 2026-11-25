@@ -1,0 +1,417 @@
+{
+  "lasting_return": {
+    "seeds": 24,
+    "initial_grants": 24,
+    "releases": {
+      "832": 15,
+      "768": 8,
+      "896": 1
+    },
+    "regrants": {},
+    "seeds_released": 24,
+    "seeds_reopened": 0,
+    "episodes": [],
+    "comparisons": {
+      "keep": {
+        "A": {
+          "mean": -0.00359705341330939,
+          "worst": -0.012744854898859348
+        },
+        "B": {
+          "mean": 0.005017272073515939,
+          "worst": -0.003706853544750033,
+          "interval": [
+            0.003580780594682441,
+            0.006473628245849306
+          ]
+        },
+        "C": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": 0.00041603060612910883,
+          "worst": -0.004007013032533868
+        },
+        "CD": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "monitor": {
+        "A": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "B": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "C": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "CD": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "persistent_shift": {
+    "seeds": 24,
+    "initial_grants": 24,
+    "releases": {},
+    "regrants": {},
+    "seeds_released": 0,
+    "seeds_reopened": 0,
+    "episodes": [],
+    "comparisons": {
+      "keep": {
+        "A": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "B": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "C": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "CD": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "monitor": {
+        "A": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "B": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "C": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "CD": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "short_return": {
+    "seeds": 24,
+    "initial_grants": 24,
+    "releases": {
+      "768": 8
+    },
+    "regrants": {
+      "832": 8
+    },
+    "seeds_released": 8,
+    "seeds_reopened": 8,
+    "episodes": [
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      }
+    ],
+    "comparisons": {
+      "keep": {
+        "A": {
+          "mean": -0.0026141665063584476,
+          "worst": -0.0228632739941962
+        },
+        "B": {
+          "mean": -0.0028481540751284797,
+          "worst": -0.01985028079750803,
+          "interval": [
+            -0.005725531393019159,
+            -0.0003727785238723062
+          ]
+        },
+        "C": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": -0.001368119004124024,
+          "worst": -0.0068403814768092375
+        },
+        "CD": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "monitor": {
+        "A": {
+          "mean": 0.0022551156971666255,
+          "worst": -0.018328292106588095
+        },
+        "B": {
+          "mean": 0.005272007413848736,
+          "worst": -0.029053860492327943,
+          "interval": [
+            -0.0009675152891373065,
+            0.012180149968446262
+          ]
+        },
+        "C": {
+          "mean": 0.01718137987941849,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.017618998837420827,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": 0.0105802406314647,
+          "worst": 0.0
+        },
+        "CD": {
+          "mean": 0.01740018935841966,
+          "worst": 0.0,
+          "interval": [
+            0.007742177927777716,
+            0.02813072069196243
+          ]
+        }
+      }
+    }
+  },
+  "previous_short_return": {
+    "seeds": 24,
+    "initial_grants": 24,
+    "releases": {
+      "768": 9
+    },
+    "regrants": {
+      "832": 9
+    },
+    "seeds_released": 9,
+    "seeds_reopened": 9,
+    "episodes": [
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      },
+      {
+        "regrant": 832,
+        "fourth_use": 832,
+        "correct_cd": 832
+      }
+    ],
+    "comparisons": {
+      "keep": {
+        "A": {
+          "mean": -0.0009588183242784584,
+          "worst": -0.01656715093415244
+        },
+        "B": {
+          "mean": -0.0007522126341811403,
+          "worst": -0.025439332537421033,
+          "interval": [
+            -0.005638462919355973,
+            0.004707676920835419
+          ]
+        },
+        "C": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.0,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": -0.0004245551707374312,
+          "worst": -0.009804469457283999
+        },
+        "CD": {
+          "mean": 0.0,
+          "worst": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "monitor": {
+        "A": {
+          "mean": 0.00076899960433087,
+          "worst": -0.0064960412928624645
+        },
+        "B": {
+          "mean": 0.0012218057738082866,
+          "worst": -0.024002264130855572,
+          "interval": [
+            -0.0022248710197498877,
+            0.00521921222179493
+          ]
+        },
+        "C": {
+          "mean": 0.02171890445378985,
+          "worst": 0.0
+        },
+        "D": {
+          "mean": 0.021066461410723217,
+          "worst": 0.0
+        },
+        "overall": {
+          "mean": 0.01112320888862634,
+          "worst": 0.0
+        },
+        "CD": {
+          "mean": 0.021392682932256536,
+          "worst": 0.0,
+          "interval": [
+            0.010504231331015074,
+            0.03296378041264897
+          ]
+        }
+      }
+    }
+  }
+}
